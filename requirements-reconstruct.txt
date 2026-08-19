@@ -1,0 +1,7 @@
+# Portable top-level constraints. Use requirements-reconstruct-linux-py310.lock
+# for the exact empty-environment install verified for the reconstruction tools.
+huggingface-hub==1.27.0
+numpy==1.26.4
+pyarrow==23.0.1
+requests==2.34.2
+soundfile==0.14.0

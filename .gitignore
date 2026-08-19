@@ -4,3 +4,5 @@ __pycache__/
 .ruff_cache/
 dist/
 reproduction-output/
+authorized-sources/
+reconstructed-view/

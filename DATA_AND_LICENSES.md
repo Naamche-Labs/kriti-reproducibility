@@ -22,8 +22,17 @@ Its roster entries contain exactly four fields: `ordinal`, `sample_id`,
 `source_id`, and `access`. The verifier rejects additional fields or any changed
 access classification.
 
-The published aggregate metrics and SHA-256 commitments permit auditing and
-authorized byte-for-byte replay, but they do not make the gated data public.
+The public IDs are not upstream locators. Instead, an authorized user derives
+the same IDs locally by scanning the exact pinned Parquet revision with the
+public algorithm in `tools/reconstruction_common.py`. That algorithm binds the
+Parquet path, physical row index, embedded upstream path, and audio SHA-256,
+then applies the frozen namespaced UUIDv5 transformation. This permits exact
+selection reconstruction after accepted access without exposing gated row
+locators or content to unauthenticated users.
+
+The aggregate metrics, selector commitment, semantic-view commitment, and
+reconstruction tools permit auditing and an authorized from-upstream replay;
+they do not make the gated data public.
 
 ## Redacted operational summaries
 

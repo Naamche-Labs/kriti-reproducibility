@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "contract_id": "kriti-authorized-upstream-reconstruction-v1",
+  "legacy_private_view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+  "portable_view_sha256": "d26afb661b581fbc9fd7fb9f7f594de6bc54d16d023050beb102531b8a8d7611",
+  "private_provenance_sha256": "de52c091e2341ed18ae0ee0d36743bc7834d825f3e256107dcd78deb1086d340",
+  "selector_sha256": "03c330561e75ae4aa8b62c15dac1c7aee6a22bae1687ac706b1261769a84c3b3",
+  "semantic_view_sha256": "aa536153717af74ecb308661959b96e3daa16385310b6031d892440e8d8c2add",
+  "source_records": {
+    "fleurs_ne_np": 304,
+    "indicvoices_nepali": 2569,
+    "openslr54": 757
+  },
+  "upstream_rows_scanned": {
+    "fleurs_ne_np": 305,
+    "indicvoices_nepali": 249422,
+    "openslr54": 157905
+  },
+  "upstream_revisions": {
+    "fleurs_ne_np": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+    "indicvoices_nepali": "c96f9088f138cf89d419da7e8e643e1f05c00a87",
+    "openslr54": "SLR54 checksummed release"
+  },
+  "indicvoices_identity": "parquet-path+physical-row-index+upstream-path+audio-sha256/v1",
+  "privacy": {
+    "public_upstream_row_locators": 0,
+    "public_gated_audio_hashes": 0,
+    "public_gated_references": 0,
+    "resolution_requires_accepted_dataset_access": true
+  }
+}
