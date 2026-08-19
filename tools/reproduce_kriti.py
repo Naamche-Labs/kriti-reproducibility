@@ -129,11 +129,12 @@ def exact_metrics() -> dict[str, Any]:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--view", type=Path, required=True)
-    parser.add_argument("--provenance", type=Path)
-    parser.add_argument("--output-dir", type=Path, required=True)
-    parser.add_argument("--device", default="cuda")
-    parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("-v", "--view", type=Path, required=True)
+    parser.add_argument("-p", "--provenance", type=Path)
+    parser.add_argument("-o", "--output-dir", type=Path, required=True)
+    parser.add_argument("-d", "--device", default="cuda")
+    parser.add_argument("-b", "--batch-size", type=int, default=32)
+    parser.add_argument("-c", "--cache-dir", type=Path)
     args = parser.parse_args()
     if args.batch_size <= 0:
         raise ValueError("batch size must be positive")
@@ -149,7 +150,11 @@ def main() -> int:
         revision=MODEL_REVISION,
         device=args.device,
         token=False,
-        cache_dir=os.environ.get("HF_HOME"),
+        cache_dir=(
+            str(args.cache_dir.resolve())
+            if args.cache_dir is not None
+            else os.environ.get("HF_HOME")
+        ),
     )
     hypotheses = model.transcribe([str(row["audio"]) for row in rows], batch_size=args.batch_size)
     if len(hypotheses) != len(rows):

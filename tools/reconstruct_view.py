@@ -352,14 +352,16 @@ def _selector_sha256(rows: list[dict[str, Any]]) -> str:
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-root", type=Path, required=True)
-    parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument("-s", "--source-root", type=Path, required=True)
+    parser.add_argument("-o", "--output-dir", type=Path, required=True)
     parser.add_argument(
+        "-r",
         "--roster",
         type=Path,
         default=root / "evidence" / "predictions-20260819" / "view" / "ordered-sample-ids.jsonl",
     )
     parser.add_argument(
+        "-c",
         "--contract",
         type=Path,
         default=root / "evidence" / "reconstruction-20260819" / "contract.json",

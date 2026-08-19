@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 TOOLS = Path(__file__).resolve().parents[1] / "tools"
 sys.path.insert(0, str(TOOLS))
 
+from acquire_view_sources import _read_access_token  # noqa: E402
 from reconstruction_common import (  # noqa: E402
     indicvoices_identity,
     normalize_reference,
@@ -16,6 +18,12 @@ from reconstruction_common import (  # noqa: E402
 
 
 class ReconstructionTests(unittest.TestCase):
+    def test_access_token_file_is_trimmed(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            token_file = Path(directory) / "token"
+            token_file.write_text("fake-test-token\n", encoding="utf-8")
+            self.assertEqual(_read_access_token(token_file), "fake-test-token")
+
     def test_stable_sample_id_matches_frozen_namespace(self) -> None:
         self.assertEqual(
             stable_sample_id("fixture", "utterance-001"),
