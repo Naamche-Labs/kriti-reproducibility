@@ -26,14 +26,12 @@ GPU. Do not put corpus audio, transcripts, private paths, or full predictions in
 this repository. The released Kriti model itself is public and does not require
 a Hugging Face token.
 
-The input must be the frozen development JSONL with this exact contract:
-
-- SHA-256: `2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f`
-- 3,630 unique ordered rows
-- required fields: `sample_id`, `source_id`, `audio`, `reference`
-- source counts: FLEURS 304, IndicVoices 2,569, OpenSLR54 757
-- ordered `(sample_id, source_id)` pairs identical to the public roster
-- protected test data absent
+Reconstruct the exact 3,630-row input from pinned upstream sources by following
+[RECONSTRUCTING.md](RECONSTRUCTING.md). This does not require the project's
+private `dev.jsonl`. The authorized reconstruction resolves every pseudonymous
+ID locally, checks the ordered source selection, verifies every source-audio and
+decoded-PCM commitment, and produces a path-portable `view.jsonl` plus private
+`provenance.jsonl`.
 
 Create an isolated runtime on the authorized data/compute plane. The following
 uses `uv` and the exact 177-package Linux/Python 3.10 inventory from the
@@ -46,16 +44,18 @@ uv pip sync --python .replay-venv/bin/python \
 env -u HF_TOKEN -u HUGGING_FACE_HUB_TOKEN -u HUGGINGFACE_TOKEN \
   HF_HUB_DISABLE_IMPLICIT_TOKEN=1 \
   .replay-venv/bin/python tools/reproduce_kriti.py \
-    --view /authorized/path/dev.jsonl \
+    --view /authorized/reconstructed-view/view.jsonl \
+    --provenance /authorized/reconstructed-view/provenance.jsonl \
     --output-dir /authorized/path/reproduction-output \
     --device cuda
 ```
 
-The script refuses a view with a different byte hash, order, identity, or
-source composition. It loads `harrrshall/kriti` at immutable Hugging Face
-revision `762d1c17edaff0a548f3483e37e491fe8cc77971`; the model package verifies
-the two downloaded artifact hashes before inference. It writes predictions
-atomically and then independently calculates overall and per-source metrics.
+The script refuses a view with a different portable byte hash, semantic hash,
+order, identity, source composition, reference, PCM hash, or frame count. It
+loads `harrrshall/kriti` at immutable Hugging Face revision
+`762d1c17edaff0a548f3483e37e491fe8cc77971`; the model package verifies the two
+downloaded artifact hashes before inference. It writes predictions atomically
+and then independently calculates overall and per-source metrics.
 
 For an exact successful replay, the script requires:
 

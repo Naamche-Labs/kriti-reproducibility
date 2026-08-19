@@ -13,6 +13,7 @@ from typing import Any
 
 from kriti import KritiASR
 from kriti.metrics import metric_set
+from reconstruction_common import pcm_summary, semantic_view_sha256
 
 MODEL_ID = "harrrshall/kriti"
 MODEL_REVISION = "762d1c17edaff0a548f3483e37e491fe8cc77971"
@@ -43,9 +44,51 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
     return rows
 
 
-def verify_view(view_path: Path, roster_path: Path) -> list[dict[str, Any]]:
-    if sha256(view_path) != EXPECTED_VIEW_SHA256:
-        raise RuntimeError("view SHA-256 differs from the frozen benchmark")
+def _reconstruction_contract() -> dict[str, Any]:
+    path = Path(__file__).resolve().parents[1] / "evidence" / "reconstruction-20260819"
+    return json.loads((path / "contract.json").read_text(encoding="utf-8"))
+
+
+def _verify_reconstructed_semantics(
+    *,
+    view_path: Path,
+    rows: list[dict[str, Any]],
+    provenance_path: Path,
+) -> str:
+    contract = _reconstruction_contract()
+    if sha256(view_path) != contract["portable_view_sha256"]:
+        raise RuntimeError("portable view SHA-256 differs from the reconstruction contract")
+    provenance = read_jsonl(provenance_path.resolve(strict=True))
+    if len(provenance) != len(rows):
+        raise RuntimeError("reconstruction provenance count differs from the view")
+    for ordinal, (row, proof) in enumerate(zip(rows, provenance, strict=True)):
+        expected = {
+            "ordinal": ordinal,
+            "sample_id": row["sample_id"],
+            "source_id": row["source_id"],
+            "reference": row["reference"],
+            "num_frames": row["num_frames"],
+        }
+        if any(proof.get(field) != value for field, value in expected.items()):
+            raise RuntimeError(f"reconstruction provenance differs at ordinal {ordinal}")
+        pcm_sha256, frames = pcm_summary(Path(row["audio"]))
+        if proof.get("pcm_sha256") != pcm_sha256 or frames != row["num_frames"]:
+            raise RuntimeError(f"reconstructed audio differs at ordinal {ordinal}")
+    digest = semantic_view_sha256(provenance)
+    if digest != contract["semantic_view_sha256"]:
+        raise RuntimeError("semantic view SHA-256 differs from the reconstruction contract")
+    return digest
+
+
+def verify_view(
+    view_path: Path,
+    roster_path: Path,
+    provenance_path: Path | None,
+) -> tuple[list[dict[str, Any]], str | None]:
+    observed_view_sha256 = sha256(view_path)
+    contract = _reconstruction_contract()
+    if observed_view_sha256 not in {EXPECTED_VIEW_SHA256, contract["portable_view_sha256"]}:
+        raise RuntimeError("view SHA-256 differs from both frozen view contracts")
     rows = read_jsonl(view_path)
     if len(rows) != 3_630:
         raise RuntimeError("view must contain exactly 3,630 rows")
@@ -61,7 +104,21 @@ def verify_view(view_path: Path, roster_path: Path) -> list[dict[str, Any]]:
     actual_identity = [(row["sample_id"], row["source_id"]) for row in rows]
     if actual_identity != expected_identity:
         raise RuntimeError("ordered view identity differs from the public roster")
-    return rows
+    for row in rows:
+        audio = Path(str(row["audio"]))
+        if not audio.is_absolute():
+            audio = view_path.parent / audio
+        row["audio"] = str(audio.resolve(strict=True))
+    semantic_sha256 = None
+    if observed_view_sha256 == contract["portable_view_sha256"]:
+        if provenance_path is None:
+            provenance_path = view_path.parent / "provenance.jsonl"
+        semantic_sha256 = _verify_reconstructed_semantics(
+            view_path=view_path,
+            rows=rows,
+            provenance_path=provenance_path,
+        )
+    return rows, semantic_sha256
 
 
 def exact_metrics() -> dict[str, Any]:
@@ -73,6 +130,7 @@ def exact_metrics() -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--view", type=Path, required=True)
+    parser.add_argument("--provenance", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--batch-size", type=int, default=32)
@@ -84,7 +142,7 @@ def main() -> int:
     view = args.view.resolve(strict=True)
     output = args.output_dir.resolve()
     output.mkdir(parents=True, exist_ok=False)
-    rows = verify_view(view, roster)
+    rows, semantic_view_sha256_value = verify_view(view, roster, args.provenance)
 
     model = KritiASR.from_pretrained(
         MODEL_ID,
@@ -124,6 +182,8 @@ def main() -> int:
         )
 
     expected = exact_metrics()
+    reconstruction_contract = _reconstruction_contract()
+    view_hash = sha256(view)
     prediction_hash = sha256(predictions)
     checks = {
         "artifact_hashes_enforced_by_loader": {
@@ -133,13 +193,17 @@ def main() -> int:
         "overall_exact_match": overall == expected["overall"],
         "per_source_exact_match": per_source == expected["per_source"],
         "predictions_sha256_match": prediction_hash == EXPECTED_PREDICTIONS_SHA256,
-        "view_sha256_match": sha256(view) == EXPECTED_VIEW_SHA256,
+        "semantic_view_sha256_match": semantic_view_sha256_value
+        in {None, reconstruction_contract["semantic_view_sha256"]},
+        "view_sha256_match": view_hash
+        in {EXPECTED_VIEW_SHA256, reconstruction_contract["portable_view_sha256"]},
     }
     report = {
         "schema_version": 1,
         "model": MODEL_ID,
         "model_revision": MODEL_REVISION,
-        "view_sha256": sha256(view),
+        "view_sha256": view_hash,
+        "semantic_view_sha256": semantic_view_sha256_value,
         "predictions_sha256": prediction_hash,
         "overall": overall,
         "per_source": per_source,
@@ -151,6 +215,7 @@ def main() -> int:
                 "overall_exact_match",
                 "per_source_exact_match",
                 "predictions_sha256_match",
+                "semantic_view_sha256_match",
                 "view_sha256_match",
             )
         ),

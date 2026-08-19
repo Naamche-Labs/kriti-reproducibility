@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "managed_run_id": "r_a343d43f",
+  "status": "succeeded",
+  "valid": true,
+  "execution": {
+    "batch_size": 32,
+    "device": "cuda",
+    "fresh_public_model_cache": true,
+    "hugging_face_token_available_to_process": false,
+    "private_dev_manifest_supplied": false,
+    "protected_test_view_accessed": false,
+    "runtime_packages": 177
+  },
+  "result": {
+    "checks": {
+      "artifact_hashes_enforced_by_loader": {
+        "kriti.nemo": "0144854f0cc78f4b6115b75089fad632c39207d5256e53f92da996b9bbe43582",
+        "punctuation_head.json": "5874b6fc6b4f1172dffa249a42f5054ffe196cff9b97854fe180eafc4134e9bb"
+      },
+      "overall_exact_match": true,
+      "per_source_exact_match": true,
+      "predictions_sha256_match": true,
+      "semantic_view_sha256_match": true,
+      "view_sha256_match": true
+    },
+    "model": "harrrshall/kriti",
+    "model_revision": "762d1c17edaff0a548f3483e37e491fe8cc77971",
+    "overall": {
+      "punctuation_insensitive_cer": 0.08287672638469905,
+      "punctuation_insensitive_character_errors": 24231,
+      "punctuation_insensitive_reference_characters": 292374,
+      "punctuation_insensitive_reference_words": 50097,
+      "punctuation_insensitive_wer": 0.2407729005728886,
+      "punctuation_insensitive_word_errors": 12062,
+      "raw_cer": 0.08404221560257552,
+      "raw_character_errors": 24630,
+      "raw_reference_characters": 293067,
+      "raw_reference_words": 50058,
+      "raw_wer": 0.24685364976627114,
+      "raw_word_errors": 12357,
+      "records": 3630
+    },
+    "per_source": {
+      "fleurs_ne_np": {
+        "punctuation_insensitive_cer": 0.08493094807994872,
+        "punctuation_insensitive_character_errors": 2915,
+        "punctuation_insensitive_reference_characters": 34322,
+        "punctuation_insensitive_reference_words": 5190,
+        "punctuation_insensitive_wer": 0.2491329479768786,
+        "punctuation_insensitive_word_errors": 1293,
+        "raw_cer": 0.09429486080146345,
+        "raw_character_errors": 3299,
+        "raw_reference_characters": 34986,
+        "raw_reference_words": 5150,
+        "raw_wer": 0.3054368932038835,
+        "raw_word_errors": 1573,
+        "records": 304
+      },
+      "indicvoices_nepali": {
+        "punctuation_insensitive_cer": 0.08700243670925087,
+        "punctuation_insensitive_character_errors": 21173,
+        "punctuation_insensitive_reference_characters": 243361,
+        "punctuation_insensitive_reference_words": 42535,
+        "punctuation_insensitive_wer": 0.25031150816974257,
+        "punctuation_insensitive_word_errors": 10647,
+        "raw_cer": 0.08701065495293,
+        "raw_character_errors": 21175,
+        "raw_reference_characters": 243361,
+        "raw_reference_words": 42535,
+        "raw_wer": 0.2503350182202892,
+        "raw_word_errors": 10648,
+        "records": 2569
+      },
+      "openslr54": {
+        "punctuation_insensitive_cer": 0.009733850656864747,
+        "punctuation_insensitive_character_errors": 143,
+        "punctuation_insensitive_reference_characters": 14691,
+        "punctuation_insensitive_reference_words": 2372,
+        "punctuation_insensitive_wer": 0.05143338954468803,
+        "punctuation_insensitive_word_errors": 122,
+        "raw_cer": 0.010597826086956521,
+        "raw_character_errors": 156,
+        "raw_reference_characters": 14720,
+        "raw_reference_words": 2373,
+        "raw_wer": 0.05731142014327855,
+        "raw_word_errors": 136,
+        "records": 757
+      }
+    },
+    "predictions_sha256": "1a42d4b0b527f2c21a4a28dfa84e7a2d769762bc4a6d80c59a12821e85b89f0f",
+    "protected_test_accessed": false,
+    "schema_version": 1,
+    "semantic_view_sha256": "aa536153717af74ecb308661959b96e3daa16385310b6031d892440e8d8c2add",
+    "valid": true,
+    "view_sha256": "d26afb661b581fbc9fd7fb9f7f594de6bc54d16d023050beb102531b8a8d7611"
+  }
+}

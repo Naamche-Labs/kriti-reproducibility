@@ -13,7 +13,7 @@ predictions wherever redistribution permits.
 ## Verify the public record
 
 ```bash
-git clone https://github.com/harrrshall/kriti-reproducibility
+git clone https://github.com/Naamche-Labs/kriti-reproducibility
 cd kriti-reproducibility
 python3 -m venv .venv
 . .venv/bin/activate
@@ -33,6 +33,10 @@ Expected terminal fields are:
     "systems": 19
   },
   "reproduction": {"records": 3630, "runtime_packages": 177},
+  "upstream_reconstruction": {
+    "records": 3630,
+    "resolved_indicvoices_rows": 2569
+  },
   "valid": true
 }
 ```
@@ -53,6 +57,7 @@ recomputes 38 public-source metric sets from the published predictions.
 | Full-view prediction commitments | two fresh loads × 19 systems | [`per-source.json`](evidence/predictions-20260819/metrics/per-source.json) |
 | Redacted run/data summaries | 182 records | [`snapshot-20260819/`](evidence/snapshot-20260819/) |
 | Independent full replay | 3,630 rows, exact match | [`reproduction-20260819/`](evidence/reproduction-20260819/) |
+| Authorized from-upstream reconstruction + replay | 3,630 rows, exact match | [`reconstruction-20260819/`](evidence/reconstruction-20260819/) |
 
 The frozen view contains 304 FLEURS rows, 2,569 IndicVoices rows, and 757
 OpenSLR54 rows. IndicVoices is therefore 70.77% of the 3,630-row view—not a
@@ -88,6 +93,16 @@ The redacted result is in
 177-package runtime inventory is
 [`requirements-replay-linux-py310.lock`](requirements-replay-linux-py310.lock).
 
+A separate managed run (`r_1588a51d`) then reconstructed the view from the
+pinned upstream FLEURS, IndicVoices, and OpenSLR54 files without receiving the
+private `dev.jsonl`. It resolved all 2,569 IndicVoices pseudonyms, matched all
+3,630 original rows on source identity, source-audio hash, decoded-PCM hash,
+frame count, and normalized reference, with zero mismatches. A second inference
+run (`r_a343d43f`) on that reconstructed view reproduced the same prediction
+SHA-256 and every overall/per-source metric. See
+[RECONSTRUCTING.md](RECONSTRUCTING.md) and the checksummed
+[`reconstruction-20260819/`](evidence/reconstruction-20260819/) evidence.
+
 ## Honest reproducibility boundary
 
 Anyone can reproduce the public evidence verification above without dataset or
@@ -102,9 +117,15 @@ this repository publishes only pseudonymous sample IDs, source labels,
 aggregate metrics, and full-prediction commitments. No gated reference,
 hypothesis, audio path, speaker field, or metadata is published.
 
-An authorized researcher can rebuild the byte-identical view and run the exact
-public model with [`tools/reproduce_kriti.py`](tools/reproduce_kriti.py). The
-full procedure and the limits of each verification level are in
+After accepting IndicVoices access, an authorized researcher can scan the exact
+pinned Parquet revision and derive each pseudonym locally from its Parquet path,
+physical row index, embedded audio path, and audio SHA-256. The public roster
+then selects the same 2,569 rows without disclosing upstream locators. The
+result is a semantically identical, path-portable view—not the byte-identical
+legacy manifest, whose absolute paths were private. It can be replayed with
+[`tools/reproduce_kriti.py`](tools/reproduce_kriti.py) without receiving the
+project's private `dev.jsonl`. The full procedure is in
+[RECONSTRUCTING.md](RECONSTRUCTING.md); verification levels and limits are in
 [REPRODUCING.md](REPRODUCING.md).
 
 This snapshot is not an untouched-test result. The view guided model selection,
@@ -123,7 +144,7 @@ receives a GitHub artifact attestation. Verify the downloaded asset with:
 ```bash
 sha256sum -c SHA256SUMS
 gh attestation verify kriti-reproducibility-v1.0.1.tar \
-  --repo harrrshall/kriti-reproducibility
+  --repo Naamche-Labs/kriti-reproducibility
 ```
 
 To reproduce the release bytes from the tag instead of trusting the downloaded
@@ -138,7 +159,7 @@ git archive --format=tar --prefix="kriti-reproducibility-${tag}/" "$tag" \
   > "$verify_dir/kriti-reproducibility-${tag}.tar"
 (cd "$verify_dir" && sha256sum -c SHA256SUMS)
 gh attestation verify "$verify_dir/kriti-reproducibility-${tag}.tar" \
-  --repo harrrshall/kriti-reproducibility
+  --repo Naamche-Labs/kriti-reproducibility
 ```
 
 See [DATA_AND_LICENSES.md](DATA_AND_LICENSES.md) before redistributing evidence.

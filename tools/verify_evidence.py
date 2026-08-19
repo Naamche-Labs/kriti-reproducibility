@@ -228,6 +228,168 @@ def verify_independent_reproduction(root: Path) -> dict[str, int | str]:
     }
 
 
+def verify_upstream_reconstruction(root: Path) -> dict[str, Any]:
+    evidence = root / "evidence" / "reconstruction-20260819"
+    checksummed = verify_checksum_manifest(evidence, evidence / "SHA256SUMS")
+    contract = read_json(evidence / "contract.json")
+    reconstruction = read_json(evidence / "reconstruction.json")
+    inference = read_json(evidence / "inference.json")
+    expected_files = {"contract.json", "inference.json", "reconstruction.json"}
+    checksummed_files = {
+        line.partition("  ")[2]
+        for line in (evidence / "SHA256SUMS").read_text(encoding="utf-8").splitlines()
+    }
+    if checksummed_files != expected_files:
+        raise ValueError("unexpected reconstruction-evidence checksum subjects")
+
+    expected_contract = {
+        "contract_id": "kriti-authorized-upstream-reconstruction-v1",
+        "indicvoices_identity": "parquet-path+physical-row-index+upstream-path+audio-sha256/v1",
+        "legacy_private_view_sha256": (
+            "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+        ),
+        "portable_view_sha256": (
+            "d26afb661b581fbc9fd7fb9f7f594de6bc54d16d023050beb102531b8a8d7611"
+        ),
+        "private_provenance_sha256": (
+            "de52c091e2341ed18ae0ee0d36743bc7834d825f3e256107dcd78deb1086d340"
+        ),
+        "selector_sha256": "03c330561e75ae4aa8b62c15dac1c7aee6a22bae1687ac706b1261769a84c3b3",
+        "semantic_view_sha256": (
+            "aa536153717af74ecb308661959b96e3daa16385310b6031d892440e8d8c2add"
+        ),
+        "source_records": EXPECTED_SOURCE_COUNTS,
+        "upstream_rows_scanned": {
+            "fleurs_ne_np": 305,
+            "indicvoices_nepali": 249_422,
+            "openslr54": 157_905,
+        },
+        "upstream_revisions": {
+            "fleurs_ne_np": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+            "indicvoices_nepali": "c96f9088f138cf89d419da7e8e643e1f05c00a87",
+            "openslr54": "SLR54 checksummed release",
+        },
+        "privacy": {
+            "public_upstream_row_locators": 0,
+            "public_gated_audio_hashes": 0,
+            "public_gated_references": 0,
+            "resolution_requires_accepted_dataset_access": True,
+        },
+        "schema_version": 1,
+    }
+    if contract != expected_contract:
+        raise ValueError("upstream reconstruction contract changed")
+
+    if reconstruction.get("status") != "succeeded" or reconstruction.get("valid") is not True:
+        raise ValueError("upstream reconstruction did not succeed")
+    if reconstruction.get("private_dev_manifest_supplied") is not False:
+        raise ValueError("upstream reconstruction unexpectedly used the private dev manifest")
+    if reconstruction.get("processed_release_read_by_reconstructor") is not False:
+        raise ValueError("upstream reconstruction unexpectedly read the processed release")
+    for field in (
+        "indicvoices_identity",
+        "portable_view_sha256",
+        "private_provenance_sha256",
+        "selector_sha256",
+        "semantic_view_sha256",
+        "source_records",
+        "upstream_rows_scanned",
+    ):
+        if reconstruction.get(field) != contract[field]:
+            raise ValueError(f"reconstruction differs from contract: {field}")
+    if (
+        reconstruction.get("independent_original_semantic_view_sha256")
+        != contract["semantic_view_sha256"]
+    ):
+        raise ValueError("independent original-view semantic commitment differs")
+    comparison = reconstruction.get("row_level_release_comparison")
+    if comparison != {
+        "release_records": 3_630,
+        "reconstructed_records": 3_630,
+        "mismatches": {},
+        "valid": True,
+    }:
+        raise ValueError("row-level reconstructed/release comparison changed")
+    revision_audit = reconstruction.get("indicvoices_revision_audit")
+    if revision_audit != {
+        "expected_revision": contract["upstream_revisions"]["indicvoices_nepali"],
+        "metadata_files": 74,
+        "revision_mismatches": 0,
+    }:
+        raise ValueError("IndicVoices pinned-revision audit changed")
+    if reconstruction.get("private_artifacts_published") is not False:
+        raise ValueError("private reconstruction artifacts crossed the publication boundary")
+
+    execution = inference.get("execution")
+    if execution != {
+        "batch_size": 32,
+        "device": "cuda",
+        "fresh_public_model_cache": True,
+        "hugging_face_token_available_to_process": False,
+        "private_dev_manifest_supplied": False,
+        "protected_test_view_accessed": False,
+        "runtime_packages": 177,
+    }:
+        raise ValueError("reconstructed-view inference execution record changed")
+    if inference.get("status") != "succeeded" or inference.get("valid") is not True:
+        raise ValueError("reconstructed-view inference did not succeed")
+    summary = inference.get("result")
+    if not isinstance(summary, dict) or summary.get("valid") is not True:
+        raise ValueError("reconstructed-view result is invalid")
+    expected_metrics = read_json(
+        root / "evidence" / "predictions-20260819" / "metrics" / "per-source.json"
+    )
+    kriti = next(system for system in expected_metrics["systems"] if system["key"] == "kriti")
+    if (
+        summary.get("overall") != kriti["overall"]
+        or summary.get("per_source") != kriti["per_source"]
+    ):
+        raise ValueError("reconstructed-view inference metrics differ from the public record")
+    if summary.get("view_sha256") != contract["portable_view_sha256"]:
+        raise ValueError("reconstructed-view inference used a different portable view")
+    if summary.get("semantic_view_sha256") != contract["semantic_view_sha256"]:
+        raise ValueError("reconstructed-view inference semantic commitment differs")
+    if summary.get("predictions_sha256") != (
+        "1a42d4b0b527f2c21a4a28dfa84e7a2d769762bc4a6d80c59a12821e85b89f0f"
+    ):
+        raise ValueError("reconstructed-view prediction commitment differs")
+    if summary.get("protected_test_accessed") is not False:
+        raise ValueError("reconstructed-view inference accessed the protected test view")
+    required_checks = {
+        "overall_exact_match": True,
+        "per_source_exact_match": True,
+        "predictions_sha256_match": True,
+        "semantic_view_sha256_match": True,
+        "view_sha256_match": True,
+    }
+    if any(
+        summary.get("checks", {}).get(key) is not value for key, value in required_checks.items()
+    ):
+        raise ValueError("reconstructed-view inference exact-match gate failed")
+    lock = (root / "requirements-reconstruct-linux-py310.lock").read_text(encoding="utf-8")
+    packages = [line for line in lock.splitlines() if line]
+    if len(packages) != 24 or len(packages) != len(set(packages)):
+        raise ValueError("reconstruction environment inventory changed")
+    for requirement in (
+        "huggingface-hub==1.27.0",
+        "numpy==1.26.4",
+        "pyarrow==23.0.1",
+        "requests==2.34.2",
+        "soundfile==0.14.0",
+        "urllib3==2.7.0",
+    ):
+        if requirement not in packages:
+            raise ValueError(f"reconstruction requirement missing: {requirement}")
+    return {
+        "checksummed": checksummed,
+        "managed_run_id": inference["managed_run_id"],
+        "records": summary["overall"]["records"],
+        "reconstruction_lock_packages": len(packages),
+        "resolved_indicvoices_rows": contract["source_records"]["indicvoices_nepali"],
+        "semantic_view_sha256": summary["semantic_view_sha256"],
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -237,6 +399,7 @@ def main() -> int:
         "aggregate": verify_aggregate_snapshot(root / "evidence" / "snapshot-20260819"),
         "predictions": verify_prediction_evidence(root / "evidence" / "predictions-20260819"),
         "reproduction": verify_independent_reproduction(root),
+        "upstream_reconstruction": verify_upstream_reconstruction(root),
         "valid": True,
     }
     print(json.dumps(result, indent=2, sort_keys=True))
