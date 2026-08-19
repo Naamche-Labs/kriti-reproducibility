@@ -178,9 +178,19 @@ def _extract_zip(archive: Path, destination: Path) -> None:
     marker.write_text("verified\n", encoding="utf-8")
 
 
+def _read_access_token(token_file: Path | None) -> str | None:
+    token = (
+        token_file.read_text(encoding="utf-8").strip()
+        if token_file is not None
+        else os.environ.get("HF_TOKEN")
+    )
+    return token or None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-root", type=Path, required=True)
+    parser.add_argument("-s", "--source-root", type=Path, required=True)
+    parser.add_argument("-t", "--token-file", type=Path)
     parser.add_argument(
         "--sources",
         nargs="+",
@@ -202,9 +212,11 @@ def main() -> int:
             if archive.suffix == ".zip":
                 _extract_zip(archive, extracted)
     if "indicvoices_nepali" in selected:
-        token = os.environ.get("HF_TOKEN")
+        token = _read_access_token(args.token_file)
         if not token:
-            raise RuntimeError("HF_TOKEN is required after accepting IndicVoices access conditions")
+            raise RuntimeError(
+                "a token file or HF_TOKEN is required after accepting IndicVoices access conditions"
+            )
         repository = root / "raw" / "indicvoices_nepali" / "repository"
         snapshot_download(
             repo_id="ai4bharat/IndicVoices",
