@@ -1,0 +1,45 @@
+{
+  "artifact_sha256": {
+    "kriti.nemo": "0144854f0cc78f4b6115b75089fad632c39207d5256e53f92da996b9bbe43582",
+    "punctuation_head.json": "5874b6fc6b4f1172dffa249a42f5054ffe196cff9b97854fe180eafc4134e9bb"
+  },
+  "compute": {
+    "cuda": "13.0",
+    "cudnn": 92000,
+    "gpu": "NVIDIA L4",
+    "gpu_memory_mib": 23034,
+    "nvidia_driver": "595.58.03",
+    "provider": "JarvisLabs",
+    "region": "IN2"
+  },
+  "execution": {
+    "batch_size": 32,
+    "fresh_public_checkout": true,
+    "fresh_tokenless_model_cache": true,
+    "managed_run_id": "r_38e10f2c",
+    "protected_test_accessed": false,
+    "source_commit": "791d19cbd2fd220017ba831643986b87ae294774",
+    "status": "succeeded",
+    "verified_at_utc": "2026-08-19T04:42:25Z"
+  },
+  "lock_validation": {
+    "core_imports": true,
+    "empty_environment": true,
+    "managed_run_id": "r_de379c28",
+    "runtime_packages": 177,
+    "status": "succeeded"
+  },
+  "packages": {
+    "jiwer": "4.0.0",
+    "kriti-nepali-asr": "1.0.0",
+    "nemo-toolkit": "1.23.0rc0",
+    "numpy": "1.26.4",
+    "pytorch-lightning": "2.5.6",
+    "rapidfuzz": "3.14.5",
+    "soundfile": "0.14.0",
+    "torch": "2.13.0"
+  },
+  "python": "3.10.20",
+  "schema_version": 1,
+  "uv": "0.11.9"
+}

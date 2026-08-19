@@ -164,6 +164,70 @@ def verify_prediction_evidence(predictions_root: Path) -> dict[str, int]:
     }
 
 
+def verify_independent_reproduction(root: Path) -> dict[str, int | str]:
+    reproduction = root / "evidence" / "reproduction-20260819"
+    checksummed = verify_checksum_manifest(reproduction, reproduction / "SHA256SUMS")
+    summary = read_json(reproduction / "summary.json")
+    environment = read_json(reproduction / "environment.json")
+    metrics = read_json(root / "evidence" / "predictions-20260819" / "metrics" / "per-source.json")
+    kriti = next(system for system in metrics["systems"] if system["key"] == "kriti")
+    if summary["overall"] != kriti["overall"] or summary["per_source"] != kriti["per_source"]:
+        raise ValueError("independent reproduction metrics differ from the published record")
+    if summary["view_sha256"] != metrics["view_sha256"]:
+        raise ValueError("independent reproduction view commitment mismatch")
+    if summary["predictions_sha256"] not in kriti["replicate_prediction_sha256"]:
+        raise ValueError("independent reproduction prediction commitment mismatch")
+    if summary["valid"] is not True or summary["protected_test_accessed"] is not False:
+        raise ValueError("independent reproduction validity boundary changed")
+    exact_checks = {
+        "overall_exact_match": True,
+        "per_source_exact_match": True,
+        "predictions_sha256_match": True,
+        "view_sha256_match": True,
+    }
+    if any(summary["checks"].get(key) is not value for key, value in exact_checks.items()):
+        raise ValueError("independent reproduction exact-match gate failed")
+    execution = environment["execution"]
+    if execution != {
+        "batch_size": 32,
+        "fresh_public_checkout": True,
+        "fresh_tokenless_model_cache": True,
+        "managed_run_id": "r_38e10f2c",
+        "protected_test_accessed": False,
+        "source_commit": "791d19cbd2fd220017ba831643986b87ae294774",
+        "status": "succeeded",
+        "verified_at_utc": "2026-08-19T04:42:25Z",
+    }:
+        raise ValueError("independent reproduction execution record changed")
+    if environment["lock_validation"] != {
+        "core_imports": True,
+        "empty_environment": True,
+        "managed_run_id": "r_de379c28",
+        "runtime_packages": 177,
+        "status": "succeeded",
+    }:
+        raise ValueError("independent reproduction lock-validation record changed")
+    lock = (root / "requirements-replay-linux-py310.lock").read_text(encoding="utf-8")
+    packages = [line for line in lock.splitlines() if line]
+    if len(packages) != 177 or len(packages) != len(set(packages)):
+        raise ValueError("independent reproduction environment inventory changed")
+    for requirement in (
+        "jiwer==4.0.0",
+        "numpy==1.26.4",
+        "pytorch-lightning==2.5.6",
+        "rapidfuzz==3.14.5",
+        "torch==2.13.0",
+    ):
+        if requirement not in packages:
+            raise ValueError(f"independent reproduction requirement missing: {requirement}")
+    return {
+        "checksummed": checksummed,
+        "managed_run_id": execution["managed_run_id"],
+        "runtime_packages": len(packages),
+        "records": summary["overall"]["records"],
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -172,6 +236,7 @@ def main() -> int:
     result = {
         "aggregate": verify_aggregate_snapshot(root / "evidence" / "snapshot-20260819"),
         "predictions": verify_prediction_evidence(root / "evidence" / "predictions-20260819"),
+        "reproduction": verify_independent_reproduction(root),
         "valid": True,
     }
     print(json.dumps(result, indent=2, sort_keys=True))

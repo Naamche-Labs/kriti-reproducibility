@@ -35,15 +35,17 @@ The input must be the frozen development JSONL with this exact contract:
 - ordered `(sample_id, source_id)` pairs identical to the public roster
 - protected test data absent
 
-Create an isolated runtime on the authorized data/compute plane:
+Create an isolated runtime on the authorized data/compute plane. The following
+uses `uv` and the exact 177-package Linux/Python 3.10 inventory from the
+successful independent replay:
 
 ```bash
-python3 -m venv .replay-venv
-. .replay-venv/bin/activate
-python -m pip install -r requirements-replay.txt
+uv venv --python 3.10 .replay-venv
+uv pip sync --python .replay-venv/bin/python \
+  requirements-replay-linux-py310.lock
 env -u HF_TOKEN -u HUGGING_FACE_HUB_TOKEN -u HUGGINGFACE_TOKEN \
   HF_HUB_DISABLE_IMPLICIT_TOKEN=1 \
-  python tools/reproduce_kriti.py \
+  .replay-venv/bin/python tools/reproduce_kriti.py \
     --view /authorized/path/dev.jsonl \
     --output-dir /authorized/path/reproduction-output \
     --device cuda
@@ -69,6 +71,11 @@ For an exact successful replay, the script requires:
 Run twice in separate fresh processes if reproducing the two-replicate
 determinism claim. Use different output directories; both prediction hashes
 must be identical.
+
+The portable top-level dependency constraints remain in
+[`requirements-replay.txt`](requirements-replay.txt); the Linux/Python 3.10
+inventory is the exact successfully observed environment, not a claim that
+other supported environments cannot reproduce the output.
 
 ## What a successful result means
 

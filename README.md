@@ -25,12 +25,14 @@ Expected terminal fields are:
 
 ```json
 {
-  "aggregate_records": 182,
-  "commitments": 730,
-  "metric_sets_recomputed": 38,
-  "public_prediction_rows": 20159,
-  "sample_ids": 3630,
-  "systems": 19,
+  "aggregate": {"aggregate_records": 182, "commitments": 730},
+  "predictions": {
+    "metric_sets_recomputed": 38,
+    "public_prediction_rows": 20159,
+    "sample_ids": 3630,
+    "systems": 19
+  },
+  "reproduction": {"records": 3630, "runtime_packages": 177},
   "valid": true
 }
 ```
@@ -50,6 +52,7 @@ recomputes 38 public-source metric sets from the published predictions.
 | OpenSLR54 references + predictions | 757 × 19 rows | [`predictions/`](evidence/predictions-20260819/predictions/) |
 | Full-view prediction commitments | two fresh loads × 19 systems | [`per-source.json`](evidence/predictions-20260819/metrics/per-source.json) |
 | Redacted run/data summaries | 182 records | [`snapshot-20260819/`](evidence/snapshot-20260819/) |
+| Independent full replay | 3,630 rows, exact match | [`reproduction-20260819/`](evidence/reproduction-20260819/) |
 
 The frozen view contains 304 FLEURS rows, 2,569 IndicVoices rows, and 757
 OpenSLR54 rows. IndicVoices is therefore 70.77% of the 3,630-row view—not a
@@ -70,6 +73,20 @@ The complete 19-system table is in [RESULTS.md](RESULTS.md). Both fresh model
 loads produced prediction SHA-256
 `1a42d4b0b527f2c21a4a28dfa84e7a2d769762bc4a6d80c59a12821e85b89f0f`.
 The exact numerator and denominator counts—not only decimals—are in the JSON.
+
+## Independent reproduction completed
+
+On 2026-08-19, the documented replay was executed from a fresh public checkout,
+a fully isolated Python environment, and a newly downloaded tokenless model
+cache on a JarvisLabs NVIDIA L4. Managed run `r_38e10f2c` decoded all 3,630 dev
+rows and exited 0. It reproduced the exact prediction SHA-256, all four overall
+metrics, all three per-source metric dictionaries, and every numerator and
+denominator. The protected test was not accessed.
+
+The redacted result is in
+[`reproduction-20260819/`](evidence/reproduction-20260819/), and the complete
+177-package runtime inventory is
+[`requirements-replay-linux-py310.lock`](requirements-replay-linux-py310.lock).
 
 ## Honest reproducibility boundary
 
