@@ -1,0 +1,60 @@
+{
+  "cublas_workspace_config": ":4096:8",
+  "decode_seed": 20260813,
+  "deterministic_decode": true,
+  "elapsed_seconds": 1027.2884039217606,
+  "failures": 0,
+  "generated_token_ids": 162,
+  "generated_token_ids_sha256": "8263ae5fbaf9e72158f001ec89712f56700845cae02704f03ec19faf5904d714",
+  "limited_evaluation": false,
+  "model_artifacts": {
+    "model-00001-of-00002.safetensors": {
+      "bytes": 2375787360,
+      "sha256": "8393905e62b699dcfe25795143ccb727b3894f25a032d70ec5d76a17925ce364"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 1082243880,
+      "sha256": "bb5f0b5bfc2eb111162bd20f1b73c6fcd25bc2495831f40d909c17ba9fe00986"
+    }
+  },
+  "model_content_sha256": "b6b05193a7083cf03216a4b19582e3e1084e4d54033783150ea2321a5a73b990",
+  "model_file_shape_sha256": "c8aea904f9b88125fac546b7842d907a7382b1b2359621231a42dd0a39b4d827",
+  "model_path": "$KRITI_ROOT/training/compression/kriti-nepali-compression-v1/exports/checkpoint-49000-bf16-vocab758-v2",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08585920772708927,
+    "punctuation_insensitive_wer": 0.2518713695430864,
+    "raw_cer": 0.08701082005138756,
+    "raw_wer": 0.25750129849374725,
+    "records": 3630
+  },
+  "parameter_count": 1728972416,
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.0980129363090729,
+      "punctuation_insensitive_wer": 0.2628131021194605,
+      "raw_cer": 0.10727148002057967,
+      "raw_wer": 0.3163106796116505,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08699421846557172,
+      "punctuation_insensitive_wer": 0.255812859997649,
+      "raw_cer": 0.08699421846557172,
+      "raw_wer": 0.255812859997649,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.03866312708460962,
+      "punctuation_insensitive_wer": 0.1572512647554806,
+      "raw_cer": 0.0391304347826087,
+      "raw_wer": 0.16013485040033712,
+      "records": 757
+    }
+  },
+  "profile": "bf16-vocab758-v2",
+  "schema_version": 1,
+  "split": "dev",
+  "stored_weight_bytes": 3458031240,
+  "token_map_sha256": "44850839af4a9a39e21239cc68842d7cea5fb21d250777393b52d39d7b84e21a",
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

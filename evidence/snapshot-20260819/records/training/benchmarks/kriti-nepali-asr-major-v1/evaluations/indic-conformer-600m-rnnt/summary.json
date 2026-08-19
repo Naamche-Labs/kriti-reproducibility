@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "indic_conformer",
+  "decoder": "rnnt",
+  "elapsed_seconds": 3127.5036801337264,
+  "failures": 0,
+  "key": "indic-conformer-600m-rnnt",
+  "limited_evaluation": false,
+  "model_id": "ai4bharat/indic-conformer-600m-multilingual",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08835943004507925,
+    "punctuation_insensitive_wer": 0.2537078068547019,
+    "raw_cer": 0.09047077971931333,
+    "raw_wer": 0.2649926085740541,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.08667909795466465,
+      "punctuation_insensitive_wer": 0.2418111753371869,
+      "raw_cer": 0.10367003944434917,
+      "raw_wer": 0.3462135922330097,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08971856624520774,
+      "punctuation_insensitive_wer": 0.2571764429293523,
+      "raw_cer": 0.08971856624520774,
+      "raw_wer": 0.2571764429293523,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.06977060785514941,
+      "punctuation_insensitive_wer": 0.2175379426644182,
+      "raw_cer": 0.07153532608695652,
+      "raw_wer": 0.22882427307206069,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.11762111398745968,
+  "revision": "e9b71b369c048e2c6b634d4c131061c34e441179",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

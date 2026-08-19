@@ -1,0 +1,10 @@
+{
+  "failures": {},
+  "requested": [
+    "openslr54",
+    "openslr43",
+    "fleurs_ne_np",
+    "indicvoices_nepali"
+  ],
+  "stage": "download"
+}

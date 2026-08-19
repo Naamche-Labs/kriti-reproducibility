@@ -1,0 +1,11 @@
+{
+  "failures": {},
+  "prepared_sources": [
+    "indicvoices_nepali"
+  ],
+  "release_id": "ne-commercial-v1",
+  "requested": [
+    "indicvoices_nepali"
+  ],
+  "stage": "prepare"
+}

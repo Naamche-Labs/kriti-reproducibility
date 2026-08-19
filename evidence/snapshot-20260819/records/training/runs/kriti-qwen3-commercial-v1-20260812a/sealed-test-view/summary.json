@@ -1,0 +1,24 @@
+{
+  "limited_fixture": false,
+  "release_id": "ne-commercial-v1",
+  "schema_version": 1,
+  "selection_sha256": "0a48c95894473b7aa0a1225bd0e17033153226054ae30f4517ab57b3bc65e408",
+  "splits": {
+    "test": {
+      "hours": 13.971835052083334,
+      "records": 6273,
+      "sha256": "7bbab3f71611b098f333bac0734467f146e2554847ea910fb3eba78428115ca6",
+      "source_hours": {
+        "fleurs_ne_np": 2.26535,
+        "indicvoices_nepali": 10.845096163194444,
+        "openslr54": 0.8613888888888889
+      },
+      "source_records": {
+        "fleurs_ne_np": 724,
+        "indicvoices_nepali": 4721,
+        "openslr54": 828
+      },
+      "split": "test"
+    }
+  }
+}

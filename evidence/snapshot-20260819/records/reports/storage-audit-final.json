@@ -1,0 +1,86 @@
+{
+  "bytes_by_top_level": {
+    "DATASET_CARD.md": 22127,
+    "README.md": 6814,
+    "control-plane": 453225,
+    "interim": 44070208623,
+    "processed": 4948357381,
+    "raw": 85960544268,
+    "rejected-releases": 4778059655,
+    "reports": 35191,
+    "secrets": 285,
+    "state": 407339999
+  },
+  "clean": true,
+  "directory_counts_by_top_level": {
+    "control-plane": 8,
+    "interim": 1549,
+    "processed": 3,
+    "raw": 1674,
+    "rejected-releases": 3,
+    "reports": 1,
+    "secrets": 1,
+    "state": 7
+  },
+  "expected_top_level_entries_present": [
+    "DATASET_CARD.md",
+    "README.md",
+    "control-plane",
+    "interim",
+    "processed",
+    "raw",
+    "rejected-releases",
+    "reports",
+    "secrets",
+    "state"
+  ],
+  "file_counts_by_top_level": {
+    "DATASET_CARD.md": 1,
+    "README.md": 1,
+    "control-plane": 57,
+    "interim": 847010,
+    "processed": 30,
+    "raw": 423901,
+    "rejected-releases": 26,
+    "reports": 18,
+    "secrets": 1,
+    "state": 31
+  },
+  "misplaced_secret_file_count": 0,
+  "missing_expected_top_level_count": 0,
+  "releases": {
+    "ne-commercial-v1": {
+      "checksum_entry_count": 13,
+      "checksum_exact_name_set": true,
+      "checksum_format_valid": true,
+      "checksum_names_unique": true,
+      "directory_present": true,
+      "required_file_count": 14,
+      "required_files_complete": true,
+      "unexpected_file_count": 0,
+      "validation_issues_count": 0,
+      "validation_valid": true,
+      "validation_warnings_count": 37
+    },
+    "ne-research-v1": {
+      "checksum_entry_count": 13,
+      "checksum_exact_name_set": true,
+      "checksum_format_valid": true,
+      "checksum_names_unique": true,
+      "directory_present": true,
+      "required_file_count": 14,
+      "required_files_complete": true,
+      "unexpected_file_count": 0,
+      "validation_issues_count": 0,
+      "validation_valid": true,
+      "validation_warnings_count": 37
+    }
+  },
+  "schema_version": 1,
+  "secret_file_mode": "600",
+  "secrets_directory_mode": "700",
+  "symlink_count": 0,
+  "temporary_path_counts": {},
+  "unexpected_top_level_count": 0,
+  "unreadable_entry_count": 0
+}

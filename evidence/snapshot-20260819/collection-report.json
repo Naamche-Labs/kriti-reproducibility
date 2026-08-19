@@ -1,0 +1,11 @@
+{
+  "commitments_indexed": 730,
+  "privacy_scan": {
+    "query_bearing_urls_allowed": 0,
+    "row_level_content_allowed": 0,
+    "secret_bearing_values_allowed": 0
+  },
+  "recorded_at": "2026-08-19T04:04:11Z",
+  "records_collected": 182,
+  "schema_version": "1.0"
+}

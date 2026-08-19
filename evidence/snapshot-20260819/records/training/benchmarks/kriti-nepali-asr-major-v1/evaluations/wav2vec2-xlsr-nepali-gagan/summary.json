@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "ctc",
+  "decoder": null,
+  "elapsed_seconds": 85.3988510700874,
+  "failures": 0,
+  "key": "wav2vec2-xlsr-nepali-gagan",
+  "limited_evaluation": false,
+  "model_id": "gagan3012/wav2vec2-xlsr-nepali",
+  "overall": {
+    "punctuation_insensitive_cer": 0.3773078317497452,
+    "punctuation_insensitive_wer": 0.8575962632492964,
+    "raw_cer": 0.378541425680817,
+    "raw_wer": 0.8641975308641975,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.2229182448575258,
+      "punctuation_insensitive_wer": 0.679383429672447,
+      "raw_cer": 0.2357800262962328,
+      "raw_wer": 0.7390291262135922,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.40449784476559514,
+      "punctuation_insensitive_wer": 0.881885506053838,
+      "raw_cer": 0.40449784476559514,
+      "raw_wer": 0.881885506053838,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.28759104213464026,
+      "punctuation_insensitive_wer": 0.811973018549747,
+      "raw_cer": 0.28872282608695654,
+      "raw_wer": 0.8187947745469869,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.0032117333897696164,
+  "revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

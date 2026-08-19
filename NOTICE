@@ -1,0 +1,27 @@
+Kriti reproducibility record
+
+Code in this repository is MIT licensed. Benchmark references copied from
+FLEURS remain under CC BY 4.0. Benchmark references copied from OpenSLR SLR54
+remain under CC BY-SA 4.0. Generated hypotheses do not change the license of
+the paired reference text.
+
+FLEURS:
+  https://huggingface.co/datasets/google/fleurs
+  citation and attribution are recorded by the upstream dataset card
+
+OpenSLR SLR54:
+  https://www.openslr.org/54/
+  source: Open Speech and Language Resources
+
+IndicVoices:
+  https://huggingface.co/datasets/ai4bharat/IndicVoices
+  CC BY 4.0 with an upstream access-conditions flow
+  transcripts, predictions, audio, paths, and metadata are not included
+
+Kriti model artifacts:
+  https://huggingface.co/harrrshall/kriti
+  revision 762d1c17edaff0a548f3483e37e491fe8cc77971
+
+Kriti source used for replay:
+  https://github.com/Naamche-Labs/kriti
+  revision 29add29d96e4407daa518b5788752a8e8bbd731c

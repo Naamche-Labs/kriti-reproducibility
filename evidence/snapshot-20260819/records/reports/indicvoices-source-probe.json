@@ -1,0 +1,147 @@
+{
+  "duration_hours": 467.3661865624988,
+  "empty_verbatim": 0,
+  "gender": {
+    "Female": 130465,
+    "Male": 118784,
+    "Other": 173
+  },
+  "hard_flag_values": {
+    "incorrect_text_prompt": {
+      "bool:False": 249139,
+      "bool:True": 283
+    },
+    "objectionable_content": {
+      "bool:False": 249422
+    },
+    "off_topic": {
+      "bool:False": 247821,
+      "bool:True": 1601
+    },
+    "skipping_words": {
+      "bool:False": 249167,
+      "bool:True": 255
+    },
+    "unclear_audio": {
+      "bool:False": 249422
+    },
+    "wrong_language": {
+      "NoneType:None": 101150,
+      "bool:False": 148272
+    }
+  },
+  "language": {
+    "ne": 249422
+  },
+  "parquet_bytes": 28190438841,
+  "parquet_files": 74,
+  "rows": 249422,
+  "scenario": {
+    "Conversation": 81333,
+    "Extempore": 143367,
+    "Read": 24722
+  },
+  "schema_version": 1,
+  "splits": {
+    "train": 246593,
+    "valid": 2829
+  },
+  "task_name": {
+    "Aadhaar": 182,
+    "Alexa Commands": 2913,
+    "Bigbasket Commands": 2625,
+    "Cloth Shopping": 117,
+    "Conversation": 81333,
+    "Coordinator Section": 3761,
+    "Crop Insurance": 60,
+    "DOI - Agriculture": 3635,
+    "DOI - Animal Husbandry": 1648,
+    "DOI - Art & Craft": 1118,
+    "DOI - Banking And Insurance": 1533,
+    "DOI - Business": 1322,
+    "DOI - Culture": 3879,
+    "DOI - Education": 1490,
+    "DOI - Entertainment": 2274,
+    "DOI - Geography": 1550,
+    "DOI - Government": 1000,
+    "DOI - Health": 1429,
+    "DOI - History": 1438,
+    "DOI - Legal": 787,
+    "DOI - News Media": 1779,
+    "DOI - Poultry": 1446,
+    "DOI - Religion": 1806,
+    "DOI - Sports": 1713,
+    "DOI - Stem": 735,
+    "DOI - Technology": 1388,
+    "DOI - Tourism": 1680,
+    "Daily Life": 5876,
+    "Digilocker": 121,
+    "Digital Payment Commands": 2640,
+    "District Specific": 8037,
+    "EPFO": 89,
+    "Electricity Bill Payments": 35,
+    "Electronic Shopping": 138,
+    "Flight Booking": 78,
+    "GK Questions": 7570,
+    "GST Services": 135,
+    "Garbage Services": 189,
+    "Gas Booking": 172,
+    "Health Services": 81,
+    "ITR Services": 8,
+    "KYP - Astronomy": 287,
+    "KYP - Basic": 10129,
+    "KYP - Biking": 1753,
+    "KYP - Birdwatching": 1349,
+    "KYP - Collecting": 284,
+    "KYP - Cooking": 6215,
+    "KYP - Dancing": 1518,
+    "KYP - Drawing": 514,
+    "KYP - Fishing": 1216,
+    "KYP - Games": 2387,
+    "KYP - Gardening": 4095,
+    "KYP - Hiking/Trekking": 1157,
+    "KYP - Horse riding": 102,
+    "KYP - Knitting and Stitchings": 919,
+    "KYP - Martial arts": 164,
+    "KYP - Painting": 657,
+    "KYP - Photography": 1726,
+    "KYP - Reading": 1540,
+    "KYP - Rock climbing": 345,
+    "KYP - Running": 2345,
+    "KYP - Sculpting (creating 3D art)": 118,
+    "KYP - Singing": 1462,
+    "KYP - Star gazing": 247,
+    "KYP - Surfing": 43,
+    "KYP - Swimming": 1194,
+    "KYP - Technology": 1899,
+    "KYP - Traveling": 2083,
+    "KYP - Writing": 919,
+    "KYP - Yoga": 931,
+    "Keywords Spotting": 8686,
+    "Landline Bill Payment": 145,
+    "Language Specific": 4717,
+    "Mobile and Bill Payment": 115,
+    "Movie and Show Booking": 36,
+    "NPS": 129,
+    "ORS": 72,
+    "Ola/Uber Prompts": 5385,
+    "PAN": 120,
+    "PMKVY": 70,
+    "Parivahan": 102,
+    "Passport Seva": 94,
+    "Product Review": 11027,
+    "Railway Booking": 177,
+    "Startup": 31,
+    "Swiggy Prompts": 5112,
+    "Task of Fives": 10628,
+    "Umang Commands": 2674,
+    "Water Services": 86,
+    "Wikipedia Sentences": 2608
+  },
+  "verification_decisions": {
+    "excellent": 249422
+  },
+  "verification_report_types": {
+    "str": 249422
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "whisper",
+  "decoder": null,
+  "elapsed_seconds": 545.1317122289911,
+  "failures": 0,
+  "key": "whisper-small-nepali-amitpant7",
+  "limited_evaluation": false,
+  "model_id": "amitpant7/Nepali-Automatic-Speech-Recognition",
+  "overall": {
+    "punctuation_insensitive_cer": 0.3287638435702217,
+    "punctuation_insensitive_wer": 0.7456135097910055,
+    "raw_cer": 0.338106985774584,
+    "raw_wer": 0.7787566422949379,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.2060485985665171,
+      "punctuation_insensitive_wer": 0.5799614643545279,
+      "raw_cer": 0.21994512090550505,
+      "raw_wer": 0.693009708737864,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.35149017303512065,
+      "punctuation_insensitive_wer": 0.7676501704478664,
+      "raw_cer": 0.3567745037208098,
+      "raw_wer": 0.7797813565299165,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.23898985773602885,
+      "punctuation_insensitive_wer": 0.7129005059021922,
+      "raw_cer": 0.31032608695652175,
+      "raw_wer": 0.9464812473662031,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.020501654296861967,
+  "revision": "dfba7778a8fe7a333c7b6def72f0fad22e33c2a9",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

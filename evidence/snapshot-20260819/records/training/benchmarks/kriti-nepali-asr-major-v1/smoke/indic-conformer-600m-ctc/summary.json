@@ -1,0 +1,37 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "indic_conformer",
+  "decoder": "ctc",
+  "elapsed_seconds": 16.199964886996895,
+  "failures": 0,
+  "key": "indic-conformer-600m-ctc",
+  "limited_evaluation": true,
+  "model_id": "ai4bharat/indic-conformer-600m-multilingual",
+  "overall": {
+    "punctuation_insensitive_cer": 0.07317073170731707,
+    "punctuation_insensitive_wer": 0.27102803738317754,
+    "raw_cer": 0.07317073170731707,
+    "raw_wer": 0.27102803738317754,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.07933579335793357,
+      "punctuation_insensitive_wer": 0.29473684210526313,
+      "raw_cer": 0.07933579335793357,
+      "raw_wer": 0.29473684210526313,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0273972602739726,
+      "punctuation_insensitive_wer": 0.08333333333333333,
+      "raw_cer": 0.0273972602739726,
+      "raw_wer": 0.08333333333333333,
+      "records": 4
+    }
+  },
+  "real_time_factor": 0.2457146198543439,
+  "revision": "e9b71b369c048e2c6b634d4c131061c34e441179",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

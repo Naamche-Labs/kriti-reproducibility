@@ -1,0 +1,57 @@
+{
+  "elapsed_seconds": 886.4349015196785,
+  "failures": 0,
+  "generated_token_ids": 162,
+  "generated_token_ids_sha256": "70bda44f0c49e5a108328e976565f0e0b11930665064daa24dc653a9d8f863b1",
+  "limited_evaluation": false,
+  "model_artifacts": {
+    "model-00001-of-00002.safetensors": {
+      "bytes": 4981095680,
+      "sha256": "e526c5d4c9cc4046b458f3edada8dc3738f4b662cd9696679352be571843c43f"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 3171200384,
+      "sha256": "2d17a1da400568a3ba2919e8f514f77214c92988976754288c51ad3af6eec809"
+    }
+  },
+  "model_content_sha256": "930d076b6f4ffd683e038cdfe6cce1c7b70b13960d214d21bde43be3902aa463",
+  "model_file_shape_sha256": "b8bf86f8d2de198cb46a897650245399f6528bfd561b15600e7a626721f0d86e",
+  "model_path": "$KRITI_ROOT/training/runs/kriti-qwen3-commercial-v1-20260812a/checkpoints/checkpoint-49000",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08571897637956863,
+    "punctuation_insensitive_wer": 0.25175160189232887,
+    "raw_cer": 0.08687433249052265,
+    "raw_wer": 0.2574413680131048,
+    "records": 3630
+  },
+  "parameter_count": 2038052480,
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.09719713303420546,
+      "punctuation_insensitive_wer": 0.26184971098265897,
+      "raw_cer": 0.10649974275424455,
+      "raw_wer": 0.31592233009708737,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08695312724717601,
+      "punctuation_insensitive_wer": 0.25593041025038205,
+      "raw_cer": 0.08695312724717601,
+      "raw_wer": 0.25593041025038205,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0384589204274726,
+      "punctuation_insensitive_wer": 0.15472175379426645,
+      "raw_cer": 0.03892663043478261,
+      "raw_wer": 0.15760640539401602,
+      "records": 757
+    }
+  },
+  "profile": "baseline-capture",
+  "schema_version": 1,
+  "split": "dev",
+  "stored_weight_bytes": 8152296064,
+  "token_map_sha256": null,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

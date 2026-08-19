@@ -1,0 +1,367 @@
+{
+  "accepted_hours": 647.5857890624928,
+  "accepted_records": 405795,
+  "breakdown": [
+    {
+      "hours": 0.8957833333333339,
+      "quality_status": "accepted",
+      "records": 304,
+      "source_id": "fleurs_ne_np",
+      "split": "dev"
+    },
+    {
+      "hours": 2.2653500000000006,
+      "quality_status": "accepted",
+      "records": 724,
+      "source_id": "fleurs_ne_np",
+      "split": "test"
+    },
+    {
+      "hours": 11.181166666666671,
+      "quality_status": "accepted",
+      "records": 3323,
+      "source_id": "fleurs_ne_np",
+      "split": "train"
+    },
+    {
+      "hours": 0.16768333333333332,
+      "quality_status": "quarantined",
+      "records": 12,
+      "source_id": "fleurs_ne_np",
+      "split": null
+    },
+    {
+      "hours": 5.701840312499999,
+      "quality_status": "accepted",
+      "records": 2569,
+      "source_id": "indicvoices_nepali",
+      "split": "dev"
+    },
+    {
+      "hours": 10.845096163194498,
+      "quality_status": "accepted",
+      "records": 4721,
+      "source_id": "indicvoices_nepali",
+      "split": "test"
+    },
+    {
+      "hours": 445.9730286284971,
+      "quality_status": "accepted",
+      "records": 235506,
+      "source_id": "indicvoices_nepali",
+      "split": "train"
+    },
+    {
+      "hours": 0.3453202256944433,
+      "quality_status": "excluded",
+      "records": 1420,
+      "source_id": "indicvoices_nepali",
+      "split": null
+    },
+    {
+      "hours": 4.500901232638892,
+      "quality_status": "quarantined",
+      "records": 5206,
+      "source_id": "indicvoices_nepali",
+      "split": null
+    },
+    {
+      "hours": 2.796025312499998,
+      "quality_status": "accepted",
+      "records": 2064,
+      "source_id": "openslr43",
+      "split": "train"
+    },
+    {
+      "hours": 0.7883888888888892,
+      "quality_status": "accepted",
+      "records": 757,
+      "source_id": "openslr54",
+      "split": "dev"
+    },
+    {
+      "hours": 0.8613888888888874,
+      "quality_status": "accepted",
+      "records": 828,
+      "source_id": "openslr54",
+      "split": "test"
+    },
+    {
+      "hours": 148.96802777777697,
+      "quality_status": "accepted",
+      "records": 152109,
+      "source_id": "openslr54",
+      "split": "train"
+    },
+    {
+      "hours": 3.9936944444444573,
+      "quality_status": "excluded",
+      "records": 4182,
+      "source_id": "openslr54",
+      "split": null
+    },
+    {
+      "hours": 0.025611111111111112,
+      "quality_status": "quarantined",
+      "records": 29,
+      "source_id": "openslr54",
+      "split": null
+    },
+    {
+      "hours": 0.035944444444444446,
+      "quality_status": "accepted",
+      "records": 10,
+      "source_id": "worldspeech_ne_in",
+      "split": "dev"
+    },
+    {
+      "hours": 0.10044442708333332,
+      "quality_status": "accepted",
+      "records": 40,
+      "source_id": "worldspeech_ne_in",
+      "split": "test"
+    },
+    {
+      "hours": 1.6241243749999996,
+      "quality_status": "accepted",
+      "records": 512,
+      "source_id": "worldspeech_ne_in",
+      "split": "train"
+    },
+    {
+      "hours": 0.0013844444444444447,
+      "quality_status": "excluded",
+      "records": 2,
+      "source_id": "worldspeech_ne_in",
+      "split": null
+    },
+    {
+      "hours": 3.899156857638887,
+      "quality_status": "quarantined",
+      "records": 1063,
+      "source_id": "worldspeech_ne_in",
+      "split": null
+    },
+    {
+      "hours": 0.526842986111111,
+      "quality_status": "accepted",
+      "records": 85,
+      "source_id": "worldspeech_ne_np",
+      "split": "dev"
+    },
+    {
+      "hours": 0.2776749479166667,
+      "quality_status": "accepted",
+      "records": 45,
+      "source_id": "worldspeech_ne_np",
+      "split": "test"
+    },
+    {
+      "hours": 14.744661909722192,
+      "quality_status": "accepted",
+      "records": 2198,
+      "source_id": "worldspeech_ne_np",
+      "split": "train"
+    },
+    {
+      "hours": 0.01565111111111111,
+      "quality_status": "excluded",
+      "records": 2,
+      "source_id": "worldspeech_ne_np",
+      "split": null
+    },
+    {
+      "hours": 42.45671307291675,
+      "quality_status": "quarantined",
+      "records": 5782,
+      "source_id": "worldspeech_ne_np",
+      "split": null
+    }
+  ],
+  "contains_explicit_non_commercial_sources": true,
+  "excluded_or_quarantined_records": 17698,
+  "leakage_comparison_profile": "casefold-no-punctuation-v1",
+  "license_totals": [
+    {
+      "accepted_records": 247147,
+      "excluded_or_quarantined_records": 6638,
+      "hours": 481.8761698958603,
+      "license": "CC-BY-4.0",
+      "records": 253785
+    },
+    {
+      "accepted_records": 2890,
+      "excluded_or_quarantined_records": 6849,
+      "hours": 63.6825985763887,
+      "license": "CC-BY-NC-4.0",
+      "records": 9739
+    },
+    {
+      "accepted_records": 155758,
+      "excluded_or_quarantined_records": 4211,
+      "hours": 157.43313642360977,
+      "license": "CC-BY-SA-4.0",
+      "records": 159969
+    }
+  ],
+  "quality_tier_totals": [
+    {
+      "accepted_records": 403731,
+      "excluded_or_quarantined_records": 17698,
+      "hours": 700.1958795833709,
+      "quality_tier": "gold",
+      "records": 421429
+    },
+    {
+      "accepted_records": 2064,
+      "excluded_or_quarantined_records": 0,
+      "hours": 2.796025312499998,
+      "quality_tier": "gold_supplemental",
+      "records": 2064
+    }
+  ],
+  "release_id": "ne-research-v1",
+  "schema_version": 1,
+  "source_policies": [
+    {
+      "evaluation_splits": [],
+      "label_field": null,
+      "license": "CC-BY-SA-4.0",
+      "quality_tier": "gold",
+      "restrictions": [],
+      "source_id": "openslr54",
+      "source_version": "SLR54",
+      "split_policy": "speaker_hash",
+      "underlying_rights": null
+    },
+    {
+      "evaluation_splits": [],
+      "label_field": null,
+      "license": "CC-BY-SA-4.0",
+      "quality_tier": "gold_supplemental",
+      "restrictions": [],
+      "source_id": "openslr43",
+      "source_version": "SLR43",
+      "split_policy": "train_only",
+      "underlying_rights": null
+    },
+    {
+      "evaluation_splits": [
+        "dev",
+        "test"
+      ],
+      "label_field": null,
+      "license": "CC-BY-4.0",
+      "quality_tier": "gold",
+      "restrictions": [],
+      "source_id": "fleurs_ne_np",
+      "source_version": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+      "split_policy": "official",
+      "underlying_rights": null
+    },
+    {
+      "evaluation_splits": [],
+      "label_field": "verbatim",
+      "license": "CC-BY-4.0",
+      "quality_tier": "gold",
+      "restrictions": [],
+      "source_id": "indicvoices_nepali",
+      "source_version": "c96f9088f138cf89d419da7e8e643e1f05c00a87",
+      "split_policy": "speaker_hash",
+      "underlying_rights": null
+    },
+    {
+      "evaluation_splits": [],
+      "label_field": "human_transcript",
+      "license": "CC-BY-NC-4.0",
+      "quality_tier": "gold",
+      "restrictions": [
+        "non-commercial",
+        "underlying-source-rights-apply"
+      ],
+      "source_id": "worldspeech_ne_np",
+      "source_version": "7fc2c2f19528b3d3972110a04e500098f6fc7f24",
+      "split_policy": "recording_hash",
+      "underlying_rights": "Nepal Parliamentary Proceedings"
+    },
+    {
+      "evaluation_splits": [],
+      "label_field": "human_transcript",
+      "license": "CC-BY-NC-4.0",
+      "quality_tier": "gold",
+      "restrictions": [
+        "non-commercial",
+        "underlying-source-rights-apply"
+      ],
+      "source_id": "worldspeech_ne_in",
+      "source_version": "7fc2c2f19528b3d3972110a04e500098f6fc7f24",
+      "split_policy": "recording_hash",
+      "underlying_rights": "All India Radio Archive (Prasar Bharati)"
+    }
+  ],
+  "source_totals": [
+    {
+      "accepted_records": 4351,
+      "excluded_or_quarantined_records": 12,
+      "hours": 14.509983333333306,
+      "records": 4363,
+      "source_id": "fleurs_ne_np"
+    },
+    {
+      "accepted_records": 242796,
+      "excluded_or_quarantined_records": 6626,
+      "hours": 467.36618656252665,
+      "records": 249422,
+      "source_id": "indicvoices_nepali"
+    },
+    {
+      "accepted_records": 2064,
+      "excluded_or_quarantined_records": 0,
+      "hours": 2.796025312499998,
+      "records": 2064,
+      "source_id": "openslr43"
+    },
+    {
+      "accepted_records": 153694,
+      "excluded_or_quarantined_records": 4211,
+      "hours": 154.63711111111024,
+      "records": 157905,
+      "source_id": "openslr54"
+    },
+    {
+      "accepted_records": 562,
+      "excluded_or_quarantined_records": 1065,
+      "hours": 5.6610545486111175,
+      "records": 1627,
+      "source_id": "worldspeech_ne_in"
+    },
+    {
+      "accepted_records": 2328,
+      "excluded_or_quarantined_records": 5784,
+      "hours": 58.021544027777715,
+      "records": 8112,
+      "source_id": "worldspeech_ne_np"
+    }
+  ],
+  "sources": [
+    "openslr54",
+    "openslr43",
+    "fleurs_ne_np",
+    "indicvoices_nepali",
+    "worldspeech_ne_np",
+    "worldspeech_ne_in"
+  ],
+  "split_counts": {
+    "dev": 3725,
+    "test": 6358,
+    "train": 395712
+  },
+  "split_hours": {
+    "dev": 7.948799965277776,
+    "test": 14.349954427083322,
+    "train": 625.2870346701204
+  },
+  "split_policy_version": "speaker-recording-prompt-v3",
+  "total_hours": 702.9919048958196,
+  "total_records": 423493
+}

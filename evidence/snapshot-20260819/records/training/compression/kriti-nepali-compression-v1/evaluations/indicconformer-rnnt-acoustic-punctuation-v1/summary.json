@@ -1,0 +1,63 @@
+{
+  "artifact_bytes": 420643,
+  "artifact_sha256": "112199db5cc86b1ba7da1cb0251e34e48cf5ade1c7112506db0ba5b1ccc2b6a7",
+  "base_parameter_count": 129250967,
+  "classifier_parameter_count": 105161,
+  "classifier_parameter_count_is_upper_bound": true,
+  "eval_view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+  "input_predictions_sha256": "3656a93d28c3d1fb6dfea1c3ab7e3df6eb66a58820064e03ec331a2dee01f94b",
+  "method": "train-only-acoustic-domain-terminal-danda-restoration",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08287672638469905,
+    "punctuation_insensitive_wer": 0.2407729005728886,
+    "raw_cer": 0.08468711932766228,
+    "raw_wer": 0.25026968716289105,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.08493094807994872,
+      "punctuation_insensitive_wer": 0.2491329479768786,
+      "raw_cer": 0.09886811867604184,
+      "raw_wer": 0.3337864077669903,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08700243670925087,
+      "punctuation_insensitive_wer": 0.25031150816974257,
+      "raw_cer": 0.08707229178052359,
+      "raw_wer": 0.25064064887739507,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.009733850656864747,
+      "punctuation_insensitive_wer": 0.05143338954468803,
+      "raw_cer": 0.01154891304347826,
+      "raw_wer": 0.06236831015592077,
+      "records": 757
+    }
+  },
+  "redaction": "Aggregate counts, metrics, and hashes only; audio-derived rows and fitted weights remain remote.",
+  "restored_by_source": {
+    "fleurs_ne_np": 115,
+    "indicvoices_nepali": 20,
+    "openslr54": 2
+  },
+  "restored_predictions_sha256": "deafd3e8e829e1e63e04fec97755f966855df99079884ccd5bb7e4e05d512605",
+  "schema_version": 1,
+  "seed": 20260813,
+  "threshold": 0.204,
+  "total_parameter_count": 129356128,
+  "train_rows": 20294,
+  "train_view_sha256": "e4a194e8cf9ff4f1c08349a697f8fa28976498c7d5d9a958f831ddc4e5a22f41",
+  "validation": {
+    "false_negatives": 2,
+    "false_positive_rate": 0.0083540302551366,
+    "false_positives": 37,
+    "precision": 0.9470672389127325,
+    "recall": 0.9969879518072289,
+    "true_negatives": 4392,
+    "true_positives": 662
+  },
+  "validation_rows": 5093
+}

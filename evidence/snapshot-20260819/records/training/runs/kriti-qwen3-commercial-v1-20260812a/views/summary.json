@@ -1,0 +1,43 @@
+{
+  "limited_fixture": false,
+  "release_id": "ne-commercial-v1",
+  "release_root": "$KRITI_ROOT/processed/ne-commercial-v1",
+  "schema_version": 1,
+  "splits": {
+    "dev": {
+      "hours": 7.386012534722222,
+      "records": 3630,
+      "sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+      "source_hours": {
+        "fleurs_ne_np": 0.8957833333333334,
+        "indicvoices_nepali": 5.7018403125,
+        "openslr54": 0.7883888888888888
+      },
+      "source_records": {
+        "fleurs_ne_np": 304,
+        "indicvoices_nepali": 2569,
+        "openslr54": 757
+      },
+      "split": "dev"
+    },
+    "train": {
+      "hours": 608.9182483854166,
+      "records": 393002,
+      "sha256": "e4a194e8cf9ff4f1c08349a697f8fa28976498c7d5d9a958f831ddc4e5a22f41",
+      "source_hours": {
+        "fleurs_ne_np": 11.181166666666666,
+        "indicvoices_nepali": 445.97302862847226,
+        "openslr43": 2.7960253125,
+        "openslr54": 148.9680277777778
+      },
+      "source_records": {
+        "fleurs_ne_np": 3323,
+        "indicvoices_nepali": 235506,
+        "openslr43": 2064,
+        "openslr54": 152109
+      },
+      "split": "train"
+    }
+  },
+  "target_prefix": "language Nepali<asr_text>"
+}

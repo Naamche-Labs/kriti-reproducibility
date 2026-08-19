@@ -1,0 +1,52 @@
+{
+  "dev_view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+  "eligible_candidate_count": 4,
+  "evaluated_candidate_count": 4,
+  "model_artifacts": {
+    "model-00001-of-00002.safetensors": {
+      "bytes": 4981095680,
+      "sha256": "e526c5d4c9cc4046b458f3edada8dc3738f4b662cd9696679352be571843c43f"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 3171200384,
+      "sha256": "2d17a1da400568a3ba2919e8f514f77214c92988976754288c51ad3af6eec809"
+    }
+  },
+  "model_content_sha256": "930d076b6f4ffd683e038cdfe6cce1c7b70b13960d214d21bde43be3902aa463",
+  "model_file_shape_sha256": "b8bf86f8d2de198cb46a897650245399f6528bfd561b15600e7a626721f0d86e",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08587630911093326,
+    "punctuation_insensitive_wer": 0.2520909435694752,
+    "raw_cer": 0.08702788099649568,
+    "raw_wer": 0.2576810899356746,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.09754676300914865,
+      "punctuation_insensitive_wer": 0.26184971098265897,
+      "raw_cer": 0.10681415423312182,
+      "raw_wer": 0.3149514563106796,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.0870846191460423,
+      "punctuation_insensitive_wer": 0.25628306100858117,
+      "raw_cer": 0.0870846191460423,
+      "raw_wer": 0.25628306100858117,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.03859505819889728,
+      "punctuation_insensitive_wer": 0.15556492411467115,
+      "raw_cer": 0.0390625,
+      "raw_wer": 0.15844922039612305,
+      "records": 757
+    }
+  },
+  "release_id": "ne-commercial-v1",
+  "schema_version": 1,
+  "selected_checkpoint": "checkpoint-49000",
+  "selection_metric": "punctuation_insensitive_wer",
+  "selection_split": "dev"
+}

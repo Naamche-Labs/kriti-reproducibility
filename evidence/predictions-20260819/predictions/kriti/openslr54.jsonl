@@ -1,0 +1,757 @@
+{"hypothesis":"कल्पना सोव समानुपातिक","ordinal":0,"reference":"कल्पना सोव समानुपातिक","sample_id":"kriti-00024d02142f5f409dfecb989a4dc9b7","source_id":"openslr54"}
+{"hypothesis":"तथा मालवाका केही","ordinal":1,"reference":"तथा मालवाका केही","sample_id":"kriti-00027036c0145ce0b40d27c1ecccbc6d","source_id":"openslr54"}
+{"hypothesis":"यन्त्र भएको छ","ordinal":2,"reference":"यन्त्र भएको छ","sample_id":"kriti-000ad91be31c50b4a03c6a017f00e2bd","source_id":"openslr54"}
+{"hypothesis":"पारिश्रमिक भुक्तानी गरी","ordinal":3,"reference":"पारिश्रमिक भुक्तानी गरी","sample_id":"kriti-004240a716d65788b03b4b261fb135b1","source_id":"openslr54"}
+{"hypothesis":"आफ्नै समुदायमा र राष्ट्रिय","ordinal":18,"reference":"आफ्नै समुदायमा र राष्ट्रिय","sample_id":"kriti-012ac32d5ec45a3a97e7822e8acf75c9","source_id":"openslr54"}
+{"hypothesis":"आदिमा उपयोग गरिन्छ","ordinal":19,"reference":"आदिमा उपयोग गरिन्छ।","sample_id":"kriti-0142748c13505b77a7af7e12f132354b","source_id":"openslr54"}
+{"hypothesis":"कार्यक्रम फितलो मात्र","ordinal":24,"reference":"कार्यक्रम फितलो मात्र","sample_id":"kriti-01b5995c4c845d0da1fe718a43885784","source_id":"openslr54"}
+{"hypothesis":"लागि मार्च २००९","ordinal":25,"reference":"लागि मार्च २००९","sample_id":"kriti-01b83436b9ee5620847f238e4683365e","source_id":"openslr54"}
+{"hypothesis":"मार्च ४ देखि","ordinal":28,"reference":"मार्च ४ देखि","sample_id":"kriti-01e0c6fc0e075a0abb375a633bc6f8e1","source_id":"openslr54"}
+{"hypothesis":"मुख्य पेजलाई नराम्रो","ordinal":32,"reference":"मुख्य पेजलाई नराम्रो","sample_id":"kriti-0244cb98a2ce59b5bc9d7a75358f7fe7","source_id":"openslr54"}
+{"hypothesis":"जिल्लाको बारेमा थाहा पाउनलाई सर्च वा खोज बाकसमा गएर लेख्नुहोला।","ordinal":39,"reference":"जिल्लाको बारेमा थाहा पाउनलाई सर्च वा खोज बाकसमा गएर लेख्नुहोला।","sample_id":"kriti-02939c1c903a5c6d8abe84264a9b2adb","source_id":"openslr54"}
+{"hypothesis":"बाजुरा डोल्पा मुगु","ordinal":42,"reference":"बाजुरा डोल्पा मुगु","sample_id":"kriti-02aaf79d0c5157b8b09b61476688b96c","source_id":"openslr54"}
+{"hypothesis":"यही रङ्गको","ordinal":48,"reference":"यही रङ्गको","sample_id":"kriti-02e924337c515db5842d5e908286afe0","source_id":"openslr54"}
+{"hypothesis":"प्रकाशित यस अङ्कमा","ordinal":51,"reference":"प्रकाशित यस अङ्कमा","sample_id":"kriti-032b6ac570065da7b791f1e402025853","source_id":"openslr54"}
+{"hypothesis":"पन्ध्र तारा नेपाल","ordinal":54,"reference":"पन्ध्र तारा नेपाली","sample_id":"kriti-034af0a1c2345a369752c2e710b41e75","source_id":"openslr54"}
+{"hypothesis":"समितिले हजारेका सहयोगी","ordinal":61,"reference":"समितिले हजारेका सहयोगी","sample_id":"kriti-03e321aecc225d1889775a2fdc1c4562","source_id":"openslr54"}
+{"hypothesis":"जितु नेपाल नेपालका","ordinal":66,"reference":"जितु नेपाल नेपालका","sample_id":"kriti-042880c225265c5595f8603364c21e73","source_id":"openslr54"}
+{"hypothesis":"केरलका अधिकांश मानिसको","ordinal":67,"reference":"केरलका अधिकांश मानिसको","sample_id":"kriti-04353ed916625ac695dbcddb989d58a6","source_id":"openslr54"}
+{"hypothesis":"रामपुर गाविसहरू लगायत","ordinal":74,"reference":"रामपुर गाविसहरू लगायत","sample_id":"kriti-04e57823fa1450c6964e2732003cf822","source_id":"openslr54"}
+{"hypothesis":"यो साधारण जीवनलाई","ordinal":76,"reference":"यो साधारण जीवनलाइ","sample_id":"kriti-0517eb1a467d55e1985298ee2a2ee82c","source_id":"openslr54"}
+{"hypothesis":"सानो त्रिशुली हो","ordinal":77,"reference":"सानो त्रिशुलि हो","sample_id":"kriti-05244f84f0f15871853fb92849d239bc","source_id":"openslr54"}
+{"hypothesis":"देशालाई उद्वेलित","ordinal":78,"reference":"देशलाई उद्वेलित","sample_id":"kriti-0530aa776e7e5800a076c31874dbcf39","source_id":"openslr54"}
+{"hypothesis":"शायद यस्तो हुन्छ","ordinal":81,"reference":"शायद यस्तो हुन्छ","sample_id":"kriti-057f68ea8d7858da9c4fef3f9bdc69b9","source_id":"openslr54"}
+{"hypothesis":"वसन्त रेग्मीको","ordinal":83,"reference":"बसन्त रेग्मिको","sample_id":"kriti-05baa7f7e7bf5776829b949607c3af2f","source_id":"openslr54"}
+{"hypothesis":"डायमण्ड कलेज काठमाडौँ","ordinal":89,"reference":"डायमण्ड कलेज काठमाडौँ","sample_id":"kriti-05fd7f49229a5363bb67d70ef235d922","source_id":"openslr54"}
+{"hypothesis":"आफैँ प्रयोगकर्ता पृष्ठको","ordinal":97,"reference":"आफैँ प्रयोगकर्ता पृष्ठको","sample_id":"kriti-066b75856dba5dbe946a4b614cd4bdc7","source_id":"openslr54"}
+{"hypothesis":"शरीरमा हजारौँ योनि","ordinal":100,"reference":"शरीरमा हजारौँ योनि","sample_id":"kriti-06a1e33d707c5e4e814053dc189cf456","source_id":"openslr54"}
+{"hypothesis":"खगोल विज्ञानको","ordinal":107,"reference":"खगोल विज्ञानको","sample_id":"kriti-070b80ff82f05d06bd42a45eb9207840","source_id":"openslr54"}
+{"hypothesis":"चलचित्र अभिनेत्री हुन्","ordinal":112,"reference":"चलचित्र अभिनेत्री हुन्","sample_id":"kriti-07799eccfa3e5395a3fe776d793d32f0","source_id":"openslr54"}
+{"hypothesis":"हैहयराज अर्जुनका पुत्र","ordinal":122,"reference":"हैहयराज अर्जुनका पुत्र","sample_id":"kriti-08bbc5844dbd5331a484b0fd791c9027","source_id":"openslr54"}
+{"hypothesis":"मलाई थाहा छ कि","ordinal":125,"reference":"मलाई थाहा छ कि","sample_id":"kriti-08d6a742f2b85af197f2c70325f12466","source_id":"openslr54"}
+{"hypothesis":"कोट सेतो सुरूवाल","ordinal":129,"reference":"कोट सेतो सुरूवाल","sample_id":"kriti-08ef2934bfa65f4ab24b431225d3b935","source_id":"openslr54"}
+{"hypothesis":"नक्षत्रहरूको परिचय सूची","ordinal":141,"reference":"नक्षत्रहरूको परिचय सूची","sample_id":"kriti-09fb7eeeb6f359bc820ab307a4994922","source_id":"openslr54"}
+{"hypothesis":"उनले सुरु गरेका","ordinal":150,"reference":"उनले सुरु गरेका","sample_id":"kriti-0a9771313ee254f1a44839eb91444afe","source_id":"openslr54"}
+{"hypothesis":"केटाकेटी पत्रिका एक नेपाली भाषाको पत्रिका हो","ordinal":152,"reference":"केटाकेटी पत्रिका एक नेपाली भाषाको पत्रिका हो।","sample_id":"kriti-0ab500f29e9e5e4abbfa7d28acda6892","source_id":"openslr54"}
+{"hypothesis":"कान एकदमै दुख्छ","ordinal":158,"reference":"कान एकदमै दुख्छ","sample_id":"kriti-0b264b54fd505c1bbcdee3ba19c8670f","source_id":"openslr54"}
+{"hypothesis":"१ लाख भन्दा","ordinal":160,"reference":"एक लाख भन्दा","sample_id":"kriti-0b3b6149cec550dcab8fb764ec88a5c7","source_id":"openslr54"}
+{"hypothesis":"आदिजस्ता कुनै पनि देश","ordinal":169,"reference":"आदि जस्ता कुनै पनि देश","sample_id":"kriti-0c44f240c0dc57da9ef612304171428c","source_id":"openslr54"}
+{"hypothesis":"किनारामा एक उपनिवेश","ordinal":176,"reference":"किनारामा एक उपनिवेश","sample_id":"kriti-0d2398c89696595abeb5e35fd8bfd9e3","source_id":"openslr54"}
+{"hypothesis":"भाडा ७५० देखि","ordinal":177,"reference":"भाडा ७५० देखि","sample_id":"kriti-0d24a8a5d4f25c3ab30cecf4d3c47384","source_id":"openslr54"}
+{"hypothesis":"त्यसैले उनी एकजना","ordinal":178,"reference":"त्यसैले उनी एकजना","sample_id":"kriti-0d3a6484943b57b09a7a0f35c4670b7a","source_id":"openslr54"}
+{"hypothesis":"त्यो बलको विरुद्ध","ordinal":182,"reference":"त्यो बलको विरुद्ध","sample_id":"kriti-0df143536c945a00882f8802e9c26c7d","source_id":"openslr54"}
+{"hypothesis":"तर यस पर्वले","ordinal":184,"reference":"तर यस पर्वले","sample_id":"kriti-0e5aa3f4d03e5c8c8acdf4269ec9ae2a","source_id":"openslr54"}
+{"hypothesis":"नीमको पातको पानी","ordinal":189,"reference":"नीमको पातको पानी","sample_id":"kriti-0ea325cb090f55dbb09addd71aac292d","source_id":"openslr54"}
+{"hypothesis":"मेरो कर्तव्य हो","ordinal":190,"reference":"मेरो कर्तव्य हो","sample_id":"kriti-0ea94a62493e55ae812933a212298e52","source_id":"openslr54"}
+{"hypothesis":"समुचित ध्यान दिइनेछ","ordinal":193,"reference":"समुचित ध्यान दिइनेछ","sample_id":"kriti-0ec97f84a90c531a9a471dde78d19cea","source_id":"openslr54"}
+{"hypothesis":"फोडेफुंसी तथा बलतोडमा","ordinal":194,"reference":"फोडेफुंसी तथा बलतोडमा","sample_id":"kriti-0ed821d28a355fdf9c7a3c1e1c6e4b16","source_id":"openslr54"}
+{"hypothesis":"परिवर्तन गर्नु होला","ordinal":196,"reference":"परिवर्तन गर्नुहोला","sample_id":"kriti-0ee778d96019542bacf7859bcbf7eb0a","source_id":"openslr54"}
+{"hypothesis":"कुरा थाहा पाए","ordinal":204,"reference":"कुरा थाहा पाए","sample_id":"kriti-0f5977c3feb358f8844f71264b6208ef","source_id":"openslr54"}
+{"hypothesis":"गर्नु हुनेछ","ordinal":207,"reference":"गर्नु हुनेछ","sample_id":"kriti-0f998b9fe96b5941b8abdd122625dd46","source_id":"openslr54"}
+{"hypothesis":"रहेको छ त","ordinal":213,"reference":"रहेको छ त","sample_id":"kriti-0fe9a6eb4d8e54f38ee66981ee899bc7","source_id":"openslr54"}
+{"hypothesis":"मेलबर्न स्थानान्तरित गरिदिए","ordinal":214,"reference":"मेलबर्न स्थानान्तरित गरिदिए","sample_id":"kriti-0ffba1f0db0557d6a5ecaffd487cfb33","source_id":"openslr54"}
+{"hypothesis":"रूपमा विकास १०औँ","ordinal":223,"reference":"रूपमा विकास १०औँ","sample_id":"kriti-109de6f09c855355a845465a8b6df4e0","source_id":"openslr54"}
+{"hypothesis":"गठन एक केन्द्रीय","ordinal":225,"reference":"गठन एक केन्द्रीय","sample_id":"kriti-10fa82ad7a465ae982405a8c746d68fd","source_id":"openslr54"}
+{"hypothesis":"प्रथम प्रधानमन्त्री बनेर","ordinal":226,"reference":"प्रथम प्रधानमन्त्री बनेका","sample_id":"kriti-10fde4017f9151688512de25673fa885","source_id":"openslr54"}
+{"hypothesis":"मुस्लिम मुक्तिमोर्चा पर्सा","ordinal":239,"reference":"मुस्लिम मुक्तिमोर्चा पर्सा","sample_id":"kriti-120631f36bd350a686ede68be7c7f964","source_id":"openslr54"}
+{"hypothesis":"ऊ विफल रह्यो","ordinal":243,"reference":"ऊ विफल रह्यो","sample_id":"kriti-123e9c136772519a97184c4a089357ec","source_id":"openslr54"}
+{"hypothesis":"हमला भयो","ordinal":244,"reference":"हमला भयो","sample_id":"kriti-1257ad85db515cb4a4768467dab60d00","source_id":"openslr54"}
+{"hypothesis":"सम्बन्धित यन्त्र एवं","ordinal":246,"reference":"सम्बन्धित यन्त्र एवम","sample_id":"kriti-125b826a7d3d55f4ba31f468eca7dfc7","source_id":"openslr54"}
+{"hypothesis":"नृत्य कला संस्था","ordinal":247,"reference":"नृत्य कला संस्था","sample_id":"kriti-12638098da67502aa19c336778c57115","source_id":"openslr54"}
+{"hypothesis":"साथै निर्माण पश्चात्","ordinal":249,"reference":"साथै निर्माण पश्चात","sample_id":"kriti-12831fce8f445af2b46e91c61a68ac30","source_id":"openslr54"}
+{"hypothesis":"जरा सहितको काण्डका","ordinal":252,"reference":"जरा सहितको काण्डका","sample_id":"kriti-128bd0b6d1985438be39cd6369f7bf96","source_id":"openslr54"}
+{"hypothesis":"राजतन्त्रको स्थापना गर्यो","ordinal":266,"reference":"राजतन्त्रको स्थापना गर्‍यो","sample_id":"kriti-13a7f934d5e757ce8630f563448658d0","source_id":"openslr54"}
+{"hypothesis":"भने पूर्व र पश्चिमपट्टि","ordinal":271,"reference":"भने पूर्व र पश्चिमपट्टि","sample_id":"kriti-14203fca3082587a955f67273ec34cf3","source_id":"openslr54"}
+{"hypothesis":"भागमा सेतो हिमाल","ordinal":273,"reference":"भागमा सेतो हिमाल","sample_id":"kriti-1435687ad0d05ec397efed4219d0c895","source_id":"openslr54"}
+{"hypothesis":"नेतृत्व गर्ने महिन्द्रसिंहले","ordinal":276,"reference":"नेतृत्व गर्ने महिन्द्रसिंहले","sample_id":"kriti-145b5a414e5f5fc69f5b4874e99dd80a","source_id":"openslr54"}
+{"hypothesis":"हुन्छ यस्तोलाई छन्द","ordinal":278,"reference":"हुन्छ यस्तोलाई छन्द","sample_id":"kriti-147c62aa3c4952aca066df176e9a9a60","source_id":"openslr54"}
+{"hypothesis":"एस एल सी सम्मको","ordinal":287,"reference":"एसएलसि सम्मको","sample_id":"kriti-14f7f2e3a0615cc98f942d0788efa62a","source_id":"openslr54"}
+{"hypothesis":"देशबासीलाई अपिल गरेका","ordinal":300,"reference":"देशबासीलाई अपिल गरेका","sample_id":"kriti-15b9a33e80e45a699dbb95ba166d523b","source_id":"openslr54"}
+{"hypothesis":"काठमाडौँ उपत्यकाको साथै पूर्वी पहाडका अधिकांश ठाउँमा यो खैँजडी भजन गाउने चलन छ।","ordinal":301,"reference":"काठमाडौँ उपत्यकाको साथै पूर्वी पहाडका अधिकांश ठाउँमा यो खैंजडी भजन गाउने चलन छ।","sample_id":"kriti-15c3a56acffe5494bbd54dc8a868ab8f","source_id":"openslr54"}
+{"hypothesis":"ध्रुव मारिनुभएको थियो","ordinal":309,"reference":"ध्रुव मारिनुभएको थियो","sample_id":"kriti-1693c12123ef5a3485f40803f2f79ede","source_id":"openslr54"}
+{"hypothesis":"२२ पद्य उपलब्ध","ordinal":310,"reference":"२२ पद्य उपलब्ध","sample_id":"kriti-1693e02b382e5f2980676a0de199a252","source_id":"openslr54"}
+{"hypothesis":"भएको पाशुपत","ordinal":327,"reference":"भएको पाशुपत","sample_id":"kriti-17d5821c060d591bb208bb9c0acf477f","source_id":"openslr54"}
+{"hypothesis":"छ र यस वेबसाइटलाई","ordinal":328,"reference":"छ र यस वेबसाइटलाई","sample_id":"kriti-17d992b8110a562ebb0593f58d75c080","source_id":"openslr54"}
+{"hypothesis":"वनको घट्दो अवस्था","ordinal":333,"reference":"वनको घट्दो अवस्था","sample_id":"kriti-186c18ec953c5e5e9dedcaa13e483258","source_id":"openslr54"}
+{"hypothesis":"नमस्कार मैले यहाँ सिसअप अनुमतिका लागि आवेदन गरेको छु।","ordinal":339,"reference":"नमस्कार मैले यहाँ सिसअप अनुमतिका लागि आवेदन गरेको छु।","sample_id":"kriti-18defc57c1de5050b8245437b2466a21","source_id":"openslr54"}
+{"hypothesis":"साकेन्वा नाच्दा प्रस्तुत","ordinal":345,"reference":"साकेन्वा नाच्दा प्रस्तुत","sample_id":"kriti-191217a0bd5c5ed6b0f656a067f9cdd9","source_id":"openslr54"}
+{"hypothesis":"उहाँले आफ्नो क्यारियरको","ordinal":353,"reference":"उहाँले आफ्नो क्यारियरको","sample_id":"kriti-197efaa7c2d851c38f0566a7baeaca4e","source_id":"openslr54"}
+{"hypothesis":"क्षेत्रफल २२ दशमलव","ordinal":357,"reference":"क्षेत्रफल २२ दशमलव","sample_id":"kriti-19b2f739ae60512093a600eb204e9b2f","source_id":"openslr54"}
+{"hypothesis":"निश्चित समयमा नियमित","ordinal":358,"reference":"निश्चित समयमा नियमित","sample_id":"kriti-19bbe3390352518c9168956addc78773","source_id":"openslr54"}
+{"hypothesis":"सम्भव हुन सक्यो","ordinal":364,"reference":"सम्भव हुन सक्यो","sample_id":"kriti-19f490c756015e6f91e7423b57de609d","source_id":"openslr54"}
+{"hypothesis":"समीक्षाहरू प्राप्त भए","ordinal":366,"reference":"समीक्षाहरू प्राप्त भए","sample_id":"kriti-1a0c359ea89c5c77a93851ded66ec55f","source_id":"openslr54"}
+{"hypothesis":"मत छ डिसेम्बर","ordinal":369,"reference":"मत छ डिसेम्बर","sample_id":"kriti-1a4a50ff9d275c968552e6c1df24dcd7","source_id":"openslr54"}
+{"hypothesis":"छेस्कम नेपालको सगरमाथा","ordinal":371,"reference":"छेस्कम नेपालको सगरमाथा","sample_id":"kriti-1a56afd375335b5fadeae7fa7d0715e1","source_id":"openslr54"}
+{"hypothesis":"मूलद्वारको अगाडिको","ordinal":376,"reference":"मूलद्वारको अगाडिको","sample_id":"kriti-1aa18284a5de505db6c7d541e26f13af","source_id":"openslr54"}
+{"hypothesis":"कि रोगको स्तर कस्तो छ","ordinal":381,"reference":"कि रोगको स्तर कस्तो छ","sample_id":"kriti-1b01ea331229559f969e617c086731f3","source_id":"openslr54"}
+{"hypothesis":"कल्कीयुग लागेको सङ्केत","ordinal":384,"reference":"कल्कीयुग लागेको सङ्केत","sample_id":"kriti-1b4dc5073b3e589a9d61137aaf35fb72","source_id":"openslr54"}
+{"hypothesis":"कालरात्री नवदुर्गामध्ये","ordinal":386,"reference":"कालरात्री नवदुर्गामध्ये","sample_id":"kriti-1b59199f67675da39b5f360413b6b61e","source_id":"openslr54"}
+{"hypothesis":"रहेको छ त","ordinal":403,"reference":"रहेको छ त","sample_id":"kriti-1c670bf70d805795888e20ffb072874c","source_id":"openslr54"}
+{"hypothesis":"बराबर हुन्छ","ordinal":405,"reference":"बराबर हुन्छ","sample_id":"kriti-1c836e03e20c50bc9dfaf1608f440c01","source_id":"openslr54"}
+{"hypothesis":"कलाकार रङ्गकर्मी मात्र","ordinal":406,"reference":"कलाकार रङ्गकर्मी मात्र","sample_id":"kriti-1c930aa2c73154c5b8d60253bcadeb05","source_id":"openslr54"}
+{"hypothesis":"भूगर्वशास्त्रको अध्ययन गरे","ordinal":408,"reference":"भूगर्वशास्त्रको अध्ययन गरे","sample_id":"kriti-1cb4641f5a1852638ffdf8824e81b4fb","source_id":"openslr54"}
+{"hypothesis":"असोजमा काभ्रेपलाञ्चोकको","ordinal":409,"reference":"असोजमा काभ्रेपलाञ्चोकको","sample_id":"kriti-1cc0b34dc7175a5b90c7c89231bae90c","source_id":"openslr54"}
+{"hypothesis":"सन् १९१७ देखि","ordinal":410,"reference":"सन् १९१७ देखि","sample_id":"kriti-1cd7a39d9e8b59a597591c208aeb07dc","source_id":"openslr54"}
+{"hypothesis":"ट्याङ्नी सिनेटका लागि","ordinal":413,"reference":"ट्यान्ग्नी सिनेटका लागि","sample_id":"kriti-1d267525b35353ef87f4ee1e8b98e5dc","source_id":"openslr54"}
+{"hypothesis":"केरलकै सुपुत्री हुन्","ordinal":414,"reference":"केरलकै सुपुत्री हुन्","sample_id":"kriti-1d47e8b760f3565ca45f6646339b8d24","source_id":"openslr54"}
+{"hypothesis":"कालो धजो","ordinal":422,"reference":"कालो धजो","sample_id":"kriti-1deae39af0245b10b5ea5c4061457385","source_id":"openslr54"}
+{"hypothesis":"संविधान लेखन बाहेक","ordinal":425,"reference":"संमविधान लेखन बाहेक","sample_id":"kriti-1dfc531d6da658429027631834b4c172","source_id":"openslr54"}
+{"hypothesis":"तरङ्गहरू पृथ्वीतल ठोकिन्छन्","ordinal":428,"reference":"तरङ्गहरू पृथ्वीतल ठोकिन्छन्","sample_id":"kriti-1e20c88266fa55f08e74a30e0abcd392","source_id":"openslr54"}
+{"hypothesis":"सन् १९६९ का","ordinal":429,"reference":"सन् १९६९ का","sample_id":"kriti-1e2798958c6d5ab6ad75a0a79003a6f1","source_id":"openslr54"}
+{"hypothesis":"गरेर त्यहाँको भौगोलिक","ordinal":434,"reference":"गरेर त्यहाँको भौगोलिक","sample_id":"kriti-1e6cdc5e64e75626967d5ce3f05cedb9","source_id":"openslr54"}
+{"hypothesis":"सब्मिट गर्नुस्","ordinal":435,"reference":"सब्मिट गर्नुस्","sample_id":"kriti-1e84c4d460d15e988313af9af78836e5","source_id":"openslr54"}
+{"hypothesis":"सख्त लोकपाल विधेयकका","ordinal":436,"reference":"सख्त लोकपाल विधेयकका","sample_id":"kriti-1e8a9608c83b5dbd8b60ef0f880f8f65","source_id":"openslr54"}
+{"hypothesis":"प्रति जीवित जन्ममा","ordinal":438,"reference":"प्रति जीवित जन्ममा","sample_id":"kriti-1ebf646ff3095e6ea30c2a8cab1bfc06","source_id":"openslr54"}
+{"hypothesis":"गद्दी सम्हालेपछि पनि","ordinal":452,"reference":"गद्दि सम्हालेपछि पनि","sample_id":"kriti-1fd3655dad0a5a6898718c3acec8d7d0","source_id":"openslr54"}
+{"hypothesis":"नै अप्रियको वस्तु हो","ordinal":454,"reference":"नै अप्रियको वस्तु हो","sample_id":"kriti-2001886f89c459b09e2828096c81fc3f","source_id":"openslr54"}
+{"hypothesis":"राजालाई दिएँ","ordinal":458,"reference":"राजालाई दिएँ","sample_id":"kriti-202ca6c4550456acb84b1f65dab99eb4","source_id":"openslr54"}
+{"hypothesis":"पाल्ने गरेको पाइन्छ","ordinal":463,"reference":"पाल्ने गरेको पाइन्छ","sample_id":"kriti-2073ee9709f656f386d037c04555921f","source_id":"openslr54"}
+{"hypothesis":"पुर्याई थुकिदिनुपर्छ","ordinal":465,"reference":"पुर्‍याई थुकिदिनुपर्छ","sample_id":"kriti-20a676b6c9245a479855cd7192b93774","source_id":"openslr54"}
+{"hypothesis":"पछि रानीहरूको उपेक्षा","ordinal":468,"reference":"पछि रानीहरूको उपेक्षा","sample_id":"kriti-20ceb1d3491154aca964174897c3dc57","source_id":"openslr54"}
+{"hypothesis":"कलाकार गायक या वाद्यवादकले","ordinal":471,"reference":"कलाकार गायक या वाद्यवादकले","sample_id":"kriti-20e1110be6d552f9878a48844e5eb4a4","source_id":"openslr54"}
+{"hypothesis":"निर्देशक बलका परिवर्तनका","ordinal":472,"reference":"निर्देशक बलका परिवर्तनका","sample_id":"kriti-20e41d7fa9995cf98fc1873a9c894f51","source_id":"openslr54"}
+{"hypothesis":"अन्ना हजारे भ्रष्टाचार","ordinal":477,"reference":"अन्ना हजारे भ्रष्टाचार","sample_id":"kriti-2125347191de593e9b1e2241ee8082ed","source_id":"openslr54"}
+{"hypothesis":"मिति नजिकिँदै गएको","ordinal":478,"reference":"मिति नजिकिँदै गएको","sample_id":"kriti-215e7e8ed2015fe3859e5aa6eef36580","source_id":"openslr54"}
+{"hypothesis":"अवस्थित एक कलेज","ordinal":482,"reference":"अवस्थित एक कलेज","sample_id":"kriti-21c06bde07f158259afa0c8a60028b4d","source_id":"openslr54"}
+{"hypothesis":"गर्ने बताउँदा तमुले","ordinal":483,"reference":"गर्ने बताउँदै तमुले","sample_id":"kriti-21cc93a9e34b505897a5834cd9297086","source_id":"openslr54"}
+{"hypothesis":"कारणले बिरिङ नदी","ordinal":488,"reference":"कारणले बिरिङ नदी","sample_id":"kriti-21f7863b5023549a84c80ed2ba95b8f5","source_id":"openslr54"}
+{"hypothesis":"कसैको हानि नपुर्याउने","ordinal":499,"reference":"कसैको हानि नपुर्‍याउने","sample_id":"kriti-22bb5b0e33ec5833890e51fe832fdf4e","source_id":"openslr54"}
+{"hypothesis":"मनोनयन भएको थियो","ordinal":500,"reference":"मनोनयन भएको थियो","sample_id":"kriti-22d078a425bb5975bbf20e797504ea26","source_id":"openslr54"}
+{"hypothesis":"इन्द्रप्रस्थ विश्वविद्यालय","ordinal":503,"reference":"इन्द्रप्रस्थ विश्वविद्यालय","sample_id":"kriti-23112d8b1607567383e9254eaf17e193","source_id":"openslr54"}
+{"hypothesis":"प्रमुख भाषा","ordinal":506,"reference":"प्रमुख भाषा","sample_id":"kriti-234734cf66205f56a042ac8c15290331","source_id":"openslr54"}
+{"hypothesis":"आठआठवटा काष्ठ भैरव","ordinal":508,"reference":"आठआठवटा काष्ठ भैरव","sample_id":"kriti-2367538f246352d1b4bcb53b7de361fe","source_id":"openslr54"}
+{"hypothesis":"जलमा १० लाख","ordinal":514,"reference":"जलमा १० लाख","sample_id":"kriti-23c7d76b058b509aadee3e24b366138f","source_id":"openslr54"}
+{"hypothesis":"किनेमा बनाउँदा सुरुमा","ordinal":515,"reference":"किनेमा बनाउँदा सुरुमा","sample_id":"kriti-240cad8df2535254b60a31a768c42e52","source_id":"openslr54"}
+{"hypothesis":"दवाब दिइएको थियो","ordinal":517,"reference":"दवाब दिइएको थियो","sample_id":"kriti-24294d2c0b865d0fa2756b4001cf5142","source_id":"openslr54"}
+{"hypothesis":"यी दुवैलाई अशुभ फलदायक","ordinal":525,"reference":"यी दुबैलाई अशुभ फलदायक","sample_id":"kriti-24873d7c471f5a5a93884f1be8fff8c9","source_id":"openslr54"}
+{"hypothesis":"विवाद छ जसका","ordinal":527,"reference":"विवाद छ जसका","sample_id":"kriti-2493c7b47b5b513887c5dc3cc84b035e","source_id":"openslr54"}
+{"hypothesis":"संस्कृत भाषामा दुर्वा","ordinal":529,"reference":"संस्कृत भाषामा दुर्वा","sample_id":"kriti-24a7c9e09cca573b90fd854e8c49454b","source_id":"openslr54"}
+{"hypothesis":"थोरै सक्रिय राजतन्त्रमध्ये","ordinal":530,"reference":"थोरै सक्रिय राजतन्त्रमध्ये","sample_id":"kriti-24b56462fd6b5b7181d3e0e5673438cc","source_id":"openslr54"}
+{"hypothesis":"डेल्फीबासीहरूले धेरै पटक","ordinal":532,"reference":"डेल्फीबासीहरूले धेरै पटक","sample_id":"kriti-24f2441b6762578597996f574d422d91","source_id":"openslr54"}
+{"hypothesis":"सहायताका लागि तपाईँको","ordinal":540,"reference":"सहायताका लागि तपाईँको","sample_id":"kriti-255efa4659ea5ef9970c60c03e407ac0","source_id":"openslr54"}
+{"hypothesis":"जुका पहाडी","ordinal":545,"reference":"जुका पहाडी","sample_id":"kriti-25aec5e006695f96ace55e12506d5c6a","source_id":"openslr54"}
+{"hypothesis":"असारदेखि युवामञ्च मासिक","ordinal":546,"reference":"असारदेखि युवामञ्च मासिक","sample_id":"kriti-25d8914890375ec78da076fb0cb0be5f","source_id":"openslr54"}
+{"hypothesis":"बोट भन्नेले उल्टाइदिएछ","ordinal":553,"reference":"बोट भन्नेले उल्टाइदिएछ","sample_id":"kriti-260ae634f3a8551b96007a53d1cde239","source_id":"openslr54"}
+{"hypothesis":"यहाँ छोटो चर्चा","ordinal":568,"reference":"यहाँ छोटो चर्चा","sample_id":"kriti-26f72b4d03d159a8bb92aef3a4d55d09","source_id":"openslr54"}
+{"hypothesis":"कुरा गर्न सकिन्छ","ordinal":576,"reference":"कुरा गर्न सकिन्छ","sample_id":"kriti-275e398315a65c2c990b8dfc5f3952ff","source_id":"openslr54"}
+{"hypothesis":"टिस्टा नदी भारतीय","ordinal":578,"reference":"टिस्टा नदी भारतीय","sample_id":"kriti-278441641cf35c8aae3e7bb023753b08","source_id":"openslr54"}
+{"hypothesis":"विकास गरिरहेका छन्","ordinal":582,"reference":"विकास गरिरहेका छन्","sample_id":"kriti-2798dbcdccc6512d8f77b66d1b64f82f","source_id":"openslr54"}
+{"hypothesis":"दिनानुदिन चिकित्सालय तथा","ordinal":584,"reference":"दिनानुदिन चिकित्सालय तथा","sample_id":"kriti-27c190e483c75464b2565c117db1ca8a","source_id":"openslr54"}
+{"hypothesis":"लागि प्रत्येक मतलाई","ordinal":585,"reference":"लागि प्रत्‍येक मतलाई","sample_id":"kriti-27f0c7fe55915bf2b2b0016631fce649","source_id":"openslr54"}
+{"hypothesis":"यो हेर्दा नेपालको","ordinal":593,"reference":"यो हेर्दा नेपालको","sample_id":"kriti-287808e5a5205974b6b50bdbdcee0cb2","source_id":"openslr54"}
+{"hypothesis":"गरिरहेको थियो","ordinal":596,"reference":"गरिरहेको थियो","sample_id":"kriti-28a4697a6a8258fc8157c8d0e1c017c4","source_id":"openslr54"}
+{"hypothesis":"निस्केर हिँड्न थाले","ordinal":600,"reference":"निस्केर हिंड्न थाले","sample_id":"kriti-28f81681a91856a483e232cd434aa340","source_id":"openslr54"}
+{"hypothesis":"पृष्ठमा पूरालेख टेम्प्लेट","ordinal":602,"reference":"पृष्ठमा पूरालेख टेम्प्लेट","sample_id":"kriti-29357fb2d4ee5c8da165c9efcf18e6eb","source_id":"openslr54"}
+{"hypothesis":"यो प्रयोग देशको","ordinal":603,"reference":"यो प्रयोग देशको","sample_id":"kriti-2939f46ea47357c181ac86c54b854c61","source_id":"openslr54"}
+{"hypothesis":"पीडा सकियो","ordinal":620,"reference":"पीडा सकियो","sample_id":"kriti-2a6437de200a53e8afc7e5fead455c35","source_id":"openslr54"}
+{"hypothesis":"गोपाल सर रुक्मिनी सर","ordinal":622,"reference":"गोपाल सर रुक्मिनी सर","sample_id":"kriti-2ac6a50ddca65b1989ad70b45ad6ab11","source_id":"openslr54"}
+{"hypothesis":"एक अमेरिकन अश्लिल","ordinal":623,"reference":"एक अमेरिकन अश्लिल","sample_id":"kriti-2ad2af9a2e285d308de9ca6117d93308","source_id":"openslr54"}
+{"hypothesis":"कल्पना पत्रिका एक","ordinal":625,"reference":"कल्पना पत्रिका एक","sample_id":"kriti-2adfc873b4f657f8884b14bb69856e7a","source_id":"openslr54"}
+{"hypothesis":"अवस्थित गाविस हो","ordinal":634,"reference":"अवस्थित गाविस हो","sample_id":"kriti-2bad8efd5d005594965682a66688919c","source_id":"openslr54"}
+{"hypothesis":"मुनि भए","ordinal":635,"reference":"मुनि भए","sample_id":"kriti-2bb09961d9e5521c801984d33c9b4c12","source_id":"openslr54"}
+{"hypothesis":"परिणामस्वरूप काठमाडौँ उपत्यकाको","ordinal":642,"reference":"परिणामस्वरूप काठमाडौँ उपत्यकाको","sample_id":"kriti-2bf0ee1e44025bb08962b191702fab6a","source_id":"openslr54"}
+{"hypothesis":"समुद्रकुमारी राणाबाट","ordinal":645,"reference":"समुद्रकुमारी राणाबाट","sample_id":"kriti-2c22c0c01b7e5493bc2d3693a7ffd91f","source_id":"openslr54"}
+{"hypothesis":"अञ्चलको एक जिल्ला हो","ordinal":649,"reference":"अञ्चलको एक जिल्ला हो","sample_id":"kriti-2c5c7b62a89f54308f04d504bd783aea","source_id":"openslr54"}
+{"hypothesis":"बाजामा बाघको छाला","ordinal":655,"reference":"बाजामा बाघको छाला","sample_id":"kriti-2cb7c60d61c957dfaf80f6ec4146fb46","source_id":"openslr54"}
+{"hypothesis":"थुनबाट दुध बगिरहे","ordinal":659,"reference":"थुनबाट दुध बगिरहे","sample_id":"kriti-2d1e1c67fb905f0e8f684ba39e6750e5","source_id":"openslr54"}
+{"hypothesis":"राष्ट्रपति एवं राज्यसभा","ordinal":660,"reference":"राष्ट्रपति एवं राज्यसभा","sample_id":"kriti-2d20a21d2c7f5ad0aa93d94d4f9e1c32","source_id":"openslr54"}
+{"hypothesis":"यसले प्रथाकै रूप","ordinal":666,"reference":"यसले प्रथाकै रूप","sample_id":"kriti-2d5fc3cfe93250a5a071c4539d5e66d4","source_id":"openslr54"}
+{"hypothesis":"रसको आँखाहरूमा हालन","ordinal":667,"reference":"रसको आँखाहरूमा हालन","sample_id":"kriti-2d87cc74e7a955fc8a4f7c8661b9d18d","source_id":"openslr54"}
+{"hypothesis":"भन्दा अधिक अन्तर्विवाही","ordinal":673,"reference":"भन्दा अधिक अर्न्तविवाही","sample_id":"kriti-2e09f517eeca5cb9b9b8e54ac4e59b5b","source_id":"openslr54"}
+{"hypothesis":"यसको पहिलो प्रति २०१९ चैत्रमा प्रकाशित भएको थियो।","ordinal":688,"reference":"यसको पहिलो प्रति २०१९ चैत्रमा प्रकाशित भएको थियो।","sample_id":"kriti-2f0e3331a68b5e819d0b2273db515f32","source_id":"openslr54"}
+{"hypothesis":"पुनःप्राप्त गरे","ordinal":692,"reference":"पुनःप्राप्त गरे","sample_id":"kriti-2f58d5305b0b5f0fa93a58a372646beb","source_id":"openslr54"}
+{"hypothesis":"यस अवसरमा गरिएको","ordinal":693,"reference":"यस अवसरमा गरिएको","sample_id":"kriti-2f5fd89b532b5feb8551ab9c60fca4ab","source_id":"openslr54"}
+{"hypothesis":"छापामारको छोरो नेपाली","ordinal":694,"reference":"छापामारको छोरो नेपाली","sample_id":"kriti-2f67441f932f52b68f2a8aa52893a469","source_id":"openslr54"}
+{"hypothesis":"विजय गरेपछि","ordinal":699,"reference":"विजय गरेपछि","sample_id":"kriti-2fc44ec2efe453d997adcc9f377095f0","source_id":"openslr54"}
+{"hypothesis":"कुनै एक पवित्र","ordinal":700,"reference":"कुनै एक पवित्र","sample_id":"kriti-3005bda296b3526d9b99d471ec25fd98","source_id":"openslr54"}
+{"hypothesis":"त्यति लामो रहेन","ordinal":701,"reference":"त्यति लामो रहेन","sample_id":"kriti-300694fa01ef5ffc94b620973b672e36","source_id":"openslr54"}
+{"hypothesis":"यो टेम्प्लेटलाई","ordinal":705,"reference":"यो टेम्प्लेटलाई","sample_id":"kriti-302ff7faa94253928e85a6fd2e7ed311","source_id":"openslr54"}
+{"hypothesis":"२८ मा उनका","ordinal":708,"reference":"२८ मा उनका","sample_id":"kriti-30509cb8e4075b048e1b6828d05cd4ff","source_id":"openslr54"}
+{"hypothesis":"गएको हो","ordinal":710,"reference":"गएको हो","sample_id":"kriti-308f649e6f595ad38dbbbb7e63c54244","source_id":"openslr54"}
+{"hypothesis":"समाजलाई सुसूचित गराएको","ordinal":712,"reference":"समाजलाई सुसूचित गराएको","sample_id":"kriti-30bea01281635a7fbea806e0d5463aa2","source_id":"openslr54"}
+{"hypothesis":"अड्कल गरिए तापनि","ordinal":713,"reference":"अड्कल गरिए तापनि","sample_id":"kriti-30bfc5442bc150428dc6e04b2bbd031b","source_id":"openslr54"}
+{"hypothesis":"अगाडि नै वीर शमशेरको","ordinal":718,"reference":"अगाडि नै वीर शमशेरको","sample_id":"kriti-310535aac7ca58eeb6f58fe2c8ffa48e","source_id":"openslr54"}
+{"hypothesis":"पूर्वीय शास्त्रिय सङ्गीतको","ordinal":721,"reference":"पूर्वीय शास्त्रिय सङ्गितको","sample_id":"kriti-313645e0a7d85e26bebeed979f13ed49","source_id":"openslr54"}
+{"hypothesis":"तीन ठेलीको उक्त कृतिमा एक ठेलीमा सय कथा थिए।","ordinal":730,"reference":"तीन ठेलीको उक्त कृतिमा एक ठेलीमा सय कथा थिए।","sample_id":"kriti-31da2fce16a5544aa45dc97616a67087","source_id":"openslr54"}
+{"hypothesis":"जगदम्बाश्री पुरस्कार मदन","ordinal":735,"reference":"जगदम्बाश्री पुरस्कार मदन","sample_id":"kriti-32078dabbce555b2813e41dec4503673","source_id":"openslr54"}
+{"hypothesis":"संग्रहित कथा हो","ordinal":742,"reference":"संग्रहित कथा हो","sample_id":"kriti-32a99f02886e56f5ba289070987b274a","source_id":"openslr54"}
+{"hypothesis":"पहिलो ऋषि रोडमा","ordinal":743,"reference":"पहिलो ऋषि रोडमा","sample_id":"kriti-32b05e0725f25c63a3022be0677ae90f","source_id":"openslr54"}
+{"hypothesis":"प्रमुख भूमिका निभाउँछ","ordinal":747,"reference":"प्रमुख भूमिका निभाउँछ","sample_id":"kriti-32faefcde7275dcc87c3f00d47dbbe0c","source_id":"openslr54"}
+{"hypothesis":"शिल्प भनेको शैली","ordinal":748,"reference":"शिल्प भनेको शैली","sample_id":"kriti-33021452d51d54eb872831267080ed7b","source_id":"openslr54"}
+{"hypothesis":"विवाह रुमा देवी","ordinal":754,"reference":"विवाह रुमा देवी","sample_id":"kriti-332f2d0e20b95144b7d9fa6dcd62bbc5","source_id":"openslr54"}
+{"hypothesis":"तपाईँबाट बिदा चाहन्छु","ordinal":759,"reference":"तपाईँबाट बिदा चाहन्छु","sample_id":"kriti-33446dddc54a5b258b539913a4d55c25","source_id":"openslr54"}
+{"hypothesis":"पूजा पाठ आफ्नो","ordinal":775,"reference":"पूजा पाठ आफ्नो","sample_id":"kriti-34346ff5c4ad5e71820ae05ad48a7bed","source_id":"openslr54"}
+{"hypothesis":"महाकवि लेखे","ordinal":781,"reference":"महाकवि लेखे","sample_id":"kriti-348d561c244c53beaf85dc4902e948cb","source_id":"openslr54"}
+{"hypothesis":"दिन अर्थात् मई","ordinal":786,"reference":"दिन अर्थात् मई","sample_id":"kriti-34d8dcc5ddda57afb21bf2078cd90c05","source_id":"openslr54"}
+{"hypothesis":"उनका पिता","ordinal":787,"reference":"उनका पिता","sample_id":"kriti-34fec55f3e315ae18cdedd1cae5dfaac","source_id":"openslr54"}
+{"hypothesis":"विविध उद्देश्यहरू पूरा","ordinal":789,"reference":"विविध उद्देश्यहरु पूरा","sample_id":"kriti-3528565caa7350ed9a2a73f49b7f607b","source_id":"openslr54"}
+{"hypothesis":"कार्यरत कलाकार हुन्","ordinal":793,"reference":"कार्यरत कलाकार हुन्","sample_id":"kriti-35520fd83bd15a6ba6ca139745f5d3e8","source_id":"openslr54"}
+{"hypothesis":"एक प्याटेन्टको लागि","ordinal":796,"reference":"एक प्याटेन्टको लागि","sample_id":"kriti-35600f5e0ea15439affb7ea394b10856","source_id":"openslr54"}
+{"hypothesis":"म मनाङस्थित","ordinal":798,"reference":"म मनाङस्थित","sample_id":"kriti-356a0074c6c851beb27023b55d9fb6d7","source_id":"openslr54"}
+{"hypothesis":"उत्तर अमेरिकी राष्ट्र","ordinal":806,"reference":"उत्तर अमेरिकी राष्ट्र","sample_id":"kriti-35d6c482cae0565ea3cf780b878fa8b2","source_id":"openslr54"}
+{"hypothesis":"मानिसबाट चर्चित र विशिष्ट","ordinal":807,"reference":"मानिसबाट चर्चित र विशिष्ट","sample_id":"kriti-35e20dee77735fa5b6940d80cd19e8a4","source_id":"openslr54"}
+{"hypothesis":"राजा चोब्यनराज भट्ट","ordinal":809,"reference":"राजा च्व्यनराज भट्ट","sample_id":"kriti-35f09dd720f152d98f5c7bd61254a23c","source_id":"openslr54"}
+{"hypothesis":"पुरानो उत्तर दक्षिण","ordinal":816,"reference":"पुरानो उत्तर दक्षिण","sample_id":"kriti-3648485bbb845bc98d9cb1e032e3c5bf","source_id":"openslr54"}
+{"hypothesis":"सम्पादन हुन नसकेको","ordinal":818,"reference":"सम्पादन हुन नसकेको","sample_id":"kriti-365901d7bbc85f83945e9a31ade6c7af","source_id":"openslr54"}
+{"hypothesis":"आयोजनाको पावर","ordinal":824,"reference":"आयोजनाको पावर","sample_id":"kriti-369e1f47a55e58f18eb7a3ea225460b1","source_id":"openslr54"}
+{"hypothesis":"त्यसैले फरक ढङ्गसित","ordinal":827,"reference":"त्यसैले फरक ढङ्गसित","sample_id":"kriti-36a59dbd84885f94a030295ee07e656c","source_id":"openslr54"}
+{"hypothesis":"सक्खर मिश्रित अन्न","ordinal":829,"reference":"सक्खर मिश्रित अन्न","sample_id":"kriti-36a63dd57fdb58e68dcaa29f3d609fbb","source_id":"openslr54"}
+{"hypothesis":"त्यति बेला त्यो","ordinal":834,"reference":"त्यति बेला त्यो","sample_id":"kriti-36faf7b6757950df8b4d8404c8afb522","source_id":"openslr54"}
+{"hypothesis":"नेपालमा रहेर काम","ordinal":841,"reference":"नेपालमा रहेर काम","sample_id":"kriti-3741b179ce7d518f8d369595d7cfb961","source_id":"openslr54"}
+{"hypothesis":"एउटा प्राइभेट मेडिकल","ordinal":843,"reference":"एउटा प्राइभेट मेडिकल","sample_id":"kriti-37569761323053f9a0481d117d053498","source_id":"openslr54"}
+{"hypothesis":"उपचार गर्छ भने","ordinal":850,"reference":"उपचार गर्छ भन्ने","sample_id":"kriti-37c3fe02413d528e8d734ed14d291533","source_id":"openslr54"}
+{"hypothesis":"गौतम ऋषिको भेषमा","ordinal":855,"reference":"गौतम ऋषिको भेषमा","sample_id":"kriti-37da5d8fe9345e68a0490a6d1ea394b8","source_id":"openslr54"}
+{"hypothesis":"पागल भन्दै एउटा","ordinal":856,"reference":"पागल भन्दै एउटा","sample_id":"kriti-37e060e9e9535515b107ba356484804c","source_id":"openslr54"}
+{"hypothesis":"चौहा नेपालको सेती अञ्चलको कैलाली जिल्लाको एउटा गाउँ विकास समिति हो","ordinal":859,"reference":"चौहा नेपालको सेती अञ्चलको कैलाली जिल्लाको एउटा गाउँ विकास समिति हो।","sample_id":"kriti-38152d71d73e59a0bb97f2b96d3a1c15","source_id":"openslr54"}
+{"hypothesis":"भाडा ७५० देखि","ordinal":861,"reference":"भाडा ७५० देखि","sample_id":"kriti-381e9ce3cc92556b98498a86f28df6f7","source_id":"openslr54"}
+{"hypothesis":"डेङ्गु कसरी फैलन्छ","ordinal":868,"reference":"डेङ्गु कसरी फैलन्छ","sample_id":"kriti-390c2a117ef2596390ede72b41fc4e0e","source_id":"openslr54"}
+{"hypothesis":"प्रवर्द्धन गर्नु तथा","ordinal":869,"reference":"प्रबर्द्धन गर्नु तथा","sample_id":"kriti-391f292dd5425493a69338116dbab480","source_id":"openslr54"}
+{"hypothesis":"हिरण्य भोजपुरेद्वारा लेखिएको","ordinal":881,"reference":"हिरण्य भोजपुरेद्वारा लेखिएको","sample_id":"kriti-39f241db871f5edc85a9461f19581fc0","source_id":"openslr54"}
+{"hypothesis":"गोकर्णको इतिहास केलाउँदै","ordinal":884,"reference":"गोकर्णको इतिहास केलाउँदै","sample_id":"kriti-3a0ef18e9041535cb3500777455fb4e5","source_id":"openslr54"}
+{"hypothesis":"हिरो घोषित भएकी","ordinal":888,"reference":"हिरो घोषित भएकी","sample_id":"kriti-3a474cc954825a719c69e0c398e9c773","source_id":"openslr54"}
+{"hypothesis":"फीफा क्लब वर्ल्ड","ordinal":889,"reference":"फीफा क्लब वल्ड","sample_id":"kriti-3a4debd9be665e2b8637dcbde7c03510","source_id":"openslr54"}
+{"hypothesis":"मन्दिर पनि अवस्थित छ","ordinal":891,"reference":"मन्दिर पनि अवस्थित छ","sample_id":"kriti-3a5aae4928b15aacbe98695737b18d59","source_id":"openslr54"}
+{"hypothesis":"यिनीहरूमा प्रत्येक विषयको","ordinal":907,"reference":"यिनीहरूमा प्रत्येक विषयको","sample_id":"kriti-3bc1d64723215370a18258e4a5cb8adc","source_id":"openslr54"}
+{"hypothesis":"सशस्त्र वन रक्षकतर्फ गएका","ordinal":915,"reference":"सशस्त्र वन रक्षकतर्फ गएका","sample_id":"kriti-3c2988195b4d52e7b991a0e000179de2","source_id":"openslr54"}
+{"hypothesis":"वा पानीले बनाएको","ordinal":924,"reference":"वा पानीले बनाएको","sample_id":"kriti-3c8c6c45efd25e088a61e463293b98b1","source_id":"openslr54"}
+{"hypothesis":"निभाउनुभएको छ","ordinal":928,"reference":"निभाउनुभएको छ","sample_id":"kriti-3ce111864d735e55ad9efe976ec7948f","source_id":"openslr54"}
+{"hypothesis":"गरेको छु","ordinal":929,"reference":"गरेको छु","sample_id":"kriti-3cfe1b9c82f95e3588617c38a100f7dd","source_id":"openslr54"}
+{"hypothesis":"बारेमा व्याख्या गरेका","ordinal":937,"reference":"बारेमा व्याख्या गरेका","sample_id":"kriti-3d676d38a9b257239dd4a38c67d70fcb","source_id":"openslr54"}
+{"hypothesis":"राजनीतिमा लागेका","ordinal":943,"reference":"राजनीतिमा लागेका","sample_id":"kriti-3e0668042a9b51b7837173ad7db2f88d","source_id":"openslr54"}
+{"hypothesis":"सहरमा रहेको छ","ordinal":954,"reference":"सहरमा रहेको छ","sample_id":"kriti-3edacb284ec85e3297cab4f2d73f9a79","source_id":"openslr54"}
+{"hypothesis":"वस्तु जीवित र अजीवित","ordinal":955,"reference":"वस्तु जीवित र अजीवित","sample_id":"kriti-3edb0e41f4d05aa697224f1b1e27804c","source_id":"openslr54"}
+{"hypothesis":"त्यस्तै नाटकका प्रारम्भिक","ordinal":956,"reference":"त्यस्तै नाटकका प्रारम्भिक","sample_id":"kriti-3ef6d221357355338fcdc73ff4bab6f7","source_id":"openslr54"}
+{"hypothesis":"रचना आदि लेखन","ordinal":957,"reference":"रचना आदि लेखन","sample_id":"kriti-3ef6df767d20532e8ec679c5ba20fe10","source_id":"openslr54"}
+{"hypothesis":"अलाबामामा भएको थियो","ordinal":961,"reference":"अलाबामामा भएको थियो","sample_id":"kriti-3f7c931ac7545150bdca169e2817af14","source_id":"openslr54"}
+{"hypothesis":"भने पूर्वी भागको","ordinal":962,"reference":"भने पूर्वी भागको","sample_id":"kriti-3f7f48e8773858c38305ba3340332372","source_id":"openslr54"}
+{"hypothesis":"अनुमति प्राप्त छ","ordinal":963,"reference":"अनुमति प्राप्त छ","sample_id":"kriti-3f9af25943705d038d2cc445ea255ca4","source_id":"openslr54"}
+{"hypothesis":"स्थिर स्थितिमा पुग्दछ","ordinal":965,"reference":"स्थिर स्थितिमा पुग्दछ","sample_id":"kriti-3f9ce1041009587f89ccc0b4ae72904e","source_id":"openslr54"}
+{"hypothesis":"नदी रिउ हो","ordinal":970,"reference":"नदी रिउ हो","sample_id":"kriti-3fd86fa077a95ea38910b3c4632aa464","source_id":"openslr54"}
+{"hypothesis":"कुपोषण नै हो","ordinal":974,"reference":"कुपोषण नै हो","sample_id":"kriti-401b5e8d75705cfaa92053a640ec8ab7","source_id":"openslr54"}
+{"hypothesis":"पवित्र दिवस मान्दछन्","ordinal":975,"reference":"पवित्र दिवस मान्दछन्","sample_id":"kriti-4025cd07b31f5d81939205b371a34d2f","source_id":"openslr54"}
+{"hypothesis":"पनि कुहिन थालेपछि","ordinal":977,"reference":"पनि कुहिन थालेपछि","sample_id":"kriti-40527e1a91135913bd7b78f0463dfb2d","source_id":"openslr54"}
+{"hypothesis":"दिर्घाचामा रहेका तिब्बती","ordinal":980,"reference":"दिर्घाचामा रहेका तिब्बती","sample_id":"kriti-40b1caf3a49850949f54924109de142b","source_id":"openslr54"}
+{"hypothesis":"प्रकार सर्वकालमा केवल","ordinal":983,"reference":"प्रकार सर्वकालमा केवल","sample_id":"kriti-40d3586f39d75fda9f4cb8fe0d9cc86e","source_id":"openslr54"}
+{"hypothesis":"वास अन्तरिक्षमा मानव","ordinal":993,"reference":"वास अन्तरिक्षमा मानव","sample_id":"kriti-41f698a407625974a7fee10ce9f40ea0","source_id":"openslr54"}
+{"hypothesis":"जनकपुरदेखि १५ किमि","ordinal":994,"reference":"जनकपुरदेखी १५ किमि","sample_id":"kriti-41fe1d797ac25558bd7c773374f4d5e4","source_id":"openslr54"}
+{"hypothesis":"जाने गरिन्छ","ordinal":1002,"reference":"जाने गरिन्छ","sample_id":"kriti-4295505ffad95e7fa7a755e1193dafa3","source_id":"openslr54"}
+{"hypothesis":"उनी कक्षा ३ मा पढ्दा उनका नयाँ साथी आए।","ordinal":1004,"reference":"उनी कक्षा ३ मा पढ्दा उनका नयाँ साथी आए।","sample_id":"kriti-429d6dc5aa7158528b1562bae99671a8","source_id":"openslr54"}
+{"hypothesis":"अन्तमा जावीले मेनचेस्टर","ordinal":1006,"reference":"अन्तमा जावीले मेनचेस्टर","sample_id":"kriti-42b58d627d6d559eb6b9595a38705d66","source_id":"openslr54"}
+{"hypothesis":"फरेस्ट गम्पको लोकप्रिय","ordinal":1017,"reference":"फरेस्ट गम्पको लोकप्रिय","sample_id":"kriti-4351881e31d05fd39e0a5ff67329fa14","source_id":"openslr54"}
+{"hypothesis":"कालान्तरमा सुख गर्न","ordinal":1018,"reference":"कालान्तरमा सूख गर्न","sample_id":"kriti-4356c031b67d5569864d533d3b0393f3","source_id":"openslr54"}
+{"hypothesis":"निजी यात्रा गरे","ordinal":1026,"reference":"निजी यात्रा गरे","sample_id":"kriti-43d4c5cfc3935a9f8cb4bd66b5ef8db0","source_id":"openslr54"}
+{"hypothesis":"एवं हाँस्य अभिनयपछि","ordinal":1033,"reference":"एवं हाँस्य अभिनयपछि","sample_id":"kriti-444af4913f0b5c84846e1ebccc32d24c","source_id":"openslr54"}
+{"hypothesis":"लिम्बू पाँचथर क्षेत्र","ordinal":1036,"reference":"लिम्बू पाँचथर क्षेत्र","sample_id":"kriti-44887302f9b156d18f48fb8bd2752842","source_id":"openslr54"}
+{"hypothesis":"अनुसार चरित्रवान मानिसले","ordinal":1040,"reference":"अनुसार चरत्रिवान मानिसले","sample_id":"kriti-44aef7612cec5c5684df6c594509cb69","source_id":"openslr54"}
+{"hypothesis":"सम्मानपूर्वक बाँच्न पाउने","ordinal":1044,"reference":"सम्मानपूर्वक बाँच्न पाउने","sample_id":"kriti-4513b2ab90295485996d5792d79e4aff","source_id":"openslr54"}
+{"hypothesis":"कात्तिक ३१ गते श्री","ordinal":1050,"reference":"कात्तिक ३१ गते श्री","sample_id":"kriti-45a9a7d9837656478f2842d5e3ddfc45","source_id":"openslr54"}
+{"hypothesis":"भएको एएनसीको प्रदर्शनी","ordinal":1059,"reference":"भएको एएनसीको प्रदर्शनी","sample_id":"kriti-464d7c98e4be52dc81fb68fed6783784","source_id":"openslr54"}
+{"hypothesis":"परियोजना प्रारम्भ","ordinal":1061,"reference":"परियोजना प्रारम्भ","sample_id":"kriti-46676165f2e05d9a910d7cb484639d50","source_id":"openslr54"}
+{"hypothesis":"दूध हालिन्छ जसबाट","ordinal":1065,"reference":"दूध हालिन्छ जसबाट","sample_id":"kriti-46bfa8319c6c5f9e9ef0177ba07d55c3","source_id":"openslr54"}
+{"hypothesis":"स्थिति अर्कै थियो","ordinal":1067,"reference":"स्थिति अर्कै थियो","sample_id":"kriti-46efec04756d56c896b82880047a07ea","source_id":"openslr54"}
+{"hypothesis":"यो पत्रिकाको सम्पादन कार्य इन्द्र प्रधानद्वारा भएको छ","ordinal":1087,"reference":"यो पत्रिकाको सम्पादन कार्य इन्द्र प्रधानद्वारा भएको छ।","sample_id":"kriti-486d833b7cad51b5a9e62e82a81bceb5","source_id":"openslr54"}
+{"hypothesis":"उनका जीवनतथ्यसँग सम्बद्ध","ordinal":1089,"reference":"उनका जीवनतथ्यसँग सम्बद्ध","sample_id":"kriti-4899fba95156501ca69b7ee347c1d7f4","source_id":"openslr54"}
+{"hypothesis":"केशरमहल काठमाडौँमा अवस्थित","ordinal":1092,"reference":"केशरमहल काठमाडौँमा अवस्थित","sample_id":"kriti-48baa4aa1fbd53d780c20fb9123e07a1","source_id":"openslr54"}
+{"hypothesis":"कार्यालयहरू छन्","ordinal":1094,"reference":"कार्यालयहरू छन्","sample_id":"kriti-48d30c351d4451599ef39b35edf82a06","source_id":"openslr54"}
+{"hypothesis":"सबले एकअर्कालाई चिन्ने","ordinal":1103,"reference":"सबले एकअर्कालाई चिन्ने","sample_id":"kriti-49c780159913590488956261b3673120","source_id":"openslr54"}
+{"hypothesis":"पूरा गरेकोमा","ordinal":1107,"reference":"पूरा गरेकोमा","sample_id":"kriti-4a3942b3e2be5b15a2a918c6161deada","source_id":"openslr54"}
+{"hypothesis":"पर्सा रौतहट चितवन","ordinal":1124,"reference":"पर्सा रौतहट चितवन","sample_id":"kriti-4c0eb242e500599296ff93a19e285310","source_id":"openslr54"}
+{"hypothesis":"आत्मनिर्भर बनाउन","ordinal":1131,"reference":"आत्मनिर्भर बनाउन","sample_id":"kriti-4c78e672176c518f9de37f258d14be8b","source_id":"openslr54"}
+{"hypothesis":"गोमायु महाचील नेपालमा","ordinal":1139,"reference":"गोमायु महाचील नेपालमा","sample_id":"kriti-4cd82205dc585deea8bf19e4cf2c3339","source_id":"openslr54"}
+{"hypothesis":"सेतो पहेँलो रङ्गका","ordinal":1144,"reference":"सेतो पहेलो रङ्गका","sample_id":"kriti-4d29221a7bfa50619d4a8dc854bf00e0","source_id":"openslr54"}
+{"hypothesis":"सुविधालाई ध्यानमा राखेर","ordinal":1145,"reference":"सुविधालाई ध्यानमा राखेर","sample_id":"kriti-4d3cd141e60f56d2beb9f9b726d793eb","source_id":"openslr54"}
+{"hypothesis":"पुलहरू नदी खोला","ordinal":1150,"reference":"पुलहरू नदी खोला","sample_id":"kriti-4d815ec1e8f252eeacd94660420189ea","source_id":"openslr54"}
+{"hypothesis":"तपाईँको निरन्तरताको आशा","ordinal":1157,"reference":"तपाईँको निरन्तरताको आशा","sample_id":"kriti-4e46ec0ff5cd529ca21e0f6955c84ede","source_id":"openslr54"}
+{"hypothesis":"कुरा इतिहासमा लेखिएको","ordinal":1160,"reference":"कुरा इतिहासमा लेखिएको","sample_id":"kriti-4e9315d8053d53f89ef58bb0770425b0","source_id":"openslr54"}
+{"hypothesis":"क्यामेरा गुडाउन ६०० फिट लामो ट्रयाकको व्यवस्था गरिएको थियो।","ordinal":1161,"reference":"क्यामेरा गुडाउन ६०० फिट लामो ट्रयाकको व्यवस्था गरिएको थियो।","sample_id":"kriti-4e975ec4911f5a59917f383986d0b41e","source_id":"openslr54"}
+{"hypothesis":"व्यस्त रहन्थे","ordinal":1163,"reference":"व्यस्त रहन्थे","sample_id":"kriti-4eceb308e4f95ba6a73aa2403c4e0d09","source_id":"openslr54"}
+{"hypothesis":"सङ्घर्षका विविध पक्षहरू","ordinal":1172,"reference":"सङ्घर्षका विविध पक्षहरु","sample_id":"kriti-4f7b85c1182351bca465323b81c62701","source_id":"openslr54"}
+{"hypothesis":"खलङ्गाबाट ४८ किलोमिटर","ordinal":1173,"reference":"खलङ्गाबाट ४८ किलोमिटर","sample_id":"kriti-4f7c4b8da4ff5906989c9c840f807e89","source_id":"openslr54"}
+{"hypothesis":"बनाउँदा वा यज्ञ आदि","ordinal":1174,"reference":"बनाउँदा वा यज्ञ आदि","sample_id":"kriti-4fa0956ecdab5f168d67e7263660a9ad","source_id":"openslr54"}
+{"hypothesis":"यात्रा गरेर यसको","ordinal":1178,"reference":"यात्रा गरेर यसको","sample_id":"kriti-4fd5a56ea1395a009867680b5c3fb60c","source_id":"openslr54"}
+{"hypothesis":"परिवर्तन हुँदैन","ordinal":1180,"reference":"परिवर्तन हुँदैन","sample_id":"kriti-4ffc3b8cc1695de4a437c26f54e748d0","source_id":"openslr54"}
+{"hypothesis":"शिक्षा स्टुअर्ट हल","ordinal":1189,"reference":"शिक्षा स्टुअर्ट हल","sample_id":"kriti-509bcca116395aa9af097903b37947cf","source_id":"openslr54"}
+{"hypothesis":"त्यसक्रममा उनले","ordinal":1204,"reference":"त्यसक्रममा उनले","sample_id":"kriti-524115409d3952e3be47d3ca8360b84d","source_id":"openslr54"}
+{"hypothesis":"२०५६ देखि एमाले","ordinal":1213,"reference":"२०५६ देखि एमाले","sample_id":"kriti-52e16d98a8305b53bbbdff296b08e847","source_id":"openslr54"}
+{"hypothesis":"तमाम यन्त्र","ordinal":1214,"reference":"तमाम यन्त्र","sample_id":"kriti-532501ea8d3552048f0040df86f3e97b","source_id":"openslr54"}
+{"hypothesis":"प्रयुक्त आवृत्तिहरू छन्","ordinal":1215,"reference":"प्रयुक्त आवृत्तिहरू छन्","sample_id":"kriti-53268378514e5194a3c504b141b5b717","source_id":"openslr54"}
+{"hypothesis":"राजद्रोहका आरोपमा","ordinal":1219,"reference":"राजद्रोहका आरोपमा","sample_id":"kriti-535c8e585a4e5a30b60272bef8159656","source_id":"openslr54"}
+{"hypothesis":"बितेको किताबले जनाउँछ","ordinal":1232,"reference":"बितेको किताबले जनाउँछ","sample_id":"kriti-54bf49dcf2e75c81ac7a186ab12dc371","source_id":"openslr54"}
+{"hypothesis":"एउटा अङ्ग्रेजी कविता","ordinal":1249,"reference":"एउटा अङ्ग्रेजी कविता","sample_id":"kriti-558c67268a6955f1acb9719a56d6accd","source_id":"openslr54"}
+{"hypothesis":"ती दुई जिल्ला","ordinal":1250,"reference":"ती दुई जिल्ला","sample_id":"kriti-55a27e3efc5158739ca63f6ce444e3b4","source_id":"openslr54"}
+{"hypothesis":"आठ वर्षहरूमा आफ्नो पुत्र","ordinal":1254,"reference":"आठ वर्षहरूमा आफ्नो पुत्र","sample_id":"kriti-56804cf9065b551d88f16be81338b0d2","source_id":"openslr54"}
+{"hypothesis":"काठमाडौँ र पोखरा","ordinal":1257,"reference":"काठमाडौँ र पोखरा","sample_id":"kriti-5710094622d45a83bdb189f4228baff4","source_id":"openslr54"}
+{"hypothesis":"रक्षा गर्न चाहन्थ्यो","ordinal":1258,"reference":"रक्षा गर्नु चाहन्थ्यो","sample_id":"kriti-571d2b936e1e5f3d9a60ed6d29bce97b","source_id":"openslr54"}
+{"hypothesis":"लागि बाध्य गर्दैनथ्यो","ordinal":1263,"reference":"लागि बाध्य गर्दैनथ्यो","sample_id":"kriti-5793ea8a94bf559f87e7a00f941a0b49","source_id":"openslr54"}
+{"hypothesis":"गते मदन पुरस्कार","ordinal":1267,"reference":"गते मदन पुरस्कार","sample_id":"kriti-57fef9a257025c39ac6e41f6637390b8","source_id":"openslr54"}
+{"hypothesis":"जनाएका छन्","ordinal":1269,"reference":"जनाएका छन्","sample_id":"kriti-580d1b4eb8695165b4c858aadd1b4246","source_id":"openslr54"}
+{"hypothesis":"सहरहरूमध्येको एउटा सहर हो","ordinal":1271,"reference":"सहरहरूमध्येको एउटा सहर हो","sample_id":"kriti-58255b936f3f552d85967e24851b53b3","source_id":"openslr54"}
+{"hypothesis":"पिताको आदेश भएपछि परशुरामले आमाको वध गरिदिए।","ordinal":1272,"reference":"पिताको आदेश भएपछि परशुरामले आमाको वध गरिदिए।","sample_id":"kriti-585becc85c995780b60eefbfcd2d556d","source_id":"openslr54"}
+{"hypothesis":"धोबिनी चरा नेपालमा पाइने एक प्रकारको चराको नाम हो","ordinal":1280,"reference":"धोबिनी चरा नेपालमा पाइने एक प्रकारको चराको नाम हो।","sample_id":"kriti-5950785b3ada55b7be4ce4553ff39c37","source_id":"openslr54"}
+{"hypothesis":"उपलब्धि मानिएको छ","ordinal":1298,"reference":"उपलब्धी मानिएको छ","sample_id":"kriti-5a1d989a7c985ef2b4e4c9326be83dc3","source_id":"openslr54"}
+{"hypothesis":"प्राचीनोत्तम खगोल","ordinal":1303,"reference":"प्राचीनतम खगोल","sample_id":"kriti-5a55323014da5600a4eab2fc622ef821","source_id":"openslr54"}
+{"hypothesis":"सहायक मार्गको रूपमा","ordinal":1305,"reference":"सहायक मार्गको रूपमा","sample_id":"kriti-5abbf7f2b485599ca270aaa6eb06250b","source_id":"openslr54"}
+{"hypothesis":"पौडिपहिरन वा स्नान","ordinal":1309,"reference":"पौडिपहिरन वा स्नान","sample_id":"kriti-5b183d96698f5b7ebed86036a65afe03","source_id":"openslr54"}
+{"hypothesis":"आगामी दिनमा नेपाली","ordinal":1316,"reference":"आगामी दिनमा नेपाली","sample_id":"kriti-5b9b911234605a589c26d1153b45a4c9","source_id":"openslr54"}
+{"hypothesis":"परेमा यो विकिपीडियाको","ordinal":1322,"reference":"परेमा यो विकिपीडियाको","sample_id":"kriti-5c39fdd355eb52c2b7c66d79f3a2d0f6","source_id":"openslr54"}
+{"hypothesis":"यो खोला यहाँका","ordinal":1323,"reference":"यो खोला यहाँका","sample_id":"kriti-5c4ac8a749d85a858d6d1d573cd022c5","source_id":"openslr54"}
+{"hypothesis":"व्याख्या गरेको पाइन्छ","ordinal":1338,"reference":"व्याख्या गरेको पाइन्छ","sample_id":"kriti-5d0559f294955e4f93bdc7ea38b47727","source_id":"openslr54"}
+{"hypothesis":"थिए आफ्नो व्यावसायिक","ordinal":1339,"reference":"थिए आफ्नो व्यावसायिक","sample_id":"kriti-5d0c034c5b415ae0bf86ad9490952f22","source_id":"openslr54"}
+{"hypothesis":"चन्द्र शमशेरले","ordinal":1343,"reference":"चन्द्र शमशेरले","sample_id":"kriti-5d5d6879e56d5c20a7c33c4154e111e6","source_id":"openslr54"}
+{"hypothesis":"थाहा भएमा यहाँ","ordinal":1344,"reference":"थाहा भएमा यहाँ","sample_id":"kriti-5d664f5cc1485c3e9ba001b58e878c9d","source_id":"openslr54"}
+{"hypothesis":"शर्माका कारणले राहुलले","ordinal":1349,"reference":"शर्माका कारणले राहुलले","sample_id":"kriti-5e1e7b75d1be531eb534e84c09117997","source_id":"openslr54"}
+{"hypothesis":"रहेको वायुमण्डलमा सजिलै","ordinal":1351,"reference":"रहेको वायुमण्डलमा सजिलै","sample_id":"kriti-5e4437dd98175ad58beda0943f1b9f37","source_id":"openslr54"}
+{"hypothesis":"प्रत्येक ६ महिनामा","ordinal":1356,"reference":"प्रत्येक ६ महिनामा","sample_id":"kriti-5eabceb4db96519eb38e883749b875b3","source_id":"openslr54"}
+{"hypothesis":"स्थल हुने गर्दथिए","ordinal":1357,"reference":"स्थल हुने गर्दथिए","sample_id":"kriti-5eac1d10d2085ed6bf01f120d8fa6ead","source_id":"openslr54"}
+{"hypothesis":"यस कारण अचेल","ordinal":1359,"reference":"यस कारण अचेल","sample_id":"kriti-5ebe32e1dc895b818864a17f859598f3","source_id":"openslr54"}
+{"hypothesis":"कार्य महाराजा नरेन्द्रसिंहका","ordinal":1360,"reference":"कार्य महाराजा नरेन्‍द्रसिंहका","sample_id":"kriti-5ecde5a608d65bc8833a00502e40884d","source_id":"openslr54"}
+{"hypothesis":"पुनःप्राप्त गरे","ordinal":1363,"reference":"पुनःप्राप्त गरे","sample_id":"kriti-5eea50b5299f5b8f8f9f8bba3f240681","source_id":"openslr54"}
+{"hypothesis":"थिए ती दुबैका","ordinal":1368,"reference":"थिए ती दुबैका","sample_id":"kriti-5f3740383e6458f89f7c204f86b1f645","source_id":"openslr54"}
+{"hypothesis":"सरकारहरूले उपायहरू","ordinal":1372,"reference":"सरकारहरूले उपायहरू","sample_id":"kriti-5f9e301afcd356638b1e987062f796c0","source_id":"openslr54"}
+{"hypothesis":"कार्य रमेश खनाल","ordinal":1374,"reference":"कार्य रमेश खनाल","sample_id":"kriti-5fb61ce2e20c53d7827305aba26f89bb","source_id":"openslr54"}
+{"hypothesis":"उक्त भवनको सिंहबाटै","ordinal":1376,"reference":"उक्त भवनको सिंहबाटै","sample_id":"kriti-5fd82ba2b43e5233a68f2eac4ac0f558","source_id":"openslr54"}
+{"hypothesis":"आगोजस्तो देखिने यी","ordinal":1386,"reference":"आगोजस्तो देखिने यी","sample_id":"kriti-60c3abf286f35dc198dd6a71ec6a0894","source_id":"openslr54"}
+{"hypothesis":"रोगको चिकित्सा","ordinal":1389,"reference":"रोगको चिकित्सा","sample_id":"kriti-60fa9e4686a35b4795c99ca82d07b3a1","source_id":"openslr54"}
+{"hypothesis":"लय संग्रौलाको पाटीको बास","ordinal":1398,"reference":"लय संग्रौलाको पाटीको बास","sample_id":"kriti-6142a1d014645abcaa65c963b41ceb23","source_id":"openslr54"}
+{"hypothesis":"साल भाद्र ३ गते","ordinal":1403,"reference":"साल भाद्र ३ गते","sample_id":"kriti-61a07438e42754488f770dbaf4b91351","source_id":"openslr54"}
+{"hypothesis":"पटुकालाई कम्मरबन्दी भनिन्छ","ordinal":1405,"reference":"पटुकालाई कम्मरबन्दी भनिन्छ","sample_id":"kriti-61ca364d39d8597c86efb6182ae2ae89","source_id":"openslr54"}
+{"hypothesis":"गुगल निगमद्वारा सञ्चालित","ordinal":1411,"reference":"गुगल निगमद्वारा सञ्चालित","sample_id":"kriti-6260b03477955edead225ea3277aad70","source_id":"openslr54"}
+{"hypothesis":"भयो र त्यसका ठाउँमा","ordinal":1418,"reference":"भयो र त्यसका ठाउँमा","sample_id":"kriti-6327ead5a8ba5eca9856026f34c6e6d5","source_id":"openslr54"}
+{"hypothesis":"यिनका छोरा थिए","ordinal":1419,"reference":"यिनका छोरा थिए","sample_id":"kriti-6341840b7bf45566876f53f29eba7499","source_id":"openslr54"}
+{"hypothesis":"रहेको वायुमण्डलमा सजिलै","ordinal":1423,"reference":"रहेको वायुमण्डलमा सजिलै","sample_id":"kriti-63fc7ff68d1750af8656a8e16257ebfa","source_id":"openslr54"}
+{"hypothesis":"मुनि मारियाना","ordinal":1424,"reference":"मुनी मारियाना","sample_id":"kriti-64019c8f791b57f8ab71007d1bb9cae1","source_id":"openslr54"}
+{"hypothesis":"जापान खाद्यान्नको मामलामा","ordinal":1431,"reference":"जापान खाद्यान्नको मामलामा","sample_id":"kriti-649b81159d7c53b08f8b6d757ae0d6c5","source_id":"openslr54"}
+{"hypothesis":"सुनिश्चित गर्न पहल","ordinal":1432,"reference":"सुनिश्चित गर्न पहल","sample_id":"kriti-64a00e60cf705f58aff4baf70bf005ec","source_id":"openslr54"}
+{"hypothesis":"साथमा अन्य नाचहरू","ordinal":1435,"reference":"साथमा अन्य नाचहरू","sample_id":"kriti-64c9999e67a2560e8f84a7ae34190a24","source_id":"openslr54"}
+{"hypothesis":"छु कृपया यहाँ","ordinal":1436,"reference":"छु कृपया यहाँ","sample_id":"kriti-64cbfd412978503ba3d39de083568f06","source_id":"openslr54"}
+{"hypothesis":"यसै वर्ष संयुक्त","ordinal":1443,"reference":"त्यसै वर्ष संयुक्त","sample_id":"kriti-653167682c28562d8979f53a2b672ed5","source_id":"openslr54"}
+{"hypothesis":"जाति बनाउन तीतो","ordinal":1451,"reference":"जाति बनाउन तीतो","sample_id":"kriti-65647aee721850aaab170c27fe3fdde6","source_id":"openslr54"}
+{"hypothesis":"सङ्लग्नता क्षमता समर्पण","ordinal":1454,"reference":"सङ्लग्नता क्षमता समर्पण","sample_id":"kriti-65840e3f167d5323828dc8b366cffd88","source_id":"openslr54"}
+{"hypothesis":"सिन्धुली जिल्लाभित्र रहेका","ordinal":1456,"reference":"सिन्धुली जिल्लाभित्र रहेका","sample_id":"kriti-65aec538417557058c07ea38a5ec8194","source_id":"openslr54"}
+{"hypothesis":"जबराको दरबार र","ordinal":1462,"reference":"ज‍बराको दरवार र","sample_id":"kriti-662dba432f405fccbfb1c7fc521fdf79","source_id":"openslr54"}
+{"hypothesis":"अनेक धारणाहरू छन्","ordinal":1467,"reference":"अनेक धारणाहरू छन्","sample_id":"kriti-66cf6d38f44b5d199895003bb49048bd","source_id":"openslr54"}
+{"hypothesis":"विदेश यात्रा गरे","ordinal":1472,"reference":"विदेश यात्रा गरे","sample_id":"kriti-66fc365e89d25217bac9b62d09c472df","source_id":"openslr54"}
+{"hypothesis":"प्रख्यात भूगोलविद् हुन्","ordinal":1476,"reference":"प्रख्यात भूगोलविद् हुन्","sample_id":"kriti-670c763edb9c5ca99df528b3d495b9fb","source_id":"openslr54"}
+{"hypothesis":"१९ जनवरी १९९० को जन्म","ordinal":1483,"reference":"१९ जनवरी १९९० को जन्म","sample_id":"kriti-67aa7a74142f5457b70689741b2f9816","source_id":"openslr54"}
+{"hypothesis":"विश्वकप खेल्ने विश्वकै","ordinal":1491,"reference":"विश्वकप खेल्ने विश्वकै","sample_id":"kriti-685930a38d085ffe8b82dc161ef4e70c","source_id":"openslr54"}
+{"hypothesis":"त्यस क्षेत्रमा विशेषत","ordinal":1498,"reference":"त्यस क्षेत्रमा विशेषत","sample_id":"kriti-689e814f517c5434920a40b4036dfb2d","source_id":"openslr54"}
+{"hypothesis":"अनि केही उपाय नदेखेर","ordinal":1503,"reference":"अनि केही उपाय नदेखेर","sample_id":"kriti-68c8d97fc73954858477228e69b769a7","source_id":"openslr54"}
+{"hypothesis":"इन्जिनियरिङमा स्नातक मल्लले","ordinal":1509,"reference":"इन्जिनियरिङमा स्नातक मल्लले","sample_id":"kriti-692d925856f354b4b2145dda49d0abeb","source_id":"openslr54"}
+{"hypothesis":"पाएकी थिइनन्","ordinal":1511,"reference":"पाएकी थिइनन्।","sample_id":"kriti-6947f46ab9fb568ab3879b28115222fc","source_id":"openslr54"}
+{"hypothesis":"पुगेको हुनुपर्ने देखिन्छ","ordinal":1512,"reference":"पुगेको हुनुपर्ने देखिन्छ","sample_id":"kriti-69586bb244065072b010e84114e04541","source_id":"openslr54"}
+{"hypothesis":"निभाउन सक्षम छन्","ordinal":1514,"reference":"निभाउन सक्षम छन्","sample_id":"kriti-6972806cfac95fb5957cbf85843120d0","source_id":"openslr54"}
+{"hypothesis":"सङ्क्रमण गरेको दिन","ordinal":1516,"reference":"सङ्क्रमण गरेको दिन","sample_id":"kriti-698d0efcfcc457eb9e06ad35212a4958","source_id":"openslr54"}
+{"hypothesis":"उत्तर पश्चिम सोलुखुम्बु","ordinal":1517,"reference":"उत्तर पश्चिम सोलुखुम्बु","sample_id":"kriti-698f15b3019d520dacd6d1060dc9aff4","source_id":"openslr54"}
+{"hypothesis":"सेल्सियस सम्म पुगेको","ordinal":1519,"reference":"सेल्सियस सम्म पुगेको","sample_id":"kriti-69992d0e81ab54e993ab99725c011524","source_id":"openslr54"}
+{"hypothesis":"प्रजातान्त्रिक आस्थामात्र राख्ने","ordinal":1522,"reference":"प्रजातान्त्रिक आस्थामात्र राख्ने","sample_id":"kriti-69b17a18f35e5058a1cc021f67db981f","source_id":"openslr54"}
+{"hypothesis":"मण्डलमा केबिनेटको पदमा","ordinal":1531,"reference":"मण्डलमा केबिनेटको पदमा","sample_id":"kriti-6a18b3461ed2546fa933f61f5ba519aa","source_id":"openslr54"}
+{"hypothesis":"नेपालको एउटा","ordinal":1533,"reference":"नेपालको एउटा","sample_id":"kriti-6a1f3758e5da5c6db316823c252b07b3","source_id":"openslr54"}
+{"hypothesis":"डा मेहर सिंहको अनुसार","ordinal":1535,"reference":"डा मेहर सिंहको अनुसार","sample_id":"kriti-6a3d5760285852d281d3b7552d9cf758","source_id":"openslr54"}
+{"hypothesis":"महिनामा आउने गर्छन्","ordinal":1542,"reference":"महिनामा आउने गर्छन्","sample_id":"kriti-6abfd008083f5c2dbc5b137066c8dacb","source_id":"openslr54"}
+{"hypothesis":"आएको थियो त्यसैले","ordinal":1545,"reference":"आएको थियो त्यसैले","sample_id":"kriti-6b0a4a787b79507c8673e1e93c280bcd","source_id":"openslr54"}
+{"hypothesis":"छोरीसँग भएको भने","ordinal":1551,"reference":"छोरीसँग भएको भन्ने","sample_id":"kriti-6b5d782be8e1555f8745e39e87c522e1","source_id":"openslr54"}
+{"hypothesis":"बेलायतका लागि अस्ट्रेलियाको","ordinal":1552,"reference":"बेलायतका लागि अस्ट्रेलियाको","sample_id":"kriti-6b6660aac8255047b36356f871f80da2","source_id":"openslr54"}
+{"hypothesis":"उपनाममा आफ्नो कृतिहरू","ordinal":1555,"reference":"उपनाममा आफ्नो कृतिहरू","sample_id":"kriti-6bb3d06bbef655288109c3fe578fb2df","source_id":"openslr54"}
+{"hypothesis":"पूजाआजा गर्दछन्","ordinal":1556,"reference":"पूजाआजा गर्दछन्","sample_id":"kriti-6bb9dffb5efc575eab0107014e887024","source_id":"openslr54"}
+{"hypothesis":"प्रयोग गरिने साधन हो","ordinal":1560,"reference":"प्रयोग गरिने साधन हो","sample_id":"kriti-6c2853a773855e25aea39bdd161900d7","source_id":"openslr54"}
+{"hypothesis":"आवश्यकताहरू र त्यहाँ","ordinal":1562,"reference":"आवश्यकताहरू र त्यहाँ","sample_id":"kriti-6c74bbcb8f6c55adb6016db0b01c138d","source_id":"openslr54"}
+{"hypothesis":"आकार २२० वर्ग","ordinal":1566,"reference":"आकार २२० वर्ग","sample_id":"kriti-6cc3921f39175a4287c1962c699848ea","source_id":"openslr54"}
+{"hypothesis":"यहाँको ५० जमीनमा","ordinal":1570,"reference":"यहाँको ५० जमीनमा","sample_id":"kriti-6d250e9118c05f27a875e7fb17db419a","source_id":"openslr54"}
+{"hypothesis":"तिनको रचनाहरूको अङ्ग्रेजी","ordinal":1572,"reference":"तिनको रचनाहरूको अङ्ग्रेजी","sample_id":"kriti-6d54bfd3bc745110a2fd916306cec25e","source_id":"openslr54"}
+{"hypothesis":"विश्वकोष भएको हुनाले","ordinal":1578,"reference":"विश्वकोष भएको हुनाले","sample_id":"kriti-6dd20e62dc41588c9e900c951761b660","source_id":"openslr54"}
+{"hypothesis":"फल राम्रोसँग पाकेको","ordinal":1582,"reference":"फल राम्रोसँग पाकेको","sample_id":"kriti-6e02db66de3959f99151a17fa4eac3c7","source_id":"openslr54"}
+{"hypothesis":"बागमती अञ्चल","ordinal":1596,"reference":"बागमती अञ्चल","sample_id":"kriti-6eb658c12a1e57f99aaef758ef15281b","source_id":"openslr54"}
+{"hypothesis":"हिमताल हो","ordinal":1597,"reference":"हिमताल हो","sample_id":"kriti-6ebe3171a96851cd81be305e9358387c","source_id":"openslr54"}
+{"hypothesis":"मे २००९ मा","ordinal":1598,"reference":"मे २००९ मा","sample_id":"kriti-6ec52db5597a57a8add6d3c987dc9ecf","source_id":"openslr54"}
+{"hypothesis":"नामाकरण गरिन्छ","ordinal":1601,"reference":"नामकरण गरिन्छ","sample_id":"kriti-6f00296585705f908c3024c4517f776d","source_id":"openslr54"}
+{"hypothesis":"आफ्नै परिवेशमा ढालेर","ordinal":1603,"reference":"आफ्नै परिवेशमा ढालेर","sample_id":"kriti-6f15f7746e8850c9a5e9b3cc6fe9dfce","source_id":"openslr54"}
+{"hypothesis":"सम्बन्धित थिएनन्","ordinal":1606,"reference":"सम्बन्धित थिएनन्","sample_id":"kriti-6f2662e285365e56a6bf1121798a4ebd","source_id":"openslr54"}
+{"hypothesis":"यसलाई बाहिरी तत्त्वले","ordinal":1608,"reference":"यसलाई बाहिरी तत्त्वले","sample_id":"kriti-6f3fd6fcd5715d0285526122f65c8b2c","source_id":"openslr54"}
+{"hypothesis":"भगत पनि यस","ordinal":1611,"reference":"भगत पनि यस","sample_id":"kriti-6f5937decf975059891da064714de8ab","source_id":"openslr54"}
+{"hypothesis":"त्यस बेला दरबारका","ordinal":1612,"reference":"त्यस बेला दरबारका","sample_id":"kriti-6f8b40675bd85ea2a01036da0e50262f","source_id":"openslr54"}
+{"hypothesis":"सम्झनाको संगालो नामक","ordinal":1621,"reference":"सम्झनाको संगालो नामक","sample_id":"kriti-70c5ddb990645636b9fd061909663941","source_id":"openslr54"}
+{"hypothesis":"अन्य पदार्थहरूको खोजले","ordinal":1634,"reference":"अन्य पदार्थहरूको खोजले","sample_id":"kriti-719dc34a101953a88b42d354a7a2297f","source_id":"openslr54"}
+{"hypothesis":"यो संसारको नियम छ","ordinal":1639,"reference":"यो संसारको नियम छ","sample_id":"kriti-71e9cd22576c53febf42b0f852fdb243","source_id":"openslr54"}
+{"hypothesis":"साहित्यका प्रमुख चार","ordinal":1642,"reference":"साहित्यका प्रमुख चार","sample_id":"kriti-722f9690308a5ce0bcc59498277ae372","source_id":"openslr54"}
+{"hypothesis":"विजय मल्लद्वारा","ordinal":1657,"reference":"विजय मल्लद्वारा","sample_id":"kriti-733e0ceff20b57b3ad62e03c6c25623d","source_id":"openslr54"}
+{"hypothesis":"२०१८ मा सेटको","ordinal":1671,"reference":"२०१८ मा सेटको","sample_id":"kriti-7438623dab445701a313079fa89757ce","source_id":"openslr54"}
+{"hypothesis":"आश्वस्त गरेको थियो","ordinal":1673,"reference":"आश्वस्त गरेको थियो","sample_id":"kriti-745b3dbcdd0b52d7827459e645f2eab9","source_id":"openslr54"}
+{"hypothesis":"दूरबीन र अनेक विश्वविद्यालयको","ordinal":1682,"reference":"दूर्बिन र अनेक विश्वविद्यालयको","sample_id":"kriti-752364154ac45ddb96bc8c4bc9d93124","source_id":"openslr54"}
+{"hypothesis":"स्वतन्त्र रूपले","ordinal":1688,"reference":"स्वतन्त्र रूपले","sample_id":"kriti-75f2631f104c5a30b1e00239a8e6baa8","source_id":"openslr54"}
+{"hypothesis":"बेल्फोर घोषणाको स्थापना","ordinal":1689,"reference":"बेल्फोर घोषणाको स्थापना","sample_id":"kriti-75f41a4c39865c49b5d4451690448ad5","source_id":"openslr54"}
+{"hypothesis":"सर्वोत्तम अभिनेत्रीका लागि","ordinal":1693,"reference":"सर्वोत्तम अभिनेत्रीका लागि","sample_id":"kriti-764d594cc3cf5308a8d93d7edcb53131","source_id":"openslr54"}
+{"hypothesis":"पनि देखापर्न सक्छ","ordinal":1695,"reference":"पनि देखापर्न सक्छ","sample_id":"kriti-7665754357dc55fe986b24559f8b14c9","source_id":"openslr54"}
+{"hypothesis":"केही तामाङहरूले अहिले","ordinal":1697,"reference":"केही तामाङहरूले अहिले","sample_id":"kriti-768f12374769539d94385d13f188bb1b","source_id":"openslr54"}
+{"hypothesis":"पहाडी क्षेत्रमा रहेको","ordinal":1700,"reference":"पहाडी क्षेत्रमा रहेको","sample_id":"kriti-769cff20b22c55819fc18d4e66347fec","source_id":"openslr54"}
+{"hypothesis":"बच्चनलाई रोमान्टिकबाट एक्सन","ordinal":1703,"reference":"बच्चनलाई रोमान्टिकबाट एक्सन","sample_id":"kriti-76b1b34a17d959749e82499f033f24a1","source_id":"openslr54"}
+{"hypothesis":"उत्तरमा ठाकुरजीदेखि दक्षिणमा","ordinal":1708,"reference":"उत्तरमा ठाकुरजीदेखि दक्षिणमा","sample_id":"kriti-77027e866efb5a49b87f0f3dd380afff","source_id":"openslr54"}
+{"hypothesis":"कुरूपको अर्थमा लिनुहुन्छ","ordinal":1718,"reference":"कुरूपको अर्थमा लिनुहुन्छ","sample_id":"kriti-77b60ea1676450ea9fd230a4cb489d98","source_id":"openslr54"}
+{"hypothesis":"प्रतिनीधित्व गर्दछ","ordinal":1720,"reference":"प्रतिनीधित्व गर्दछ","sample_id":"kriti-77e1bbe6f4185969bb3d12a3acad2105","source_id":"openslr54"}
+{"hypothesis":"द रिपब्लिस अब","ordinal":1721,"reference":"द रिपब्लिस अव","sample_id":"kriti-77f0e54fc7f95733ae65e851ec6ca8c7","source_id":"openslr54"}
+{"hypothesis":"मार्शलले भने कि समाजमा जेसुकै घटना घटिरहेको हुन्छ र पछि आर्थिक शक्तिहरू बढ्छन्।","ordinal":1730,"reference":"मार्शलले भने कि समाजमा जेसुकै घटना घटिरहेको हुन्छ र पछि आर्थिक शक्तिहरू बढ्छन।","sample_id":"kriti-78d9978ba29555f88a83ff8d8be37b59","source_id":"openslr54"}
+{"hypothesis":"उपस्थित नभएपछि अमेरिकाले","ordinal":1732,"reference":"उपस्थित नभएपछि अमेरिकाले","sample_id":"kriti-794c0517586a5f3eb634eca9bcf78bc9","source_id":"openslr54"}
+{"hypothesis":"भारत उत्तर प्रयागबाट","ordinal":1735,"reference":"भारत उत्तर प्रयागबाट","sample_id":"kriti-7963fa425ab95701bd5c288dc4e8bb1c","source_id":"openslr54"}
+{"hypothesis":"सबैभन्दा ठूलो समस्या","ordinal":1744,"reference":"सबैभन्दा ठूलो समस्या","sample_id":"kriti-79df2f8b34435d9691a730d818a7d784","source_id":"openslr54"}
+{"hypothesis":"२४० पाउन्ड बढ्दछ","ordinal":1746,"reference":"२४० पाउन्ड बढ्दछ","sample_id":"kriti-79eb6d1868ff5393aff8e49643e3845c","source_id":"openslr54"}
+{"hypothesis":"धेरै १०० मिलियन","ordinal":1750,"reference":"धेरै १०० मिलियन","sample_id":"kriti-7a540a7087f15681afd577b80fbdb8c4","source_id":"openslr54"}
+{"hypothesis":"२०४२ कार्तिक २३","ordinal":1753,"reference":"२०४२ कार्तिक २३","sample_id":"kriti-7a9eeedc62385dfbbb2f4eec85428810","source_id":"openslr54"}
+{"hypothesis":"रूपमा स्वीकार गर्न","ordinal":1782,"reference":"रूपमा स्वीकार गर्न","sample_id":"kriti-7ca35d77f82b547ebf0226f2beddc354","source_id":"openslr54"}
+{"hypothesis":"जुनिया गुल्मी जिल्लामा","ordinal":1784,"reference":"जुनिया गुल्मी जिल्लामा","sample_id":"kriti-7cb3b3dcb6ec544ea58ee3c00425ef80","source_id":"openslr54"}
+{"hypothesis":"सेती र महाकाली अञ्चलमा","ordinal":1788,"reference":"सेती र महाकाली अञ्चलमा","sample_id":"kriti-7ce5b38623205c66a9cb060b001f173c","source_id":"openslr54"}
+{"hypothesis":"छ पहिलो कैलरीजको छ","ordinal":1791,"reference":"छ पहिलो कैलरीजको छ","sample_id":"kriti-7d5c6f1cd3205390b25d589217565045","source_id":"openslr54"}
+{"hypothesis":"मुख खोलेको अवस्थामा","ordinal":1794,"reference":"मुख खोलेको अवस्थामा","sample_id":"kriti-7d8c8b7de9f150778ce778ada7aec5a4","source_id":"openslr54"}
+{"hypothesis":"ईपू ९११ वा वर्ष","ordinal":1805,"reference":"ईपू ९११ वा वर्ष","sample_id":"kriti-7e22d94706e45c33a31bd7ac6986bc86","source_id":"openslr54"}
+{"hypothesis":"निवास स्थान हो","ordinal":1808,"reference":"निवास स्थान हो","sample_id":"kriti-7e553b4264db54bea745564bc124fd3b","source_id":"openslr54"}
+{"hypothesis":"साङपाङ र पुमा सेकुहोङका","ordinal":1819,"reference":"साङपाङ र पुमा सेकुहोङका","sample_id":"kriti-7ee62fcf00e458ecab878c012c3b0d07","source_id":"openslr54"}
+{"hypothesis":"गरिएको जनगणना अनुमान","ordinal":1823,"reference":"गरिएको जनगणना अनुमान","sample_id":"kriti-7f42e939257a5855b72f99d34b69a82f","source_id":"openslr54"}
+{"hypothesis":"मत अत्यन्त प्राचीन","ordinal":1826,"reference":"मत अत्यन्त प्राचीन","sample_id":"kriti-7f5368bd823654dbb586588b51066e49","source_id":"openslr54"}
+{"hypothesis":"जसमा धेरै पल्ट न्यूनतम तापमान १२ डिग्री पुगेको छ।","ordinal":1840,"reference":"जसमा धेरैपल्ट न्यूनतम तापमान १२ डिग्री पुगेको छ ।","sample_id":"kriti-80760f07e677572b84f02c362189736c","source_id":"openslr54"}
+{"hypothesis":"इन्द्रजात्रा पर्वमा","ordinal":1842,"reference":"इन्द्रजात्रा पर्वमा","sample_id":"kriti-808aea4edc7d5fbfa620b1762d37f820","source_id":"openslr54"}
+{"hypothesis":"अञ्चलको सदरमुकाम हुनुका","ordinal":1843,"reference":"अञ्चलको सदरमुकाम हुनुका","sample_id":"kriti-808b4a37219e57f786c3894129a0c084","source_id":"openslr54"}
+{"hypothesis":"स्थानको रूपमा परिचित छ","ordinal":1845,"reference":"स्थानको रूपमा परिचित छ","sample_id":"kriti-8098493a4103565ba1cefaea62ec1316","source_id":"openslr54"}
+{"hypothesis":"क्षेत्रीय एवं स्थानीय","ordinal":1849,"reference":"क्षेत्रीय एवं स्थानीय","sample_id":"kriti-80cbc4c98d3055be81699affd0be7a6f","source_id":"openslr54"}
+{"hypothesis":"केही छोराहरूलाई पनि","ordinal":1852,"reference":"केही छोराहरूलाई पनि","sample_id":"kriti-8142ba8fa5255b718b541743a602bff2","source_id":"openslr54"}
+{"hypothesis":"धार्मिक पुस्तकमा उल्लेख","ordinal":1853,"reference":"धार्मिक पुस्तकमा उल्लेख","sample_id":"kriti-814482004a385098a17cdb3570434e4d","source_id":"openslr54"}
+{"hypothesis":"बिताइरहेको समय स्वाभाविक","ordinal":1855,"reference":"बिताइरहेको समय स्वाभाविक","sample_id":"kriti-815cdacb5c845b758c4e360253f48b16","source_id":"openslr54"}
+{"hypothesis":"थिएन चौतारी पृष्ठमा","ordinal":1862,"reference":"थिएन चौतारी पृष्ठमा","sample_id":"kriti-822a4b1c620053d19ef783654dee710d","source_id":"openslr54"}
+{"hypothesis":"अन्तिम विकल्पका रूपमा","ordinal":1871,"reference":"अन्तिम विकल्पका रूपमा","sample_id":"kriti-828917c9264d52aaa3f2bd3e429edaa6","source_id":"openslr54"}
+{"hypothesis":"इस्वी सन्मा","ordinal":1877,"reference":"ईस्वी सन्‌मा","sample_id":"kriti-832980908ae45a3682779d579d3ab815","source_id":"openslr54"}
+{"hypothesis":"गोकर्णेश्वर महादेवलाई","ordinal":1878,"reference":"गोकर्णेश्वर महादेवलाई","sample_id":"kriti-832a1ae128c85942a20333343058f689","source_id":"openslr54"}
+{"hypothesis":"३१ देशनिकाला विरुद्धको हक कुनै पनि नागरिकलाई देशनिकाला गरिने छैन।","ordinal":1880,"reference":"३१ देशनिकाला विरुद्धको हक कुनैपनि नागरिकलाई देश निकाला गरिने छैन।","sample_id":"kriti-833b0e1236115781ae6d21bae8994983","source_id":"openslr54"}
+{"hypothesis":"दार्जिलिङको तकभर चिया","ordinal":1892,"reference":"दार्जिलिङको तकभर चिया","sample_id":"kriti-83fedb6c7a785415b6347270882dfe0c","source_id":"openslr54"}
+{"hypothesis":"बढी देखिन्छ","ordinal":1902,"reference":"बढी देखिन्छ","sample_id":"kriti-8491912b94605db2b6c74df519ca0398","source_id":"openslr54"}
+{"hypothesis":"विश्वविद्यालय राखियो","ordinal":1906,"reference":"विश्वविद्यालय राखियो","sample_id":"kriti-84e8f86f08f15ea89b7de5b5de54894d","source_id":"openslr54"}
+{"hypothesis":"यमुना नदीको","ordinal":1907,"reference":"यमुना नदीको","sample_id":"kriti-84fafc35ba8e5fccab5a05b43c373d8f","source_id":"openslr54"}
+{"hypothesis":"उत्तरमा पल्लवो तथा","ordinal":1917,"reference":"उत्तरमा पल्लवो तथा","sample_id":"kriti-85d790512dcd5982a79d07caaf61d2ec","source_id":"openslr54"}
+{"hypothesis":"वास्तवमा बनाइए जस्तै","ordinal":1925,"reference":"वास्तवमा बनाइए जस्तै","sample_id":"kriti-86315ee0382c5401aafe0c78d0a8b75f","source_id":"openslr54"}
+{"hypothesis":"चण्डाल बाटो छेकेर","ordinal":1932,"reference":"चाण्डाल बाटो छेकेर","sample_id":"kriti-86c082af31115d148d51e89c2a2545ca","source_id":"openslr54"}
+{"hypothesis":"डीको नै पदयोग","ordinal":1934,"reference":"डिको नै पदयोग","sample_id":"kriti-86c5df31c2d9571da4971dd95f2b1c6b","source_id":"openslr54"}
+{"hypothesis":"हामी उनलाई राष्ट्रिय","ordinal":1942,"reference":"हामी उनलाई राष्ट्रिय","sample_id":"kriti-87690f094b465905841bb8e82976d8a7","source_id":"openslr54"}
+{"hypothesis":"गर्नाले प्रयोगकर्ता पृष्ठ","ordinal":1948,"reference":"गर्नाले प्रयोगकर्ता पृष्ठ","sample_id":"kriti-87d60c140c645086a509b266dfe4a598","source_id":"openslr54"}
+{"hypothesis":"गर्नु होला मैले","ordinal":1950,"reference":"गर्नु होला मैले","sample_id":"kriti-87f66e9209575c9d8bea060ea8b8d080","source_id":"openslr54"}
+{"hypothesis":"पर्याप्त सहायता","ordinal":1952,"reference":"पर्याप्त सहायता","sample_id":"kriti-8814c67ae41d51aab9a4e6936e38f214","source_id":"openslr54"}
+{"hypothesis":"नेपालको सन् २००१ को जनगणना अनुसार धनगढी नगरपालिकाको जनसङ्ख्या ६७४४७ छ।","ordinal":1953,"reference":"नेपालको सन् २००१ को जनगणना अनुसार धनगढी नगरपालिकाको जनसङ्ख्या ६७४४७ छ।","sample_id":"kriti-8815bb59092855e8b0ec00e8ba8d97a8","source_id":"openslr54"}
+{"hypothesis":"को दशकमा एक","ordinal":1958,"reference":"को दशकमा एक","sample_id":"kriti-883d375799705e50af3d6981cce9f0d0","source_id":"openslr54"}
+{"hypothesis":"यसका दुई अफ्रिकी","ordinal":1965,"reference":"यसका दुई अफ्रिकी","sample_id":"kriti-88cc339614ee5d55be7aed0e02ea53a1","source_id":"openslr54"}
+{"hypothesis":"स्वतन्त्र फाइदाको लागि","ordinal":1966,"reference":"स्वतन्त्र फाइदाको लागि","sample_id":"kriti-88e01f7cae3f5b20b316328c30117809","source_id":"openslr54"}
+{"hypothesis":"स्टिल रड मैरी","ordinal":1968,"reference":"स्टील रड मैरी","sample_id":"kriti-88f5ea69c1795f27818f16b9a00dd27a","source_id":"openslr54"}
+{"hypothesis":"१८२७ साल अगहन","ordinal":1975,"reference":"१८२७ साल अगहन","sample_id":"kriti-896d909db5205e6aa1b0172d6a992355","source_id":"openslr54"}
+{"hypothesis":"पुस्तकको प्रयोग गरिन्छ","ordinal":1978,"reference":"पुस्तकको प्रयोग गरिन्छ","sample_id":"kriti-89aad1e208ea5f3aa1ec2083f7725efa","source_id":"openslr54"}
+{"hypothesis":"प्रतिक्रिया दिनमा","ordinal":1979,"reference":"प्रतिक्रिया दिनमा","sample_id":"kriti-89baa253cedc5ff3a46d131a272bca36","source_id":"openslr54"}
+{"hypothesis":"त्यही समयमा","ordinal":1984,"reference":"त्यही समयमा","sample_id":"kriti-8a24708927dc54b193e8bdda8b25d7ba","source_id":"openslr54"}
+{"hypothesis":"विचार कहिल्यै गरेनन्","ordinal":1990,"reference":"विचार कहिल्यै गरेनन्","sample_id":"kriti-8a833d9fc02b54aa92330693f88c0d10","source_id":"openslr54"}
+{"hypothesis":"कुदाकाउले भोजपुर जिल्लामा","ordinal":2000,"reference":"कुदाकाउले भोजपुर जिल्लामा","sample_id":"kriti-8b4977b9b8645141b0ec0d2ede3604e4","source_id":"openslr54"}
+{"hypothesis":"राज्यहरूभन्दा भिन्न छ","ordinal":2002,"reference":"राज्यहरूभन्दा भिन्न छ","sample_id":"kriti-8b4b9b21c2865b2990e407fc84ff5bcd","source_id":"openslr54"}
+{"hypothesis":"निर्माणपछि प्रशासनिक र व्यापारीक","ordinal":2004,"reference":"निर्माणपछि प्रशासनिक र ब्यापारीक","sample_id":"kriti-8b567d22811f5a088b4e25409dfc7917","source_id":"openslr54"}
+{"hypothesis":"स्तरीय देखिन्छ","ordinal":2009,"reference":"स्तरीय देखिन्छ","sample_id":"kriti-8b73a40fea4b582d923bf08ca83cbaef","source_id":"openslr54"}
+{"hypothesis":"म्याराथुन दौड २ घण्टा","ordinal":2010,"reference":"म्याराथुन दौड २ घण्टा","sample_id":"kriti-8b90767ff6095cbbbfe63226b1999a9d","source_id":"openslr54"}
+{"hypothesis":"नेतृत्वमा कम्युनिष्ट पाटीले","ordinal":2012,"reference":"नेतृत्वमा कम्युनिष्ट पाटीले","sample_id":"kriti-8ba15fd00ad853859185cff68a15fb33","source_id":"openslr54"}
+{"hypothesis":"६ नम्बरको जर्सी लगाउने","ordinal":2013,"reference":"६ नम्बरको जर्सी लगाउने","sample_id":"kriti-8bbff3e5d0855c6b81a3e78b14266ac1","source_id":"openslr54"}
+{"hypothesis":"दुखित भएर छुप","ordinal":2022,"reference":"दुखीत भएर चुप","sample_id":"kriti-8c7b59a7c21b5161aedfb26b13c4c642","source_id":"openslr54"}
+{"hypothesis":"गाई एउटा घरपालुवा तथा स्तनधारी जनावर हो।","ordinal":2025,"reference":"गाई एउटा घरपालुवा तथा स्तनधारी जनावर हो।","sample_id":"kriti-8c9a7947b0d65f2092cce874aa5e0d99","source_id":"openslr54"}
+{"hypothesis":"खेलेको भूमिकाको कारण","ordinal":2036,"reference":"खेलेको भूमिकाको कारण","sample_id":"kriti-8d319c88a4335df6b3554bd72d3d0b95","source_id":"openslr54"}
+{"hypothesis":"यस प्रकार प्रत्येक","ordinal":2037,"reference":"यस प्रकार प्रत्येक","sample_id":"kriti-8d34eb0a62ff5ab19f338aeae951e18f","source_id":"openslr54"}
+{"hypothesis":"र मानिसहरूको इतिहासलाई","ordinal":2038,"reference":"र मानिसहरूको इतिहासलाई","sample_id":"kriti-8d64654f122c563e95e16a2e6d8286e3","source_id":"openslr54"}
+{"hypothesis":"धरपकड गर्न सकेन","ordinal":2043,"reference":"धरपकड गर्न सकेन","sample_id":"kriti-8db73ff56774571b9b103917ddf310fb","source_id":"openslr54"}
+{"hypothesis":"मुहम्मद साहब भन्दा","ordinal":2044,"reference":"मुहम्मद साहब भन्दा","sample_id":"kriti-8db80bfe37f35eab9efd3b35d1ac75c7","source_id":"openslr54"}
+{"hypothesis":"लिपि हिमाञ्चल तथा","ordinal":2059,"reference":"लिपि हिमाञ्चल तथा","sample_id":"kriti-8f2bfb47f9d252439365b94ffa2e595f","source_id":"openslr54"}
+{"hypothesis":"१ मा मेष","ordinal":2064,"reference":"एकमा मेष","sample_id":"kriti-8fb566402056525db77bb175cc1491a7","source_id":"openslr54"}
+{"hypothesis":"त्यस्तो शिक्षा दिन","ordinal":2066,"reference":"त्यस्तो शिक्षा दिन","sample_id":"kriti-8fbd85c0f59b51a6a6888964364ce62e","source_id":"openslr54"}
+{"hypothesis":"सन्धि अनुरूप फर्काइदिए","ordinal":2073,"reference":"सन्धि अनुरूप फर्काइदिए","sample_id":"kriti-908ae35997f25b07bea6876b291e8617","source_id":"openslr54"}
+{"hypothesis":"अत यो मुख्य","ordinal":2083,"reference":"अत यो मुख्य","sample_id":"kriti-915d648bd89b5cfd8db9a1069ec116c2","source_id":"openslr54"}
+{"hypothesis":"उत्तर भारततर्फ विजय","ordinal":2086,"reference":"उत्तर भारततर्फ विजय","sample_id":"kriti-9189122015b85c1a91ca3785d8f68b11","source_id":"openslr54"}
+{"hypothesis":"यो बाजा ठोकेर बजाइन्छ","ordinal":2088,"reference":"यो बाजा ठोकेर बजाइन्छ","sample_id":"kriti-9196b8d16135531aa83916368cfb2a3c","source_id":"openslr54"}
+{"hypothesis":"लेख्न पाइरहेको छैन","ordinal":2098,"reference":"लेख्न पाइरहेको छैन","sample_id":"kriti-924ae6f1672d5bd08bc51e5d69488795","source_id":"openslr54"}
+{"hypothesis":"जितु नेपाल र शिवहरि","ordinal":2104,"reference":"जितु नेपाल र शिवहरि","sample_id":"kriti-929d97d2fb0a55eca8d6972f0f5f0b99","source_id":"openslr54"}
+{"hypothesis":"मङ्गलग्रह यस नक्षत्रको","ordinal":2109,"reference":"मङ्गलग्रह यस नक्षत्रको","sample_id":"kriti-93384e9b40e95b57a1fd7506534cc94c","source_id":"openslr54"}
+{"hypothesis":"यो पत्रिकाको प्रकाशक नेपाली विद्यार्थी परिषद् हो","ordinal":2110,"reference":"यो पत्रिकाको प्रकाशक नेपाली विद्यार्थी परिषद् हो।","sample_id":"kriti-9349e1c987ae516ca48afd0e402d2338","source_id":"openslr54"}
+{"hypothesis":"बैंक्सले सन् १७८३ मा","ordinal":2114,"reference":"बैंक्सले सन् १७८३ मा","sample_id":"kriti-93bc0958f8595b49b1f3eb34e17eb8c3","source_id":"openslr54"}
+{"hypothesis":"मण्डलको तेस्रो","ordinal":2115,"reference":"मण्डलको तेस्रो","sample_id":"kriti-93d0eddc99785e888f95da89d820e09f","source_id":"openslr54"}
+{"hypothesis":"कालो पोशाक लगाएका","ordinal":2120,"reference":"कालो पोसाक लगाएका","sample_id":"kriti-9430785938e652d9afd5a49628dc9343","source_id":"openslr54"}
+{"hypothesis":"देवताहरूले आफ्नो छोराहरूलाई","ordinal":2123,"reference":"देवताहरूले आफ्नो छोराहरूलाई","sample_id":"kriti-9447611572ed54a1b9ebbd28445c55d0","source_id":"openslr54"}
+{"hypothesis":"शक्तिशाली दुराचारी थियो","ordinal":2124,"reference":"शक्तिशाली दुराचारी थियो","sample_id":"kriti-944cf087ec92587b958f27430dbe676d","source_id":"openslr54"}
+{"hypothesis":"भूकम्प विज्ञान स्ट्रेटीग्राफी","ordinal":2134,"reference":"भूकम्प विज्ञान स्ट्रेटीग्राफी","sample_id":"kriti-954e70affd1057d0af08066f9dbc3b34","source_id":"openslr54"}
+{"hypothesis":"सबको डटेर","ordinal":2135,"reference":"सबको डटेर","sample_id":"kriti-955988a17ada5dc8a514052d4c00a817","source_id":"openslr54"}
+{"hypothesis":"जलमा मिलाएर त्यसले","ordinal":2138,"reference":"जलमा मिलाएर त्यसले","sample_id":"kriti-95a972011ee55ad992c25ddf861fbb52","source_id":"openslr54"}
+{"hypothesis":"उत्पन्न भएमा तपाईँको","ordinal":2139,"reference":"उत्पन्न भएमा तपाईँको","sample_id":"kriti-95b197a0b8f753b18180a8d227107035","source_id":"openslr54"}
+{"hypothesis":"सङ्ख्या अनुसार रोगीहरूलाई","ordinal":2151,"reference":"सङ्ख्या अनुसार रोगीहरूलाई","sample_id":"kriti-96ea16190bcc5dfeb3b98965b0454fac","source_id":"openslr54"}
+{"hypothesis":"सामग्री थप्नको लागि","ordinal":2155,"reference":"सामग्री थप्नको लागि","sample_id":"kriti-96f5b28c540c5a3d94cff5d88e7b01c9","source_id":"openslr54"}
+{"hypothesis":"हुँदैन यो ग्रामीण","ordinal":2157,"reference":"हुदैन यो ग्रामीण","sample_id":"kriti-972afe87f172509db0c1bdbc92136d1b","source_id":"openslr54"}
+{"hypothesis":"रहेको मसालको","ordinal":2160,"reference":"रहेको मसालको","sample_id":"kriti-9760d204b4be50258025fa495c022d7b","source_id":"openslr54"}
+{"hypothesis":"सहमति भएको थियो","ordinal":2163,"reference":"सहमति भएको थियो","sample_id":"kriti-97935769a951596fac959b6af8e9ee9e","source_id":"openslr54"}
+{"hypothesis":"युवतीका कुरा सुनेर आचार्य शङ्करले फेरि भने हे देवी","ordinal":2165,"reference":"युवतीका कुरा सुनेर आचार्य शङ्करले फेरि भने हे देवी!","sample_id":"kriti-97db3a15db6a5dd8964529f3ed6e04d2","source_id":"openslr54"}
+{"hypothesis":"श्रीनन्दको चाँचरी प्रसिद्ध","ordinal":2167,"reference":"श्रीनन्दको चाँचरी प्रसिद्ध","sample_id":"kriti-97f504245b045e2ca6113df52f42241b","source_id":"openslr54"}
+{"hypothesis":"यस बाहेक कञ्चनजङ्घा","ordinal":2176,"reference":"यस बाहेक कञ्चनजङ्घा","sample_id":"kriti-98da548abe7f58b6b4d56be7804955de","source_id":"openslr54"}
+{"hypothesis":"साउथ अस्ट्रेलियाका उपनिवेशमा","ordinal":2177,"reference":"साउथ अस्ट्रेलियाका उपनिवेशमा","sample_id":"kriti-990ac5f700f3530eac785e7e85eacb2e","source_id":"openslr54"}
+{"hypothesis":"तर वेश्या","ordinal":2178,"reference":"तर वेश्या","sample_id":"kriti-990e62a7007e5fd6928f1a7bb2a50b4c","source_id":"openslr54"}
+{"hypothesis":"बडा हाकिम भएर","ordinal":2182,"reference":"बडा हाकिम भएर","sample_id":"kriti-99b6b3a51f035cb692a0e7ad768ca97c","source_id":"openslr54"}
+{"hypothesis":"मुसलमान ठान्छन् कि","ordinal":2188,"reference":"मुसलमान ठान्छन् कि","sample_id":"kriti-99f8de576e0950c7b564ac46afb417d1","source_id":"openslr54"}
+{"hypothesis":"दक्षिणी अमेरिका हो","ordinal":2193,"reference":"दक्षिणी अमेरिका हो","sample_id":"kriti-9a5bb472456b5ed888c7e61617808129","source_id":"openslr54"}
+{"hypothesis":"सरकारकै विरोध गर्थे","ordinal":2197,"reference":"सरकारकै विरोध गर्थे","sample_id":"kriti-9adba7ace19a5dcfa8c96fb5a48d9248","source_id":"openslr54"}
+{"hypothesis":"उल्लेख भएको पाइदैन","ordinal":2203,"reference":"उल्लेख भएको पाइदैन","sample_id":"kriti-9b54143487bd57f1a8b31011c648a47b","source_id":"openslr54"}
+{"hypothesis":"आत्माको मृत्यु हुँदैन","ordinal":2208,"reference":"आत्माको मृत्यु हुँदैन।","sample_id":"kriti-9bb8e2fa69545d1d81aa0060f8f8e672","source_id":"openslr54"}
+{"hypothesis":"गणतन्त्र आइसल्याण्ड","ordinal":2210,"reference":"गणतन्त्र आइसल्याण्ड","sample_id":"kriti-9bc9031b73275c5496de97bae8a6bb7c","source_id":"openslr54"}
+{"hypothesis":"यसपछि प्रभु ईशा","ordinal":2212,"reference":"यसपछि प्रभु ईशा","sample_id":"kriti-9c0b507c55de580d927a7f3155548804","source_id":"openslr54"}
+{"hypothesis":"शरदऋतु मौसम भने","ordinal":2223,"reference":"शरदऋतु मौसम भने","sample_id":"kriti-9c96a8339aef5cf788a4e52949dfa7a4","source_id":"openslr54"}
+{"hypothesis":"मेरीका नामले चिनिई","ordinal":2227,"reference":"मेरीका नामले चिनिई","sample_id":"kriti-9cc8bd65bd4f5ee58fb37b8f09d0b841","source_id":"openslr54"}
+{"hypothesis":"इन्दौर लखनऊ छपरा","ordinal":2230,"reference":"इन्दौर लखनऊ छपरा","sample_id":"kriti-9d182e019dd1529393989c2ae7ac0502","source_id":"openslr54"}
+{"hypothesis":"पेजमै लिङ्क","ordinal":2240,"reference":"पेजमै लिङ्क","sample_id":"kriti-9db5ae89e90953b3a45b22631c3e6966","source_id":"openslr54"}
+{"hypothesis":"नेहरू प्लेस नजिक","ordinal":2242,"reference":"नेहरू प्लेस नजिक","sample_id":"kriti-9dd756de7b495d07930f112feae4e828","source_id":"openslr54"}
+{"hypothesis":"कुनैकुनै कुकुरले मान्छेले","ordinal":2246,"reference":"कुनैकुनै कुकुरले मान्छेले","sample_id":"kriti-9dfa218520805a73bbcec27491d3de12","source_id":"openslr54"}
+{"hypothesis":"कायला मारिया एक","ordinal":2249,"reference":"कायला मारिया एक","sample_id":"kriti-9e401d88dc235491be0f016384591bfd","source_id":"openslr54"}
+{"hypothesis":"पाइन्छ पाइँदैन","ordinal":2253,"reference":"पाईन्छ पाइँदैन","sample_id":"kriti-9e66f93537475b39a7996f815f1d08fe","source_id":"openslr54"}
+{"hypothesis":"पोख्त पनि मानिन्छन्","ordinal":2262,"reference":"पोख्त पनि मानिन्छन्","sample_id":"kriti-9f97f6a0f9c85653972742426cc4bc22","source_id":"openslr54"}
+{"hypothesis":"हटाउनुपर्यो र सन्","ordinal":2263,"reference":"हटाउनु पर्‍यो र सन्","sample_id":"kriti-9f9b57f28fd654af8944d4e5ed30e46c","source_id":"openslr54"}
+{"hypothesis":"श्री गिरिजाप्रसाद कोइराला","ordinal":2273,"reference":"श्री गिरिजाप्रसाद कोइराला","sample_id":"kriti-a0a0a6b63e905b4680d5d341bcbaf58d","source_id":"openslr54"}
+{"hypothesis":"स्तनधारी जनावर हो","ordinal":2280,"reference":"स्तनधारी जनावर हो","sample_id":"kriti-a141ae9c13fe597fbd6d81bd4ca91523","source_id":"openslr54"}
+{"hypothesis":"सस्तो दाममा प्राप्त","ordinal":2282,"reference":"सस्तो दाममा प्राप्त","sample_id":"kriti-a151ad12f65e59198a8e118fc4d1d356","source_id":"openslr54"}
+{"hypothesis":"तपाईँलाई नेपाली","ordinal":2283,"reference":"तपाईँलाई नेपाली","sample_id":"kriti-a18b469dc6f550dfbf8515ea53a15b10","source_id":"openslr54"}
+{"hypothesis":"यो रचना भवनको","ordinal":2301,"reference":"यो रचना भवनको","sample_id":"kriti-a2705df98569543596c903a0b56630c0","source_id":"openslr54"}
+{"hypothesis":"पछि केही समयसम्म","ordinal":2303,"reference":"पछि केही समयसम्म","sample_id":"kriti-a27e40c788195eab865b465019d0a035","source_id":"openslr54"}
+{"hypothesis":"डाइमसको अर्थ आतङ्क हो","ordinal":2306,"reference":"डाइमसको अर्थ आतङ्क हो","sample_id":"kriti-a2d405ddfe6551cb8e5867d3059ec5c4","source_id":"openslr54"}
+{"hypothesis":"हेर्ने एक उपाय हो","ordinal":2309,"reference":"हेर्ने एक उपाय हो","sample_id":"kriti-a30865d9336c5fd0b7de80ad8a4bfeaf","source_id":"openslr54"}
+{"hypothesis":"अलगअलग सङ्ख्यामा","ordinal":2313,"reference":"अलगअलग सङ्ख्यामा","sample_id":"kriti-a3640df747d05a118b4e8d39010412e5","source_id":"openslr54"}
+{"hypothesis":"पनि हुनुहुन्थ्यो","ordinal":2338,"reference":"पनि हुनुहुन्थ्यो","sample_id":"kriti-a4c3901fb0f952c39495457a0672dd7a","source_id":"openslr54"}
+{"hypothesis":"९ वर्षसम्म","ordinal":2342,"reference":"९ वर्ष सम्म","sample_id":"kriti-a546d95ae420585dbcf452db6bbb77f6","source_id":"openslr54"}
+{"hypothesis":"आँखाको रोगका लागि भने अझै यसलाई प्रयोग गरेको पाइन्छ।","ordinal":2343,"reference":"आँखाको रोगका लागि भने अझै यसलाई प्रयोग गरेको पाइन्छ।","sample_id":"kriti-a56dd16ad2cb57c291bd0ddd9144d8a0","source_id":"openslr54"}
+{"hypothesis":"गृह नजरबन्दीबाट सुकीलाई","ordinal":2360,"reference":"गृह नजरबन्दीबाट सुकीलाई","sample_id":"kriti-a651620d9d2d5ff3b7632dcc09e986c0","source_id":"openslr54"}
+{"hypothesis":"आवश्यकता पनि रहेन","ordinal":2368,"reference":"आवश्यकता पनि रहेन।","sample_id":"kriti-a69a0edbef5856ec89589b4e34b8b244","source_id":"openslr54"}
+{"hypothesis":"कुप्रथा कतिपय समाजमा","ordinal":2370,"reference":"कुप्रथा कतिपय समाजमा","sample_id":"kriti-a6a0bcf5c9ca56f6adf8e686d5aa72b5","source_id":"openslr54"}
+{"hypothesis":"कामहरुको चर्चा बढ्न थाल्यो","ordinal":2373,"reference":"कामहरुको चर्चा बढ्न थाल्यो","sample_id":"kriti-a7263fffb3dc574085525fc906cc3ae0","source_id":"openslr54"}
+{"hypothesis":"पश्चिमाञ्चल विकासक्षेत्रको धवलागिरी","ordinal":2386,"reference":"पश्चिमाञ्चल विकासक्षेत्रको धवलागिरि","sample_id":"kriti-a810b7a2a6e1520dbda1abfadffe13e2","source_id":"openslr54"}
+{"hypothesis":"घटनाहरुलाई यसले पटकपटक","ordinal":2392,"reference":"घटनाहरुलाई यसले पटकपटक","sample_id":"kriti-a851b349161058398e147dce3768ec7b","source_id":"openslr54"}
+{"hypothesis":"हाल पश्वीनाथको हिसाबकिताबको","ordinal":2403,"reference":"हाल पशुपतिनाथको हिसाबकिताबको","sample_id":"kriti-a914133448145c88a6fc36a66163f740","source_id":"openslr54"}
+{"hypothesis":"भने जुकाको प्रवेश","ordinal":2408,"reference":"भने जुकाको प्रवेश","sample_id":"kriti-a969f9dab49b5c6a8608855f7386d5fb","source_id":"openslr54"}
+{"hypothesis":"त्यस बेला ग्रिसमा","ordinal":2419,"reference":"त्यसबेला ग्रिसमा","sample_id":"kriti-aa5701320efc514681129f357a43671f","source_id":"openslr54"}
+{"hypothesis":"मुटु रोगीले यसको","ordinal":2422,"reference":"मुटु रोगीले यसको","sample_id":"kriti-aab8ab385ca95078bfadddf665fa1820","source_id":"openslr54"}
+{"hypothesis":"सक्छ तथा बनाउन","ordinal":2425,"reference":"सक्छ तथा बनाउन","sample_id":"kriti-aae6375744b857fbb1dabd1a163fbc4a","source_id":"openslr54"}
+{"hypothesis":"शिक्षा तथा खेलकुद मन्त्रालयसँगै","ordinal":2427,"reference":"शिक्षा तथा खेलकुद मन्त्रालयसंगै","sample_id":"kriti-ab4dea8b5bbb54c49f576d5057515253","source_id":"openslr54"}
+{"hypothesis":"जूनियर खेलाडी आफ्नो","ordinal":2432,"reference":"जूनियर खेलाडी आफ्नो","sample_id":"kriti-ab7d0a58a9965ffcb9a9196621d7181a","source_id":"openslr54"}
+{"hypothesis":"मनमा असन्तोष","ordinal":2438,"reference":"मनमा असन्तोष","sample_id":"kriti-abd1b75c666859ffa25e086e06003f9b","source_id":"openslr54"}
+{"hypothesis":"मनसङ्ग गराउँछ","ordinal":2443,"reference":"मन चंगा गराउँछ","sample_id":"kriti-ac5cd631ac8d5ece824a800147182a06","source_id":"openslr54"}
+{"hypothesis":"अब वर्षा सुरु हुँदैछ","ordinal":2444,"reference":"अब वर्षा सुरु हुँदैछ","sample_id":"kriti-ac709a377a5254c9b1c96f7b8bdb02ee","source_id":"openslr54"}
+{"hypothesis":"गरेको छु","ordinal":2453,"reference":"गरेको छु","sample_id":"kriti-ad4b1a7ae17f508b847fa34e8d095de4","source_id":"openslr54"}
+{"hypothesis":"ईश्वर बरालका एक","ordinal":2454,"reference":"ईश्वर बरालका एक","sample_id":"kriti-ad54990ed894523ebd96f57a2010da53","source_id":"openslr54"}
+{"hypothesis":"आकाङ्क्षा जन्म लिँदालिँदै","ordinal":2455,"reference":"आकाङ्क्षा जन्म लिँदालिँदै","sample_id":"kriti-ad629e0dd4845fd49ee9a00d9ec014c0","source_id":"openslr54"}
+{"hypothesis":"जनताका लागि भोक","ordinal":2466,"reference":"जनताका लागि भोक","sample_id":"kriti-ae91fbedd9c5523c9325b288a9263e1d","source_id":"openslr54"}
+{"hypothesis":"चाख राख्नुहुन्छ","ordinal":2467,"reference":"चाख राख्नुहुन्छ","sample_id":"kriti-aeb180f5a0df5aaa80e264040558f34b","source_id":"openslr54"}
+{"hypothesis":"नेवार समुदायले","ordinal":2486,"reference":"नेवार समुदायले","sample_id":"kriti-afa5de8689625d8fb071374a420651cb","source_id":"openslr54"}
+{"hypothesis":"काम व्यवहार","ordinal":2488,"reference":"काम व्यवहार","sample_id":"kriti-afdd71d88f915447b1db3ca81d98e13c","source_id":"openslr54"}
+{"hypothesis":"छोरो ठूलो हुँदै","ordinal":2497,"reference":"छोरो ठूलो हुँदै","sample_id":"kriti-b057d94cafba5a338d3cad9dd5fa660b","source_id":"openslr54"}
+{"hypothesis":"तपाईँको समस्याको बारेमा","ordinal":2498,"reference":"तपाईँको समस्याको बारेमा","sample_id":"kriti-b071408226b15277ac19ca569b0b9980","source_id":"openslr54"}
+{"hypothesis":"इन्स्टिच्युट अन्तरिक्षको खोज","ordinal":2505,"reference":"इन्स्टिट्युट अन्तरिक्षको खोज","sample_id":"kriti-b0ec35cc46cb509397f3247d0b5e4aad","source_id":"openslr54"}
+{"hypothesis":"सक्रिय रहेकी न्यौपाने","ordinal":2512,"reference":"सक्रिय रहेकी न्यौपाने","sample_id":"kriti-b19a347db4ec58638dfcaef1873695c5","source_id":"openslr54"}
+{"hypothesis":"दरगाह रहेका छन्","ordinal":2520,"reference":"दरगाह रहेका छन्","sample_id":"kriti-b2155ba6b9dd5832b34d5d0b6c69a2a4","source_id":"openslr54"}
+{"hypothesis":"सन् १९९१ को नोभेम्बरमा","ordinal":2523,"reference":"सन् १९९१ को नोभेम्बरमा","sample_id":"kriti-b254da10b2e95093a08639562973970b","source_id":"openslr54"}
+{"hypothesis":"पर्यटकहरूको नेपाल बसाई","ordinal":2531,"reference":"पर्यटकहरूको नेपाल बसाई","sample_id":"kriti-b2a88e07501c5722a6b26420a656e4cf","source_id":"openslr54"}
+{"hypothesis":"उपाधि धारण गरेनन्","ordinal":2532,"reference":"उपाधि धारण गरेनन्","sample_id":"kriti-b2b178f18cca5997a9f229a5634a7cf5","source_id":"openslr54"}
+{"hypothesis":"आउल भनिन्छ","ordinal":2537,"reference":"आउल भनिन्छ","sample_id":"kriti-b2e65db5be365b7d8566cd9243019069","source_id":"openslr54"}
+{"hypothesis":"नली वा अण्डबाहिनी","ordinal":2539,"reference":"नली वा अण्डबाहिनी","sample_id":"kriti-b2f3a66b9d6158718d64d01bee6a4d3b","source_id":"openslr54"}
+{"hypothesis":"धनधान्यले भरिपूर्ण थियो","ordinal":2546,"reference":"धनधान्यले भरिपूर्ण थियो","sample_id":"kriti-b389e50273dd50b9a19c5bdcb526472e","source_id":"openslr54"}
+{"hypothesis":"यो राजमार्ग पोखरा","ordinal":2549,"reference":"यो राजमार्ग पोखरा","sample_id":"kriti-b397ba6e0dca5bc08dde28237c92967e","source_id":"openslr54"}
+{"hypothesis":"कर्थली गाविसको पूर्वमा","ordinal":2553,"reference":"कर्थली गाविसको पूर्वमा","sample_id":"kriti-b3e63fcf8ee75654afb8b6c3d5d19977","source_id":"openslr54"}
+{"hypothesis":"व्यवस्थित गर्न गोरुजात्रा","ordinal":2555,"reference":"व्यवस्थित गर्न गोरुजात्रा","sample_id":"kriti-b3f7410ca2c153c8863df9a5f634a88e","source_id":"openslr54"}
+{"hypothesis":"अनि उनलाई अमेरिकी","ordinal":2560,"reference":"अनि उनलाई अमेरिकी","sample_id":"kriti-b499e06a4cf958c99027def1229864c7","source_id":"openslr54"}
+{"hypothesis":"समर्पण गर्यो","ordinal":2573,"reference":"समर्पण गर्‍यो","sample_id":"kriti-b55cb8e963a955128fd20f5ca06812f0","source_id":"openslr54"}
+{"hypothesis":"समस्यालाई सहजै समाधान","ordinal":2580,"reference":"समस्यालाई सहजै समाधान","sample_id":"kriti-b5e67b67be175471b850e640689224da","source_id":"openslr54"}
+{"hypothesis":"भन्ने मेरो युजर","ordinal":2587,"reference":"भन्ने मेरो युजर","sample_id":"kriti-b65de31b51365371a6e7f9939b0b8516","source_id":"openslr54"}
+{"hypothesis":"तब निर्माताहरू उनी","ordinal":2589,"reference":"तब निर्माताहरू उनी","sample_id":"kriti-b67472e8692c580893d067ff83c8431c","source_id":"openslr54"}
+{"hypothesis":"अब्बासीहरूलाई बगदादमा","ordinal":2592,"reference":"अब्बासीहरूलाई बगदादमा","sample_id":"kriti-b6b0c414fd8551e08e4bb6f3ee519021","source_id":"openslr54"}
+{"hypothesis":"अन्तत ११ फेब्रुअरी १९९०","ordinal":2599,"reference":"अन्तत ११ फेब्रुअरी १९९०","sample_id":"kriti-b6fd3367d2c25b15a1f6329d0f3a446d","source_id":"openslr54"}
+{"hypothesis":"जेठा मापेहोङ","ordinal":2600,"reference":"जेठा मापेहोङ","sample_id":"kriti-b711253697d451aa86cb2ab77a15dab9","source_id":"openslr54"}
+{"hypothesis":"अध्यक्ष हुनुहुन्थ्यो","ordinal":2601,"reference":"अध्यक्ष हुनुहुन्थ्यो","sample_id":"kriti-b71166caee8057cba90d66ae0988a403","source_id":"openslr54"}
+{"hypothesis":"र एडवान्स अस्ट्रेलिया फेयर","ordinal":2605,"reference":"र एडवान्स अस्ट्रेलिया फेयर","sample_id":"kriti-b74ba989d34c5bd89f7fa7fb1c524633","source_id":"openslr54"}
+{"hypothesis":"यामाहा बाइक जिते","ordinal":2608,"reference":"यामाहा बाइक जिते","sample_id":"kriti-b787c939aa795515bc8360598ae8750b","source_id":"openslr54"}
+{"hypothesis":"जल ल्याउनमा विलम्ब","ordinal":2609,"reference":"जल ल्याउनमा विलम्ब","sample_id":"kriti-b78d6d7052af5ef580b2178f7dd70a6c","source_id":"openslr54"}
+{"hypothesis":"डास्वामी रामानन्द गिरी","ordinal":2611,"reference":"डास्वामी रामानन्द गिरी","sample_id":"kriti-b7b4ae9612275b218ebe75d3c710b0e9","source_id":"openslr54"}
+{"hypothesis":"प्रकार जसमा घुमाएको","ordinal":2618,"reference":"प्रकार जसमा घुमाएको","sample_id":"kriti-b80361ddf0d4564dad8eb4b77027ae57","source_id":"openslr54"}
+{"hypothesis":"भन्दा ठूलो हुन्छ","ordinal":2643,"reference":"भन्दा ठूलो हुन्छ","sample_id":"kriti-ba24996a4dda5fe8bea22e34ce3f9975","source_id":"openslr54"}
+{"hypothesis":"डेभिड लोएर्ड जोर्ज एक बेलायती राजनीतिज्ञ तथा बेलायतका प्रधानमन्त्री थिए।","ordinal":2650,"reference":"डेभिड लोयोर्ड जोर्ज एक बेलायती राजनीतिज्ञ तथा बेलायतका प्रधानमन्त्री थिए।","sample_id":"kriti-bae9c00afbd15e76bc7fbb99363418df","source_id":"openslr54"}
+{"hypothesis":"वेगास तथा लसएन्जलसमा","ordinal":2651,"reference":"वेगास तथा लसएन्जलसमा","sample_id":"kriti-bb00eb189868541db6aa5fe3213d738d","source_id":"openslr54"}
+{"hypothesis":"राम्रो त जाँतो","ordinal":2652,"reference":"राम्रो त जाँतो","sample_id":"kriti-bb017de2d38d5e569f9cfdcf215a1f3d","source_id":"openslr54"}
+{"hypothesis":"स्वास्थ्यकर्मीहरूको छनौट प्रक्रिया","ordinal":2658,"reference":"स्वास्थ्यकर्मीहरूको छनौट प्रक्रिया","sample_id":"kriti-bb50c4e52d4d52dba2af1d0b8384284e","source_id":"openslr54"}
+{"hypothesis":"मैले बनाइदिएँ","ordinal":2669,"reference":"मैले बनाई दिए","sample_id":"kriti-bc535ce703155ec5bd73afa9bf6fce69","source_id":"openslr54"}
+{"hypothesis":"प्रयोग गरेमा यसले","ordinal":2675,"reference":"प्रयोग गरेमा यसले","sample_id":"kriti-bcadd49e80795814a147b0cdd8ccde9b","source_id":"openslr54"}
+{"hypothesis":"उच्च जीवनस्तरको","ordinal":2682,"reference":"उच्च जीवनस्तरको","sample_id":"kriti-bcfdb7c8695d521d95b60141e5224234","source_id":"openslr54"}
+{"hypothesis":"प्रेम भक्ति र मानिसको","ordinal":2686,"reference":"प्रेम भक्ति र मानिसको","sample_id":"kriti-bd3c40ebe99e54b0a5401a0c9c243672","source_id":"openslr54"}
+{"hypothesis":"१९७५ मा उनले","ordinal":2692,"reference":"१९७५ मा उनले","sample_id":"kriti-bda7a9242c3e5f3db51612106e2f0f0a","source_id":"openslr54"}
+{"hypothesis":"पोखरेलद्वारा लेखिएको कृति हो","ordinal":2693,"reference":"पोखरेलद्वारा लेखिएको कृति हो","sample_id":"kriti-bdce02a23efe5fe0a625915486600056","source_id":"openslr54"}
+{"hypothesis":"नेपालमा रहेका विदेशी","ordinal":2694,"reference":"नेपालमा रहेका विदेशी","sample_id":"kriti-bdd16f34eb1c5fe8810916bca8b35f7e","source_id":"openslr54"}
+{"hypothesis":"डाँडा र पश्चिम बुढी","ordinal":2695,"reference":"डाँडा र पश्चिम बुढी","sample_id":"kriti-be0f5dd912a95eaeb521521774727fd5","source_id":"openslr54"}
+{"hypothesis":"स्थानीय मनोरञ्जनको रूपमा","ordinal":2711,"reference":"स्थानीय मनोरञ्जनको रूपमा","sample_id":"kriti-bf3fed850b7c5d46909192a000266885","source_id":"openslr54"}
+{"hypothesis":"पाँच कक्षापछि तलकोटकै","ordinal":2713,"reference":"पाँच कक्षापछि तलकोटकै","sample_id":"kriti-bf4591a79ee15ba7903e8cc0f4f5a8f3","source_id":"openslr54"}
+{"hypothesis":"फूलका लागि प्रसिद्ध छ","ordinal":2715,"reference":"फूलका लागि प्रसिद्ध छ","sample_id":"kriti-bf92406eff5f5f08b1ee8b3205c9b53c","source_id":"openslr54"}
+{"hypothesis":"मा उनीहरूले विवाह","ordinal":2718,"reference":"मा उनीहरूले विवाह","sample_id":"kriti-bff8e36bb09453ccb08a6692dc1b98e7","source_id":"openslr54"}
+{"hypothesis":"ईपू ९५१ ईसा","ordinal":2730,"reference":"ईपू ९५१ ईसा","sample_id":"kriti-c099b89f9b805359af259dea7d622c81","source_id":"openslr54"}
+{"hypothesis":"पाहुनाघर निर्माण विद्युतीकरणका","ordinal":2731,"reference":"पाहुनाघर निर्माण विद्युतीकरणका","sample_id":"kriti-c09c7a00a82b582dbe8d0567caf9599b","source_id":"openslr54"}
+{"hypothesis":"शैव शाक्त बौद्ध","ordinal":2735,"reference":"शैव शाक्त बौद्ध","sample_id":"kriti-c0c646a5562e55aaa8b3ef88fb4db71a","source_id":"openslr54"}
+{"hypothesis":"जसतर्फ पशु आकर्षित","ordinal":2738,"reference":"जसतर्फ पशु आकर्षित","sample_id":"kriti-c0f8a6de045f5cbbb9432a3033f484bf","source_id":"openslr54"}
+{"hypothesis":"सोचलाई अत्यन्तै बल","ordinal":2741,"reference":"सोचलाई अत्यन्तै बल","sample_id":"kriti-c133b24ef9775a8984871785fa14f6a0","source_id":"openslr54"}
+{"hypothesis":"संगीतजस्ता कार्यक्रम चलाउनुभयो","ordinal":2745,"reference":"संगीतजस्ता कार्यक्रम चलाउनुभयो","sample_id":"kriti-c1750610cf12543d99b44179832bbbd1","source_id":"openslr54"}
+{"hypothesis":"१५ प्रकाशन प्रशारण","ordinal":2763,"reference":"१५ प्रकाशन प्रशारण","sample_id":"kriti-c2bff326ae8d518c94d3c6119c8b8c08","source_id":"openslr54"}
+{"hypothesis":"सिएएफ पनि एक हो","ordinal":2778,"reference":"सिएएफ पनि एक हो","sample_id":"kriti-c3e55e6267c258739a51970af3e5c53f","source_id":"openslr54"}
+{"hypothesis":"सहनिर्माता रायन मर्फीले","ordinal":2782,"reference":"सहनिर्माता रायन मर्फीले","sample_id":"kriti-c47b8131bb2b5862a0ca67790eba9d01","source_id":"openslr54"}
+{"hypothesis":"मेरो विचारमा त्यही","ordinal":2785,"reference":"मेरो विचारमा त्यही","sample_id":"kriti-c4ae924b19bf5ae881f3fa9eb6f8578d","source_id":"openslr54"}
+{"hypothesis":"पक्कै पनि मन पर्नेछ","ordinal":2788,"reference":"पक्कै पनि मन पर्नेछ","sample_id":"kriti-c511903f6cd459dea799b07abcd62489","source_id":"openslr54"}
+{"hypothesis":"उसको पराक्रमको गाथा","ordinal":2803,"reference":"उसको पराक्रमको गाथा","sample_id":"kriti-c5e7d7a4dbf650259e0010015f5229b4","source_id":"openslr54"}
+{"hypothesis":"पनि प्रवक्ता हुन्","ordinal":2807,"reference":"पनि प्रवक्ता हुन्","sample_id":"kriti-c613b6f0a6215eacaf920dc91666527f","source_id":"openslr54"}
+{"hypothesis":"उनले आन्तरिक भागका","ordinal":2813,"reference":"उनले आन्तरिक भागका","sample_id":"kriti-c6a81022a4ad5569adff6f94de30d6ef","source_id":"openslr54"}
+{"hypothesis":"गोकर्ण सफारी पार्क","ordinal":2814,"reference":"गोकर्ण सफारी पार्क","sample_id":"kriti-c6b27cd4e89157298391a3574436ad30","source_id":"openslr54"}
+{"hypothesis":"दोलखा जिल्लाको सुनखानीमा","ordinal":2817,"reference":"दोलखा जिल्लाको सुनखानीमा","sample_id":"kriti-c6d4e9c54aeb5da2b05b83ded180d8ce","source_id":"openslr54"}
+{"hypothesis":"ईपू ८७९ वा वर्ष","ordinal":2818,"reference":"ईपू ८७९ वा वर्ष","sample_id":"kriti-c6d67f65c94c523fae928d726dd79a5a","source_id":"openslr54"}
+{"hypothesis":"कौरियाला घाट नामको","ordinal":2820,"reference":"कौरियाला घाट नामको","sample_id":"kriti-c6ea17904acc5f999a9ec95a526060fc","source_id":"openslr54"}
+{"hypothesis":"जेक्लर हिउँ तथा","ordinal":2825,"reference":"जेक्लर हिउँ तथा","sample_id":"kriti-c769996425e752a6a5460d482825af97","source_id":"openslr54"}
+{"hypothesis":"राखिएको श्रेणीहरू हुन्","ordinal":2827,"reference":"राखिएको श्रेणीहरू हुन्","sample_id":"kriti-c77735c5537e59e0876b5f7b9b607e14","source_id":"openslr54"}
+{"hypothesis":"ऐतिहासिक नाम रच्यो","ordinal":2830,"reference":"ऐतिहासिक नाम रच्यो","sample_id":"kriti-c78f543992cd53cd80097a952c0ea9ef","source_id":"openslr54"}
+{"hypothesis":"अनावरत योगदान दिनुभएकोमा","ordinal":2831,"reference":"अनवरत योगदान दिनुभएकोमा","sample_id":"kriti-c792e13e840e55218124498fcd1fb58c","source_id":"openslr54"}
+{"hypothesis":"तबलाका ज्ञाता","ordinal":2838,"reference":"तबलाका ज्ञाता","sample_id":"kriti-c845c0e15d1b5c4684b6587617632de9","source_id":"openslr54"}
+{"hypothesis":"दिनको उपचारपछि विन्दु","ordinal":2855,"reference":"दिनको उपचारपछि विन्दु","sample_id":"kriti-c90ca034576652cab5c52504326d6cc3","source_id":"openslr54"}
+{"hypothesis":"माओवादी समानुपातिक सभासद्","ordinal":2858,"reference":"माओवादी समानुपातिक सभासद्","sample_id":"kriti-c943f2c6ede75473952281808312c89a","source_id":"openslr54"}
+{"hypothesis":"आफ्नो जीवनकालमा नै","ordinal":2861,"reference":"आफ्नो जीवनकालमा नैं","sample_id":"kriti-c9840fc018615eefafc3d762a6e08f82","source_id":"openslr54"}
+{"hypothesis":"२४० पाउन्ड बढ्दछ","ordinal":2863,"reference":"२४० पाउन्ड बढ्दछ","sample_id":"kriti-c988e461e6ad59319098d6ef8faa88a7","source_id":"openslr54"}
+{"hypothesis":"यी जनताका लागि","ordinal":2876,"reference":"यी जनताका लागि","sample_id":"kriti-ca25cc283d105bddb9f65eb7956dba81","source_id":"openslr54"}
+{"hypothesis":"सहर अनि तहसील छ","ordinal":2891,"reference":"शहर अनि तहसील छ","sample_id":"kriti-cb1601bab8a45667929fc7015b51ae38","source_id":"openslr54"}
+{"hypothesis":"लेख्दा पनि बाहिरिएर","ordinal":2895,"reference":"लेख्दा पनि बाहिरिएर","sample_id":"kriti-cb3f495c25335774864893ac40f6f96f","source_id":"openslr54"}
+{"hypothesis":"भने नयाँ लेख","ordinal":2898,"reference":"भने नयाँ लेख","sample_id":"kriti-cb7f423638cb54eea0a5265858fe4db3","source_id":"openslr54"}
+{"hypothesis":"परिचित गराउन पनि","ordinal":2904,"reference":"परिचित गराउन पनि","sample_id":"kriti-cbcd7e0fb19b5448ab168bd20846fcac","source_id":"openslr54"}
+{"hypothesis":"यस गाविसमा कुल ४८० घरधुरी रहेका छन्","ordinal":2905,"reference":"यस गाविसमा कुल ४८० घरधुरी रहेका छन्।","sample_id":"kriti-cbe27e40c47a5b0da94f56f8522ba1de","source_id":"openslr54"}
+{"hypothesis":"सन् १८६० १९२०","ordinal":2908,"reference":"सन् १८६० १९२०","sample_id":"kriti-cc0ffbfd5e0f598daff8347560babdcd","source_id":"openslr54"}
+{"hypothesis":"जीवित मान्यता प्राप्त","ordinal":2911,"reference":"जीवित मान्यता प्राप्त","sample_id":"kriti-cc62b994f8f65c898e3654f30ab76440","source_id":"openslr54"}
+{"hypothesis":"उनी अयोध्या गए","ordinal":2912,"reference":"उनी अयोध्या गए","sample_id":"kriti-cc7b64f9f4b657fab8ca696d596c4e14","source_id":"openslr54"}
+{"hypothesis":"सुकीले आफू","ordinal":2917,"reference":"सुकीले आफू","sample_id":"kriti-ccdb3ab547a9577f9fecc08912c4c353","source_id":"openslr54"}
+{"hypothesis":"भित्र पठाइन्छ","ordinal":2919,"reference":"भित्र पठाइन्छ","sample_id":"kriti-cce39b885e1c5e7a820775ab838d207f","source_id":"openslr54"}
+{"hypothesis":"इन्द्रेश्वर भनी प्रसिद्ध","ordinal":2920,"reference":"इन्द्रेश्वर भनी प्रसिद्ध","sample_id":"kriti-cce6e47ef6cf54a0a1ab7a17e6c0b368","source_id":"openslr54"}
+{"hypothesis":"ती दुई समूहमध्ये","ordinal":2924,"reference":"ती दुई समूहमध्ये","sample_id":"kriti-cd1cdd3b692f5a0e9c1f9c7d2c2df6ae","source_id":"openslr54"}
+{"hypothesis":"यो सजाय","ordinal":2925,"reference":"यो सजाय","sample_id":"kriti-cd22eaeb5a1c53c180ed4dce9f07519c","source_id":"openslr54"}
+{"hypothesis":"पूजा रहेको छ","ordinal":2929,"reference":"पूजा रहेको छ","sample_id":"kriti-cd5e5d0206265f54abfa964f672b690a","source_id":"openslr54"}
+{"hypothesis":"आफ्नो निजी पुस्तकालय","ordinal":2931,"reference":"आफ्नो निजी पुस्तकालय","sample_id":"kriti-cdb056f182e158c5be05fed8e4c53de0","source_id":"openslr54"}
+{"hypothesis":"सक्रिय अहिंसा भनिन्छ","ordinal":2934,"reference":"सक्रिय अहिंसा भनिन्छ","sample_id":"kriti-ce99077092d65030b6fac365f09aac0a","source_id":"openslr54"}
+{"hypothesis":"अमेरिकामा यो नोभेम्बरको चौथो बिहिबार र क्यानडामा दोस्रो सोमबार पर्छ।","ordinal":2935,"reference":"अमेरिकामा यो नोभेम्बरको चौथो बिहिबार र क्यानडामा दोस्रो सोमबार पर्छ।","sample_id":"kriti-cea122ee1d06548e86bff3849ee8d3c6","source_id":"openslr54"}
+{"hypothesis":"गर्ने माटो त","ordinal":2936,"reference":"गर्ने माटो त","sample_id":"kriti-cea16f975c27550fb1009a1d734ef7ae","source_id":"openslr54"}
+{"hypothesis":"अमृतमान शाक्य हो","ordinal":2940,"reference":"अमृतमान शाक्य हो","sample_id":"kriti-cef8c1fb32c052b8b3598c1f9188e797","source_id":"openslr54"}
+{"hypothesis":"जसको बहुवचन","ordinal":2950,"reference":"जसको बहुवचन","sample_id":"kriti-cfc00a249e4f574d98295b0519a919e7","source_id":"openslr54"}
+{"hypothesis":"कार्यरत छन्","ordinal":2952,"reference":"कार्यरत छन्","sample_id":"kriti-cfffe468cb9f59cc8749b8dc8ef15588","source_id":"openslr54"}
+{"hypothesis":"रातो रङका लिङ्क","ordinal":2954,"reference":"रातो रङका लिङ्क","sample_id":"kriti-d019f10006f4568aa78cc9308388dfa9","source_id":"openslr54"}
+{"hypothesis":"यो कर प्रारम्भ","ordinal":2955,"reference":"यो कर प्रारम्भ","sample_id":"kriti-d01ab228326f59da8defa7afd80fb307","source_id":"openslr54"}
+{"hypothesis":"र केही सामग्रीहरू","ordinal":2964,"reference":"र केही सामग्रीहरू","sample_id":"kriti-d0e19d5c40895acf89e1117f2a63dbce","source_id":"openslr54"}
+{"hypothesis":"उपयोग गर्न सकेमा","ordinal":2965,"reference":"उपयोग गर्न सकेमा","sample_id":"kriti-d0f9e377a65c505481937aa5e9131b29","source_id":"openslr54"}
+{"hypothesis":"उनीहरू लक्षि दामु","ordinal":2970,"reference":"उनिहरू लछि दामु","sample_id":"kriti-d12eac5f28765c7f9eb097ae2d270e0e","source_id":"openslr54"}
+{"hypothesis":"एजेण्डा छ","ordinal":2976,"reference":"एजेण्डा छ","sample_id":"kriti-d1c880aafdb45173b8ea147154cb420a","source_id":"openslr54"}
+{"hypothesis":"शाक्त उपासनाका","ordinal":2983,"reference":"शाक्त उपासनाका","sample_id":"kriti-d2294e43ff27587fa81ab2463288c943","source_id":"openslr54"}
+{"hypothesis":"हाम्रो यहाँ भेला","ordinal":2989,"reference":"हाम्रो यहाँ भेला","sample_id":"kriti-d262933325e1548f903bbc54c3b14ace","source_id":"openslr54"}
+{"hypothesis":"कुनै न कुनै","ordinal":2992,"reference":"कुनै न कुनै","sample_id":"kriti-d26b672a1cbd5d57b27d086390352e7f","source_id":"openslr54"}
+{"hypothesis":"सन् १९३५ मा उडिसा","ordinal":3006,"reference":"सन १९३५मा उडिसा","sample_id":"kriti-d3a253cd08675742a371b8c5cd25345d","source_id":"openslr54"}
+{"hypothesis":"उनी राजनैतिक रूपबाट","ordinal":3017,"reference":"उनी राजनैतिक रूपबाट","sample_id":"kriti-d466135fad4a5979885ca7aeedb73e56","source_id":"openslr54"}
+{"hypothesis":"उपस्थित सभ्यताहरूको सङ्ख्याबारे","ordinal":3020,"reference":"उपस्थित सभ्यताहरूको सङ्ख्याबारे","sample_id":"kriti-d4aa1f3ee19c5ffeb11513c143599a75","source_id":"openslr54"}
+{"hypothesis":"गठन भई परीक्षा","ordinal":3024,"reference":"गठन भई परीक्षा","sample_id":"kriti-d4f6ec2234fa5785962699edcca6f067","source_id":"openslr54"}
+{"hypothesis":"लगाए तथा आर्य","ordinal":3027,"reference":"लगाए तथा आर्य","sample_id":"kriti-d5385554445050e396b3acda798d7e97","source_id":"openslr54"}
+{"hypothesis":"मध्येको एक समूह हो","ordinal":3031,"reference":"मध्येको एक समूह हो","sample_id":"kriti-d594225a87555af5b414c87567eba4b9","source_id":"openslr54"}
+{"hypothesis":"पर्यटनका क्षेत्रमा","ordinal":3036,"reference":"पर्यटनका क्षेत्रमा","sample_id":"kriti-d60c28cac0e55afb96896a69da8e000d","source_id":"openslr54"}
+{"hypothesis":"समूहगत चरणको","ordinal":3054,"reference":"समूहगत चरणको","sample_id":"kriti-d6c12e05610e5a77af812e01b96886b7","source_id":"openslr54"}
+{"hypothesis":"विमानचालकहरू नाविकहरू गवेषकहरू","ordinal":3056,"reference":"विमानचालकहरू नाविकहरू गवेषकहरू","sample_id":"kriti-d6ee4bfa08cf59978a008b0bd649cb5b","source_id":"openslr54"}
+{"hypothesis":"मल्लकालमा औद्योगिक क्रान्तिको","ordinal":3060,"reference":"मल्लकालमा औद्योगिक क्रान्तिको","sample_id":"kriti-d726030c5a1e5d92a7a5e5fa8a98c32c","source_id":"openslr54"}
+{"hypothesis":"स्कुलमा पढाएपछि उहाँ","ordinal":3061,"reference":"स्कूलमा पढाएपछि उहाँ","sample_id":"kriti-d72a425ee13554b0acb1f5ecaf3837c5","source_id":"openslr54"}
+{"hypothesis":"ढोका र पूर्व पश्चिममा","ordinal":3066,"reference":"ढोका र पूर्व पश्चिममा","sample_id":"kriti-d7641c8bb0cb5f92a3251c4bec279deb","source_id":"openslr54"}
+{"hypothesis":"यसमा विवाद गर्नु","ordinal":3074,"reference":"यसमा विवाद गर्नु","sample_id":"kriti-d8110dba0d585574b252abdfe3a6aeb1","source_id":"openslr54"}
+{"hypothesis":"भएर एक ताकु","ordinal":3076,"reference":"भय र एक ताकु","sample_id":"kriti-d8549ef2fd4b553a80465a41e84fc9d8","source_id":"openslr54"}
+{"hypothesis":"सङ्घर्षपूर्ण बन्छ","ordinal":3078,"reference":"सङ्घर्षपूर्ण बन्छ","sample_id":"kriti-d86e45ed82045a6f91b1a8c9985cb2ff","source_id":"openslr54"}
+{"hypothesis":"पनि हो","ordinal":3083,"reference":"पनि हो","sample_id":"kriti-d8e9adbfd3345bdb8603497e3a3cd74a","source_id":"openslr54"}
+{"hypothesis":"एक वैविधतापूर्ण एवं","ordinal":3092,"reference":"एक वैविधतापूर्ण एवम्","sample_id":"kriti-d9e6ee949a0b56afb696344b75720a8e","source_id":"openslr54"}
+{"hypothesis":"काम गरिसक्नु","ordinal":3115,"reference":"काम गरि सक्नु","sample_id":"kriti-db96ceb2ab8557f6adf9c0a756c2ab81","source_id":"openslr54"}
+{"hypothesis":"सिंहासन पाएको शिलालेखमा","ordinal":3125,"reference":"सिंहासन पाएको शिलालेखमा","sample_id":"kriti-dc5e162bad845093bc7037635113e011","source_id":"openslr54"}
+{"hypothesis":"आटालाई पर्याप्त आपूर्ति","ordinal":3130,"reference":"आटालाई पर्याप्त आपूर्ति","sample_id":"kriti-dcd81cec9ef8523492acf3357aa1a553","source_id":"openslr54"}
+{"hypothesis":"तर सो योजनाबाट","ordinal":3137,"reference":"तर सो योजनाबाट","sample_id":"kriti-dd59e8c1fa7350d5993c6e3591edea9a","source_id":"openslr54"}
+{"hypothesis":"प्रशंसा सम्झनामा गाइने","ordinal":3145,"reference":"प्रशंसा सम्झनामा गाइने","sample_id":"kriti-dda4f765727354579cf943667f520d93","source_id":"openslr54"}
+{"hypothesis":"विचलित भएको","ordinal":3146,"reference":"विचलित भएको","sample_id":"kriti-ddd0b90e20555257b19ec0429931174b","source_id":"openslr54"}
+{"hypothesis":"क्षमता अभिवृद्धि सँग","ordinal":3147,"reference":"क्षमता अभिवृद्धि सँग","sample_id":"kriti-ddd90ec6359b5eb3962b20b5efdc4401","source_id":"openslr54"}
+{"hypothesis":"शिवरात्रीमा यहाँ","ordinal":3148,"reference":"शिवरात्रीमा यहाँ","sample_id":"kriti-dddb4ba4c048554c97c65898103cb7c1","source_id":"openslr54"}
+{"hypothesis":"भौगोलिक अवस्थितिका कारण","ordinal":3152,"reference":"भौगोलिक अवस्थितिका कारण","sample_id":"kriti-de442fa397c3573cab472b9b0a3ff74f","source_id":"openslr54"}
+{"hypothesis":"उनी नाबालक छोरा","ordinal":3155,"reference":"उनि नाबालक छोरा","sample_id":"kriti-de76632f427d5313a6ac6ec350b19304","source_id":"openslr54"}
+{"hypothesis":"विक्टोरिया र वेस्टर्न","ordinal":3158,"reference":"विक्टोरिया र वेस्टर्न","sample_id":"kriti-de848fc107d852f09bc5d2a04d7c95dd","source_id":"openslr54"}
+{"hypothesis":"आधार बनाएर रचना","ordinal":3161,"reference":"आधार बनाएर रचना","sample_id":"kriti-dea7d946a641556783fe4c0ee90a966d","source_id":"openslr54"}
+{"hypothesis":"प्रभावी रूपले पराजित","ordinal":3163,"reference":"प्रभावी रूपले पराजित","sample_id":"kriti-def2c5c777175158bca8aff400d26537","source_id":"openslr54"}
+{"hypothesis":"मल्लको हत्या गरिँदा","ordinal":3165,"reference":"मल्लको हत्या गरिँदा","sample_id":"kriti-defa9097026356e8aa63b76080fca6c3","source_id":"openslr54"}
+{"hypothesis":"अभिनयका अलावा बच्चनले","ordinal":3171,"reference":"अभिनयका अलावा बच्चनले","sample_id":"kriti-df5bf4a80b1a587381acf37dfb0ed05b","source_id":"openslr54"}
+{"hypothesis":"छाउपडी बस्ने महिलाले","ordinal":3176,"reference":"छाउपडी बस्ने महिलाले","sample_id":"kriti-dfa0afefd1435c1e9d4464984aeb5eea","source_id":"openslr54"}
+{"hypothesis":"आदिका कारण सिर्जित","ordinal":3177,"reference":"आदिका कारण सिर्जित","sample_id":"kriti-dfad44d9627751e8a1d315b7eb4e2732","source_id":"openslr54"}
+{"hypothesis":"गोरा एसिन र रङ्गीन","ordinal":3182,"reference":"गोरा एसियन र रङ्गीन","sample_id":"kriti-dfd9ed6700cd53009ac539d1885aed5f","source_id":"openslr54"}
+{"hypothesis":"कुम्भ मेला लाग्ने","ordinal":3184,"reference":"कुम्भ मेला लाग्ने","sample_id":"kriti-e000802c033d5f3ca03b6f27534dff97","source_id":"openslr54"}
+{"hypothesis":"फलानाको छोराले यसो","ordinal":3186,"reference":"फलानाको छोराले यसो","sample_id":"kriti-e01ff5601f7c53ff8d3dae4bc795d309","source_id":"openslr54"}
+{"hypothesis":"पूर्ण लेख बन्न","ordinal":3200,"reference":"पूर्ण लेख बन्न","sample_id":"kriti-e10b81938b685db08831ef701353549f","source_id":"openslr54"}
+{"hypothesis":"हाल सिँचाइ नहरको","ordinal":3202,"reference":"हाल सिँचाइ नहरको","sample_id":"kriti-e1247dc097e25f70979d259b4c657ac1","source_id":"openslr54"}
+{"hypothesis":"पूरा गराउनुको पछि","ordinal":3210,"reference":"पूरा गराउनको पछि","sample_id":"kriti-e215a12582975185bb0b0a38723fbbca","source_id":"openslr54"}
+{"hypothesis":"कुमारीका पति दावा","ordinal":3224,"reference":"कुमारीका पति दावा","sample_id":"kriti-e2ef7f257e305c34afce036d1586f225","source_id":"openslr54"}
+{"hypothesis":"विश्लेषकले हेरेका थिए","ordinal":3225,"reference":"विश्लेषकले हेरेका थिए","sample_id":"kriti-e30b1b8719c455ec88d42a14b5eda184","source_id":"openslr54"}
+{"hypothesis":"केन्द्रीय सचिवालय सिंहदरवार","ordinal":3226,"reference":"केन्द्रीय सचिवालय सिहंदरबार","sample_id":"kriti-e322ff87a7e155e9949d3a3572d10221","source_id":"openslr54"}
+{"hypothesis":"सम्पादन समन्वय सञ्चालन","ordinal":3239,"reference":"सम्पादन समन्वय सञ्चालन","sample_id":"kriti-e4821e93aacc5792a54b4242e67c8d3b","source_id":"openslr54"}
+{"hypothesis":"पन्तले आफूले जानेको","ordinal":3241,"reference":"पन्तले आफूले जानेको","sample_id":"kriti-e49c93ad182c5915b9fd3c5554c95425","source_id":"openslr54"}
+{"hypothesis":"ननासिने पतन नहुने","ordinal":3244,"reference":"ननासिने पतन नहुने","sample_id":"kriti-e4bd6dc9ae745f7d8e8207bf88b988a6","source_id":"openslr54"}
+{"hypothesis":"मेलेनोमा अन्य","ordinal":3245,"reference":"मेलेनोमा अन्य","sample_id":"kriti-e4d100a509375ed09e9a5b9b13c65470","source_id":"openslr54"}
+{"hypothesis":"प्रकाशनमा आएको छ","ordinal":3251,"reference":"प्रकाशनमा आएको छ","sample_id":"kriti-e52a207548a95846a6dabb051ae471be","source_id":"openslr54"}
+{"hypothesis":"प्रतिभा ऐतिहासिक राजनीतिक","ordinal":3255,"reference":"प्रतिभा ऐतिहासिक राजनीतिक","sample_id":"kriti-e56f8f32316d51aab6a5652021662ccf","source_id":"openslr54"}
+{"hypothesis":"यसलाई सादा पानी","ordinal":3257,"reference":"यसलाई सादा पानी","sample_id":"kriti-e58ec82083025356bdeb4d5ca55bce02","source_id":"openslr54"}
+{"hypothesis":"कब्जामा लिए","ordinal":3270,"reference":"कब्जामा लिए","sample_id":"kriti-e6d310f6e7a450cb9c977276044c692b","source_id":"openslr54"}
+{"hypothesis":"राव निर्देशक भारतीय","ordinal":3282,"reference":"राव निर्देशक भारतीय","sample_id":"kriti-e752c97d445c54858dc19733889fbba4","source_id":"openslr54"}
+{"hypothesis":"यो लिपि हाल","ordinal":3300,"reference":"यो लिपि हाल","sample_id":"kriti-e89ab2b5ede151ec8707ca96b44e8f45","source_id":"openslr54"}
+{"hypothesis":"आजसम्म कुनै कार्य","ordinal":3301,"reference":"आजसम्म कुनै कार्य","sample_id":"kriti-e8a5cd63adcb526ea6b25a1b9cf50cfc","source_id":"openslr54"}
+{"hypothesis":"कारण के थियो","ordinal":3302,"reference":"कारण के थियो","sample_id":"kriti-e8b77d5daae75598b8977664a0c75ab1","source_id":"openslr54"}
+{"hypothesis":"एक देखि दुई","ordinal":3304,"reference":"एक देखि दुई","sample_id":"kriti-e9b000aef4f553c0997f0634b6740507","source_id":"openslr54"}
+{"hypothesis":"ठ्याक्क अङ्क गुणन","ordinal":3309,"reference":"ठ्याक अङ्क गुणन","sample_id":"kriti-ea65090f58db566da2e9bef81f498979","source_id":"openslr54"}
+{"hypothesis":"खगोल वैधशाला जल","ordinal":3316,"reference":"खगोल वैधशाला जल","sample_id":"kriti-ead31e535a6153ce83340337535305bd","source_id":"openslr54"}
+{"hypothesis":"त्यही त्रुटी सन्देश","ordinal":3320,"reference":"त्यही त्रुटी सन्देश","sample_id":"kriti-eaf4471f75a35e73a632a9e776646a9b","source_id":"openslr54"}
+{"hypothesis":"सरलताबाट यु२३५को विखण्डन","ordinal":3334,"reference":"सरलताबाट यु२३५को विखण्डन","sample_id":"kriti-ebfc9ae85d595804bde9a4e21ec87a15","source_id":"openslr54"}
+{"hypothesis":"दुईवटा एल्बम समेत","ordinal":3337,"reference":"दुईवटा एल्बम समेत","sample_id":"kriti-ec2623963f7a5139b81c349bb0d9ce64","source_id":"openslr54"}
+{"hypothesis":"भीषण प्रचण्डताका साथ","ordinal":3344,"reference":"भिषण प्रचन्डताका साथ","sample_id":"kriti-eca87c22b3a35b628ad2e64032417113","source_id":"openslr54"}
+{"hypothesis":"राई जातिको एक थर","ordinal":3345,"reference":"राई जातीको एक थर","sample_id":"kriti-ecabdfe6e3e75e1ea05721cdd6dc6c08","source_id":"openslr54"}
+{"hypothesis":"साथ पूजा गरी","ordinal":3352,"reference":"साथ पूजा गरी","sample_id":"kriti-ed2924b409dc5570a54a22ba018d6c3b","source_id":"openslr54"}
+{"hypothesis":"एक समान रहँदैन","ordinal":3361,"reference":"एक समान रहँदैन्","sample_id":"kriti-ee231870476955ba919f078962429fd4","source_id":"openslr54"}
+{"hypothesis":"बीउ हुन्छन् जसको","ordinal":3371,"reference":"बीउ हुन्छन् जसको","sample_id":"kriti-eee793d2b319541ab4eea8c5aa44c390","source_id":"openslr54"}
+{"hypothesis":"सत्रको सुरुवात सन्","ordinal":3378,"reference":"सत्रको सुरुवात सन","sample_id":"kriti-ef7eceb4a5c1566787c05f6fd2f10715","source_id":"openslr54"}
+{"hypothesis":"दशैँमा पूजाआजा गरिन्छ","ordinal":3382,"reference":"दशैँमा पूजाआजा गरिन्छ","sample_id":"kriti-ef8b61c2e62c5203abd0187424911ed7","source_id":"openslr54"}
+{"hypothesis":"करियरका बेला","ordinal":3385,"reference":"करियर का बेला","sample_id":"kriti-efcda40c64a15ee8ad6d54040f058d95","source_id":"openslr54"}
+{"hypothesis":"धेरै नै रमणीय छ","ordinal":3388,"reference":"धेरै नै रमणीय छ","sample_id":"kriti-f0096d4d1d815c0b9ddf23631fe11917","source_id":"openslr54"}
+{"hypothesis":"जुन रचनात्मक एवं","ordinal":3390,"reference":"जुन रचनात्मक एवं","sample_id":"kriti-f02bbe2dc3395a6caeaf8745cf22f64a","source_id":"openslr54"}
+{"hypothesis":"बीच भएको सङ्घर्षको","ordinal":3391,"reference":"बीच भएको सङ्घर्षको","sample_id":"kriti-f045e210f6645dd18224d9393e5e7844","source_id":"openslr54"}
+{"hypothesis":"जिल्ला सदरमुकाम मान्मबाट","ordinal":3398,"reference":"जिल्ला सदरमुकाम मान्मबाट","sample_id":"kriti-f0c61fcb47e6569c93d2e2c22839be2e","source_id":"openslr54"}
+{"hypothesis":"साहित्यमा आगमहरूको छ","ordinal":3402,"reference":"साहित्यमा आगमहरूको छ","sample_id":"kriti-f0ff817c8d0658da8b5d67173a480c9b","source_id":"openslr54"}
+{"hypothesis":"वैशाख ३० र जेठ","ordinal":3406,"reference":"वैशाख ३० र जेठ","sample_id":"kriti-f19e6f4c59f051c3a63daf23116e89f6","source_id":"openslr54"}
+{"hypothesis":"मुख्य विशेषता भनेको","ordinal":3409,"reference":"मुख्य विशेषता भनेको","sample_id":"kriti-f1dfca9cd5815057a8d4f8fefd9ac2fd","source_id":"openslr54"}
+{"hypothesis":"उत्तर कोरियाका","ordinal":3412,"reference":"उत्तर कोरियाका","sample_id":"kriti-f21b2bb7d53b536ca1ab3ed4b334af6d","source_id":"openslr54"}
+{"hypothesis":"ईपू ९०७ ईसा","ordinal":3420,"reference":"ईपू ९०७ ईसा","sample_id":"kriti-f27686d1994c57cb92b40d58104e05c2","source_id":"openslr54"}
+{"hypothesis":"सम्प्रदाय देशसँग मात्र","ordinal":3427,"reference":"सम्प्रदाय देशसँग मात्र","sample_id":"kriti-f2ad02fd4d8f5d539b18583d8b9558c3","source_id":"openslr54"}
+{"hypothesis":"सही मार्गमा हिँड्ने","ordinal":3428,"reference":"सही मार्गमा हिँड्ने","sample_id":"kriti-f2b1d519427358f895100962961d63b3","source_id":"openslr54"}
+{"hypothesis":"गैरकार्बनमा आधारित","ordinal":3435,"reference":"गैर कार्बनमा आधारित","sample_id":"kriti-f2fd868e42eb5fdf8a53ab3ec002c2d8","source_id":"openslr54"}
+{"hypothesis":"हिउँ काटेर पहिले","ordinal":3436,"reference":"हिउँ काटेर पहिले","sample_id":"kriti-f2ffe0a4e9c65f638ed884ed3654c29a","source_id":"openslr54"}
+{"hypothesis":"संयोजनको परिणाम हो","ordinal":3439,"reference":"संयोजनको परिणाम हो","sample_id":"kriti-f35405fcb19e5733bcf3c396e0acc704","source_id":"openslr54"}
+{"hypothesis":"साँच्चै ल्यायो","ordinal":3453,"reference":"साँच्चै ल्यायो","sample_id":"kriti-f4380e8f16ec5a37a815b8e690630db4","source_id":"openslr54"}
+{"hypothesis":"फिल्महरूलाई दुई","ordinal":3456,"reference":"फिल्महरूलाई दुई","sample_id":"kriti-f45d3bb31c115de4aa434e4e68c3b561","source_id":"openslr54"}
+{"hypothesis":"लुइस ब्याङ्क्स विश्वप्रसिद्ध","ordinal":3457,"reference":"लुइस ब्याङ्क्स विश्वप्रसिद्ध","sample_id":"kriti-f480b3261b0255adb73f6f3b00d36544","source_id":"openslr54"}
+{"hypothesis":"व्यावसाय र व्यापार","ordinal":3469,"reference":"व्यावसाय र व्यापार","sample_id":"kriti-f5429aa6e72a526fa86ddc51127f0645","source_id":"openslr54"}
+{"hypothesis":"सिनेमा मेरो सच्चा","ordinal":3475,"reference":"सिनेमा मेरो सच्चा","sample_id":"kriti-f55230239218504ea7f0110474a90d13","source_id":"openslr54"}
+{"hypothesis":"युवा रगत बगाउने","ordinal":3481,"reference":"युवा रगत बगाउने","sample_id":"kriti-f5b18caac4a75d7a9dc54679724c87fd","source_id":"openslr54"}
+{"hypothesis":"नियम ११७ क ११७ ख","ordinal":3485,"reference":"नियम ११७ क ११७ ख","sample_id":"kriti-f60448c8f18e55dd91f4df618095c703","source_id":"openslr54"}
+{"hypothesis":"अत्तरपुर र दक्षिणमा","ordinal":3488,"reference":"अत्तरपुर र दक्षिणमा","sample_id":"kriti-f616d8e392105ed6812b1b873a686e51","source_id":"openslr54"}
+{"hypothesis":"नेपालको सिमावर्ती क्षेत्रमा","ordinal":3493,"reference":"नेपालको सिमावर्ती क्षेत्रमा","sample_id":"kriti-f6322e4b4cd4562e9e50aac9fbe32979","source_id":"openslr54"}
+{"hypothesis":"आन्दोलन हो","ordinal":3524,"reference":"आन्दोलन हो","sample_id":"kriti-f842672a5f0c51fb86c2b8024e305541","source_id":"openslr54"}
+{"hypothesis":"स्तन घटाउनको लागि","ordinal":3527,"reference":"स्तन घटाउनको लागि","sample_id":"kriti-f851330246825d2b9bd302111846c378","source_id":"openslr54"}
+{"hypothesis":"उनीबाट अफगान मामिलामा","ordinal":3530,"reference":"उनीबाट अफगान मामिलामा","sample_id":"kriti-f8685717b1035e6eaba0991dd5e78ec4","source_id":"openslr54"}
+{"hypothesis":"हानि नै पुर्याउँछ","ordinal":3533,"reference":"हानि नै पुर्‍याउँछ","sample_id":"kriti-f8a5c1f7cc5f515f91a8c9e4a632d442","source_id":"openslr54"}
+{"hypothesis":"एलिनको पनि उनलाई","ordinal":3537,"reference":"एलिनको पनि उनलाई","sample_id":"kriti-f91a966286195a5a8439b46cf5ece8e8","source_id":"openslr54"}
+{"hypothesis":"वसन्ती पढ्ने देखिए","ordinal":3538,"reference":"वसन्ती पढ्ने देखिए","sample_id":"kriti-f92829432e555cae8ce01477660398ff","source_id":"openslr54"}
+{"hypothesis":"यसै परिप्रेक्ष्यमा नेपालको","ordinal":3546,"reference":"यसै परिप्रेक्ष्यमा नेपालको","sample_id":"kriti-f9b9770877165a09bed9c8c0516d2af6","source_id":"openslr54"}
+{"hypothesis":"चन्द्रशमशेरका छोरा","ordinal":3547,"reference":"चन्द्रसम्शेरका छोरा","sample_id":"kriti-f9c0c91dde1957e281f3e38951940081","source_id":"openslr54"}
+{"hypothesis":"जनताको रक्षाको लागि","ordinal":3552,"reference":"जनताको रक्षाको लागि","sample_id":"kriti-fa401ad006fb5161aa3ba48164053d2f","source_id":"openslr54"}
+{"hypothesis":"वास्तवमा पदार्थविज्ञानी पिस्टल","ordinal":3558,"reference":"वास्तवमा पदार्थविज्ञानी क्रिस्टल","sample_id":"kriti-fab3180be6a453db817bb7cb60c6f608","source_id":"openslr54"}
+{"hypothesis":"सबले स्वीकारेपछि नै","ordinal":3559,"reference":"सबले स्वीकारेपछि नै","sample_id":"kriti-fabb4e48ccdd55f9bc4390e7f63faf94","source_id":"openslr54"}
+{"hypothesis":"त्यसका पछाडि जोडिएको","ordinal":3560,"reference":"त्यसका पछाडि जोडिएको","sample_id":"kriti-fac746d3de435e0aa486983db6b90f0e","source_id":"openslr54"}
+{"hypothesis":"टर्मिनेटर ४ लेखन थियो","ordinal":3563,"reference":"टर्मिनेटर ४ लेखन थियो","sample_id":"kriti-fafe013908fe58adb3fb7bda4d4df391","source_id":"openslr54"}
+{"hypothesis":"उहाँले नेपाली काङ्ग्रेसका लालबहादुर घलेलाई पराजित गर्दै विजय हाँसिल गर्नुभएको हो","ordinal":3565,"reference":"उहाँले नेपाली काङ्ग्रेसका लालबहादुर घलेलाई पराजित गर्दै विजय हाँसिल गर्नुभएको हो।","sample_id":"kriti-fb0a7950a06f582e89f683fe34c7b436","source_id":"openslr54"}
+{"hypothesis":"पछि क्लबले बालबालिकाहरूमा","ordinal":3581,"reference":"पछि क्लबले बालबालिकाहरूमा","sample_id":"kriti-fc5b47b31bd55c949c20a8b638e3b11a","source_id":"openslr54"}
+{"hypothesis":"स्थल होस् चाहे सूक्ष्म","ordinal":3583,"reference":"स्थूल होस् चाहे सूक्ष्म","sample_id":"kriti-fc7ef422df1b512ca2355688d1fdea45","source_id":"openslr54"}
+{"hypothesis":"बीजगणितबाट अङ्कगणित","ordinal":3597,"reference":"बिजगणितबाट अङ्कगणित","sample_id":"kriti-fd7587d2ea0a5a9ea20a88ec5d32eb04","source_id":"openslr54"}
+{"hypothesis":"भारतभन्दा उत्तरमा अवस्थित","ordinal":3599,"reference":"भारतभन्दा उत्तरमा अवस्थित","sample_id":"kriti-fdbe8e5dfa635c5aa21d5ccce00c4a81","source_id":"openslr54"}
+{"hypothesis":"व्याख्या गर्ने गरेपनि","ordinal":3601,"reference":"व्याख्या गर्ने गरेपनि","sample_id":"kriti-fdd88c1e32d851168584f7cbe885e476","source_id":"openslr54"}
+{"hypothesis":"एकीकरण गरे","ordinal":3602,"reference":"एकीकरण गरे","sample_id":"kriti-fe08805bfa035a4190f2d5ee6603ef91","source_id":"openslr54"}
+{"hypothesis":"कष्टको लागि","ordinal":3614,"reference":"कष्टको लागि","sample_id":"kriti-fef56815a9c35cbeb5d3d10f266953d6","source_id":"openslr54"}
+{"hypothesis":"फैलावट सम्बन्धी केही","ordinal":3616,"reference":"फैलावट सम्बन्धि केही","sample_id":"kriti-feffc4e8169d516bb148271150e017bf","source_id":"openslr54"}
+{"hypothesis":"परम्पराको आरम्भ गरेका","ordinal":3629,"reference":"परम्पराको आरम्भ गरेका","sample_id":"kriti-fff593e83d4d54169369866f85991fbf","source_id":"openslr54"}

@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "ctc",
+  "decoder": null,
+  "elapsed_seconds": 33.389860273804516,
+  "failures": 0,
+  "key": "vakyansh-wav2vec2-nepali-nem-130",
+  "limited_evaluation": false,
+  "model_id": "Harveenchadha/vakyansh-wav2vec2-nepali-nem-130",
+  "overall": {
+    "punctuation_insensitive_cer": 1.9878169741495482,
+    "punctuation_insensitive_wer": 1.015729484799489,
+    "raw_cer": 1.9832870981720903,
+    "raw_wer": 1.0160014383315354,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 2.139618903327312,
+      "punctuation_insensitive_wer": 1.0169556840077072,
+      "raw_cer": 2.1004401760704283,
+      "raw_wer": 1.019611650485437,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 1.9394972900341467,
+      "punctuation_insensitive_wer": 1.004866580463148,
+      "raw_cer": 1.9394972900341467,
+      "raw_wer": 1.004866580463148,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 2.4335988019876114,
+      "punctuation_insensitive_wer": 1.207841483979764,
+      "raw_cer": 2.428804347826087,
+      "raw_wer": 1.2077538980193847,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.0012557467433971447,
+  "revision": "002c6200bcdacd8558e696583361f47e8154df67",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

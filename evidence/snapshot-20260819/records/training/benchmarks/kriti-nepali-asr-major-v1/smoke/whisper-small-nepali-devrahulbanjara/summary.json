@@ -1,0 +1,40 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "whisper",
+  "decoder": null,
+  "elapsed_seconds": 2.2297955229878426,
+  "failures": 0,
+  "generation_prompt": "checkpoint_default",
+  "key": "whisper-small-nepali-devrahulbanjara",
+  "limited_evaluation": true,
+  "model_id": "devrahulbanjara/whisper-small-nepali",
+  "overall": {
+    "punctuation_insensitive_cer": 0.23902439024390243,
+    "punctuation_insensitive_wer": 0.616822429906542,
+    "raw_cer": 0.24878048780487805,
+    "raw_wer": 0.6542056074766355,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.26383763837638374,
+      "punctuation_insensitive_wer": 0.6736842105263158,
+      "raw_cer": 0.2656826568265683,
+      "raw_wer": 0.6842105263157895,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0547945205479452,
+      "punctuation_insensitive_wer": 0.16666666666666666,
+      "raw_cer": 0.1232876712328767,
+      "raw_wer": 0.4166666666666667,
+      "records": 4
+    }
+  },
+  "processor_id": "openai/whisper-small",
+  "processor_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "real_time_factor": 0.033820651038796334,
+  "revision": "67ef765a792693cae10403d88c8e91158290dd58",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

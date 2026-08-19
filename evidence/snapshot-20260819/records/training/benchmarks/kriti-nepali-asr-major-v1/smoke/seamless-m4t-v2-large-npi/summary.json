@@ -1,0 +1,37 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "seamless",
+  "decoder": null,
+  "elapsed_seconds": 2.7532109981402755,
+  "failures": 0,
+  "key": "seamless-m4t-v2-large-npi",
+  "limited_evaluation": true,
+  "model_id": "facebook/seamless-m4t-v2-large",
+  "overall": {
+    "punctuation_insensitive_cer": 0.4146341463414634,
+    "punctuation_insensitive_wer": 0.6448598130841121,
+    "raw_cer": 0.416260162601626,
+    "raw_wer": 0.6542056074766355,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.45940959409594095,
+      "punctuation_insensitive_wer": 0.6947368421052632,
+      "raw_cer": 0.4612546125461255,
+      "raw_wer": 0.7052631578947368,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0821917808219178,
+      "punctuation_insensitive_wer": 0.25,
+      "raw_cer": 0.0821917808219178,
+      "raw_wer": 0.25,
+      "records": 4
+    }
+  },
+  "real_time_factor": 0.04175960864766078,
+  "revision": "5f8cc790b19fc3f67a61c105133b20b34e3dcb76",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

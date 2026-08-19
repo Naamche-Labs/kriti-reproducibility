@@ -1,0 +1,37 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "qwen3",
+  "decoder": null,
+  "elapsed_seconds": 27.96631976030767,
+  "failures": 0,
+  "key": "qwen3-asr-nepali-public",
+  "limited_evaluation": true,
+  "model_id": "sidskarki/Qwen3-ASR-Nepali",
+  "overall": {
+    "punctuation_insensitive_cer": 0.22113821138211381,
+    "punctuation_insensitive_wer": 0.4953271028037383,
+    "raw_cer": 0.22601626016260162,
+    "raw_wer": 0.514018691588785,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.25092250922509224,
+      "punctuation_insensitive_wer": 0.5578947368421052,
+      "raw_cer": 0.2564575645756458,
+      "raw_wer": 0.5789473684210527,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0,
+      "punctuation_insensitive_wer": 0.0,
+      "raw_cer": 0.0,
+      "raw_wer": 0.0,
+      "records": 4
+    }
+  },
+  "real_time_factor": 0.4241820075884676,
+  "revision": "6ae9dd5306dde33ff2507820c626bac6fb867a7f",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

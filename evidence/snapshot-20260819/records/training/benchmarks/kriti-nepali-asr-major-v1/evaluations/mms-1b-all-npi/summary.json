@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "mms",
+  "decoder": null,
+  "elapsed_seconds": 287.45475740078837,
+  "failures": 0,
+  "key": "mms-1b-all-npi",
+  "limited_evaluation": false,
+  "model_id": "facebook/mms-1b-all",
+  "overall": {
+    "punctuation_insensitive_cer": 0.22786225861396706,
+    "punctuation_insensitive_wer": 0.6013932970038126,
+    "raw_cer": 0.2301146154292363,
+    "raw_wer": 0.6128490950497423,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.08886428529805955,
+      "punctuation_insensitive_wer": 0.3132947976878613,
+      "raw_cer": 0.1075287257760247,
+      "raw_wer": 0.4149514563106796,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.24950176897695195,
+      "punctuation_insensitive_wer": 0.6367462090043493,
+      "raw_cer": 0.24976886189652409,
+      "raw_wer": 0.637004819560362,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.1941324620515962,
+      "punctuation_insensitive_wer": 0.5978077571669477,
+      "raw_cer": 0.19653532608695654,
+      "raw_wer": 0.6093552465233881,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.010810778257830863,
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "openslr54": {
+      "cross_source_split_recordings": 0,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 154.61149999999844,
+        "quarantined": 0.025611111111111102
+      },
+      "inventory_records": 157905,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 0,
+      "preparation_summary": {
+        "accepted_hours": 154.61150000000066,
+        "accepted_records": 157876,
+        "allowed_processing_errors": 0,
+        "inventory_records": 157905,
+        "manifest_records": 157905,
+        "max_quarantine_fraction": 0.05,
+        "max_quarantined_records": 10000,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 1,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.00018365472910927456,
+        "quarantined_hours": 0.025611111111111105,
+        "quarantined_records": 29,
+        "schema_version": 1,
+        "source_id": "openslr54",
+        "source_version": "SLR54",
+        "valid": true
+      },
+      "prepared_records": 157905,
+      "quality_flag_counts": {
+        "mostly_near_silence": 19,
+        "near_silence": 29,
+        "no_devanagari_letter": 5
+      },
+      "quality_status_counts": {
+        "accepted": 157876,
+        "quarantined": 29
+      },
+      "source_split_counts": {
+        "<none>": 157905
+      },
+      "unique_recordings": 157905,
+      "unique_speakers": 527
+    }
+  }
+}

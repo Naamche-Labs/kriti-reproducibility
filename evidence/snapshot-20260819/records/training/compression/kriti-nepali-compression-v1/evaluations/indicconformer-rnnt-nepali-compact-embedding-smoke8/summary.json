@@ -1,0 +1,42 @@
+{
+  "checkpoint_bytes": 523192320,
+  "checkpoint_sha256": "8c75fee5d82e61d31ddc4e891875617f730b4dfef0f4b226ff1e576bf4143039",
+  "compact_prediction_embedding": true,
+  "cublas_workspace_config": ":4096:8",
+  "decode_seed": 20260813,
+  "decoder": "rnnt",
+  "deterministic_decode": true,
+  "elapsed_seconds": 2.341773770749569,
+  "failures": 0,
+  "limited_evaluation": true,
+  "model_id": "ai4bharat/indicconformer_stt_ne_hybrid_ctc_rnnt_large",
+  "nepali_only_runtime_prune": true,
+  "overall": {
+    "punctuation_insensitive_cer": 0.07317073170731707,
+    "punctuation_insensitive_wer": 0.2336448598130841,
+    "raw_cer": 0.07317073170731707,
+    "raw_wer": 0.2336448598130841,
+    "records": 8
+  },
+  "parameter_count": 119461121,
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08302583025830258,
+      "punctuation_insensitive_wer": 0.2631578947368421,
+      "raw_cer": 0.08302583025830258,
+      "raw_wer": 0.2631578947368421,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0,
+      "punctuation_insensitive_wer": 0.0,
+      "raw_cer": 0.0,
+      "raw_wer": 0.0,
+      "records": 4
+    }
+  },
+  "pruned_parameter_count": 9789846,
+  "revision": "cd09ba7720f3b17d259f6bfd03e1463bc5ba517d",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

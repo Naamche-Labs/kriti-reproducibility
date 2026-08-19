@@ -1,0 +1,2099 @@
+{
+  "recorded_at": "2026-08-19T04:04:11Z",
+  "records": [
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Commercial release build manifest",
+      "public_bytes": 1860,
+      "public_path": "records/processed/ne-commercial-v1/build-manifest.json",
+      "public_sha256": "61589f4814028b1590f7960dd9210f53a9973fd5b96031d6fb0035a48a99a5a9",
+      "redactions": [],
+      "source_bytes": 1860,
+      "source_sha256": "61589f4814028b1590f7960dd9210f53a9973fd5b96031d6fb0035a48a99a5a9",
+      "source_uri": "kriti-private://processed/ne-commercial-v1/build-manifest.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Commercial release artifact commitments",
+      "public_bytes": 1043,
+      "public_path": "records/processed/ne-commercial-v1/checksums.sha256",
+      "public_sha256": "b4ad5d7004b968d1f240e4c06e729b917944f2ea0cc76bc51b297b766b2276dd",
+      "redactions": [],
+      "source_bytes": 1043,
+      "source_sha256": "b4ad5d7004b968d1f240e4c06e729b917944f2ea0cc76bc51b297b766b2276dd",
+      "source_uri": "kriti-private://processed/ne-commercial-v1/checksums.sha256"
+    },
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Commercial release aggregate accounting",
+      "public_bytes": 6086,
+      "public_path": "records/processed/ne-commercial-v1/summary.json",
+      "public_sha256": "37f57e3d29a8ef193e82456b8dae05759fce01f34271e3c7534aa93e72cdaa74",
+      "redactions": [],
+      "source_bytes": 6086,
+      "source_sha256": "37f57e3d29a8ef193e82456b8dae05759fce01f34271e3c7534aa93e72cdaa74",
+      "source_uri": "kriti-private://processed/ne-commercial-v1/summary.json"
+    },
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Commercial release independent validation result",
+      "public_bytes": 3291,
+      "public_path": "records/processed/ne-commercial-v1/validation.json",
+      "public_sha256": "99cf349075ea649d8052d3002f64c6b78cf58640bdab4e0eaeea0e3b5090f11a",
+      "redactions": [
+        {
+          "json_pointer": "/release_root",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 3297,
+      "source_sha256": "a2f9a51a70ff8d42f91aab2ead85a38c4c53e15b9f60590ad3b9aaa172ada259",
+      "source_uri": "kriti-private://processed/ne-commercial-v1/validation.json"
+    },
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Research release build manifest",
+      "public_bytes": 1909,
+      "public_path": "records/processed/ne-research-v1/build-manifest.json",
+      "public_sha256": "cd11f70458bcd9e65674be653c63cf714044fc0ddff0c72cf8b95b326424f2d6",
+      "redactions": [],
+      "source_bytes": 1909,
+      "source_sha256": "cd11f70458bcd9e65674be653c63cf714044fc0ddff0c72cf8b95b326424f2d6",
+      "source_uri": "kriti-private://processed/ne-research-v1/build-manifest.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Research release artifact commitments",
+      "public_bytes": 1043,
+      "public_path": "records/processed/ne-research-v1/checksums.sha256",
+      "public_sha256": "50b57d1417d7f2f38d98b2f85a9b797dac842920d5345173c5884558afe6588c",
+      "redactions": [],
+      "source_bytes": 1043,
+      "source_sha256": "50b57d1417d7f2f38d98b2f85a9b797dac842920d5345173c5884558afe6588c",
+      "source_uri": "kriti-private://processed/ne-research-v1/checksums.sha256"
+    },
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Research release aggregate accounting",
+      "public_bytes": 9290,
+      "public_path": "records/processed/ne-research-v1/summary.json",
+      "public_sha256": "5f6cb9fd00d72b7b6e6ebd1549becab6285127b7392405021908c0aa80de4147",
+      "redactions": [],
+      "source_bytes": 9290,
+      "source_sha256": "5f6cb9fd00d72b7b6e6ebd1549becab6285127b7392405021908c0aa80de4147",
+      "source_uri": "kriti-private://processed/ne-research-v1/summary.json"
+    },
+    {
+      "classification": "credential-gated-reproducible",
+      "description": "Research release independent validation result",
+      "public_bytes": 3339,
+      "public_path": "records/processed/ne-research-v1/validation.json",
+      "public_sha256": "e018e4e82beaca0b1c496084176da477bee0f526a0f5f7fa1230a8beb1165181",
+      "redactions": [
+        {
+          "json_pointer": "/release_root",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 3345,
+      "source_sha256": "48960e6f855b477702d192d6fe4952419cb9032926ab6ca2ffa957006f079c97",
+      "source_uri": "kriti-private://processed/ne-research-v1/validation.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 542,
+      "public_path": "records/reports/access-gates-cleared.json",
+      "public_sha256": "56e6de093b735bb157bfe0d9040df56a0156e8b2d8fef2a4a2700511465fe90e",
+      "redactions": [],
+      "source_bytes": 542,
+      "source_sha256": "56e6de093b735bb157bfe0d9040df56a0156e8b2d8fef2a4a2700511465fe90e",
+      "source_uri": "kriti-private://reports/access-gates-cleared.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 208,
+      "public_path": "records/reports/access-probe-latest.json",
+      "public_sha256": "4c7a48745bde0bc77b19b309136f3114729df112c73cba7a49a3b2cad9e3d975",
+      "redactions": [],
+      "source_bytes": 208,
+      "source_sha256": "4c7a48745bde0bc77b19b309136f3114729df112c73cba7a49a3b2cad9e3d975",
+      "source_uri": "kriti-private://reports/access-probe-latest.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 211,
+      "public_path": "records/reports/access-probe.json",
+      "public_sha256": "fe78db214081cf37de3dde455d43880839b32122e0c5038ab506cc1e0a81e9d9",
+      "redactions": [],
+      "source_bytes": 211,
+      "source_sha256": "fe78db214081cf37de3dde455d43880839b32122e0c5038ab506cc1e0a81e9d9",
+      "source_uri": "kriti-private://reports/access-probe.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 145,
+      "public_path": "records/reports/acquisition-summary.json",
+      "public_sha256": "4873a45dfac8ed79d1e7a6e5bdbd8b68a497d86f75dc048d0ec28a6bc6c930b2",
+      "redactions": [],
+      "source_bytes": 145,
+      "source_sha256": "4873a45dfac8ed79d1e7a6e5bdbd8b68a497d86f75dc048d0ec28a6bc6c930b2",
+      "source_uri": "kriti-private://reports/acquisition-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 3989,
+      "public_path": "records/reports/indicvoices-source-audit.json",
+      "public_sha256": "9b9cc256974297d55061f1aed0c1f30b48af9012fe048a6064b7ceabcb00a6c5",
+      "redactions": [],
+      "source_bytes": 3989,
+      "source_sha256": "9b9cc256974297d55061f1aed0c1f30b48af9012fe048a6064b7ceabcb00a6c5",
+      "source_uri": "kriti-private://reports/indicvoices-source-audit.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 3582,
+      "public_path": "records/reports/indicvoices-source-probe.json",
+      "public_sha256": "56119d1bc8c930ada6c75f83bb4bf1e95f8218e4166347a14b2ce9e8aafed883",
+      "redactions": [],
+      "source_bytes": 3582,
+      "source_sha256": "56119d1bc8c930ada6c75f83bb4bf1e95f8218e4166347a14b2ce9e8aafed883",
+      "source_uri": "kriti-private://reports/indicvoices-source-probe.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 50310,
+      "public_path": "records/reports/kriti-nepali-asr-major-v1-final.json",
+      "public_sha256": "3b09d7b8354d7b1bbd01f600c8210a09fdac1409a00f1788a2a46611cf5b6456",
+      "redactions": [],
+      "source_bytes": 50310,
+      "source_sha256": "3b09d7b8354d7b1bbd01f600c8210a09fdac1409a00f1788a2a46611cf5b6456",
+      "source_uri": "kriti-private://reports/kriti-nepali-asr-major-v1-final.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 14823,
+      "public_path": "records/reports/kriti-qwen3-commercial-v1-20260812a-final.json",
+      "public_sha256": "b9e6d091b949b6f4af77abfa50029778a84893ba9786a113aa7c9e525802d5f7",
+      "redactions": [],
+      "source_bytes": 14823,
+      "source_sha256": "b9e6d091b949b6f4af77abfa50029778a84893ba9786a113aa7c9e525802d5f7",
+      "source_uri": "kriti-private://reports/kriti-qwen3-commercial-v1-20260812a-final.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 204,
+      "public_path": "records/reports/pipeline-build-ne-commercial-v1-summary.json",
+      "public_sha256": "e7ed6cfd7cd0ff0d436f5c1b3008d0d831f3ed3062ec77a1c7e028d44859088e",
+      "redactions": [],
+      "source_bytes": 204,
+      "source_sha256": "e7ed6cfd7cd0ff0d436f5c1b3008d0d831f3ed3062ec77a1c7e028d44859088e",
+      "source_uri": "kriti-private://reports/pipeline-build-ne-commercial-v1-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 252,
+      "public_path": "records/reports/pipeline-build-ne-research-v1-summary.json",
+      "public_sha256": "1761ffbb2ac0d5e8bcbe732a34326705e0498a3cba98edf5f07bb39c10765d3c",
+      "redactions": [],
+      "source_bytes": 252,
+      "source_sha256": "1761ffbb2ac0d5e8bcbe732a34326705e0498a3cba98edf5f07bb39c10765d3c",
+      "source_uri": "kriti-private://reports/pipeline-build-ne-research-v1-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 175,
+      "public_path": "records/reports/pipeline-download-summary.json",
+      "public_sha256": "3d06c9bd6782e8462f48874a4bfd98c2dbad20dfc344c14f37b68f192dd19008",
+      "redactions": [],
+      "source_bytes": 175,
+      "source_sha256": "3d06c9bd6782e8462f48874a4bfd98c2dbad20dfc344c14f37b68f192dd19008",
+      "source_uri": "kriti-private://reports/pipeline-download-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 180,
+      "public_path": "records/reports/pipeline-prepare-summary.json",
+      "public_sha256": "f73830e609595b0cd808a6a8122fb53bf0407046635f91476cd51b9ddc00225c",
+      "redactions": [],
+      "source_bytes": 180,
+      "source_sha256": "f73830e609595b0cd808a6a8122fb53bf0407046635f91476cd51b9ddc00225c",
+      "source_uri": "kriti-private://reports/pipeline-prepare-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 207,
+      "public_path": "records/reports/pipeline-validate-ne-commercial-v1-summary.json",
+      "public_sha256": "21a731319b899226d750af0940d4f878012d8e084ddd8b0c36620754cf03d597",
+      "redactions": [],
+      "source_bytes": 207,
+      "source_sha256": "21a731319b899226d750af0940d4f878012d8e084ddd8b0c36620754cf03d597",
+      "source_uri": "kriti-private://reports/pipeline-validate-ne-commercial-v1-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 255,
+      "public_path": "records/reports/pipeline-validate-ne-research-v1-summary.json",
+      "public_sha256": "d09ccaed997d69d15fefa9c0ca9b37fd576036ab9e82cd9c07b0f0ad549b8040",
+      "redactions": [],
+      "source_bytes": 255,
+      "source_sha256": "d09ccaed997d69d15fefa9c0ca9b37fd576036ab9e82cd9c07b0f0ad549b8040",
+      "source_uri": "kriti-private://reports/pipeline-validate-ne-research-v1-summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 1545,
+      "public_path": "records/reports/prepared-openslr54-audit.json",
+      "public_sha256": "6164baa51e55296656fe1dd22b360b13805e654a8c59950a5e83d1700eace00c",
+      "redactions": [],
+      "source_bytes": 1545,
+      "source_sha256": "6164baa51e55296656fe1dd22b360b13805e654a8c59950a5e83d1700eace00c",
+      "source_uri": "kriti-private://reports/prepared-openslr54-audit.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 5898,
+      "public_path": "records/reports/prepared-small-source-audit-final.json",
+      "public_sha256": "c6c1ada374accdbc386b3f0fbf97adf7ee8435546878b07040dd3aaa0d033610",
+      "redactions": [],
+      "source_bytes": 5898,
+      "source_sha256": "c6c1ada374accdbc386b3f0fbf97adf7ee8435546878b07040dd3aaa0d033610",
+      "source_uri": "kriti-private://reports/prepared-small-source-audit-final.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 5218,
+      "public_path": "records/reports/prepared-small-source-audit.json",
+      "public_sha256": "76f4ccf21b2e2e16d24264810753075c43562a669fc93f9646e29da3d0440413",
+      "redactions": [],
+      "source_bytes": 5218,
+      "source_sha256": "76f4ccf21b2e2e16d24264810753075c43562a669fc93f9646e29da3d0440413",
+      "source_uri": "kriti-private://reports/prepared-small-source-audit.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 9140,
+      "public_path": "records/reports/source-audit-final-v1.json",
+      "public_sha256": "a7bcf1a6ed503669964ab7e613c265e93b6056a900a28e3867f6f32337c5f038",
+      "redactions": [],
+      "source_bytes": 9140,
+      "source_sha256": "a7bcf1a6ed503669964ab7e613c265e93b6056a900a28e3867f6f32337c5f038",
+      "source_uri": "kriti-private://reports/source-audit-final-v1.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Redacted aggregate report",
+      "public_bytes": 2141,
+      "public_path": "records/reports/storage-audit-final.json",
+      "public_sha256": "c5d95ca28d8c6191339aef1d1447c082c6a4e4f69b6f712404f13d6e2726b444",
+      "redactions": [],
+      "source_bytes": 2141,
+      "source_sha256": "c5d95ca28d8c6191339aef1d1447c082c6a4e4f69b6f712404f13d6e2726b444",
+      "source_uri": "kriti-private://reports/storage-audit-final.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1541,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indic-conformer-600m-ctc/summary.json",
+      "public_sha256": "c3194f7a9a662f830f15bbc4ffec7241694aa99d79f8069928ec285c8cf95efb",
+      "redactions": [],
+      "source_bytes": 1541,
+      "source_sha256": "c3194f7a9a662f830f15bbc4ffec7241694aa99d79f8069928ec285c8cf95efb",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indic-conformer-600m-ctc/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1455,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indic-conformer-600m-rnnt/summary.json",
+      "public_sha256": "5d2d9faa905e579be0790fe146a422fa5aac9bf01cbcbe574fc0ac5aab94a180",
+      "redactions": [],
+      "source_bytes": 1455,
+      "source_sha256": "5d2d9faa905e579be0790fe146a422fa5aac9bf01cbcbe574fc0ac5aab94a180",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indic-conformer-600m-rnnt/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1417,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indicconformer-ne-hybrid/summary.json",
+      "public_sha256": "e972257900b72093f961f3e5bc4d48f091280254841f1714d4bf1ad6ec10a768",
+      "redactions": [],
+      "source_bytes": 1417,
+      "source_sha256": "e972257900b72093f961f3e5bc4d48f091280254841f1714d4bf1ad6ec10a768",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/indicconformer-ne-hybrid/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1402,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/mms-1b-all-npi/summary.json",
+      "public_sha256": "e18550c42aa69ad7a118dafdc078ba406db42c44dfed57324c8cb8ef869bd4f0",
+      "redactions": [],
+      "source_bytes": 1402,
+      "source_sha256": "e18550c42aa69ad7a118dafdc078ba406db42c44dfed57324c8cb8ef869bd4f0",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/mms-1b-all-npi/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1446,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-indicwav2vec-paudeletal/summary.json",
+      "public_sha256": "7085f5bb1ec0aa1fc7d96fc219c2166af57109b7143853aa61e173f7f77f5842",
+      "redactions": [],
+      "source_bytes": 1446,
+      "source_sha256": "7085f5bb1ec0aa1fc7d96fc219c2166af57109b7143853aa61e173f7f77f5842",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-indicwav2vec-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1422,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-mms-1b/summary.json",
+      "public_sha256": "bb23b2c30190b6972ad2c1d463b66fcf1d2c825f4b6a07bc600f27f246c6d425",
+      "redactions": [],
+      "source_bytes": 1422,
+      "source_sha256": "bb23b2c30190b6972ad2c1d463b66fcf1d2c825f4b6a07bc600f27f246c6d425",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-mms-1b/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1611,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-whisper-medium-paudeletal/summary.json",
+      "public_sha256": "da91525f99ec0d619d2629bff4c9f357e79a83ff29cba4143629926a38393e02",
+      "redactions": [],
+      "source_bytes": 1611,
+      "source_sha256": "da91525f99ec0d619d2629bff4c9f357e79a83ff29cba4143629926a38393e02",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-whisper-medium-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1621,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-whisper-turbo-paudeletal/summary.json",
+      "public_sha256": "1010dc612aface8870c2a19f4630a3c2e90e01ed69b8d2e1dee8337486cacef3",
+      "redactions": [],
+      "source_bytes": 1621,
+      "source_sha256": "1010dc612aface8870c2a19f4630a3c2e90e01ed69b8d2e1dee8337486cacef3",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-whisper-turbo-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1430,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-xlsr-53-paudeletal/summary.json",
+      "public_sha256": "9c7e088a5db85c033a7caf5491d4862ca0b38a63a347bdaa63640d3fc005ebd4",
+      "redactions": [],
+      "source_bytes": 1430,
+      "source_sha256": "9c7e088a5db85c033a7caf5491d4862ca0b38a63a347bdaa63640d3fc005ebd4",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/nepali-asr-xlsr-53-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1432,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/omniasr-llm-7b-v2/summary.json",
+      "public_sha256": "2c21fe64f3db1d6011685aecc618ece933be1f5c89de323bad04982c2fb61253",
+      "redactions": [],
+      "source_bytes": 1432,
+      "source_sha256": "2c21fe64f3db1d6011685aecc618ece933be1f5c89de323bad04982c2fb61253",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/omniasr-llm-7b-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1403,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/qwen3-asr-0.6b-base/summary.json",
+      "public_sha256": "8f1c50d67770a8303ef9fd30aa0b58c572a08b62a51b9f1b1eb3f436460df960",
+      "redactions": [],
+      "source_bytes": 1403,
+      "source_sha256": "8f1c50d67770a8303ef9fd30aa0b58c572a08b62a51b9f1b1eb3f436460df960",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/qwen3-asr-0.6b-base/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1420,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/qwen3-asr-nepali-public/summary.json",
+      "public_sha256": "476231eb7245e8b19fff0243eed4d1337c49411cf2b7cefee61cec03a87f0ad2",
+      "redactions": [],
+      "source_bytes": 1420,
+      "source_sha256": "476231eb7245e8b19fff0243eed4d1337c49411cf2b7cefee61cec03a87f0ad2",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/qwen3-asr-nepali-public/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1432,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/seamless-m4t-v2-large-npi/summary.json",
+      "public_sha256": "eb13af5bfa7dd7189b2e7e7927cd135632e8026086903fb119affa2308eae0fb",
+      "redactions": [],
+      "source_bytes": 1432,
+      "source_sha256": "eb13af5bfa7dd7189b2e7e7927cd135632e8026086903fb119affa2308eae0fb",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/seamless-m4t-v2-large-npi/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1437,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/vakyansh-wav2vec2-nepali-nem-130/summary.json",
+      "public_sha256": "601d4d900f3cede3c63709740859178da145c06f38801a24fa0f38902c8a9737",
+      "redactions": [],
+      "source_bytes": 1437,
+      "source_sha256": "601d4d900f3cede3c63709740859178da145c06f38801a24fa0f38902c8a9737",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/vakyansh-wav2vec2-nepali-nem-130/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1422,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-nepali-anish/summary.json",
+      "public_sha256": "ee041431e09045a64f24907ba609ba5d5215c0497be09ecf2bcdd51d65f0cae4",
+      "redactions": [],
+      "source_bytes": 1422,
+      "source_sha256": "ee041431e09045a64f24907ba609ba5d5215c0497be09ecf2bcdd51d65f0cae4",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-nepali-anish/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1510,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/summary.json",
+      "public_sha256": "e7b38462f12cf39f3e6ba412e514e9200e6efef8f80376f00dc508b6ee5fa5e7",
+      "redactions": [],
+      "source_bytes": 1510,
+      "source_sha256": "e7b38462f12cf39f3e6ba412e514e9200e6efef8f80376f00dc508b6ee5fa5e7",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1442,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/summary.json",
+      "public_sha256": "4584bc13fae1cd6c2468a90818defcda940c963fe7933ce29a4ba04363f0a8ae",
+      "redactions": [],
+      "source_bytes": 1442,
+      "source_sha256": "4584bc13fae1cd6c2468a90818defcda940c963fe7933ce29a4ba04363f0a8ae",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1419,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-nepali-gagan/summary.json",
+      "public_sha256": "934d6118db69d903197a8923ce506ddadb6026f0492b218003f497948c5c8cdd",
+      "redactions": [],
+      "source_bytes": 1419,
+      "source_sha256": "934d6118db69d903197a8923ce506ddadb6026f0492b218003f497948c5c8cdd",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/wav2vec2-xlsr-nepali-gagan/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1547,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-nepali-kiranpantha/summary.json",
+      "public_sha256": "242585ef38af78a553195f14e9e7f1a8a6e466d920eba75ffc262cde3ff0a442",
+      "redactions": [],
+      "source_bytes": 1547,
+      "source_sha256": "242585ef38af78a553195f14e9e7f1a8a6e466d920eba75ffc262cde3ff0a442",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-nepali-kiranpantha/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1447,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-nepali-openslr/summary.json",
+      "public_sha256": "49467178ffa1823af758fe24302a08de78bc82f7ab4146aceb67c41812822cb9",
+      "redactions": [],
+      "source_bytes": 1447,
+      "source_sha256": "49467178ffa1823af758fe24302a08de78bc82f7ab4146aceb67c41812822cb9",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-nepali-openslr/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1609,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/summary.json",
+      "public_sha256": "23f6a77dc33777c1ba6636c7888707d884ebe9e232558244ca701e6f78b33250",
+      "redactions": [],
+      "source_bytes": 1609,
+      "source_sha256": "23f6a77dc33777c1ba6636c7888707d884ebe9e232558244ca701e6f78b33250",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1413,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-turbo/summary.json",
+      "public_sha256": "d4777e5005ea661930588c27063c0c8585d06f530f3cdd63ed0ce8de0c1e2280",
+      "redactions": [],
+      "source_bytes": 1413,
+      "source_sha256": "d4777e5005ea661930588c27063c0c8585d06f530f3cdd63ed0ce8de0c1e2280",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3-turbo/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1408,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3/summary.json",
+      "public_sha256": "250f95f0d317520cece716ebdee6742ca6608c2f5bf16f64b9fa48323c76f061",
+      "redactions": [],
+      "source_bytes": 1408,
+      "source_sha256": "250f95f0d317520cece716ebdee6742ca6608c2f5bf16f64b9fa48323c76f061",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-large-v3/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1445,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-amitpant7/summary.json",
+      "public_sha256": "68d934302b7714dab509d5768c4f27f45f318f388d976fd49a738103d9740399",
+      "redactions": [],
+      "source_bytes": 1445,
+      "source_sha256": "68d934302b7714dab509d5768c4f27f45f318f388d976fd49a738103d9740399",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-amitpant7/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1598,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-devrahulbanjara/summary.json",
+      "public_sha256": "eaf0945c8d0bc327db1994f34f37db5882703185cced15bbaa62c5d37a5ff7f3",
+      "redactions": [],
+      "source_bytes": 1598,
+      "source_sha256": "eaf0945c8d0bc327db1994f34f37db5882703185cced15bbaa62c5d37a5ff7f3",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-devrahulbanjara/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1576,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-dragneel/summary.json",
+      "public_sha256": "c8932c4c1427b1ca53f06cf1cc10b19918c4c16f776a8f2a704061daffe31946",
+      "redactions": [],
+      "source_bytes": 1576,
+      "source_sha256": "c8932c4c1427b1ca53f06cf1cc10b19918c4c16f776a8f2a704061daffe31946",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-dragneel/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark system summary",
+      "public_bytes": 1430,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-mandeep111/summary.json",
+      "public_sha256": "d25cb4a23748ed10c99148ebd9f7b273b0809eef0d8d8d10ecdb500536cc18bb",
+      "redactions": [],
+      "source_bytes": 1430,
+      "source_sha256": "d25cb4a23748ed10c99148ebd9f7b273b0809eef0d8d8d10ecdb500536cc18bb",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/evaluations/whisper-small-nepali-mandeep111/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 rejected-attempt summary",
+      "public_bytes": 1188,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/rejected-attempts/20260812T190000Z-whisper-small-nepali-dragneel-all-rows-failed/summary.json",
+      "public_sha256": "e1986a11a3d42605099b89103e0a5c128693aafac8248680878c523de502b956",
+      "redactions": [],
+      "source_bytes": 1188,
+      "source_sha256": "e1986a11a3d42605099b89103e0a5c128693aafac8248680878c523de502b956",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/rejected-attempts/20260812T190000Z-whisper-small-nepali-dragneel-all-rows-failed/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1199,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/indic-conformer-600m-ctc/summary.json",
+      "public_sha256": "d8de5b5d15cdbae1b0efdd718b0242ac8252db05fd529106cd3d383dacb93657",
+      "redactions": [],
+      "source_bytes": 1199,
+      "source_sha256": "d8de5b5d15cdbae1b0efdd718b0242ac8252db05fd529106cd3d383dacb93657",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/indic-conformer-600m-ctc/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1145,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/mms-1b-all-npi/summary.json",
+      "public_sha256": "c89b3fc0452f79258bf69a2a70e7a89605e194392cd2c1348d3ee1e97469cf1c",
+      "redactions": [],
+      "source_bytes": 1145,
+      "source_sha256": "c89b3fc0452f79258bf69a2a70e7a89605e194392cd2c1348d3ee1e97469cf1c",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/mms-1b-all-npi/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1292,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/nepali-asr-whisper-medium-paudeletal/summary.json",
+      "public_sha256": "5d8aa597d43875004adefc71fec442a52c8b887b8192fb059bd9fcdb66178e3b",
+      "redactions": [],
+      "source_bytes": 1292,
+      "source_sha256": "5d8aa597d43875004adefc71fec442a52c8b887b8192fb059bd9fcdb66178e3b",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/nepali-asr-whisper-medium-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1294,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/nepali-asr-whisper-turbo-paudeletal/summary.json",
+      "public_sha256": "1053db2eba00e40b33c1f58e1e8dad6da8f3bbafc4118567baef350b11182ac2",
+      "redactions": [],
+      "source_bytes": 1294,
+      "source_sha256": "1053db2eba00e40b33c1f58e1e8dad6da8f3bbafc4118567baef350b11182ac2",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/nepali-asr-whisper-turbo-paudeletal/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1101,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/qwen3-asr-nepali-public/summary.json",
+      "public_sha256": "e97a5958f37bf567c4c2e410edc75304825b163bfab1c603952f68af5141b31f",
+      "redactions": [],
+      "source_bytes": 1101,
+      "source_sha256": "e97a5958f37bf567c4c2e410edc75304825b163bfab1c603952f68af5141b31f",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/qwen3-asr-nepali-public/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1142,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/seamless-m4t-v2-large-npi/summary.json",
+      "public_sha256": "3a28aff8d264b31f64a45136f7e628d641f0175d09d26cb2f7bd5484eefa67c1",
+      "redactions": [],
+      "source_bytes": 1142,
+      "source_sha256": "3a28aff8d264b31f64a45136f7e628d641f0175d09d26cb2f7bd5484eefa67c1",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/seamless-m4t-v2-large-npi/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1162,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-large-v3-turbo/summary.json",
+      "public_sha256": "1ab53dbabea98b7a55f3a524bf0a4804a71ddb7ba809862ddc0a2525d210bbd1",
+      "redactions": [],
+      "source_bytes": 1162,
+      "source_sha256": "1ab53dbabea98b7a55f3a524bf0a4804a71ddb7ba809862ddc0a2525d210bbd1",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-large-v3-turbo/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1345,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-small-nepali-devrahulbanjara/summary.json",
+      "public_sha256": "c406d9c1e3daca46b77cbe4060181196d8dbdfd22215bbf45956d0db727bf271",
+      "redactions": [],
+      "source_bytes": 1345,
+      "source_sha256": "c406d9c1e3daca46b77cbe4060181196d8dbdfd22215bbf45956d0db727bf271",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-small-nepali-devrahulbanjara/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark smoke summary",
+      "public_bytes": 1325,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-small-nepali-dragneel/summary.json",
+      "public_sha256": "f7da846698a6d6ba751d80460afcc0d0dbab9b8e0cd94c7dc256a50d620812e2",
+      "redactions": [],
+      "source_bytes": 1325,
+      "source_sha256": "f7da846698a6d6ba751d80460afcc0d0dbab9b8e0cd94c7dc256a50d620812e2",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/smoke/whisper-small-nepali-dragneel/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical v1 benchmark view summary",
+      "public_bytes": 548,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v1/views/summary.json",
+      "public_sha256": "684f04e42da0a56ecad64e2a65c4d8f9104a57282973b82d1732d9d76d670f0f",
+      "redactions": [],
+      "source_bytes": 548,
+      "source_sha256": "684f04e42da0a56ecad64e2a65c4d8f9104a57282973b82d1732d9d76d670f0f",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v1/views/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark contract",
+      "public_bytes": 2784,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/contracts/experiment.json",
+      "public_sha256": "c45568d87f20859e40e96fdf6673c912a3604eb9cd173113c8c9e36e98a5f9ca",
+      "redactions": [],
+      "source_bytes": 2784,
+      "source_sha256": "c45568d87f20859e40e96fdf6673c912a3604eb9cd173113c8c9e36e98a5f9ca",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/contracts/experiment.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4543,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-ctc/replicate-1/summary.json",
+      "public_sha256": "9528fbf6370684b678d9fe84366004f166452f1a07e8bc237a57d80b0845f094",
+      "redactions": [],
+      "source_bytes": 4543,
+      "source_sha256": "9528fbf6370684b678d9fe84366004f166452f1a07e8bc237a57d80b0845f094",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-ctc/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4543,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-ctc/replicate-2/summary.json",
+      "public_sha256": "97b86562fb2c17b83f551e42d2bc84c88efbbe8fcebf6adf558abc6d18d30106",
+      "redactions": [],
+      "source_bytes": 4543,
+      "source_sha256": "97b86562fb2c17b83f551e42d2bc84c88efbbe8fcebf6adf558abc6d18d30106",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-ctc/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4557,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-1/summary.json",
+      "public_sha256": "6bf9121a278355e2f3ad9ba9487d70ed1596235d08b1a344cbc41cf29e56b0f4",
+      "redactions": [],
+      "source_bytes": 4557,
+      "source_sha256": "6bf9121a278355e2f3ad9ba9487d70ed1596235d08b1a344cbc41cf29e56b0f4",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4558,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-2/summary.json",
+      "public_sha256": "d8fdbd72ec1fe4b3b5ca1e17af6e8ba1e10e5d725ed7b38280da0e0d7face09d",
+      "redactions": [],
+      "source_bytes": 4558,
+      "source_sha256": "d8fdbd72ec1fe4b3b5ca1e17af6e8ba1e10e5d725ed7b38280da0e0d7face09d",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4280,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indic-conformer-600m-ctc/replicate-1/summary.json",
+      "public_sha256": "5a145af10c8996ae077352f5f7613f5501092105aae8585e4ad2456d2a94deee",
+      "redactions": [],
+      "source_bytes": 4280,
+      "source_sha256": "5a145af10c8996ae077352f5f7613f5501092105aae8585e4ad2456d2a94deee",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indic-conformer-600m-ctc/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4280,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indic-conformer-600m-rnnt/replicate-1/summary.json",
+      "public_sha256": "53b6bf13d26cdc8e7d3e988a4e984a0e0a89bf918c458f2299aee3a9dbd889b9",
+      "redactions": [],
+      "source_bytes": 4280,
+      "source_sha256": "53b6bf13d26cdc8e7d3e988a4e984a0e0a89bf918c458f2299aee3a9dbd889b9",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indic-conformer-600m-rnnt/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4338,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indicconformer-ne-hybrid/replicate-1/summary.json",
+      "public_sha256": "27dca21f1eaa3cd841510fa71926025d5da196d3ee992c8586d2a092f0070bc1",
+      "redactions": [],
+      "source_bytes": 4338,
+      "source_sha256": "27dca21f1eaa3cd841510fa71926025d5da196d3ee992c8586d2a092f0070bc1",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indicconformer-ne-hybrid/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4336,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indicconformer-ne-hybrid/replicate-2/summary.json",
+      "public_sha256": "eb8d4e48d90bc42c3837d2f63ba541323008490534cc9cdeafb05d30a517a0b4",
+      "redactions": [],
+      "source_bytes": 4336,
+      "source_sha256": "eb8d4e48d90bc42c3837d2f63ba541323008490534cc9cdeafb05d30a517a0b4",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/indicconformer-ne-hybrid/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4601,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/base-asr/summary.json",
+      "public_sha256": "c3819af31b6a9bc39ff13cacc7ba2146e6c0f6fd91253b7987b500c260b24368",
+      "redactions": [],
+      "source_bytes": 4601,
+      "source_sha256": "c3819af31b6a9bc39ff13cacc7ba2146e6c0f6fd91253b7987b500c260b24368",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/base-asr/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 5535,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/summary.json",
+      "public_sha256": "062db24750bba3c3cddc7fceb1e656485f0c09a88ad8d8595198af924bc1d2fe",
+      "redactions": [],
+      "source_bytes": 5535,
+      "source_sha256": "062db24750bba3c3cddc7fceb1e656485f0c09a88ad8d8595198af924bc1d2fe",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4601,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/base-asr/summary.json",
+      "public_sha256": "da0a3559aedba67d64bd5e38978f3bdd9facd011ce3a9867937cf1ef1eac9ce7",
+      "redactions": [],
+      "source_bytes": 4601,
+      "source_sha256": "da0a3559aedba67d64bd5e38978f3bdd9facd011ce3a9867937cf1ef1eac9ce7",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/base-asr/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 5536,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/summary.json",
+      "public_sha256": "ea23951a53fee5c06d1601b99e77657b7452535bbe79c0214d5e4088ac8a50a9",
+      "redactions": [],
+      "source_bytes": 5536,
+      "source_sha256": "ea23951a53fee5c06d1601b99e77657b7452535bbe79c0214d5e4088ac8a50a9",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4165,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/mms-1b-all-npi/replicate-1/summary.json",
+      "public_sha256": "def603bf0a876dbea4c9701015be4a68176bd35d65099bfb6fc56a302f283cc1",
+      "redactions": [],
+      "source_bytes": 4165,
+      "source_sha256": "def603bf0a876dbea4c9701015be4a68176bd35d65099bfb6fc56a302f283cc1",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/mms-1b-all-npi/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4165,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/mms-1b-all-npi/replicate-2/summary.json",
+      "public_sha256": "337efe4bbff5bb24ff6a947dce24a67f63bfcba1f91e5ae838e314419bebb096",
+      "redactions": [],
+      "source_bytes": 4165,
+      "source_sha256": "337efe4bbff5bb24ff6a947dce24a67f63bfcba1f91e5ae838e314419bebb096",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/mms-1b-all-npi/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4180,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-mms-1b/replicate-1/summary.json",
+      "public_sha256": "ba35536ad55b37ab25a2d38a7d11daf9a321ad2236416b61fd0ca3ab63e8b355",
+      "redactions": [],
+      "source_bytes": 4180,
+      "source_sha256": "ba35536ad55b37ab25a2d38a7d11daf9a321ad2236416b61fd0ca3ab63e8b355",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-mms-1b/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4180,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-mms-1b/replicate-2/summary.json",
+      "public_sha256": "e3e4edf893bc17c98d86f00206bfc1e3502786c892bdd01b3aa0f4805c70fae9",
+      "redactions": [],
+      "source_bytes": 4180,
+      "source_sha256": "e3e4edf893bc17c98d86f00206bfc1e3502786c892bdd01b3aa0f4805c70fae9",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-mms-1b/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4280,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-whisper-medium-paudeletal/replicate-1/summary.json",
+      "public_sha256": "e9ca87deda6d49c0ac4f943308f9c3ae45c82981d145f6a7b8c5a9790f16fac4",
+      "redactions": [],
+      "source_bytes": 4280,
+      "source_sha256": "e9ca87deda6d49c0ac4f943308f9c3ae45c82981d145f6a7b8c5a9790f16fac4",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-whisper-medium-paudeletal/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4281,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-whisper-medium-paudeletal/replicate-2/summary.json",
+      "public_sha256": "cb20ae7e480eb2e7bcaa1b7694343976e48b24713585f219cbbea65d0a69fc62",
+      "redactions": [],
+      "source_bytes": 4281,
+      "source_sha256": "cb20ae7e480eb2e7bcaa1b7694343976e48b24713585f219cbbea65d0a69fc62",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-whisper-medium-paudeletal/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4189,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-xlsr-53-paudeletal/replicate-1/summary.json",
+      "public_sha256": "36cde8866d841efb88d0e6a17b4d441fc14d44c5f3188aaea14d8c96a20cf2a2",
+      "redactions": [],
+      "source_bytes": 4189,
+      "source_sha256": "36cde8866d841efb88d0e6a17b4d441fc14d44c5f3188aaea14d8c96a20cf2a2",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-xlsr-53-paudeletal/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4189,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-xlsr-53-paudeletal/replicate-2/summary.json",
+      "public_sha256": "ef38a6b98169bcf02f5ed47eae8c79881b8fbe65713e3bd51d1a2f742656b7ff",
+      "redactions": [],
+      "source_bytes": 4189,
+      "source_sha256": "ef38a6b98169bcf02f5ed47eae8c79881b8fbe65713e3bd51d1a2f742656b7ff",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/nepali-asr-xlsr-53-paudeletal/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4715,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/omniasr-llm-7b-v2/replicate-1/summary.json",
+      "public_sha256": "69184b97f45d727cf57dbc7ff9393a37408e22cc8e9596185485f7615ce6ff59",
+      "redactions": [],
+      "source_bytes": 4715,
+      "source_sha256": "69184b97f45d727cf57dbc7ff9393a37408e22cc8e9596185485f7615ce6ff59",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/omniasr-llm-7b-v2/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-0.6b-base/replicate-1/summary.json",
+      "public_sha256": "a4d637bbb8e20ff098358691f462073926363f9d7cea1f22ad8419f1799d7d65",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "a4d637bbb8e20ff098358691f462073926363f9d7cea1f22ad8419f1799d7d65",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-0.6b-base/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-0.6b-base/replicate-2/summary.json",
+      "public_sha256": "be577b1638c4f92e5b142e11374002838e40d9697e0536378d134bd6215c6368",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "be577b1638c4f92e5b142e11374002838e40d9697e0536378d134bd6215c6368",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-0.6b-base/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4223,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-nepali-public/replicate-1/summary.json",
+      "public_sha256": "df3838307103739131e898290c705ac8a8f51854c6b1c32c712205e75254cc68",
+      "redactions": [],
+      "source_bytes": 4223,
+      "source_sha256": "df3838307103739131e898290c705ac8a8f51854c6b1c32c712205e75254cc68",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-nepali-public/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4224,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-nepali-public/replicate-2/summary.json",
+      "public_sha256": "1d36f0da3c7289fb65808ef3fd326c7d8db3b17763bbdcfc66a4b645104c3823",
+      "redactions": [],
+      "source_bytes": 4224,
+      "source_sha256": "1d36f0da3c7289fb65808ef3fd326c7d8db3b17763bbdcfc66a4b645104c3823",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/qwen3-asr-nepali-public/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4201,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/seamless-m4t-v2-large-npi/replicate-1/summary.json",
+      "public_sha256": "8a62006509a5a16f3f39df9ef2e290d7f04301cb2322d9942a36cfba02677c32",
+      "redactions": [],
+      "source_bytes": 4201,
+      "source_sha256": "8a62006509a5a16f3f39df9ef2e290d7f04301cb2322d9942a36cfba02677c32",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/seamless-m4t-v2-large-npi/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4201,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/seamless-m4t-v2-large-npi/replicate-2/summary.json",
+      "public_sha256": "f1d5ad2e25ae1aac62aa08c0017808a2b140d1c5bf18fc2763a6a51e98d97abc",
+      "redactions": [],
+      "source_bytes": 4201,
+      "source_sha256": "f1d5ad2e25ae1aac62aa08c0017808a2b140d1c5bf18fc2763a6a51e98d97abc",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/seamless-m4t-v2-large-npi/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4206,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-1/summary.json",
+      "public_sha256": "d2d8c222d71cf44df04570c4b45664c8bfdb09f5d11a0780c86bcde190d12b63",
+      "redactions": [],
+      "source_bytes": 4206,
+      "source_sha256": "d2d8c222d71cf44df04570c4b45664c8bfdb09f5d11a0780c86bcde190d12b63",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4205,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-2/summary.json",
+      "public_sha256": "38c8bf4cb38b2445db4c47766247b71c365a3f77219b7faf4eaa75121b8e228a",
+      "redactions": [],
+      "source_bytes": 4205,
+      "source_sha256": "38c8bf4cb38b2445db4c47766247b71c365a3f77219b7faf4eaa75121b8e228a",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4212,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-1/summary.json",
+      "public_sha256": "b3810f38dcc7f7862a69b430d98d537326327c008f03b6a971693312d975d6f7",
+      "redactions": [],
+      "source_bytes": 4212,
+      "source_sha256": "b3810f38dcc7f7862a69b430d98d537326327c008f03b6a971693312d975d6f7",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4213,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-2/summary.json",
+      "public_sha256": "0990bee286551269df76df73e67ce0aad2f1d1cd071c3d35c2bf66321e391c12",
+      "redactions": [],
+      "source_bytes": 4213,
+      "source_sha256": "0990bee286551269df76df73e67ce0aad2f1d1cd071c3d35c2bf66321e391c12",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4205,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-1/summary.json",
+      "public_sha256": "d6ff93c9927668d0fd7c1f7845a59ea5654b85386966e895a61ff9f67c763b08",
+      "redactions": [],
+      "source_bytes": 4205,
+      "source_sha256": "d6ff93c9927668d0fd7c1f7845a59ea5654b85386966e895a61ff9f67c763b08",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-2/summary.json",
+      "public_sha256": "484691202b92723eeea9c3f70c9bf192c86801fc3b6e02e0e655593c1fec5a41",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "484691202b92723eeea9c3f70c9bf192c86801fc3b6e02e0e655593c1fec5a41",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4271,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-1/summary.json",
+      "public_sha256": "77ea0264e86656afb0da907a11ddd68c9574fc0c410e5b168aa8a1327116866a",
+      "redactions": [],
+      "source_bytes": 4271,
+      "source_sha256": "77ea0264e86656afb0da907a11ddd68c9574fc0c410e5b168aa8a1327116866a",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4270,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-2/summary.json",
+      "public_sha256": "c0a2ac00b99ffa57defd41199ab02150a3ffd7fc96d3fff0103ba32b1d9818fd",
+      "redactions": [],
+      "source_bytes": 4270,
+      "source_sha256": "c0a2ac00b99ffa57defd41199ab02150a3ffd7fc96d3fff0103ba32b1d9818fd",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4219,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-openslr/replicate-1/summary.json",
+      "public_sha256": "7048fd08d3eb85030a92a1b9a391f4a5512a534d8333aff5875ae350a117f7e0",
+      "redactions": [],
+      "source_bytes": 4219,
+      "source_sha256": "7048fd08d3eb85030a92a1b9a391f4a5512a534d8333aff5875ae350a117f7e0",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-openslr/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4219,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-openslr/replicate-2/summary.json",
+      "public_sha256": "60ab33ba9eb6cf408b0e135bb2213ff394e72ab057707afdd5a5759469c8fd85",
+      "redactions": [],
+      "source_bytes": 4219,
+      "source_sha256": "60ab33ba9eb6cf408b0e135bb2213ff394e72ab057707afdd5a5759469c8fd85",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-nepali-openslr/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4298,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-1/summary.json",
+      "public_sha256": "5a0695a93e3a04a22ca1122baf581a202775175b23c24bc7c5898629ba2fa2d7",
+      "redactions": [],
+      "source_bytes": 4298,
+      "source_sha256": "5a0695a93e3a04a22ca1122baf581a202775175b23c24bc7c5898629ba2fa2d7",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4298,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-2/summary.json",
+      "public_sha256": "58bd0ad0c03030b78558f6f82885d6e6cdc54c7b545111fc354791aca1ad803c",
+      "redactions": [],
+      "source_bytes": 4298,
+      "source_sha256": "58bd0ad0c03030b78558f6f82885d6e6cdc54c7b545111fc354791aca1ad803c",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4199,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo/replicate-1/summary.json",
+      "public_sha256": "138d9eb8a3de6caaff6889c7dee4353d562085025ee6fc89a1c2b26728c19965",
+      "redactions": [],
+      "source_bytes": 4199,
+      "source_sha256": "138d9eb8a3de6caaff6889c7dee4353d562085025ee6fc89a1c2b26728c19965",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4199,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo/replicate-2/summary.json",
+      "public_sha256": "2b3e00971468c0dd9e807123cff22326446c32eb7d98ef228ebb87df8610c4da",
+      "redactions": [],
+      "source_bytes": 4199,
+      "source_sha256": "2b3e00971468c0dd9e807123cff22326446c32eb7d98ef228ebb87df8610c4da",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3-turbo/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4190,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3/replicate-1/summary.json",
+      "public_sha256": "234e507e8454f7558f037e83aefd0198c8e62798030749814bb8a028aa0acf4b",
+      "redactions": [],
+      "source_bytes": 4190,
+      "source_sha256": "234e507e8454f7558f037e83aefd0198c8e62798030749814bb8a028aa0acf4b",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4190,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3/replicate-2/summary.json",
+      "public_sha256": "7cbebe87bac6b8f4604dd852d2b3e652fc3e6ed62f41c382aea90682d690a5fe",
+      "redactions": [],
+      "source_bytes": 4190,
+      "source_sha256": "7cbebe87bac6b8f4604dd852d2b3e652fc3e6ed62f41c382aea90682d690a5fe",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-large-v3/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Stopped v2 benchmark replicate summary",
+      "public_bytes": 4221,
+      "public_path": "records/training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-small-nepali-amitpant7/replicate-1/summary.json",
+      "public_sha256": "016e62953c8632206ef54ac1124268accbbf840e3591ad5e0a034a1fdab7f422",
+      "redactions": [],
+      "source_bytes": 4221,
+      "source_sha256": "016e62953c8632206ef54ac1124268accbbf840e3591ad5e0a034a1fdab7f422",
+      "source_uri": "kriti-private://training/benchmarks/kriti-nepali-asr-major-v2/evaluations/whisper-small-nepali-amitpant7/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark contract",
+      "public_bytes": 2784,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/contracts/experiment.json",
+      "public_sha256": "c45568d87f20859e40e96fdf6673c912a3604eb9cd173113c8c9e36e98a5f9ca",
+      "redactions": [],
+      "source_bytes": 2784,
+      "source_sha256": "c45568d87f20859e40e96fdf6673c912a3604eb9cd173113c8c9e36e98a5f9ca",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/contracts/experiment.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4543,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-ctc/replicate-1/summary.json",
+      "public_sha256": "8f9cfccd452b5bbd5aed9296b31b5d6a2b2f40bd41168394f3aacee7c0dcab91",
+      "redactions": [],
+      "source_bytes": 4543,
+      "source_sha256": "8f9cfccd452b5bbd5aed9296b31b5d6a2b2f40bd41168394f3aacee7c0dcab91",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-ctc/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4542,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-ctc/replicate-2/summary.json",
+      "public_sha256": "fa1b8210b1d2edf4644627947d73508790d1d320e313baa5c0c758b7aba1310f",
+      "redactions": [],
+      "source_bytes": 4542,
+      "source_sha256": "fa1b8210b1d2edf4644627947d73508790d1d320e313baa5c0c758b7aba1310f",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-ctc/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4558,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-1/summary.json",
+      "public_sha256": "46274b0612776fb7c611edc1eed7f92c9f6896ececa7e3f2aa5c1d0e08a55cd3",
+      "redactions": [],
+      "source_bytes": 4558,
+      "source_sha256": "46274b0612776fb7c611edc1eed7f92c9f6896ececa7e3f2aa5c1d0e08a55cd3",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4558,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-2/summary.json",
+      "public_sha256": "519e5504707af6884c7f1dceebbe13c139994839e623aa7d117425c3f77680ad",
+      "redactions": [],
+      "source_bytes": 4558,
+      "source_sha256": "519e5504707af6884c7f1dceebbe13c139994839e623aa7d117425c3f77680ad",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/ai4bharat-ne-hybrid-rnnt/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4602,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/base-asr/summary.json",
+      "public_sha256": "4d3cb198204bffd71ee622feb87f762978032e4b7051c725a5c38b164dc5a6a3",
+      "redactions": [],
+      "source_bytes": 4602,
+      "source_sha256": "4d3cb198204bffd71ee622feb87f762978032e4b7051c725a5c38b164dc5a6a3",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/base-asr/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 5533,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/summary.json",
+      "public_sha256": "64ede5c82eded77a0f724773e1f24b7ee36917ddce06d4d052a305516ddca0ce",
+      "redactions": [],
+      "source_bytes": 5533,
+      "source_sha256": "64ede5c82eded77a0f724773e1f24b7ee36917ddce06d4d052a305516ddca0ce",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4602,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/base-asr/summary.json",
+      "public_sha256": "f0c66bbfb52687fa1c33f91cb9639361172ed6c11337b4dc5828e6636ccaee82",
+      "redactions": [],
+      "source_bytes": 4602,
+      "source_sha256": "f0c66bbfb52687fa1c33f91cb9639361172ed6c11337b4dc5828e6636ccaee82",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/base-asr/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 5535,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/summary.json",
+      "public_sha256": "e84f42667fbe712dca0d334f70ff1d31f3e5826e10c1af80d7ada7a64f1a145d",
+      "redactions": [],
+      "source_bytes": 5535,
+      "source_sha256": "e84f42667fbe712dca0d334f70ff1d31f3e5826e10c1af80d7ada7a64f1a145d",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/kriti-nepali-compact-encoder-domain-v1/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4165,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/mms-1b-all-npi/replicate-1/summary.json",
+      "public_sha256": "7dd2c4277261334cd917429288faaff5558dffd36576b9fa61dc6e4fe98506f6",
+      "redactions": [],
+      "source_bytes": 4165,
+      "source_sha256": "7dd2c4277261334cd917429288faaff5558dffd36576b9fa61dc6e4fe98506f6",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/mms-1b-all-npi/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4166,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/mms-1b-all-npi/replicate-2/summary.json",
+      "public_sha256": "502e70fab01c69ecc64da62e278f863c54f03c86a64ad5ed548a504ed372b84d",
+      "redactions": [],
+      "source_bytes": 4166,
+      "source_sha256": "502e70fab01c69ecc64da62e278f863c54f03c86a64ad5ed548a504ed372b84d",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/mms-1b-all-npi/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4180,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/nepali-asr-mms-1b/replicate-1/summary.json",
+      "public_sha256": "6ef6fe035672bf5aa7c4e97496c6ea34faa70e01a8b8e044925b2af48c435515",
+      "redactions": [],
+      "source_bytes": 4180,
+      "source_sha256": "6ef6fe035672bf5aa7c4e97496c6ea34faa70e01a8b8e044925b2af48c435515",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/nepali-asr-mms-1b/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4180,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/nepali-asr-mms-1b/replicate-2/summary.json",
+      "public_sha256": "850e9969f91d458d1ca66f5c1a3fca5a5a7c590c5feb0a4840f230dd5b029be1",
+      "redactions": [],
+      "source_bytes": 4180,
+      "source_sha256": "850e9969f91d458d1ca66f5c1a3fca5a5a7c590c5feb0a4840f230dd5b029be1",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/nepali-asr-mms-1b/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/qwen3-asr-0.6b-base/replicate-1/summary.json",
+      "public_sha256": "a8e9cc1cdcc397809150f697603f81be94894eb1cb970be2c57f81b6f552f150",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "a8e9cc1cdcc397809150f697603f81be94894eb1cb970be2c57f81b6f552f150",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/qwen3-asr-0.6b-base/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/qwen3-asr-0.6b-base/replicate-2/summary.json",
+      "public_sha256": "95720d643e4fe4f01ee92a6a074c775d83c73eea909a220f364565a22fcb0ffd",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "95720d643e4fe4f01ee92a6a074c775d83c73eea909a220f364565a22fcb0ffd",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/qwen3-asr-0.6b-base/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4206,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-1/summary.json",
+      "public_sha256": "a65560f28d9655afe14629a59e1e35a8fd3a2792a33a95a56dcdb42fa5473345",
+      "redactions": [],
+      "source_bytes": 4206,
+      "source_sha256": "a65560f28d9655afe14629a59e1e35a8fd3a2792a33a95a56dcdb42fa5473345",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4206,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-2/summary.json",
+      "public_sha256": "695b165ec1526ef9889f2d40f5b186b444bc3a20833bcede70a763b1ace27f9e",
+      "redactions": [],
+      "source_bytes": 4206,
+      "source_sha256": "695b165ec1526ef9889f2d40f5b186b444bc3a20833bcede70a763b1ace27f9e",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/vakyansh-wav2vec2-nepali-nem-130/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4213,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-1/summary.json",
+      "public_sha256": "25c27d37e07266d318250beb37fb02939d48bbfab528b2bf35e48ec7434defa9",
+      "redactions": [],
+      "source_bytes": 4213,
+      "source_sha256": "25c27d37e07266d318250beb37fb02939d48bbfab528b2bf35e48ec7434defa9",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4213,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-2/summary.json",
+      "public_sha256": "194e83e01f7c161f27c420d6e32cf83a359093584bcdd097373f50414fd1c692",
+      "redactions": [],
+      "source_bytes": 4213,
+      "source_sha256": "194e83e01f7c161f27c420d6e32cf83a359093584bcdd097373f50414fd1c692",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-shniranjan/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-1/summary.json",
+      "public_sha256": "78dec310ea85f6bd6d89082d001a7aed8932d865cf7a42a5c0fe85292237cfa7",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "78dec310ea85f6bd6d89082d001a7aed8932d865cf7a42a5c0fe85292237cfa7",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4207,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-2/summary.json",
+      "public_sha256": "0e7f774fd5010b0ea4ffc51eb80c7029e507c11e6201dfc8399175df6fdc6e0c",
+      "redactions": [],
+      "source_bytes": 4207,
+      "source_sha256": "0e7f774fd5010b0ea4ffc51eb80c7029e507c11e6201dfc8399175df6fdc6e0c",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/wav2vec2-xlsr-300m-nepali-spktsagar/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4271,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-1/summary.json",
+      "public_sha256": "54551c32e4b9f8b1ce14ed4a5714c968b190d608ce36d10c589b6c7656110f72",
+      "redactions": [],
+      "source_bytes": 4271,
+      "source_sha256": "54551c32e4b9f8b1ce14ed4a5714c968b190d608ce36d10c589b6c7656110f72",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-nepali-kiranpantha/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4298,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-1/summary.json",
+      "public_sha256": "6583236ca7bfe5807db1906254c8aebe2a07cd17f72d9873566b4add20d8d4ad",
+      "redactions": [],
+      "source_bytes": 4298,
+      "source_sha256": "6583236ca7bfe5807db1906254c8aebe2a07cd17f72d9873566b4add20d8d4ad",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo-nepali-kiranpantha/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4198,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo/replicate-1/summary.json",
+      "public_sha256": "f38c9f5b5d5bb80d7b3c33ee45bfd426e053ea80ba7e98cadb63c70fdd3ac7b9",
+      "redactions": [],
+      "source_bytes": 4198,
+      "source_sha256": "f38c9f5b5d5bb80d7b3c33ee45bfd426e053ea80ba7e98cadb63c70fdd3ac7b9",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4198,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo/replicate-2/summary.json",
+      "public_sha256": "0e6bbfe355e6eacecc2078a8d533cdd1c9fb67e7a009ffe7572bd46e047b489b",
+      "redactions": [],
+      "source_bytes": 4198,
+      "source_sha256": "0e6bbfe355e6eacecc2078a8d533cdd1c9fb67e7a009ffe7572bd46e047b489b",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3-turbo/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4190,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3/replicate-1/summary.json",
+      "public_sha256": "18362d3813fd3e702b6d89b8720355e5637a3792e0f92468401cab5b9954b145",
+      "redactions": [],
+      "source_bytes": 4190,
+      "source_sha256": "18362d3813fd3e702b6d89b8720355e5637a3792e0f92468401cab5b9954b145",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3/replicate-1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Rejected v2 benchmark replicate summary",
+      "public_bytes": 4190,
+      "public_path": "records/training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3/replicate-2/summary.json",
+      "public_sha256": "ba16f4d6d7efdb0bbb94aeb7e532135e5ca637d96faf6f51dacd355944803dfe",
+      "redactions": [],
+      "source_bytes": 4190,
+      "source_sha256": "ba16f4d6d7efdb0bbb94aeb7e532135e5ca637d96faf6f51dacd355944803dfe",
+      "source_uri": "kriti-private://training/benchmarks/rejected-campaigns/kriti-nepali-asr-major-v2-bundle-50bf6cfb/evaluations/whisper-large-v3/replicate-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2098,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/baseline-capture-dev/summary.json",
+      "public_sha256": "ebda285ed4c534974e66f164cdab56b69b463e955acf6ac0f5424e5eab8b9f36",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2104,
+      "source_sha256": "3da097a872e9a6f8d99c9330f74f2c9b573ed815402c1c4315b3b6f898991ada",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/baseline-capture-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2264,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/checkpoint-49000-bf16-vocab758-v2-dev/summary.json",
+      "public_sha256": "01a4d6b42c720d4f6d96eee5e8fd935d3dc421e9ba6dc2cf883d475fe41034b3",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2270,
+      "source_sha256": "e1c91a40db8214560ea8e8f7e96d73a4f91d8840cc5e8eb8884186b2601c82d4",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/checkpoint-49000-bf16-vocab758-v2-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2205,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-dev/summary.json",
+      "public_sha256": "345a8b60baff90e7859b226c0104e1f5ce06868023d908d00225b904f1815e64",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2211,
+      "source_sha256": "295775c6fc2779b290ae74898b3a40f37cc64449df2e066b58010fd35d947573",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1894,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-smoke-a/summary.json",
+      "public_sha256": "b3dcdca9b8c1fd147dc4abedf71445613cddf01f447287f53469c823b0f28a82",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1900,
+      "source_sha256": "e0dcd463730bef6497a9159858ce5df43404052073b4ff5a2d4401b471995dd0",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-smoke-a/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1894,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-smoke-b/summary.json",
+      "public_sha256": "ff33ec8d0c78f6719c90f1a7a6057155bae17d060a5f39ad9206880bc97c92b8",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1900,
+      "source_sha256": "54789a69659c0b43610d7516ed3a4f6fe0fedd0cf0d892aa5c2b6e15d884f462",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/deterministic-baseline-smoke-b/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2273,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/deterministic-vocab-mask-758-dev/summary.json",
+      "public_sha256": "2ba6121abae496d1f4e970cd36eb4754a2be17609a417fd97e3ae4755618df13",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2279,
+      "source_sha256": "93cda64c074f958df26d5c9fece45f617d9aee6746d69f4da562928af3356b87",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/deterministic-vocab-mask-758-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1319,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-ctc-smoke-8-v2/summary.json",
+      "public_sha256": "76bba7ae304a0257c03d844af96eaa7e4833c1d87b172d4a7107bd63746bb5d3",
+      "redactions": [],
+      "source_bytes": 1319,
+      "source_sha256": "76bba7ae304a0257c03d844af96eaa7e4833c1d87b172d4a7107bd63746bb5d3",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-ctc-smoke-8-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1307,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-ctc-smoke-8/summary.json",
+      "public_sha256": "34a88e746a46cb550aa976f505fff39f8d608dab7f4f1027b459cf415eadf121",
+      "redactions": [],
+      "source_bytes": 1307,
+      "source_sha256": "34a88e746a46cb550aa976f505fff39f8d608dab7f4f1027b459cf415eadf121",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-ctc-smoke-8/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2294,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-acoustic-punctuation-v1/summary.json",
+      "public_sha256": "e1512890d1564d1def7085cc4ef6fde77cdbcce50025de39144196d25ac2951f",
+      "redactions": [],
+      "source_bytes": 2294,
+      "source_sha256": "e1512890d1564d1def7085cc4ef6fde77cdbcce50025de39144196d25ac2951f",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-acoustic-punctuation-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2527,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-acoustic-punctuation-v2-small/summary.json",
+      "public_sha256": "87acc9844d9d035e052c8228b423f8c083bf52313b0c8a9bff2eb67e9e01e489",
+      "redactions": [],
+      "source_bytes": 2527,
+      "source_sha256": "87acc9844d9d035e052c8228b423f8c083bf52313b0c8a9bff2eb67e9e01e489",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-acoustic-punctuation-v2-small/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2145,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-encoder-domain-reproduction-v2/summary.json",
+      "public_sha256": "203ff87a31098f140ecf728b3fb78e0e17f5ca77d61ef21a6c65a777961ec11d",
+      "redactions": [],
+      "source_bytes": 2145,
+      "source_sha256": "203ff87a31098f140ecf728b3fb78e0e17f5ca77d61ef21a6c65a777961ec11d",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-encoder-domain-reproduction-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2272,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-encoder-domain-v1/summary.json",
+      "public_sha256": "15532d0f9fc847495703c9a665164a4bf4edf6256124807b1170e7f43221b033",
+      "redactions": [],
+      "source_bytes": 2272,
+      "source_sha256": "15532d0f9fc847495703c9a665164a4bf4edf6256124807b1170e7f43221b033",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-encoder-domain-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1580,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-full-dev-reproduction-v2/summary.json",
+      "public_sha256": "909a796e9c661b0e913e07ce76d8e554154e957f4076e071fc20535cb0f628d9",
+      "redactions": [],
+      "source_bytes": 1580,
+      "source_sha256": "909a796e9c661b0e913e07ce76d8e554154e957f4076e071fc20535cb0f628d9",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-full-dev-reproduction-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1579,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-full-dev-v1/summary.json",
+      "public_sha256": "1374d14c597c7db83518e1081f209c3c5d41f1685b4ece881bae9b6ec799df63",
+      "redactions": [],
+      "source_bytes": 1579,
+      "source_sha256": "1374d14c597c7db83518e1081f209c3c5d41f1685b4ece881bae9b6ec799df63",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-full-dev-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1694,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-full-dev-repro-v1/summary.json",
+      "public_sha256": "81a49b101f3d7147edc157d922dcab990717138c1e0d915b5243e82ab151401a",
+      "redactions": [],
+      "source_bytes": 1694,
+      "source_sha256": "81a49b101f3d7147edc157d922dcab990717138c1e0d915b5243e82ab151401a",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-full-dev-repro-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1694,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-full-dev-v1/summary.json",
+      "public_sha256": "3c8e24c3724690179cdc11427047a202fa195b82571a71e109935a9a22eec3c6",
+      "redactions": [],
+      "source_bytes": 1694,
+      "source_sha256": "3c8e24c3724690179cdc11427047a202fa195b82571a71e109935a9a22eec3c6",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-full-dev-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1375,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-smoke8/summary.json",
+      "public_sha256": "7057b433ce57fc841712eab3f5ce95a4f2003527e3b41cb3cfce8552e238f8f0",
+      "redactions": [],
+      "source_bytes": 1375,
+      "source_sha256": "7057b433ce57fc841712eab3f5ce95a4f2003527e3b41cb3cfce8552e238f8f0",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-embedding-smoke8/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2169,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-encoder-domain-repro-v1/summary.json",
+      "public_sha256": "3833fcb6f9c3cae5a952e3563e571964b8dfc36b3126d884db821a4175a67c89",
+      "redactions": [],
+      "source_bytes": 2169,
+      "source_sha256": "3833fcb6f9c3cae5a952e3563e571964b8dfc36b3126d884db821a4175a67c89",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-encoder-domain-repro-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2163,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-encoder-domain-v1/summary.json",
+      "public_sha256": "ea224ffc88f14e2ad27ff3ca2423ebfda91c6a2d51e482d7f4863a0f4fb48e6c",
+      "redactions": [],
+      "source_bytes": 2163,
+      "source_sha256": "ea224ffc88f14e2ad27ff3ca2423ebfda91c6a2d51e482d7f4863a0f4fb48e6c",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-compact-encoder-domain-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2145,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-encoder-domain-v1/summary.json",
+      "public_sha256": "b27c4b3b75f5f9c8795fa679e215503d6ca1317c3d0a4caf843c7e99d66bddec",
+      "redactions": [],
+      "source_bytes": 2145,
+      "source_sha256": "b27c4b3b75f5f9c8795fa679e215503d6ca1317c3d0a4caf843c7e99d66bddec",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-encoder-domain-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2162,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-encoder-domain-v2/summary.json",
+      "public_sha256": "c39aed22b5c944a00f525bb1ff4782cce0192e9c91786b9f12d7656566586ed1",
+      "redactions": [],
+      "source_bytes": 2162,
+      "source_sha256": "c39aed22b5c944a00f525bb1ff4782cce0192e9c91786b9f12d7656566586ed1",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-encoder-domain-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1671,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-full-dev-v2/summary.json",
+      "public_sha256": "57e7c281e34a61c69af1ed0082b452982c4fae155ac82860775e2d0de8cdadb8",
+      "redactions": [],
+      "source_bytes": 1671,
+      "source_sha256": "57e7c281e34a61c69af1ed0082b452982c4fae155ac82860775e2d0de8cdadb8",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-full-dev-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1352,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-smoke8/summary.json",
+      "public_sha256": "c614624b24abb725ded0de7d50f9e3b5ff4aedaaa5a73da637be76a629431d43",
+      "redactions": [],
+      "source_bytes": 1352,
+      "source_sha256": "c614624b24abb725ded0de7d50f9e3b5ff4aedaaa5a73da637be76a629431d43",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-export-smoke8/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1654,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-full-dev-v1/summary.json",
+      "public_sha256": "956bac1c740cd72581328b326ff64a6089758475617acf642a910f8a2c235a2f",
+      "redactions": [],
+      "source_bytes": 1654,
+      "source_sha256": "956bac1c740cd72581328b326ff64a6089758475617acf642a910f8a2c235a2f",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-full-dev-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1336,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-smoke8/summary.json",
+      "public_sha256": "f387b07db980c9770f3b9067c6483f6151540bfa0312e3beed210e7d4bb46c33",
+      "redactions": [],
+      "source_bytes": 1336,
+      "source_sha256": "f387b07db980c9770f3b9067c6483f6151540bfa0312e3beed210e7d4bb46c33",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-nepali-pruned-smoke8/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2378,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-punctuation-restored-v6/summary.json",
+      "public_sha256": "4e3a48536a8c9e4acfeb102b3842f0fae2345c2049f3a1d4293b92274b6e71e1",
+      "redactions": [],
+      "source_bytes": 2378,
+      "source_sha256": "4e3a48536a8c9e4acfeb102b3842f0fae2345c2049f3a1d4293b92274b6e71e1",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-punctuation-restored-v6/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1262,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-smoke-8-v2/summary.json",
+      "public_sha256": "c792f7fb1e9b59e208d64fd2c504849dbc3b515b1d4690f98ce161eb42a5105e",
+      "redactions": [],
+      "source_bytes": 1262,
+      "source_sha256": "c792f7fb1e9b59e208d64fd2c504849dbc3b515b1d4690f98ce161eb42a5105e",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-smoke-8-v2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 1291,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-smoke-8/summary.json",
+      "public_sha256": "958ef3c970a33fca7f0f18558a7f9554ff72af28858df08ddb1b139943e64887",
+      "redactions": [],
+      "source_bytes": 1291,
+      "source_sha256": "958ef3c970a33fca7f0f18558a7f9554ff72af28858df08ddb1b139943e64887",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/indicconformer-rnnt-smoke-8/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2051,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/qwen3-asr-0.6b-nepali-sft-checkpoint-2000-dev/summary.json",
+      "public_sha256": "38023d347a6aa8293a51c32f8c955da08acb354a58a183883511db548e3a53ed",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2057,
+      "source_sha256": "8276d2a094367d01689ed9dbb45646c12df5526e4eb5c474d7e27c41ee6eaf62",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/qwen3-asr-0.6b-nepali-sft-checkpoint-2000-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2048,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/qwen3-asr-0.6b-nepali-sft-checkpoint-4000-dev/summary.json",
+      "public_sha256": "e6e1a340321ce78972adb5367df4e360224c18537ba403b556cdeae6e7e7807c",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2054,
+      "source_sha256": "175b0558539916b606ad252575e2de1b4ac857986840ecf99527146c9578f5a0",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/qwen3-asr-0.6b-nepali-sft-checkpoint-4000-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression candidate evaluation summary",
+      "public_bytes": 2154,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/evaluations/vocab-mask-755-dev/summary.json",
+      "public_sha256": "a660ab4bae203f4c73b305105e7a218de9caa79a1cf213da819abf0876095c8c",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 2160,
+      "source_sha256": "2b94a0f6b6f1d36e7ff96ea9f71b6b86af4239b52ed7f2d4cdd27eee949a4e5d",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/evaluations/vocab-mask-755-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression rejected-attempt summary",
+      "public_bytes": 2380,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/rejected-attempts/indicconformer-rnnt-punctuation-restored-v3-openslr-failed/summary.json",
+      "public_sha256": "018f3f94b28fde6b1dba110dffa1019f968235d62ad87316bb3a209fd1e70f8d",
+      "redactions": [],
+      "source_bytes": 2380,
+      "source_sha256": "018f3f94b28fde6b1dba110dffa1019f968235d62ad87316bb3a209fd1e70f8d",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/rejected-attempts/indicconformer-rnnt-punctuation-restored-v3-openslr-failed/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression vocabulary analysis summary",
+      "public_bytes": 1050,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/vocabulary-analysis-v1/summary.json",
+      "public_sha256": "92b35dc71e369351de7f742fb8f9f0621a781c67fb428b8ded65bc814cf560b9",
+      "redactions": [],
+      "source_bytes": 1050,
+      "source_sha256": "92b35dc71e369351de7f742fb8f9f0621a781c67fb428b8ded65bc814cf560b9",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/vocabulary-analysis-v1/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Compression vocabulary analysis summary",
+      "public_bytes": 1219,
+      "public_path": "records/training/compression/kriti-nepali-compression-v1/vocabulary-analysis-v2/summary.json",
+      "public_sha256": "21beaf43332c1e51bfb9a92292acf4898258f70aad516038b1f260f19df5694e",
+      "redactions": [],
+      "source_bytes": 1219,
+      "source_sha256": "21beaf43332c1e51bfb9a92292acf4898258f70aad516038b1f260f19df5694e",
+      "source_uri": "kriti-private://training/compression/kriti-nepali-compression-v1/vocabulary-analysis-v2/summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Public release validation summary",
+      "public_bytes": 805,
+      "public_path": "records/training/public-release-validations/kriti-hf-762d1c17-final-v1/run-1/summary.json",
+      "public_sha256": "9ddb120d882f423de3411ae4ef16fc73f118629aa3da33ea229f5c816eb61e33",
+      "redactions": [],
+      "source_bytes": 805,
+      "source_sha256": "9ddb120d882f423de3411ae4ef16fc73f118629aa3da33ea229f5c816eb61e33",
+      "source_uri": "kriti-private://training/public-release-validations/kriti-hf-762d1c17-final-v1/run-1/summary.json"
+    },
+    {
+      "classification": "publicly-verifiable",
+      "description": "Public release validation summary",
+      "public_bytes": 805,
+      "public_path": "records/training/public-release-validations/kriti-hf-762d1c17-final-v1/run-2/summary.json",
+      "public_sha256": "9ddb120d882f423de3411ae4ef16fc73f118629aa3da33ea229f5c816eb61e33",
+      "redactions": [],
+      "source_bytes": 805,
+      "source_sha256": "9ddb120d882f423de3411ae4ef16fc73f118629aa3da33ea229f5c816eb61e33",
+      "source_uri": "kriti-private://training/public-release-validations/kriti-hf-762d1c17-final-v1/run-2/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1366,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/base-dev/summary.json",
+      "public_sha256": "eae640b6c62d8ed181d685b479cc3b3c90437c4fcf60828ee3b99f1a48327bfd",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1372,
+      "source_sha256": "9112f060071d83f0ce73b19aae960cb9f6c183e767acd806529479f15cecfd48",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/base-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1840,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-48000-dev/summary.json",
+      "public_sha256": "f69840cbddd968abefc3d98866c6ea3d696fbf6772ff4994c3e94b56d3b80662",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1846,
+      "source_sha256": "e11cb0429115dcc9306738c75728c20b8e3a04fa0c4500bf1cafbf488f9f17a7",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-48000-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1824,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-49000-dev/summary.json",
+      "public_sha256": "b001a1958df58edca37c32fcb43bab3b06c441f26a380dc3c3e4df4c6829d91a",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1830,
+      "source_sha256": "163519bf4024ca8dd319cfd5c05b549343d7a2011f75f608f6043cb39373190d",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-49000-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1835,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-49126-dev/summary.json",
+      "public_sha256": "9b2a466647fc358e8f4a06c6f2aee7b92ef3b5ffaf89f9dfccaa22ea25954aad",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1841,
+      "source_sha256": "56af17d4d73887d54fd15ffe7414561367f30be68b3c85ab62e5fb60dfc783a5",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-checkpoint-49126-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1822,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-final-dev/summary.json",
+      "public_sha256": "e88e94ca046decf86b1724c4d087b8e615b5f341b71f90118f03dedb6950d9ea",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1828,
+      "source_sha256": "235953f350b488dd53d77e9ecc2873113e52475a4d73919220f435686c6c1b71",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/candidate-final-dev/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen evaluation summary",
+      "public_bytes": 1837,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/selected-test/summary.json",
+      "public_sha256": "6170f4e96157076d11d1abea4b3a4222d0a5bdeacd5a1bec76eabc52ba397885",
+      "redactions": [
+        {
+          "json_pointer": "/model_path",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1843,
+      "source_sha256": "939fb71eb6f74f55911c38f28b805ebb918fe6f7a525cee7873906e2c9840d44",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/evaluations/selected-test/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen sealed-test view summary",
+      "public_bytes": 664,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/sealed-test-view/summary.json",
+      "public_sha256": "e2c14148cb47ccdf670ba9cf59d3b3e3f7b25490e35b4ac8b889df46dba753f6",
+      "redactions": [],
+      "source_bytes": 664,
+      "source_sha256": "e2c14148cb47ccdf670ba9cf59d3b3e3f7b25490e35b4ac8b889df46dba753f6",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/sealed-test-view/summary.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen checkpoint selection record",
+      "public_bytes": 1841,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/selection.json",
+      "public_sha256": "0a48c95894473b7aa0a1225bd0e17033153226054ae30f4517ab57b3bc65e408",
+      "redactions": [],
+      "source_bytes": 1841,
+      "source_sha256": "0a48c95894473b7aa0a1225bd0e17033153226054ae30f4517ab57b3bc65e408",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/selection.json"
+    },
+    {
+      "classification": "commitment-verifiable",
+      "description": "Historical Qwen view summary",
+      "public_bytes": 1231,
+      "public_path": "records/training/runs/kriti-qwen3-commercial-v1-20260812a/views/summary.json",
+      "public_sha256": "495ef0382ec699d2cc866aa0441acd884a317a78044f126f20ad3bccc7261490",
+      "redactions": [
+        {
+          "json_pointer": "/release_root",
+          "replacement": "$KRITI_ROOT"
+        }
+      ],
+      "source_bytes": 1237,
+      "source_sha256": "86985611731fe1b3743102a09a0221ebeda0772be0610ca877c35d2615fe1891",
+      "source_uri": "kriti-private://training/runs/kriti-qwen3-commercial-v1-20260812a/views/summary.json"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_root": "$KRITI_ROOT"
+}

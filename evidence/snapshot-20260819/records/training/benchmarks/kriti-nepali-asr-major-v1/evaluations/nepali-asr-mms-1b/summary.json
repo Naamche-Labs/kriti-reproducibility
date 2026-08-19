@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "ctc",
+  "decoder": null,
+  "elapsed_seconds": 199.55003277910873,
+  "failures": 0,
+  "key": "nepali-asr-mms-1b",
+  "limited_evaluation": false,
+  "model_id": "sumanpaudel1997/nepali-asr-mms-1b",
+  "overall": {
+    "punctuation_insensitive_cer": 0.24781273300635487,
+    "punctuation_insensitive_wer": 0.6076411761183305,
+    "raw_cer": 0.25353588087365686,
+    "raw_wer": 0.6322865476047784,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.09917836955888351,
+      "punctuation_insensitive_wer": 0.3443159922928709,
+      "raw_cer": 0.10912936603212714,
+      "raw_wer": 0.3957281553398058,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.2791038827092262,
+      "punctuation_insensitive_wer": 0.6545433172681321,
+      "raw_cer": 0.28495527220877626,
+      "raw_wer": 0.6768308451863172,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.07671363419780818,
+      "punctuation_insensitive_wer": 0.3427487352445194,
+      "raw_cer": 0.07730978260869566,
+      "raw_wer": 0.3472397808680995,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.007504802408644735,
+  "revision": "1757b0fdf60ded4d5fa3294b63eba48ad4e5a32f",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

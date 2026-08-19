@@ -1,0 +1,71 @@
+{
+  "artifact_bytes": 5287657,
+  "artifact_sha256": "61e8ec54a3c6e371e9413e4dc9a133aa500cb83bc045b0a39ee404da4eee6a5e",
+  "base_parameter_count": 129250967,
+  "classifier_parameter_count": 262145,
+  "input_predictions_sha256": "3656a93d28c3d1fb6dfea1c3ab7e3df6eb66a58820064e03ec331a2dee01f94b",
+  "method": "train-only-char-ngram-terminal-danda-restoration",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08287672638469905,
+    "punctuation_insensitive_wer": 0.2407729005728886,
+    "raw_cer": 0.08741345835593908,
+    "raw_wer": 0.26483279395900755,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.08493094807994872,
+      "punctuation_insensitive_wer": 0.2491329479768786,
+      "raw_cer": 0.09400903218430229,
+      "raw_wer": 0.30388349514563107,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08700243670925087,
+      "punctuation_insensitive_wer": 0.25031150816974257,
+      "raw_cer": 0.08915561655318642,
+      "raw_wer": 0.2608440108146233,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.009733850656864747,
+      "punctuation_insensitive_wer": 0.05143338954468803,
+      "raw_cer": 0.042934782608695654,
+      "raw_wer": 0.2515802781289507,
+      "records": 757
+    }
+  },
+  "redaction": "Aggregate counts, metrics, and hashes only; fitted weights and row text remain remote.",
+  "restored_by_source": {
+    "fleurs_ne_np": 297,
+    "indicvoices_nepali": 536,
+    "openslr54": 512
+  },
+  "restored_predictions_sha256": "f36a9441b57a3d79728871753fda46e86887ce69960f0b0611728676447acbd4",
+  "schema_version": 1,
+  "seed": 20260813,
+  "threshold": 0.995,
+  "total_parameter_count": 129513112,
+  "train_partition_counts": {
+    "fleurs_ne_np": 2659,
+    "indicvoices_nepali": 188409,
+    "openslr43": 1635,
+    "openslr54": 121697
+  },
+  "train_view_sha256": "e4a194e8cf9ff4f1c08349a697f8fa28976498c7d5d9a958f831ddc4e5a22f41",
+  "validation": {
+    "false_negatives": 67,
+    "false_positive_rate": 0.009777002232543817,
+    "false_positives": 762,
+    "precision": 0.4392935982339956,
+    "recall": 0.8990963855421686,
+    "true_negatives": 77176,
+    "true_positives": 597
+  },
+  "validation_partition_counts": {
+    "fleurs_ne_np": 664,
+    "indicvoices_nepali": 47097,
+    "openslr43": 429,
+    "openslr54": 30412
+  }
+}

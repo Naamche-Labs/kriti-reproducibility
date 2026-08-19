@@ -1,0 +1,14 @@
+{
+  "failures": {},
+  "prepared_sources": [],
+  "release_id": "ne-research-v1",
+  "requested": [
+    "openslr54",
+    "openslr43",
+    "fleurs_ne_np",
+    "indicvoices_nepali",
+    "worldspeech_ne_np",
+    "worldspeech_ne_in"
+  ],
+  "stage": "build"
+}

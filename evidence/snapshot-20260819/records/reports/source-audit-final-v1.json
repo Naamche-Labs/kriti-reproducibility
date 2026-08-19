@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "fleurs_ne_np": {
+      "cross_source_split_recordings": 0,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 14.342299999999994,
+        "quarantined": 0.16768333333333335
+      },
+      "inventory_records": 4363,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 4363,
+      "preparation_summary": {
+        "accepted_hours": 14.342299999999998,
+        "accepted_records": 4351,
+        "allowed_processing_errors": 0,
+        "inventory_records": 4363,
+        "manifest_records": 4363,
+        "max_quarantine_fraction": 0.05,
+        "max_quarantined_records": 10000,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 1,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.0027504011001604402,
+        "quarantined_hours": 0.16768333333333332,
+        "quarantined_records": 12,
+        "schema_version": 1,
+        "source_id": "fleurs_ne_np",
+        "source_version": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+        "valid": true
+      },
+      "prepared_records": 4363,
+      "quality_flag_counts": {
+        "duration_too_long": 11,
+        "near_silence": 1
+      },
+      "quality_status_counts": {
+        "accepted": 4351,
+        "quarantined": 12
+      },
+      "source_split_counts": {
+        "dev": 305,
+        "test": 726,
+        "train": 3332
+      },
+      "unique_recordings": 4363,
+      "unique_speakers": 0
+    },
+    "indicvoices_nepali": {
+      "cross_source_split_recordings": 0,
+      "cross_source_split_speakers": 310,
+      "hours_by_quality_status": {
+        "accepted": 462.865285329885,
+        "quarantined": 4.500901232638883
+      },
+      "inventory_records": 249422,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 0,
+      "preparation_summary": {
+        "accepted_hours": 462.8652853298629,
+        "accepted_records": 244216,
+        "allowed_processing_errors": 0,
+        "inventory_records": 249422,
+        "manifest_records": 249422,
+        "max_quarantine_fraction": 0.05,
+        "max_quarantined_records": 10000,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 1,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.02087225665739189,
+        "quarantined_hours": 4.50090123263901,
+        "quarantined_records": 5206,
+        "schema_version": 1,
+        "source_id": "indicvoices_nepali",
+        "source_version": "c96f9088f138cf89d419da7e8e643e1f05c00a87",
+        "valid": true
+      },
+      "prepared_records": 249422,
+      "quality_flag_counts": {
+        "duration_too_short": 3012,
+        "incorrect_text_prompt": 283,
+        "mostly_near_silence": 20,
+        "near_silence": 82,
+        "no_devanagari_letter": 291,
+        "off_topic": 1601,
+        "skipping_words": 255,
+        "text_audio_rate_outlier": 40
+      },
+      "quality_status_counts": {
+        "accepted": 244216,
+        "quarantined": 5206
+      },
+      "source_split_counts": {
+        "train": 246593,
+        "valid": 2829
+      },
+      "unique_recordings": 249422,
+      "unique_speakers": 1076
+    },
+    "openslr43": {
+      "cross_source_split_recordings": 0,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 2.7960253124999976
+      },
+      "inventory_records": 2064,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 0,
+      "preparation_summary": {
+        "accepted_hours": 2.7960253124999976,
+        "accepted_records": 2064,
+        "allowed_processing_errors": 0,
+        "inventory_records": 2064,
+        "manifest_records": 2064,
+        "max_quarantine_fraction": 0.05,
+        "max_quarantined_records": 10000,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 1,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.0,
+        "quarantined_hours": 0.0,
+        "quarantined_records": 0,
+        "schema_version": 1,
+        "source_id": "openslr43",
+        "source_version": "SLR43",
+        "valid": true
+      },
+      "prepared_records": 2064,
+      "quality_flag_counts": {},
+      "quality_status_counts": {
+        "accepted": 2064
+      },
+      "source_split_counts": {
+        "<none>": 2064
+      },
+      "unique_recordings": 2064,
+      "unique_speakers": 18
+    },
+    "openslr54": {
+      "cross_source_split_recordings": 0,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 154.61149999999844,
+        "quarantined": 0.025611111111111102
+      },
+      "inventory_records": 157905,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 0,
+      "preparation_summary": {
+        "accepted_hours": 154.61150000000066,
+        "accepted_records": 157876,
+        "allowed_processing_errors": 0,
+        "inventory_records": 157905,
+        "manifest_records": 157905,
+        "max_quarantine_fraction": 0.05,
+        "max_quarantined_records": 10000,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 1,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.00018365472910927456,
+        "quarantined_hours": 0.025611111111111105,
+        "quarantined_records": 29,
+        "schema_version": 1,
+        "source_id": "openslr54",
+        "source_version": "SLR54",
+        "valid": true
+      },
+      "prepared_records": 157905,
+      "quality_flag_counts": {
+        "mostly_near_silence": 19,
+        "near_silence": 29,
+        "no_devanagari_letter": 5
+      },
+      "quality_status_counts": {
+        "accepted": 157876,
+        "quarantined": 29
+      },
+      "source_split_counts": {
+        "<none>": 157905
+      },
+      "unique_recordings": 157905,
+      "unique_speakers": 527
+    },
+    "worldspeech_ne_in": {
+      "cross_source_split_recordings": 52,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 1.7618976909722204,
+        "quarantined": 3.8991568576388924
+      },
+      "inventory_records": 1627,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 1627,
+      "preparation_summary": {
+        "accepted_hours": 1.7618976909722242,
+        "accepted_records": 564,
+        "allowed_processing_errors": 0,
+        "inventory_records": 1627,
+        "manifest_records": 1627,
+        "max_quarantine_fraction": 0.66,
+        "max_quarantined_records": 1070,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 550,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.6533497234173326,
+        "quarantined_hours": 3.8991568576388924,
+        "quarantined_records": 1063,
+        "schema_version": 1,
+        "source_id": "worldspeech_ne_in",
+        "source_version": "7fc2c2f19528b3d3972110a04e500098f6fc7f24",
+        "valid": true
+      },
+      "prepared_records": 1627,
+      "quality_flag_counts": {
+        "heavy_clipping": 7,
+        "worldspeech_cer_above_max": 1060
+      },
+      "quality_status_counts": {
+        "accepted": 564,
+        "quarantined": 1063
+      },
+      "source_split_counts": {
+        "test": 82,
+        "train": 1545
+      },
+      "unique_recordings": 433,
+      "unique_speakers": 0
+    },
+    "worldspeech_ne_np": {
+      "cross_source_split_recordings": 218,
+      "cross_source_split_speakers": 0,
+      "hours_by_quality_status": {
+        "accepted": 15.564830954861089,
+        "quarantined": 42.456713072916884
+      },
+      "inventory_records": 8112,
+      "missing_recording_rows": 0,
+      "missing_speaker_rows": 8112,
+      "preparation_summary": {
+        "accepted_hours": 15.564830954861108,
+        "accepted_records": 2330,
+        "allowed_processing_errors": 0,
+        "inventory_records": 8112,
+        "manifest_records": 8112,
+        "max_quarantine_fraction": 0.72,
+        "max_quarantined_records": 5800,
+        "max_source_exclusion_fraction": 0.05,
+        "max_source_exclusions": 5000,
+        "min_accepted_records": 2300,
+        "processing_errors": 0,
+        "quality_exclusions": 0,
+        "quarantine_fraction": 0.7127712031558185,
+        "quarantined_hours": 42.456713072916614,
+        "quarantined_records": 5782,
+        "schema_version": 1,
+        "source_id": "worldspeech_ne_np",
+        "source_version": "7fc2c2f19528b3d3972110a04e500098f6fc7f24",
+        "valid": true
+      },
+      "prepared_records": 8112,
+      "quality_flag_counts": {
+        "duration_too_long": 521,
+        "worldspeech_cer_above_max": 5656
+      },
+      "quality_status_counts": {
+        "accepted": 2330,
+        "quarantined": 5782
+      },
+      "source_split_counts": {
+        "test": 406,
+        "train": 7706
+      },
+      "unique_recordings": 631,
+      "unique_speakers": 0
+    }
+  }
+}

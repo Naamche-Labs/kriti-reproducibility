@@ -1,0 +1,3 @@
+kriti-nepali-asr[runtime] @ git+https://github.com/Naamche-Labs/kriti.git@29add29d96e4407daa518b5788752a8e8bbd731c
+jiwer==4.0.0
+rapidfuzz==3.14.5

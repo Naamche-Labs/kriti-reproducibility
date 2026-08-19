@@ -1,0 +1,30 @@
+{
+  "candidate_parameters": 1728439936,
+  "hidden_size": 2048,
+  "inputs": {
+    "baseline_predictions_sha256": "ba6e497c2cfbb310574c4bdc88f7731f6792b8978462c4dfaa24305e782d5672",
+    "dev_view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+    "generated_token_ids_sha256": "70bda44f0c49e5a108328e976565f0e0b11930665064daa24dc653a9d8f863b1",
+    "train_view_sha256": "e4a194e8cf9ff4f1c08349a697f8fa28976498c7d5d9a958f831ddc4e5a22f41"
+  },
+  "mapping_sha256": "f0e75b4ed20922b97ac955d3a3338a760d8f8fc9864de729fa8164aeeb4e9cd5",
+  "model_vocab_size": 151936,
+  "parameter_reduction": 309612544,
+  "parameter_reduction_fraction": 0.15191588393248834,
+  "reason_token_counts": {
+    "baseline_generated": 162,
+    "baseline_prediction": 150,
+    "byte_base": 256,
+    "dev_reference": 214,
+    "devanagari": 71,
+    "special": 20,
+    "train": 553
+  },
+  "redaction": "Aggregate vocabulary counts and content hashes only; no text, token strings, sample identifiers, paths, predictions, or model weights.",
+  "removed_tokens": 151178,
+  "retained_fraction": 0.004988942712721146,
+  "retained_tokens": 758,
+  "schema_version": 1,
+  "source_parameters": 2038052480,
+  "tokenizer_size": 151705
+}

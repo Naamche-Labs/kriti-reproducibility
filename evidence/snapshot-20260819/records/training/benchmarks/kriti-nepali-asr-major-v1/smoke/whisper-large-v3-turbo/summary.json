@@ -1,0 +1,37 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "whisper",
+  "decoder": null,
+  "elapsed_seconds": 2.090570922009647,
+  "failures": 0,
+  "key": "whisper-large-v3-turbo",
+  "limited_evaluation": true,
+  "model_id": "openai/whisper-large-v3-turbo",
+  "overall": {
+    "punctuation_insensitive_cer": 0.4796747967479675,
+    "punctuation_insensitive_wer": 0.9345794392523364,
+    "raw_cer": 0.4796747967479675,
+    "raw_wer": 0.9345794392523364,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.466789667896679,
+      "punctuation_insensitive_wer": 0.9157894736842105,
+      "raw_cer": 0.466789667896679,
+      "raw_wer": 0.9157894736842105,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.5753424657534246,
+      "punctuation_insensitive_wer": 1.0833333333333333,
+      "raw_cer": 0.5753424657534246,
+      "raw_wer": 1.0833333333333333,
+      "records": 4
+    }
+  },
+  "real_time_factor": 0.03170894770225462,
+  "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

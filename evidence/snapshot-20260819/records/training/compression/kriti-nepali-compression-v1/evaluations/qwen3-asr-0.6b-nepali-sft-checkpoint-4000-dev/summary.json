@@ -1,0 +1,56 @@
+{
+  "cublas_workspace_config": ":4096:8",
+  "decode_seed": 20260813,
+  "deterministic_decode": true,
+  "elapsed_seconds": 1411.7124411202967,
+  "failures": 0,
+  "generated_token_ids": 148,
+  "generated_token_ids_sha256": "46943bd4ae781105a0ac6be36c16b995ae75de32ba55120066240d468c6a5492",
+  "limited_evaluation": false,
+  "model_artifacts": {
+    "model.safetensors": {
+      "bytes": 3129778392,
+      "sha256": "eb4bc1957fa785060bb331aea88bd89f7d61748476816e7e063b519b5f6cc50c"
+    }
+  },
+  "model_content_sha256": "178e4d881dcdfcbd3b06673df10ce2a4bd44aa2ffa8c90d3a054196268f342bd",
+  "model_file_shape_sha256": "3877abe95689eee23a0c255e27c90e298641f50adfbea89f0806deeb3435f6ca",
+  "model_path": "$KRITI_ROOT/training/compression/kriti-nepali-compression-v1/students/qwen3-asr-0.6b-nepali-sft-v1/checkpoint-4000",
+  "overall": {
+    "punctuation_insensitive_cer": 0.12699487642540033,
+    "punctuation_insensitive_wer": 0.3460087430385053,
+    "raw_cer": 0.12823688781063716,
+    "raw_wer": 0.3494746094530345,
+    "records": 3630
+  },
+  "parameter_count": 782426112,
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.15637200629333955,
+      "punctuation_insensitive_wer": 0.3938342967244701,
+      "raw_cer": 0.1661521751557766,
+      "raw_wer": 0.4267961165048544,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.12582541984952395,
+      "punctuation_insensitive_wer": 0.34381097919360526,
+      "raw_cer": 0.12582541984952395,
+      "raw_wer": 0.34381097919360526,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0777346674834933,
+      "punctuation_insensitive_wer": 0.28077571669477236,
+      "raw_cer": 0.0779891304347826,
+      "raw_wer": 0.2831858407079646,
+      "records": 757
+    }
+  },
+  "profile": "student-checkpoint-4000",
+  "schema_version": 1,
+  "split": "dev",
+  "stored_weight_bytes": 3129778392,
+  "token_map_sha256": null,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

@@ -1,0 +1,40 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "whisper",
+  "decoder": null,
+  "elapsed_seconds": 3.7888938360847533,
+  "failures": 0,
+  "generation_prompt": "nepali_language_task",
+  "key": "nepali-asr-whisper-medium-paudeletal",
+  "limited_evaluation": true,
+  "model_id": "sumanpaudel1997/nepali-asr-whisper-medium",
+  "overall": {
+    "punctuation_insensitive_cer": 0.18048780487804877,
+    "punctuation_insensitive_wer": 0.5046728971962616,
+    "raw_cer": 0.18699186991869918,
+    "raw_wer": 0.5233644859813084,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.2047970479704797,
+      "punctuation_insensitive_wer": 0.5684210526315789,
+      "raw_cer": 0.21217712177121772,
+      "raw_wer": 0.5894736842105263,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.0,
+      "punctuation_insensitive_wer": 0.0,
+      "raw_cer": 0.0,
+      "raw_wer": 0.0,
+      "records": 4
+    }
+  },
+  "processor_id": "openai/whisper-medium",
+  "processor_revision": "abdf7c39ab9d0397620ccaea8974cc764cd0953e",
+  "real_time_factor": 0.05746843373403235,
+  "revision": "885f18aa455eedc1df0b99823977819f26e63d75",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

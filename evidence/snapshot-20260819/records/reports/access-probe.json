@@ -1,0 +1,12 @@
+{
+  "common_voice": {
+    "credential_present": false
+  },
+  "schema_version": 1,
+  "vaani": {
+    "accessible": false,
+    "credential_present": true,
+    "http_status": 403,
+    "range_supported": false
+  }
+}

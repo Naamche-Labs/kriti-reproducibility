@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "seamless",
+  "decoder": null,
+  "elapsed_seconds": 735.1256901896559,
+  "failures": 0,
+  "key": "seamless-m4t-v2-large-npi",
+  "limited_evaluation": false,
+  "model_id": "facebook/seamless-m4t-v2-large",
+  "overall": {
+    "punctuation_insensitive_cer": 0.4389754218911394,
+    "punctuation_insensitive_wer": 0.7042337864542787,
+    "raw_cer": 0.44084799721565376,
+    "raw_wer": 0.7140716768548484,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.09670182390303596,
+      "punctuation_insensitive_wer": 0.25953757225433527,
+      "raw_cer": 0.10501343394500658,
+      "raw_wer": 0.3058252427184466,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.5106446801254104,
+      "punctuation_insensitive_wer": 0.7879158340190432,
+      "raw_cer": 0.5126458224612818,
+      "raw_wer": 0.7932291054425767,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.05139200871281737,
+      "punctuation_insensitive_wer": 0.17664418212478922,
+      "raw_cer": 0.05203804347826087,
+      "raw_wer": 0.18120522545301307,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.027647066620625157,
+  "revision": "5f8cc790b19fc3f67a61c105133b20b34e3dcb76",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

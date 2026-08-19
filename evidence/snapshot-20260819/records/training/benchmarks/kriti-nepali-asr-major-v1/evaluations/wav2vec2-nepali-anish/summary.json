@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "ctc",
+  "decoder": null,
+  "elapsed_seconds": 84.81331608491018,
+  "failures": 0,
+  "key": "wav2vec2-nepali-anish",
+  "limited_evaluation": false,
+  "model_id": "anish-shilpakar/wav2vec2-nepali",
+  "overall": {
+    "punctuation_insensitive_cer": 0.2898684561554721,
+    "punctuation_insensitive_wer": 0.7174481505878596,
+    "raw_cer": 0.29529766230930127,
+    "raw_wer": 0.7342482720044748,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.157187809568207,
+      "punctuation_insensitive_wer": 0.4834296724470135,
+      "raw_cer": 0.16469444920825474,
+      "raw_wer": 0.5248543689320389,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.31913905679217297,
+      "punctuation_insensitive_wer": 0.7642882332197014,
+      "raw_cer": 0.3249699006825251,
+      "raw_wer": 0.7786528741036793,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.11496834796814376,
+      "punctuation_insensitive_wer": 0.38954468802698144,
+      "raw_cer": 0.11514945652173914,
+      "raw_wer": 0.39275179098187946,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.003189712223920107,
+  "revision": "c189a12bbd69aeff291014f621f3f62adcab8f17",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

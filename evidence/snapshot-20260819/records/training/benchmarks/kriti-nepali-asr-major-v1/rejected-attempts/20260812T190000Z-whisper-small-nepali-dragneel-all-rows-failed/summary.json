@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "whisper",
+  "decoder": null,
+  "elapsed_seconds": 35.52414374006912,
+  "failures": 3630,
+  "key": "whisper-small-nepali-dragneel",
+  "limited_evaluation": false,
+  "model_id": "Dragneel/whisper-small-nepali",
+  "overall": {
+    "punctuation_insensitive_cer": 1.0,
+    "punctuation_insensitive_wer": 1.0,
+    "raw_cer": 1.0,
+    "raw_wer": 1.0,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 1.0,
+      "punctuation_insensitive_wer": 1.0,
+      "raw_cer": 1.0,
+      "raw_wer": 1.0,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 1.0,
+      "punctuation_insensitive_wer": 1.0,
+      "raw_cer": 1.0,
+      "raw_wer": 1.0,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 1.0,
+      "punctuation_insensitive_wer": 1.0,
+      "raw_cer": 1.0,
+      "raw_wer": 1.0,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.00133601421053449,
+  "revision": "72c458faca071ea24b84f566fb3439485df1e2f4",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

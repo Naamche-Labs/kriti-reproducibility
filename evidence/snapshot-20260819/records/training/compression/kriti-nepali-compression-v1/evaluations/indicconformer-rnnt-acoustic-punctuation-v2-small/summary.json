@@ -1,0 +1,69 @@
+{
+  "artifact_bytes": 432079,
+  "artifact_sha256": "96816926542f4e9acb5a09c73a44cdfc22a1a8605a0b0e33c4b02cef63fd87a7",
+  "base_parameter_count": 129250967,
+  "classifier_parameter_count": 108020,
+  "classifier_parameter_count_is_upper_bound": true,
+  "cublas_workspace_config": ":4096:8",
+  "decode_seed": 20260813,
+  "deterministic_decode": true,
+  "eval_view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f",
+  "failures": 0,
+  "input_predictions_sha256": "3656a93d28c3d1fb6dfea1c3ab7e3df6eb66a58820064e03ec331a2dee01f94b",
+  "limited_evaluation": false,
+  "method": "train-only-acoustic-domain-terminal-danda-restoration",
+  "overall": {
+    "punctuation_insensitive_cer": 0.08287672638469905,
+    "punctuation_insensitive_wer": 0.2407729005728886,
+    "raw_cer": 0.08475536310809474,
+    "raw_wer": 0.25058931639298415,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.08493094807994872,
+      "punctuation_insensitive_wer": 0.2491329479768786,
+      "raw_cer": 0.09909678156977077,
+      "raw_wer": 0.3357281553398058,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.08700243670925087,
+      "punctuation_insensitive_wer": 0.25031150816974257,
+      "raw_cer": 0.08712160124259845,
+      "raw_wer": 0.2507817091806747,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.009733850656864747,
+      "punctuation_insensitive_wer": 0.05143338954468803,
+      "raw_cer": 0.01154891304347826,
+      "raw_wer": 0.06236831015592077,
+      "records": 757
+    }
+  },
+  "redaction": "Aggregate counts, metrics, and hashes only; audio-derived rows and fitted weights remain remote.",
+  "restored_by_source": {
+    "fleurs_ne_np": 106,
+    "indicvoices_nepali": 32,
+    "openslr54": 4
+  },
+  "restored_predictions_sha256": "3e5be74c9fecaa672bb28c6f3b9390abcb9df92c1a71e017b36ce5881e89ee37",
+  "schema_version": 1,
+  "seed": 20260813,
+  "threshold": 0.391,
+  "total_parameter_count": 129358987,
+  "train_rows": 10294,
+  "train_view_sha256": "e4a194e8cf9ff4f1c08349a697f8fa28976498c7d5d9a958f831ddc4e5a22f41",
+  "validation": {
+    "false_negatives": 4,
+    "false_positive_rate": 0.007822149032523672,
+    "false_positives": 19,
+    "precision": 0.9720176730486009,
+    "recall": 0.9939759036144579,
+    "true_negatives": 2410,
+    "true_positives": 660
+  },
+  "validation_rows": 3093,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

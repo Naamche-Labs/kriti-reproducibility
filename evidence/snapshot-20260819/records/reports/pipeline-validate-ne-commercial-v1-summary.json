@@ -1,0 +1,12 @@
+{
+  "failures": {},
+  "prepared_sources": [],
+  "release_id": "ne-commercial-v1",
+  "requested": [
+    "openslr54",
+    "openslr43",
+    "fleurs_ne_np",
+    "indicvoices_nepali"
+  ],
+  "stage": "validate"
+}

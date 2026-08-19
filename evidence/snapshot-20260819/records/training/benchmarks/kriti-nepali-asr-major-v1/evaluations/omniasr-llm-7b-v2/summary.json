@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "omnilingual_asr",
+  "decoder": null,
+  "elapsed_seconds": 1836.387353940867,
+  "failures": 0,
+  "key": "omniasr-llm-7b-v2",
+  "limited_evaluation": false,
+  "model_id": "facebookresearch/omnilingual-asr",
+  "overall": {
+    "punctuation_insensitive_cer": 0.18931231915286584,
+    "punctuation_insensitive_wer": 0.524961574545382,
+    "raw_cer": 0.19144768943620402,
+    "raw_wer": 0.5368372687682289,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.06765340015150632,
+      "punctuation_insensitive_wer": 0.21946050096339115,
+      "raw_cer": 0.08674898530840908,
+      "raw_wer": 0.3264077669902913,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.20913786514683946,
+      "punctuation_insensitive_wer": 0.5631832608440108,
+      "raw_cer": 0.20918306548707477,
+      "raw_wer": 0.5633243211472905,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.14512286433871077,
+      "punctuation_insensitive_wer": 0.5080101180438449,
+      "raw_cer": 0.14707880434782608,
+      "raw_wer": 0.5187526337968816,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.06906400387473645,
+  "revision": "omnilingual-asr==0.2.0:omniASR_LLM_7B_v2",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

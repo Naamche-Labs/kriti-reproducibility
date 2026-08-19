@@ -1,0 +1,19 @@
+{
+  "model": "harrrshall/kriti",
+  "predictions_sha256": "1a42d4b0b527f2c21a4a28dfa84e7a2d769762bc4a6d80c59a12821e85b89f0f",
+  "punctuation_insensitive_cer": 0.08287672638469905,
+  "punctuation_insensitive_character_errors": 24231,
+  "punctuation_insensitive_reference_characters": 292374,
+  "punctuation_insensitive_reference_words": 50097,
+  "punctuation_insensitive_wer": 0.2407729005728886,
+  "punctuation_insensitive_word_errors": 12062,
+  "raw_cer": 0.08404221560257552,
+  "raw_character_errors": 24630,
+  "raw_reference_characters": 293067,
+  "raw_reference_words": 50058,
+  "raw_wer": 0.24685364976627114,
+  "raw_word_errors": 12357,
+  "records": 3630,
+  "revision": "762d1c17edaff0a548f3483e37e491fe8cc77971",
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

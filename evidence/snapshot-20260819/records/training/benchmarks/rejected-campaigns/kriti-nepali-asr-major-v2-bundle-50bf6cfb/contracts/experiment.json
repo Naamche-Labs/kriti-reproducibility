@@ -1,0 +1,59 @@
+{
+  "benchmark_id": "kriti-nepali-asr-major-v2",
+  "budget": {
+    "accelerator": "H200 141GB spot",
+    "compute_total_maximum": 9100.0,
+    "currency": "INR",
+    "maximum_at_eight_workers_for_six_hours": 9059.04,
+    "measurement_basis": {
+      "historical_slowest_single_system_hours": 0.8687510222593685,
+      "historical_v1_inference_gpu_hours": 6.299512871318212,
+      "historical_v1_systems": 27,
+      "planned_ranked_attempts": 66,
+      "rationale": "Two fresh-load replicates plus five public additions and one compact candidate should fit well inside six hours on eight H200 workers; the cap includes environment, download, audit, and retry headroom."
+    },
+    "price_observed_at_utc": "2026-08-13T10:13:02Z",
+    "price_per_gpu_hour": 188.73,
+    "region": "IN2",
+    "storage_charges_excluded": true,
+    "wall_clock_hours_maximum": 6,
+    "workers_maximum": 8
+  },
+  "created_at_utc": "2026-08-13T09:48:33Z",
+  "deadline_policy": "The six-hour ceiling applies to aggregate worker wall time from first ranked evaluation dispatch through final ranked dispatch. Preflight, immutable-asset download, environment preparation, independent audit, and report generation are separately bounded but do not consume ranked GPU evaluation lease time.",
+  "execution": {
+    "completion_action": "pause every exact owned worker; retain filesystem 3111",
+    "failed_attempts_retained": true,
+    "fresh_model_load_per_replicate": true,
+    "one_gpu_lease_per_worker": true,
+    "parallel_workers": 8,
+    "replicates_per_ranked_system": 2
+  },
+  "objective": "Rerun the corrected current open-weight Nepali ASR landscape and the current Kriti candidate on one deterministic frozen view, with complete attempt and artifact provenance.",
+  "ownership": {
+    "persistent_filesystem_id": 3111,
+    "provider_account_label": "Arjan Choudhary project account",
+    "resource_prefix": "kriti-ne-asr-v2-20260813",
+    "unrelated_resources_in_scope": false
+  },
+  "schema_version": 2,
+  "scope": {
+    "access_blocked_public_systems": 3,
+    "core_public_systems_discovered": 35,
+    "historical_internal_checkpoint": "reported as unranked context unless freshly rerun under v2",
+    "historical_public_systems": 27,
+    "ranked_kriti_candidates": 1,
+    "ranked_systems_total": 33,
+    "roster_source": "inputs/registry-overlay.json",
+    "runnable_public_systems": 32
+  },
+  "status": "contract-frozen-pending-execution",
+  "workload": {
+    "protected_test": "sealed and prohibited",
+    "qualification": "Kriti selection-dev continuity view; 12 unusable upstream FLEURS rows remain outside this release view",
+    "records": 3630,
+    "release_id": "ne-commercial-v1",
+    "split": "dev",
+    "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+  }
+}

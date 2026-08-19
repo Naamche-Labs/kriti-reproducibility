@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "dev.jsonl": {
+      "bytes": 10335844,
+      "sha256": "2ad439b68c2b0fa190509d137b1b15ef597e8f589a03c4bd6d474f59e2397963"
+    },
+    "dev.parquet": {
+      "bytes": 1784352,
+      "sha256": "b8aaa86752a1997f3172cc472019dee9a3eedae3d7c7e2737e14ff752fb22725"
+    },
+    "excluded.jsonl": {
+      "bytes": 24701830,
+      "sha256": "157d06c836dce6e2a0133cc63a972ce75ce4cd43e00f00ae2162bf85bc267344"
+    },
+    "excluded.parquet": {
+      "bytes": 3766813,
+      "sha256": "823d34425a79e4c7652afc41c52f381bb9171553b0ce73bda6cea7803dbfb8b1"
+    },
+    "manifest.jsonl": {
+      "bytes": 1029577923,
+      "sha256": "73f4cfb4f5c83191a6594955a695af7ac060c474366e12319e1051906a5cafb0"
+    },
+    "manifest.parquet": {
+      "bytes": 175996576,
+      "sha256": "4386e55f6c2d83e2191df36a4ce50a4d72e0a0bc3150f34fda0dfa5778ec0e00"
+    },
+    "summary.json": {
+      "bytes": 6086,
+      "sha256": "37f57e3d29a8ef193e82456b8dae05759fce01f34271e3c7534aa93e72cdaa74"
+    },
+    "test.jsonl": {
+      "bytes": 18782600,
+      "sha256": "b2b2ee0def9110b68fa8fe697c4935bbbbbc6bb2a114beb8a4fff71ca8b39f2f"
+    },
+    "test.parquet": {
+      "bytes": 3314339,
+      "sha256": "ddf28a2f5d9314d95b74b046b033efc3b29e8688bfa3a39a2b8a61c628c6b5ef"
+    },
+    "train.jsonl": {
+      "bytes": 1000459479,
+      "sha256": "c0cc41d9357ace01c2a8ede697dc1d0cb1da0894f9cbdf7e08ee4d95e59c6fed"
+    },
+    "train.parquet": {
+      "bytes": 170519708,
+      "sha256": "3cf11696d1811b9fc897e69b1165d51af5df1f16b8314d720f758459d7217f9f"
+    }
+  },
+  "complete": true,
+  "registry_sha256": "813b4f96ba089b150b35d2f052181ada949933fd2611d985a5759a0a6c41f4d0",
+  "release_id": "ne-commercial-v1",
+  "schema_version": 1,
+  "sources": [
+    "openslr54",
+    "openslr43",
+    "fleurs_ne_np",
+    "indicvoices_nepali"
+  ],
+  "split_policy_version": "speaker-recording-prompt-v3"
+}

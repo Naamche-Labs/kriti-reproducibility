@@ -1,0 +1,37 @@
+{
+  "audio_seconds": 65.93,
+  "backend": "mms",
+  "decoder": null,
+  "elapsed_seconds": 1.2971135708503425,
+  "failures": 0,
+  "key": "mms-1b-all-npi",
+  "limited_evaluation": true,
+  "model_id": "facebook/mms-1b-all",
+  "overall": {
+    "punctuation_insensitive_cer": 0.21138211382113822,
+    "punctuation_insensitive_wer": 0.5887850467289719,
+    "raw_cer": 0.21138211382113822,
+    "raw_wer": 0.5887850467289719,
+    "records": 8
+  },
+  "per_source": {
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.2158671586715867,
+      "punctuation_insensitive_wer": 0.5578947368421052,
+      "raw_cer": 0.2158671586715867,
+      "raw_wer": 0.5578947368421052,
+      "records": 4
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.1780821917808219,
+      "punctuation_insensitive_wer": 0.8333333333333334,
+      "raw_cer": 0.1780821917808219,
+      "raw_wer": 0.8333333333333334,
+      "records": 4
+    }
+  },
+  "real_time_factor": 0.01967410239421117,
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

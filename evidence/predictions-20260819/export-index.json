@@ -1,0 +1,414 @@
+{
+  "benchmark_id": "kriti-nepali-asr-major-v2",
+  "files": [
+    {
+      "bytes": 59509,
+      "path": "metrics/per-source.json",
+      "sha256": "1418dda753abbf693b312a0d4df06c2999ef76682d1e91a8817679fb54d8238b"
+    },
+    {
+      "bytes": 225553,
+      "license": "CC-BY-4.0",
+      "path": "predictions/ai4bharat-ne-hybrid-ctc/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "2bde07457f1779b83163be121acecc17c2a930b58c0c4f23a781fac4f2ca43e4",
+      "source_id": "fleurs_ne_np",
+      "system": "ai4bharat-ne-hybrid-ctc",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176869,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/ai4bharat-ne-hybrid-ctc/openslr54.jsonl",
+      "records": 757,
+      "sha256": "47290d6163fe562bc2bf5fb22540c821b468e6efb05417cbc21b20a54495dc8e",
+      "source_id": "openslr54",
+      "system": "ai4bharat-ne-hybrid-ctc",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225467,
+      "license": "CC-BY-4.0",
+      "path": "predictions/ai4bharat-ne-hybrid-rnnt/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "d4a36efe781fafa7e41a96ce7c128f14fdbf7f5d92c58092d0772ecb4d68cfe9",
+      "source_id": "fleurs_ne_np",
+      "system": "ai4bharat-ne-hybrid-rnnt",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176835,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/ai4bharat-ne-hybrid-rnnt/openslr54.jsonl",
+      "records": 757,
+      "sha256": "f67a72a5b35b67401d7876bad4487197bb7cca541e2892b7974e7d249aa48e64",
+      "source_id": "openslr54",
+      "system": "ai4bharat-ne-hybrid-rnnt",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 220365,
+      "license": "CC-BY-4.0",
+      "path": "predictions/indicconformer-ne-hybrid/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "4a452a3cc9b3908f83f02030faec9e3736eef1e436013c8fc610a5be0181406c",
+      "source_id": "fleurs_ne_np",
+      "system": "indicconformer-ne-hybrid",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 175673,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/indicconformer-ne-hybrid/openslr54.jsonl",
+      "records": 757,
+      "sha256": "52100b696b2ab078ee35d152e3a2b8649bc5d57b3bef3ec1759e3948c116cfae",
+      "source_id": "openslr54",
+      "system": "indicconformer-ne-hybrid",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 226025,
+      "license": "CC-BY-4.0",
+      "path": "predictions/kriti/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "1df215de4dd8cf772afd6e5a14c644d861fbb6a64ab561b589d05d0bd8ac3bce",
+      "source_id": "fleurs_ne_np",
+      "system": "kriti",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176126,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/kriti/openslr54.jsonl",
+      "records": 757,
+      "sha256": "496484adeab8d42ef3f7261fff463535588426a4897a82b272a655b32d4c9473",
+      "source_id": "openslr54",
+      "system": "kriti",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 223551,
+      "license": "CC-BY-4.0",
+      "path": "predictions/mms-1b-all-npi/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "a4b996eefcf9a77b53e38b90babd9f02f8a8b3db16f0c16490b8cf167e4e68ae",
+      "source_id": "fleurs_ne_np",
+      "system": "mms-1b-all-npi",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 174737,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/mms-1b-all-npi/openslr54.jsonl",
+      "records": 757,
+      "sha256": "7b7a47490ea8b2d1959650c62d433b5543ca21f15c9cfaf25f371f5d5e3760b6",
+      "source_id": "openslr54",
+      "system": "mms-1b-all-npi",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225189,
+      "license": "CC-BY-4.0",
+      "path": "predictions/nepali-asr-mms-1b/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "c7f8793cd74b30310136be7f3bad62e640658f3e40ced108ed3eeafa50937895",
+      "source_id": "fleurs_ne_np",
+      "system": "nepali-asr-mms-1b",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 175812,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/nepali-asr-mms-1b/openslr54.jsonl",
+      "records": 757,
+      "sha256": "80701ca63d56b6fabe83fce352def548dece4a845d23df2d5abac0f8a71a086b",
+      "source_id": "openslr54",
+      "system": "nepali-asr-mms-1b",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225560,
+      "license": "CC-BY-4.0",
+      "path": "predictions/nepali-asr-whisper-medium-paudeletal/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "1ef94ac6f582079d5e651ab01ab6a4c67fba578b24c3213a1ef92e21a21dbecb",
+      "source_id": "fleurs_ne_np",
+      "system": "nepali-asr-whisper-medium-paudeletal",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176174,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/nepali-asr-whisper-medium-paudeletal/openslr54.jsonl",
+      "records": 757,
+      "sha256": "009677cd9a0b67627956433e4dd35088d17021c12aaf7549821a8555e3f364cf",
+      "source_id": "openslr54",
+      "system": "nepali-asr-whisper-medium-paudeletal",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 224420,
+      "license": "CC-BY-4.0",
+      "path": "predictions/nepali-asr-xlsr-53-paudeletal/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "c484f3466bea77158b162a65ad000dca416a8e176fa98aebe2ae93b5561d3975",
+      "source_id": "fleurs_ne_np",
+      "system": "nepali-asr-xlsr-53-paudeletal",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 175794,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/nepali-asr-xlsr-53-paudeletal/openslr54.jsonl",
+      "records": 757,
+      "sha256": "b2a2d3044c03d393f2587380c92cffe0aa63ffe7779dd90c74823abcd64c8c32",
+      "source_id": "openslr54",
+      "system": "nepali-asr-xlsr-53-paudeletal",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 204182,
+      "license": "CC-BY-4.0",
+      "path": "predictions/qwen3-asr-0.6b-base/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "29ead0884b634c69d0a1601b25b4c11cb505f8432e82b37e96e3f36e6ee25ff9",
+      "source_id": "fleurs_ne_np",
+      "system": "qwen3-asr-0.6b-base",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 167030,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/qwen3-asr-0.6b-base/openslr54.jsonl",
+      "records": 757,
+      "sha256": "975b77d88a829ccbad41689e8af8ce49a437c6ba8d595f0d13da8c21953c4060",
+      "source_id": "openslr54",
+      "system": "qwen3-asr-0.6b-base",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225971,
+      "license": "CC-BY-4.0",
+      "path": "predictions/qwen3-asr-nepali-public/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "faf356a78e1bbebfee2ef94a87c45b960f7e1aaa7bfb7c74b44d7deb4dd1240a",
+      "source_id": "fleurs_ne_np",
+      "system": "qwen3-asr-nepali-public",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176165,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/qwen3-asr-nepali-public/openslr54.jsonl",
+      "records": 757,
+      "sha256": "8b4578bd1cfd85a19509bfa62a27acf44b1611666bab497eb80261014e71785b",
+      "source_id": "openslr54",
+      "system": "qwen3-asr-nepali-public",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225480,
+      "license": "CC-BY-4.0",
+      "path": "predictions/seamless-m4t-v2-large-npi/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "956170c5d53444c591b84aa12f48513be70cd5f219dbc487645a98c84438ad59",
+      "source_id": "fleurs_ne_np",
+      "system": "seamless-m4t-v2-large-npi",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176236,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/seamless-m4t-v2-large-npi/openslr54.jsonl",
+      "records": 757,
+      "sha256": "e078352bb5f264c8ca66c9e57db51ce382a64c16a449067f01327aa6283d2be0",
+      "source_id": "openslr54",
+      "system": "seamless-m4t-v2-large-npi",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 294983,
+      "license": "CC-BY-4.0",
+      "path": "predictions/vakyansh-wav2vec2-nepali-nem-130/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "5540f774e40342288f36e749da22139d1110e47594cac76262385610e27abd49",
+      "source_id": "fleurs_ne_np",
+      "system": "vakyansh-wav2vec2-nepali-nem-130",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 211159,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/vakyansh-wav2vec2-nepali-nem-130/openslr54.jsonl",
+      "records": 757,
+      "sha256": "655b0587fa3b8e245cd2541504b72ad789b7ac5997680bd87024d6efeb041adb",
+      "source_id": "openslr54",
+      "system": "vakyansh-wav2vec2-nepali-nem-130",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 220611,
+      "license": "CC-BY-4.0",
+      "path": "predictions/wav2vec2-xlsr-300m-nepali-shniranjan/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "bf48e0eabde6cf96e57c0c892d5c1d6fa7f28608dec7dc74b94bc198e63806c1",
+      "source_id": "fleurs_ne_np",
+      "system": "wav2vec2-xlsr-300m-nepali-shniranjan",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176816,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/wav2vec2-xlsr-300m-nepali-shniranjan/openslr54.jsonl",
+      "records": 757,
+      "sha256": "b74c513948c05848c8ab8d46bd4d85077dcfb9da7c2d436964d17c087e1894da",
+      "source_id": "openslr54",
+      "system": "wav2vec2-xlsr-300m-nepali-shniranjan",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 211388,
+      "license": "CC-BY-4.0",
+      "path": "predictions/wav2vec2-xlsr-300m-nepali-spktsagar/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "20af0c91d16ccd0dbf070ba48bc90b622a29ca85ddd40838e5198d07f6efb8c3",
+      "source_id": "fleurs_ne_np",
+      "system": "wav2vec2-xlsr-300m-nepali-spktsagar",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 175891,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/wav2vec2-xlsr-300m-nepali-spktsagar/openslr54.jsonl",
+      "records": 757,
+      "sha256": "3c09c0137d31e33e8cc14e1727c3f2008b6e73f24ce87c4299cbc8e86ae2969b",
+      "source_id": "openslr54",
+      "system": "wav2vec2-xlsr-300m-nepali-spktsagar",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 224486,
+      "license": "CC-BY-4.0",
+      "path": "predictions/whisper-large-v3-nepali-kiranpantha/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "72d561984641fd154300af46d34173fcf65d81f3c1de576d123f0308d94a2124",
+      "source_id": "fleurs_ne_np",
+      "system": "whisper-large-v3-nepali-kiranpantha",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176986,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/whisper-large-v3-nepali-kiranpantha/openslr54.jsonl",
+      "records": 757,
+      "sha256": "0aa2deb3ded42750cae194f9718dda2ae7ec8eb42f7d6c9fd5aad93c1c1348b5",
+      "source_id": "openslr54",
+      "system": "whisper-large-v3-nepali-kiranpantha",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225989,
+      "license": "CC-BY-4.0",
+      "path": "predictions/whisper-large-v3-nepali-openslr/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "6e38441d575596df9ff4ddaa8521eb8bcfdc107a89eebcfcf49a2007029ef614",
+      "source_id": "fleurs_ne_np",
+      "system": "whisper-large-v3-nepali-openslr",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 176671,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/whisper-large-v3-nepali-openslr/openslr54.jsonl",
+      "records": 757,
+      "sha256": "ad284f3e04bbec8a88b2844ad9b8ef3524adca71b0291933b0c6cd49219aa3ed",
+      "source_id": "openslr54",
+      "system": "whisper-large-v3-nepali-openslr",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 290272,
+      "license": "CC-BY-4.0",
+      "path": "predictions/whisper-large-v3-turbo-nepali-kiranpantha/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "e39c170b193a22ea0643d96bf853a2597e9c2bb3319767123e8bd2ebabd47d0f",
+      "source_id": "fleurs_ne_np",
+      "system": "whisper-large-v3-turbo-nepali-kiranpantha",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 513068,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/whisper-large-v3-turbo-nepali-kiranpantha/openslr54.jsonl",
+      "records": 757,
+      "sha256": "50cfcb69bc01e5abdab90aaa853b60f6c08a8c8bd7e81042fcce5075ef15c9f7",
+      "source_id": "openslr54",
+      "system": "whisper-large-v3-turbo-nepali-kiranpantha",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 226556,
+      "license": "CC-BY-4.0",
+      "path": "predictions/whisper-large-v3-turbo/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "e45124505ff8173c43d59d8c4c72306dc33436ca112cfc3ca106f8a36c198772",
+      "source_id": "fleurs_ne_np",
+      "system": "whisper-large-v3-turbo",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 179071,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/whisper-large-v3-turbo/openslr54.jsonl",
+      "records": 757,
+      "sha256": "3780d586f560b3740e18f67ed1ad94796e22d3ab4e2c101592784ba1983337fc",
+      "source_id": "openslr54",
+      "system": "whisper-large-v3-turbo",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 225735,
+      "license": "CC-BY-4.0",
+      "path": "predictions/whisper-large-v3/fleurs_ne_np.jsonl",
+      "records": 304,
+      "sha256": "7cd22334e7f5b3a69d64b31129683a645b816d229ba34af8c82bb99bf982a2ff",
+      "source_id": "fleurs_ne_np",
+      "system": "whisper-large-v3",
+      "upstream": "google/fleurs"
+    },
+    {
+      "bytes": 177854,
+      "license": "CC-BY-SA-4.0",
+      "path": "predictions/whisper-large-v3/openslr54.jsonl",
+      "records": 757,
+      "sha256": "77ddda0d457795de6604776b20455ec80b56459188d3ae411489b8393abd0a4e",
+      "source_id": "openslr54",
+      "system": "whisper-large-v3",
+      "upstream": "OpenSLR SLR54"
+    },
+    {
+      "bytes": 426914,
+      "path": "view/ordered-sample-ids.jsonl",
+      "records": 3630,
+      "sha256": "239cc911b94f5f1f2fd626535c07a8b80c8783acbdf2ab42554f4b1cb8655777"
+    }
+  ],
+  "privacy": {
+    "gated_prediction_rows_published": 0,
+    "gated_reference_rows_published": 0,
+    "gated_roster_fields": [
+      "access",
+      "ordinal",
+      "sample_id",
+      "source_id"
+    ]
+  },
+  "recorded_at": "2026-08-19T04:11:43Z",
+  "schema_version": "1.0",
+  "scope": {
+    "full_view_records": 3630,
+    "gated_records": 2569,
+    "public_prediction_records_per_system": 1061,
+    "systems": 19
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "elapsed_seconds": 1643.4805740411393,
+  "failures": 0,
+  "limited_evaluation": false,
+  "model_artifacts": {
+    "model-00001-of-00002.safetensors": {
+      "bytes": 4981095680,
+      "sha256": "e526c5d4c9cc4046b458f3edada8dc3738f4b662cd9696679352be571843c43f"
+    },
+    "model-00002-of-00002.safetensors": {
+      "bytes": 3171200384,
+      "sha256": "2d17a1da400568a3ba2919e8f514f77214c92988976754288c51ad3af6eec809"
+    }
+  },
+  "model_content_sha256": "930d076b6f4ffd683e038cdfe6cce1c7b70b13960d214d21bde43be3902aa463",
+  "model_file_shape_sha256": "b8bf86f8d2de198cb46a897650245399f6528bfd561b15600e7a626721f0d86e",
+  "model_path": "$KRITI_ROOT/training/runs/kriti-qwen3-commercial-v1-20260812a/checkpoints/checkpoint-49000",
+  "overall": {
+    "punctuation_insensitive_cer": 0.07866684424549465,
+    "punctuation_insensitive_wer": 0.2420478397095953,
+    "raw_cer": 0.0799635713842184,
+    "raw_wer": 0.24791442547750014,
+    "records": 6273
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.0955943664545901,
+      "punctuation_insensitive_wer": 0.2598466626578473,
+      "raw_cer": 0.1036978033073799,
+      "raw_wer": 0.3032687651331719,
+      "records": 724
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.07706446384118747,
+      "punctuation_insensitive_wer": 0.24184601998767385,
+      "raw_cer": 0.07706446384118747,
+      "raw_wer": 0.24184601998767385,
+      "records": 4721
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.034056492984733296,
+      "punctuation_insensitive_wer": 0.15627435697583789,
+      "raw_cer": 0.034301931025973224,
+      "raw_wer": 0.15855083755356447,
+      "records": 828
+    }
+  },
+  "schema_version": 1,
+  "split": "test",
+  "view_sha256": "7bbab3f71611b098f333bac0734467f146e2554847ea910fb3eba78428115ca6"
+}

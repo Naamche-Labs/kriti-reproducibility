@@ -1,0 +1,44 @@
+{
+  "audio_seconds": 26589.645125,
+  "backend": "qwen3",
+  "decoder": null,
+  "elapsed_seconds": 1219.2272994620726,
+  "failures": 0,
+  "key": "qwen3-asr-0.6b-base",
+  "limited_evaluation": false,
+  "model_id": "Qwen/Qwen3-ASR-0.6B",
+  "overall": {
+    "punctuation_insensitive_cer": 0.7132303145970572,
+    "punctuation_insensitive_wer": 1.117951174721041,
+    "raw_cer": 0.7206065507204837,
+    "raw_wer": 1.1192816333053657,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.6399976691335004,
+      "punctuation_insensitive_wer": 1.1385356454720617,
+      "raw_cer": 0.6481163894129081,
+      "raw_wer": 1.1588349514563108,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.7262872851442919,
+      "punctuation_insensitive_wer": 1.1136240742917598,
+      "raw_cer": 0.7336960318210395,
+      "raw_wer": 1.1127306923709885,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.6680280443809135,
+      "punctuation_insensitive_wer": 1.1505059021922428,
+      "raw_cer": 0.6764945652173913,
+      "raw_wer": 1.1508638853771598,
+      "records": 757
+    }
+  },
+  "real_time_factor": 0.04585346264421318,
+  "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+  "schema_version": 1,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

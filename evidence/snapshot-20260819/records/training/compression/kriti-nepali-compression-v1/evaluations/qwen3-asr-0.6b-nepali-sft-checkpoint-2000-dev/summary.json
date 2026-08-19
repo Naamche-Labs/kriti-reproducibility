@@ -1,0 +1,56 @@
+{
+  "cublas_workspace_config": ":4096:8",
+  "decode_seed": 20260813,
+  "deterministic_decode": true,
+  "elapsed_seconds": 1262.0260714115575,
+  "failures": 0,
+  "generated_token_ids": 171,
+  "generated_token_ids_sha256": "33ff133014a4a847ad6e400fe4d1a61e8372faa1cee84af1e1995ee6b606759c",
+  "limited_evaluation": false,
+  "model_artifacts": {
+    "model.safetensors": {
+      "bytes": 3129778392,
+      "sha256": "95366d3cfcf47f39bbff98981b46745264938a9da3f04105221614603784411d"
+    }
+  },
+  "model_content_sha256": "9e1aec546e7607977344f48d4f0c34631a2da47b0178e103249fba2d30350149",
+  "model_file_shape_sha256": "3877abe95689eee23a0c255e27c90e298641f50adfbea89f0806deeb3435f6ca",
+  "model_path": "$KRITI_ROOT/training/compression/kriti-nepali-compression-v1/students/qwen3-asr-0.6b-nepali-sft-v1/checkpoint-2000",
+  "overall": {
+    "punctuation_insensitive_cer": 0.13963963963963963,
+    "punctuation_insensitive_wer": 0.3708006467453141,
+    "raw_cer": 0.1405480658006531,
+    "raw_wer": 0.37528466978305164,
+    "records": 3630
+  },
+  "parameter_count": 782426112,
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.16557892896684342,
+      "punctuation_insensitive_wer": 0.41984585741811176,
+      "raw_cer": 0.17258331904190247,
+      "raw_wer": 0.46233009708737866,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.13843220565332984,
+      "punctuation_insensitive_wer": 0.36689784883037496,
+      "raw_cer": 0.13843220565332984,
+      "raw_wer": 0.36689784883037496,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.099040228711456,
+      "punctuation_insensitive_wer": 0.33347386172006743,
+      "raw_cer": 0.09938858695652174,
+      "raw_wer": 0.3367045933417615,
+      "records": 757
+    }
+  },
+  "profile": "student-checkpoint-2000",
+  "schema_version": 1,
+  "split": "dev",
+  "stored_weight_bytes": 3129778392,
+  "token_map_sha256": null,
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}

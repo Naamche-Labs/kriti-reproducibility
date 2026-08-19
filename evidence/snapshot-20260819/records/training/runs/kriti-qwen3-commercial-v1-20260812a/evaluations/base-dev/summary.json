@@ -1,0 +1,40 @@
+{
+  "elapsed_seconds": 2421.998996523209,
+  "failures": 0,
+  "limited_evaluation": false,
+  "model_file_shape_sha256": "25a940888c97fb14e1fec8eb95ca9e0f5698c099ec4016de4eacd39b666c4778",
+  "model_path": "$KRITI_ROOT/models/qwen3-asr-1.7b/7278e1e70fe206f11671096ffdd38061171dd6e5",
+  "overall": {
+    "punctuation_insensitive_cer": 0.5221155095870358,
+    "punctuation_insensitive_wer": 1.1576741122222887,
+    "raw_cer": 0.5271968525968465,
+    "raw_wer": 1.1614726916776539,
+    "records": 3630
+  },
+  "per_source": {
+    "fleurs_ne_np": {
+      "punctuation_insensitive_cer": 0.38065963521939283,
+      "punctuation_insensitive_wer": 1.1125240847784201,
+      "raw_cer": 0.38486823300748874,
+      "raw_wer": 1.139611650485437,
+      "records": 304
+    },
+    "indicvoices_nepali": {
+      "punctuation_insensitive_cer": 0.5485348926081007,
+      "punctuation_insensitive_wer": 1.165581285999765,
+      "raw_cer": 0.553991806411052,
+      "raw_wer": 1.1662865875161632,
+      "records": 2569
+    },
+    "openslr54": {
+      "punctuation_insensitive_cer": 0.4149479273024301,
+      "punctuation_insensitive_wer": 1.1146711635750421,
+      "raw_cer": 0.4224864130434783,
+      "raw_wer": 1.122629582806574,
+      "records": 757
+    }
+  },
+  "schema_version": 1,
+  "split": "dev",
+  "view_sha256": "2374cac54831ce9c69282503763d7f1e12ada0404ae34ed471a7538cdae6c61f"
+}
