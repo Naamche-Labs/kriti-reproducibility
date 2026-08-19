@@ -115,13 +115,29 @@ claim.
 
 ## Integrity and provenance
 
-Every evidence directory has a `SHA256SUMS` inventory. Tagged release archives
-are built deterministically from the Git commit and receive a GitHub artifact
-attestation. Verify a downloaded release with:
+Every evidence directory has a `SHA256SUMS` inventory. Starting with `v1.0.1`,
+tagged releases contain the uncompressed Git archive so independent Git and
+gzip implementations cannot introduce different compression bytes. The archive
+receives a GitHub artifact attestation. Verify the downloaded asset with:
 
 ```bash
 sha256sum -c SHA256SUMS
-gh attestation verify kriti-reproducibility-v1.0.0.tar.gz \
+gh attestation verify kriti-reproducibility-v1.0.1.tar \
+  --repo harrrshall/kriti-reproducibility
+```
+
+To reproduce the release bytes from the tag instead of trusting the downloaded
+archive:
+
+```bash
+tag=v1.0.1
+verify_dir=$(mktemp -d)
+git fetch --tags
+gh release download "$tag" --pattern SHA256SUMS --dir "$verify_dir"
+git archive --format=tar --prefix="kriti-reproducibility-${tag}/" "$tag" \
+  > "$verify_dir/kriti-reproducibility-${tag}.tar"
+(cd "$verify_dir" && sha256sum -c SHA256SUMS)
+gh attestation verify "$verify_dir/kriti-reproducibility-${tag}.tar" \
   --repo harrrshall/kriti-reproducibility
 ```
 

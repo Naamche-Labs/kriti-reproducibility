@@ -29,20 +29,20 @@ jobs:
           TAG: ${{ github.ref_name }}
         run: |
           set -euo pipefail
-          archive="kriti-reproducibility-${TAG}.tar.gz"
-          git archive --format=tar --prefix="kriti-reproducibility-${TAG}/" "$GITHUB_SHA" | gzip -n > "$archive"
+          archive="kriti-reproducibility-${TAG}.tar"
+          git archive --format=tar --prefix="kriti-reproducibility-${TAG}/" "$GITHUB_SHA" > "$archive"
           sha256sum "$archive" > SHA256SUMS
       - name: Attest archive
         uses: actions/attest@v4
         with:
-          subject-path: kriti-reproducibility-${{ github.ref_name }}.tar.gz
+          subject-path: kriti-reproducibility-${{ github.ref_name }}.tar
       - name: Publish immutable release assets
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ github.ref_name }}
         run: |
           gh release create "$TAG" \
-            "kriti-reproducibility-${TAG}.tar.gz" SHA256SUMS \
+            "kriti-reproducibility-${TAG}.tar" SHA256SUMS \
             --verify-tag \
             --title "Kriti reproducibility record ${TAG}" \
-            --notes "Deterministic, checksummed evidence archive with GitHub artifact attestation."
+            --notes "Byte-reproducible, checksummed Git archive with GitHub artifact attestation."
